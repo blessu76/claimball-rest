@@ -25,6 +25,10 @@ Not yet. Claimball is coming soon to iOS and Android. Store badges on this site 
 
 Claimball is free to try, and a single purchase unlocks the full game. There are no ads and no subscription. The price will be announced closer to launch.
 
+### Can I continue on another device?
+
+On iOS, yes. Your progress is saved to your own iCloud, so a device signed in with the same Apple account picks up where you left off. Purchases are restored through the App Store instead. Android currently keeps progress on the device only. See the [Privacy Policy](/privacy/).
+
 ### Do you collect personal information?
 
 The app collects no personal information and has no analytics. This website collects basic visit statistics through Google Analytics. See the [Privacy Policy](/privacy/) for details.

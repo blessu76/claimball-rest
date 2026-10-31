@@ -61,6 +61,17 @@ class Ga4(unittest.TestCase):
     def test_app_is_still_described_as_analytics_free(self):
         self.assertIn("no analytics", self.pages["privacy/index.html"].lower())
 
+    def test_privacy_and_faq_mention_icloud_sync(self):
+        for rel in ("privacy/index.html", "ko/privacy/index.html"):
+            with self.subTest(rel):
+                self.assertIn("iCloud", self.pages[rel])
+        self.assertIn("iCloud key-value storage", self.pages["privacy/index.html"])
+        self.assertIn("iCloud(키-값 저장소)", self.pages["ko/privacy/index.html"])
+        for rel in ("support/index.html", "ko/support/index.html"):
+            self.assertIn("iCloud", self.pages[rel])
+        text = (bs.Path(__file__).resolve().parent.parent / "llms.txt").read_text(encoding="utf-8")
+        self.assertIn("iCloud", text)
+
 
 if __name__ == "__main__":
     unittest.main()

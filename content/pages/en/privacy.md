@@ -9,9 +9,11 @@ Effective date: {{EFFECTIVE}} · Operator: {{OPERATOR}}
 
 ## 1. Information we collect
 
-The Claimball app ("the App") is a mobile game operated by an individual developer, {{OPERATOR}}. The App has no accounts or sign-in, and it does not collect or send to any server any personal information such as your name, email, contact details, location or device identifiers. Your game progress and settings are stored only on your device and are deleted when you delete the App.
+The Claimball app ("the App") is a mobile game operated by an individual developer, {{OPERATOR}}. The App has no accounts or sign-in, and it does not collect or send to any server any personal information such as your name, email, contact details, location or device identifiers. Your game progress and settings are stored on your device and are deleted from it when you delete the App.
 
 The App contains no advertising, analytics or tracking SDKs. This applies to the App only; the website is described in section 2.
+
+**iCloud sync (iOS).** So that you can keep playing on another device signed in with the same Apple account, the iOS App saves your progress to your own iCloud (iCloud key-value storage) and syncs it between your devices. This covers the rivals you have beaten, stars, achievements, whether you have used the free taste, and two accessibility settings. Apple keeps this data in your iCloud account. It is not sent to ipe() or to any server we run, and we cannot see it. Purchase status is not synced, because the App Store is the source of truth for purchases. If you turn iCloud off for the App (or for your device), your progress is kept on that device only. The Android version currently stores everything on the device only.
 
 ## 2. The website
 

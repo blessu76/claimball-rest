@@ -841,7 +841,7 @@ def build_llms(ctx):
     rows = ["# Claimball", "", "> %s" % en["home_desc"], "",
             "Claimball is a casual player-versus-AI mobile game by ipe() (https://ipe.rest/). It is coming soon to iOS and Android and has NOT been released: "
             "no store page or release date exists yet. This site is the game's home and its journal. The website collects only basic visit statistics through Google Analytics "
-            "and has no accounts or ads; the game app itself has no analytics SDK and no accounts.", "",
+            "and has no accounts or ads; the game app itself has no analytics SDK and no accounts. On iOS the app can save game progress to the player's own iCloud to continue on another device; it is not sent to our servers.", "",
             "## Key facts", "",
             "- You play against an AI rival on a notebook-style grid of 6 by 10 tiles, trading a ball back and forth.",
             "- The tile where your ball bounces becomes your land; if you miss a return, the other side takes land from you.",
