@@ -1,6 +1,6 @@
 # Claimball
 
-> Claimball is a casual duel game for iOS and Android, coming soon. Bounce the ball on a notebook grid, turn tiles into your land, and beat AI rivals in two-minute matches.
+> Claimball is a casual duel game for iOS and Android, coming soon. Bounce the ball on a notebook grid, turn tiles into your land, and beat AI rivals in quick matches of about 90 seconds.
 
 Claimball is a casual player-versus-AI mobile game by ipe() (https://ipe.rest/). It is coming soon to iOS and Android and has NOT been released: no store page or release date exists yet. This site is the game's home and its journal.
 
@@ -9,9 +9,9 @@ Claimball is a casual player-versus-AI mobile game by ipe() (https://ipe.rest/).
 - You play against an AI rival on a notebook-style grid of 6 by 10 tiles, trading a ball back and forth.
 - The tile where your ball bounces becomes your land; if you miss a return, the other side takes land from you.
 - A hit in the center is a smash that claims three tiles at once.
-- A match lasts two minutes, and the last 20 seconds are a showdown.
-- There are eight AI rivals across three leagues.
-- Free to try; a single purchase unlocks everything. No ads.
+- A match takes about 90 seconds, and the final seconds are a showdown.
+- There are 6 AI rivals across 2 leagues at launch, with more planned in updates.
+- No ads. Pricing will be announced closer to launch.
 
 ## Pages
 

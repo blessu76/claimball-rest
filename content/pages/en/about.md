@@ -10,15 +10,15 @@ Claimball is a casual duel game where you play against an AI rival on a notebook
 - The board is a notebook grid of 6 by 10 tiles.
 - The tile where the ball bounces becomes the land of the player who hit it. If you miss, you lose land.
 - Hit the ball with the center of your paddle for a smash, which claims 3 tiles at once.
-- A match lasts 2 minutes. The last 20 seconds are the showdown.
+- A match takes about 90 seconds. The final seconds are a showdown.
 
 ## Rivals
 
-You always play against an AI rival. There are 8 AI rivals spread across 3 leagues.
+You always play against an AI rival. There are 6 AI rivals across 2 leagues at launch, with more planned in updates.
 
 ## Price and ads
 
-Claimball is free to try, and a single purchase unlocks everything. There are no ads.
+No ads. Pricing will be announced closer to launch.
 
 ## Platforms
 

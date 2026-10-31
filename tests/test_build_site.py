@@ -127,7 +127,7 @@ class Built(unittest.TestCase):
             self.assertNotRegex(text.lower(), r"\d+\+? (?:downloads|reviews|ratings)|(?:다운로드|리뷰|평점)\s?\d", str(f))
 
     def test_rival_names_are_not_on_the_site(self):
-        # tentative names must never leak: the i18n/page sources only say "8 AI rivals, 3 leagues"
+        # tentative names must never leak: the i18n/page sources only say "6 AI rivals, 2 leagues"
         for f in (REPO / "content").rglob("*"):
             if f.is_file() and f.suffix in (".json", ".md"):
                 self.assertNotRegex(f.read_text(encoding="utf-8").lower(), r"league names|rival names", str(f))
