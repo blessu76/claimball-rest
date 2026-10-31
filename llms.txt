@@ -11,7 +11,7 @@ Claimball is a casual player-versus-AI mobile game by ipe() (https://ipe.rest/).
 - A hit in the center is a smash that claims three tiles at once.
 - A match takes about 90 seconds, and the final seconds are a showdown.
 - There are 6 AI rivals across 2 leagues at launch, with more planned in updates.
-- No ads. Pricing will be announced closer to launch.
+- Free to try. One purchase unlocks everything. No ads, no subscription.
 
 ## Pages
 

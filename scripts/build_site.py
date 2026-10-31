@@ -834,7 +834,7 @@ def build_llms(ctx):
             "- A hit in the center is a smash that claims three tiles at once.",
             "- A match takes about 90 seconds, and the final seconds are a showdown.",
             "- There are 6 AI rivals across 2 leagues at launch, with more planned in updates.",
-            "- No ads. Pricing will be announced closer to launch.", "",
+            "- Free to try. One purchase unlocks everything. No ads, no subscription.", "",
             "## Pages", "", "- [Home](%s/): %s" % (SITE, en["hero_lead"]),
             "- [About](%s%s): what Claimball is and who makes it" % (SITE, path_page("en", "about")),
             "- [Support](%s%s): contact and questions" % (SITE, path_page("en", "support")),

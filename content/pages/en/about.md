@@ -18,7 +18,7 @@ You always play against an AI rival. There are 6 AI rivals across 2 leagues at l
 
 ## Price and ads
 
-No ads. Pricing will be announced closer to launch.
+Claimball is free to try, and a single purchase unlocks the full game. There are no ads and no subscription. The price will be announced closer to launch.
 
 ## Platforms
 

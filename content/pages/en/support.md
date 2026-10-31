@@ -23,7 +23,7 @@ Not yet. Claimball is coming soon to iOS and Android. Store badges on this site 
 
 ### How much does it cost?
 
-No ads. Pricing will be announced closer to launch.
+Claimball is free to try, and a single purchase unlocks the full game. There are no ads and no subscription. The price will be announced closer to launch.
 
 ### Do you collect personal information?
 

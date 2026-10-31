@@ -126,6 +126,21 @@ class Built(unittest.TestCase):
             self.assertNotRegex(text, r"[$€₩]\s?\d|\d\s?(?:USD|KRW|원)\b", str(f))
             self.assertNotRegex(text.lower(), r"\d+\+? (?:downloads|reviews|ratings)|(?:다운로드|리뷰|평점)\s?\d", str(f))
 
+    def test_pricing_model_wording(self):
+        # owner decision 2026-10-31: free to try + one purchase, no ads, no subscription, amount unannounced
+        en, ko = self.read("index.html"), self.read("ko/index.html")
+        self.assertEqual(en.count("Free to try. One purchase unlocks everything. No ads, no subscription."), 2)
+        self.assertEqual(ko.count("무료로 해 보고, 한 번 결제하면 전부 열려요. 광고도 구독도 없어요."), 2)
+        for p in ("about/", "support/"):
+            self.assertIn("a single purchase unlocks the full game", self.read(p + "index.html"))
+            self.assertIn("The price will be announced closer to launch.", self.read(p + "index.html"))
+        for p in ("ko/about/", "ko/support/"):
+            self.assertIn("한 번 결제하면 게임 전체가 열려요", self.read(p + "index.html"))
+        self.assertIn("No ads, no subscription.", self.read("llms.txt"))
+        for p in ("index.html", "ko/index.html", "llms.txt"):
+            self.assertNotIn("Pricing will be announced", self.read(p))
+            self.assertNotIn("가격은 출시가 가까워지면", self.read(p))
+
     def test_rival_names_are_not_on_the_site(self):
         # tentative names must never leak: the i18n/page sources only say "6 AI rivals, 2 leagues"
         for f in (REPO / "content").rglob("*"):
