@@ -36,10 +36,23 @@ from pathlib import Path
 SITE = "https://claimball.ipe.rest"
 ASSET_V = "20261031a"  # keep in sync: bump when assets/claimball.css or claimball.js change
 KST = dt.timezone(dt.timedelta(hours=9))
-SITE_UPDATED = "2026-10-31"  # "Last updated" of home / releases / 404 and sitemap lastmod — bump by hand when their text changes
+SITE_UPDATED = "2026-11-01"  # "Last updated" of home / releases / 404 and sitemap lastmod — bump by hand when their text changes
 OPERATOR = "Davy Kim (ipe Studio)"
 EMAIL = "ipe.haven@gmail.com"
-EFFECTIVE = "2026-10-31"
+EFFECTIVE = "2026-11-01"
+# GA4 (same property as ipe.rest). Inserted once into every page by render(); the privacy policy (section 2), the support FAQ
+# and llms.txt say so -> change them together with this. The app itself has no analytics SDK.
+GA_MEASUREMENT_ID = "G-XG4BH800J0"
+GA_SNIPPET = (
+    "<script>(function(){var GA_ID='%s';"
+    "var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+GA_ID;document.head.appendChild(s);"
+    "window.dataLayer=window.dataLayer||[];window.gtag=function(){window.dataLayer.push(arguments)};"
+    "window.gtag('js',new Date());window.gtag('config',GA_ID);"
+    "function track(e){if(e.type==='auxclick'&&e.button!==1)return;"
+    "var a=e.target.closest&&e.target.closest('a[href^=\"http\"]');if(!a)return;"
+    "var h=a.hostname;if(h==='ipe.rest'||/\\.ipe\\.rest$/.test(h))return;"
+    "window.gtag('event','outbound_click',{link_url:a.href,link_domain:h,transport_type:'beacon'})}"
+    "document.addEventListener('click',track);document.addEventListener('auxclick',track)})();</script>") % GA_MEASUREMENT_ID
 ORG_ID = "https://ipe.rest/#organization"
 ORG = {"@type": "Organization", "@id": ORG_ID, "name": "ipe()", "url": "https://ipe.rest/"}
 PER_PAGE = 10
@@ -548,8 +561,8 @@ def render(ctx, lang, *, path, title, desc, body, graph, alt, updated, og_type="
     last = '<p class="updated">%s: <time datetime="%s">%s</time></p>' % (esc(t("updated_label")), esc(updated), esc(updated))
     return ('<!doctype html>\n<!-- %s -->\n<html lang="%s" dir="%s"><head>%s</head><body>'
             '<a class="skip" href="#main">%s</a>%s<main id="main">%s%s</main>%s'
-            '<script src="/assets/claimball.js?v=%s" defer></script></body></html>\n') % (
-        GEN_MARK, lang, direction, "\n".join(head), esc(t("skip")), header, body, last, footer, ASSET_V)
+            '<script src="/assets/claimball.js?v=%s" defer></script>%s</body></html>\n') % (
+        GEN_MARK, lang, direction, "\n".join(head), esc(t("skip")), header, body, last, footer, ASSET_V, GA_SNIPPET)
 
 
 def breadcrumb_html(items):
@@ -827,7 +840,8 @@ def build_llms(ctx):
     en = ctx.i18n["en"]
     rows = ["# Claimball", "", "> %s" % en["home_desc"], "",
             "Claimball is a casual player-versus-AI mobile game by ipe() (https://ipe.rest/). It is coming soon to iOS and Android and has NOT been released: "
-            "no store page or release date exists yet. This site is the game's home and its journal.", "",
+            "no store page or release date exists yet. This site is the game's home and its journal. The website collects only basic visit statistics through Google Analytics "
+            "and has no accounts or ads; the game app itself has no analytics SDK and no accounts.", "",
             "## Key facts", "",
             "- You play against an AI rival on a notebook-style grid of 6 by 10 tiles, trading a ball back and forth.",
             "- The tile where your ball bounces becomes your land; if you miss a return, the other side takes land from you.",

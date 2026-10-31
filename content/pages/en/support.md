@@ -27,4 +27,4 @@ Claimball is free to try, and a single purchase unlocks the full game. There are
 
 ### Do you collect personal information?
 
-No. See the [Privacy Policy](/privacy/) for details.
+The app collects no personal information and has no analytics. This website collects basic visit statistics through Google Analytics. See the [Privacy Policy](/privacy/) for details.
