@@ -138,9 +138,9 @@ class ReleasesPages(unittest.TestCase):
         for e in rel:
             for field in ("title", "intro", "notes"):
                 self.assertEqual(sorted(ALL), sorted(e[field]), (e["id"], field))
-        self.assertEqual("prep", rel[0]["status"])
-        self.assertFalse(rel[0]["date"])
-        self.assertTrue(all(e["status"] == "beta" and e["date"] for e in rel[1:]))
+        self.assertEqual("beta", rel[0]["status"])
+        self.assertEqual("2026-11-01", rel[0]["date"])
+        self.assertTrue(all(e["status"] == "beta" and e["date"] for e in rel))
         counts = [len(e["notes"]["en"]) for e in rel]
         for e in rel:
             for l in ALL:
