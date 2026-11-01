@@ -75,7 +75,8 @@ MAIN_LANGS = ("en", "ko")
 PAGE_SLUGS = ("about", "privacy", "support", "terms")
 CATEGORIES = ("devlog", "art", "design")
 KEYS = (
-    "nav_home nav_about nav_journal nav_releases nav_support nav_privacy nav_terms skip lang_label status_badge read_more all_posts "
+    "nav_home nav_about nav_journal nav_releases nav_support nav_privacy nav_terms skip lang_label "
+    "aria_main aria_footer aria_breadcrumb aria_pagination aria_posts status_badge read_more all_posts "
     "empty ai_note ai_orig rss prev next page crumb_home other_langs footer_line back_journal updated_label "
     "journal_title journal_desc home_title home_desc hero_h1 hero_lead "
     "store_soon store_aria hero_note board_aria you_label rival_label time_label "
@@ -560,8 +561,8 @@ def render(ctx, lang, *, path, title, desc, body, graph, alt, updated, og_type="
                 (path_page(lang, "support"), t("nav_support"), "support")]
     nav_html = "".join('<a href="%s"%s>%s</a>' % (esc(h), ' aria-current="page"' if nav == k else "", esc(label)) for h, label, k in navlinks)
     header = ('<header class="site-header"><div class="bar"><a class="brand" href="%s" aria-label="Claimball">Claim<span>ball</span></a>'
-              '<nav class="nav" aria-label="main">%s<span class="langsw" role="group" aria-label="%s">%s</span></nav></div></header>') % (
-        esc(path_home(lang)), nav_html, esc(t("lang_label")), switch)
+              '<nav class="nav" aria-label="%s">%s<span class="langsw" role="group" aria-label="%s">%s</span></nav></div></header>') % (
+        esc(path_home(lang)), esc(t("aria_main")), nav_html, esc(t("lang_label")), switch)
     foot_nav = [(path_home(lang), t("nav_home")), (path_page(lang, "about"), t("nav_about")), (path_journal(lang), t("nav_journal")),
                 (path_releases(lang), t("nav_releases")), (path_page(lang, "support"), t("nav_support")),
                 (path_page(lang, "privacy"), t("nav_privacy")), (path_page(lang, "terms"), t("nav_terms"))]
@@ -573,8 +574,8 @@ def render(ctx, lang, *, path, title, desc, body, graph, alt, updated, og_type="
         for l in ctx.langs))) if len(ctx.langs) > 1 else ""
     footer = ('<footer class="site-footer"><div class="foot-inner"><div class="foot-brand"><span class="logo">Claim<span>ball</span></span>'
               '<span class="foot-small">© 2026 ipe() · %s</span><span class="foot-small">%s <a href="https://ipe.rest/">ipe.rest</a></span></div>'
-              '<nav class="foot-links" aria-label="footer">%s</nav>%s</div></footer>') % (
-        esc(t("status_badge")), esc(t("footer_line")), foot_nav_html, foot_langs)
+              '<nav class="foot-links" aria-label="%s">%s</nav>%s</div></footer>') % (
+        esc(t("status_badge")), esc(t("footer_line")), esc(t("aria_footer")), foot_nav_html, foot_langs)
     last = '<p class="updated">%s: <time datetime="%s">%s</time></p>' % (esc(t("updated_label")), esc(updated), esc(updated))
     return ('<!doctype html>\n<!-- %s -->\n<html lang="%s" dir="%s"><head>%s</head><body>'
             '<a class="skip" href="#main">%s</a>%s<main id="main">%s%s</main>%s'
@@ -587,9 +588,9 @@ def arrow(lang, forward):
     return ("\u2192" if forward != (LANGS[lang][2] == "rtl") else "\u2190")
 
 
-def breadcrumb_html(items):
-    return '<nav class="crumbs" aria-label="breadcrumb">%s</nav>' % " › ".join(
-        '<a href="%s">%s</a>' % (esc(h), esc(l)) if h else "<span>%s</span>" % esc(l) for h, l in items)
+def breadcrumb_html(items, label):
+    return '<nav class="crumbs" aria-label="%s">%s</nav>' % (esc(label), " › ".join(
+        '<a href="%s">%s</a>' % (esc(h), esc(l)) if h else "<span>%s</span>" % esc(l) for h, l in items))
 
 
 def breadcrumb_ld(items):
@@ -686,7 +687,7 @@ def build_page(ctx, lang, slug):
         src = "ko" if meta.get("translation_of") == "ko" else "en"
         ai = '<p class="ai-note">%s <a href="%s">%s</a></p>' % (esc(t("ai_note")), esc(user_href(src, path_page(src, slug), lang)), esc(t("ai_orig")))
     body = '%s<article class="prose"><h1>%s</h1>%s%s</article>' % (
-        breadcrumb_html(crumbs), esc(meta["title"]), ai, markdown(ctx.sub(md), ctx.root))
+        breadcrumb_html(crumbs, t("aria_breadcrumb")), esc(meta["title"]), ai, markdown(ctx.sub(md), ctx.root))
     page_ld = {"@type": "AboutPage" if slug == "about" else "WebPage", "@id": url(path_page(lang, slug)) + "#page",
                "url": url(path_page(lang, slug)), "name": meta["title"], "description": meta["description"], "inLanguage": lang,
                "dateModified": meta["updated"], "isPartOf": {"@id": SITE + "/#website"}}
@@ -718,7 +719,7 @@ def build_releases(ctx, lang):
                          "".join("<li>%s</li>" % inline(x) for x in e["notes"][src])))
     listing = "".join(cards) if cards else '<div class="card release"><p>%s</p></div>' % esc(t("releases_empty"))
     body = '%s<h1 class="page-h">%s</h1><p class="lead">%s</p><div class="releases">%s</div>' % (
-        breadcrumb_html(crumbs), esc(t("releases_title")), esc(t("releases_desc")), listing)
+        breadcrumb_html(crumbs, t("aria_breadcrumb")), esc(t("releases_title")), esc(t("releases_desc")), listing)
     page_ld = {"@type": "CollectionPage", "@id": url(path_releases(lang)) + "#page", "url": url(path_releases(lang)),
                "name": t("releases_title"), "description": t("releases_desc"), "inLanguage": lang, "isPartOf": {"@id": SITE + "/#website"}}
     graph = [ORG, website_ld(lang, ctx), page_ld, breadcrumb_ld(crumbs)]
@@ -742,10 +743,10 @@ def build_list(ctx, lang, page):
         links.append("<span>%s %d / %d</span>" % (esc(t("page")), page, total))
         if page < total:
             links.append('<a class="btn ghost" rel="next" href="%s">%s</a>' % (esc(path_journal(lang, page + 1)), esc(t("next"))))
-        pager = '<nav class="pager" aria-label="pagination">%s</nav>' % "".join(links)
+        pager = '<nav class="pager" aria-label="%s">%s</nav>' % (esc(t("aria_pagination")), "".join(links))
     rss = ' <a class="rss" href="%s">%s</a>' % (esc(path_feed(lang)), esc(t("rss"))) if lang in MAIN_LANGS else ""
     body = '%s<h1 class="page-h">%s<span>.</span></h1><svg class="squig" width="220" height="14" viewBox="0 0 220 14" fill="none" aria-hidden="true"><path d="M4 8 C30 2 50 12 80 7 S130 2 160 8 S200 11 216 5" stroke="#FFA726" stroke-width="5" stroke-linecap="round"/></svg><p class="lead">%s%s</p>%s%s' % (
-        breadcrumb_html(crumbs), esc(t("journal_title")), esc(t("journal_desc")), rss, grid, pager)
+        breadcrumb_html(crumbs, t("aria_breadcrumb")), esc(t("journal_title")), esc(t("journal_desc")), rss, grid, pager)
     title = t("journal_title") + (" — %s %d" % (t("page"), page) if page > 1 else "") + " — Claimball"
     blog = {"@type": "Blog", "@id": url(path_journal(lang)) + "#blog", "url": url(path_journal(lang)), "name": t("journal_title"),
             "description": t("journal_desc"), "inLanguage": lang, "isPartOf": {"@id": SITE + "/#website"}, "publisher": {"@id": ORG_ID},
@@ -775,12 +776,13 @@ def build_post(ctx, lang, p):
     newer = same_lang[idx - 1] if idx > 0 else None
     pn = ""
     if older or newer:
-        pn = '<nav class="pager" aria-label="posts">%s%s</nav>' % (
+        pn = '<nav class="pager" aria-label="%s">%s%s</nav>' % (
+            esc(t("aria_posts")),
             ('<a rel="prev" href="%s">%s %s</a>' % (esc(path_post(lang, older["slug"])), arrow(lang, False), esc(older["langs"][lang]["title"]))) if older else "<span></span>",
             ('<a rel="next" href="%s">%s %s</a>' % (esc(path_post(lang, newer["slug"])), esc(newer["langs"][lang]["title"]), arrow(lang, True))) if newer else "<span></span>")
     body = ('%s<article class="prose post"><header><p class="post-meta"><time datetime="%s">%s</time><span class="tag">%s</span></p><h1>%s</h1>'
             '<p class="lead">%s</p></header>%s%s</article>%s%s<p class="back"><a href="%s">%s %s</a></p>') % (
-        breadcrumb_html(crumbs), iso_time(p), fmt_time(p), esc(t("cat_" + p["category"])), esc(d["title"]), esc(d["description"]), ai,
+        breadcrumb_html(crumbs, t("aria_breadcrumb")), iso_time(p), fmt_time(p), esc(t("cat_" + p["category"])), esc(d["title"]), esc(d["description"]), ai,
         markdown(d["body"], ctx.root), pn,
         ('<aside class="langs"><h2>%s</h2><ul>%s</ul></aside>' % (esc(t("other_langs")), others)) if others else "",
         esc(path_journal(lang)), arrow(lang, False), esc(t("back_journal")))

@@ -40,6 +40,22 @@ class LanguageSet(unittest.TestCase):
             self.assertTrue(all(isinstance(v, str) and v.strip() for v in d.values()), l)
             self.assertEqual(d["hero_h1"].count("|"), 1, l)
 
+    def test_landmark_aria_labels_are_translated(self):
+        """main / footer / breadcrumb / pagination / posts navs take their aria-label from i18n, not from English literals."""
+        en = json.loads((REPO / "content" / "i18n" / "en.json").read_text(encoding="utf-8"))
+        keys = ("aria_main", "aria_footer", "aria_breadcrumb", "aria_pagination", "aria_posts")
+        for l in ALL:
+            d = json.loads((REPO / "content" / "i18n" / (l + ".json")).read_text(encoding="utf-8"))
+            self.assertEqual(len({d[k] for k in keys}), len(keys), l)
+            if l != "en":
+                self.assertGreaterEqual(sum(d[k] != en[k] for k in keys), 4, l)  # fr "Pagination" may coincide with English
+            page = text_of(l, "journal", "starting-claimball")
+            for k, cls in (("aria_main", 'class="nav"'), ("aria_footer", 'class="foot-links"'), ("aria_breadcrumb", 'class="crumbs"')):
+                self.assertIn('<nav %s aria-label="%s"' % (cls, d[k]), page, (l, k))
+            if l != "en":
+                for lit in ("main", "footer", "breadcrumb", "pagination", "posts"):
+                    self.assertNotIn('aria-label="%s"' % lit, page, (l, lit))
+
     def test_every_language_page_exists_in_the_output(self):
         for l in ALL:
             for parts in ((), ("about",), ("privacy",), ("support",), ("terms",), ("journal",),
