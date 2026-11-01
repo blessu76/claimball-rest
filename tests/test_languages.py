@@ -1,4 +1,4 @@
-"""All 11 languages are really built, linked to each other, and keep the privacy wording."""
+"""All 13 languages are really built, linked to each other, and keep the privacy wording."""
 import html
 import json
 import re
@@ -7,7 +7,7 @@ from pathlib import Path
 
 from helpers import REPO, bs
 
-ALL = ("en", "ko", "ja", "zh", "es", "pt", "id", "ru", "vi", "fr", "de")
+ALL = ("en", "ko", "ja", "zh", "es", "pt", "id", "ru", "vi", "fr", "de", "ar", "hi")
 GAOPTOUT = "https://tools.google.com/dlpage/gaoptout"
 
 
@@ -21,7 +21,7 @@ def text_of(lang, *parts):
 
 
 class LanguageSet(unittest.TestCase):
-    def test_the_registry_is_the_eleven_languages(self):
+    def test_the_registry_is_the_thirteen_languages(self):
         self.assertEqual(tuple(bs.LANGS), ALL)
         self.assertEqual(bs.MAIN_LANGS, ("en", "ko"))
 
@@ -50,6 +50,13 @@ class LanguageSet(unittest.TestCase):
         for l in ALL:
             self.assertIn('<html lang="%s"' % l, out(l).read_text(encoding="utf-8"), l)
 
+    def test_only_arabic_is_right_to_left(self):
+        for l in ALL:
+            want = "rtl" if l == "ar" else "ltr"
+            self.assertEqual(bs.LANGS[l][2], want, l)
+            for parts in ((), ("about",), ("privacy",), ("journal", "starting-claimball"), ("releases",)):
+                self.assertIn('<html lang="%s" dir="%s"' % (l, want), out(l, *parts).read_text(encoding="utf-8"), (l, parts))
+
     def test_hreflang_covers_all_languages_and_x_default(self):
         for l in ALL:
             page = out(l, "about").read_text(encoding="utf-8")
@@ -66,6 +73,36 @@ class LanguageSet(unittest.TestCase):
 
     def test_english_releases_path_is_kept(self):
         self.assertTrue((REPO / "releases" / "index.html").is_file())
+
+
+class RightToLeft(unittest.TestCase):
+    CSS = (REPO / "assets" / "claimball.css").read_text(encoding="utf-8")
+
+    def test_no_physical_left_right_in_the_text_layout(self):
+        # the illustration (.board / .net / .paddle / .ball) is positioned physically on purpose and sits in a direction:ltr box
+        text_part = self.CSS.split("/* phone mock-up")[0] + self.CSS.split("/* sections + cards */")[1]
+        for bad in ("padding-left", "padding-right", "margin-left", "margin-right", "border-left", "border-right", "text-align:left", "text-align:right", "left:-999px"):
+            self.assertNotIn(bad, text_part, bad)
+        self.assertRegex(self.CSS, r"\.phone\{direction:ltr;")
+
+    def test_pager_and_back_arrows_follow_the_reading_direction(self):
+        self.assertEqual((bs.arrow("en", False), bs.arrow("en", True)), ("\u2190", "\u2192"))
+        self.assertEqual((bs.arrow("ar", False), bs.arrow("ar", True)), ("\u2192", "\u2190"))
+        self.assertIn("\u2192 " + json.loads((REPO / "content" / "i18n" / "ar.json").read_text(encoding="utf-8"))["back_journal"],
+                      text_of("ar", "journal", "starting-claimball"))
+        self.assertIn("\u2190 " + json.loads((REPO / "content" / "i18n" / "en.json").read_text(encoding="utf-8"))["back_journal"],
+                      text_of("en", "journal", "starting-claimball"))
+
+    def test_arabic_and_hindi_have_system_font_stacks(self):
+        self.assertRegex(self.CSS, r'html\[lang="ar"\]\{[^}]*Geeza Pro[^}]*Noto Sans Arabic')
+        self.assertRegex(self.CSS, r'html\[lang="hi"\]\{[^}]*Devanagari Sangam MN[^}]*Noto Sans Devanagari')
+
+    def test_the_language_switcher_lists_both_new_languages(self):
+        page = text_of("ar", "about")
+        for l in ("ar", "hi"):
+            self.assertIn('hreflang="%s"' % l, page)
+        self.assertIn(">AR</a>", page)
+        self.assertIn(">HI</a>", page)
 
 
 class ReleasesPages(unittest.TestCase):

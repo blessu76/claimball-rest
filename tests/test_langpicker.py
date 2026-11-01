@@ -155,8 +155,19 @@ console.log(JSON.stringify({to,replaced,store}));
         self.assertEqual(self.run_root(saved="de", pathname="/releases/")["to"], "/de/releases/")
         self.assertEqual(self.run_root(nav=("vi-VN",), pathname="/support/")["to"], "/vi/support/")
 
+    def test_arabic_and_hindi_go_to_their_own_paths(self):
+        self.assertEqual(self.run_root(nav=("ar-SA", "en"))["to"], "/ar/")
+        self.assertEqual(self.run_root(nav=("ar",), pathname="/about/")["to"], "/ar/about/")
+        self.assertEqual(self.run_root(nav=("hi-IN",))["to"], "/hi/")
+        self.assertEqual(self.run_root(nav=("hi",), pathname="/support/")["to"], "/hi/support/")
+        self.assertEqual(self.run_root("?lang=ar", pathname="/journal/", hash_="#x")["to"], "/ar/journal/#x")
+        r = self.run_root("?lang=HI")
+        self.assertEqual((r["to"], r["store"][self.KEY]), ("/hi/", "hi"))
+        self.assertEqual(self.run_root(saved="ar", nav=("en-US",), pathname="/releases/")["to"], "/ar/releases/")
+        self.assertEqual(self.run_root(saved="hi", nav=("ko-KR",))["to"], "/hi/")
+
     def test_never_runs_under_a_language_prefix(self):
-        for path in ("/ko/", "/ko/about/", "/en/", "/KO/journal/", "/zh/"):
+        for path in ("/ko/", "/ko/about/", "/en/", "/KO/journal/", "/zh/", "/ar/", "/hi/about/"):
             r = self.run_root("?lang=de", saved="ja", nav=("fr-FR",), pathname=path)
             self.assertEqual((r["to"], r["store"], r["replaced"]), (None, {"cb-lang": "ja"}, None), path)
 

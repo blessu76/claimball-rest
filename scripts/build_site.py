@@ -14,7 +14,7 @@ Output (generated — never edit by hand)
   /ko/ ...same...
   sitemap.xml  robots.txt  llms.txt  404.html
 
-Languages: en (root, original) + ko (original) and 9 translations (ja zh es pt id ru vi fr de). A translation needs
+Languages: en (root, original) + ko (original) and 11 translations (ja zh es pt id ru vi fr de ar hi; ar is right-to-left). A translation needs
 content/i18n/<lang>.json + content/pages/<lang>/*.md (front matter `translation_of: en`) and optionally posts with `translation_of:`;
 every complete language gets /<lang>/ home, pages, releases (empty state while releases.json is empty) and journal.
 
@@ -35,7 +35,7 @@ import sys
 from pathlib import Path
 
 SITE = "https://claimball.ipe.rest"
-ASSET_V = "20261101a"  # keep in sync: bump when assets/claimball.css or claimball.js change
+ASSET_V = "20261101c"  # keep in sync: bump when assets/claimball.css or claimball.js change
 KST = dt.timezone(dt.timedelta(hours=9))
 SITE_UPDATED = "2026-11-01"  # "Last updated" of home / releases / 404 and sitemap lastmod — bump by hand when their text changes
 OPERATOR = "Davy Kim (ipe Studio)"
@@ -68,7 +68,8 @@ LANGS = {
     "es": ("Español", "es_ES", "ltr", "ES"), "pt": ("Português", "pt_BR", "ltr", "PT"),
     "id": ("Bahasa Indonesia", "id_ID", "ltr", "ID"), "ru": ("Русский", "ru_RU", "ltr", "RU"),
     "vi": ("Tiếng Việt", "vi_VN", "ltr", "VI"), "fr": ("Français", "fr_FR", "ltr", "FR"),
-    "de": ("Deutsch", "de_DE", "ltr", "DE"),
+    "de": ("Deutsch", "de_DE", "ltr", "DE"), "ar": ("العربية", "ar_AR", "rtl", "AR"),
+    "hi": ("हिन्दी", "hi_IN", "ltr", "HI"),
 }
 MAIN_LANGS = ("en", "ko")
 PAGE_SLUGS = ("about", "privacy", "support", "terms")
@@ -575,6 +576,11 @@ def render(ctx, lang, *, path, title, desc, body, graph, alt, updated, og_type="
         GEN_MARK, lang, direction, "\n".join(head), esc(t("skip")), header, body, last, footer, ASSET_V, GA_SNIPPET)
 
 
+def arrow(lang, forward):
+    """Pager / back-link arrow: points the way the reader moves (right in LTR, left in RTL)."""
+    return ("\u2192" if forward != (LANGS[lang][2] == "rtl") else "\u2190")
+
+
 def breadcrumb_html(items):
     return '<nav class="crumbs" aria-label="breadcrumb">%s</nav>' % " › ".join(
         '<a href="%s">%s</a>' % (esc(h), esc(l)) if h else "<span>%s</span>" % esc(l) for h, l in items)
@@ -763,14 +769,14 @@ def build_post(ctx, lang, p):
     pn = ""
     if older or newer:
         pn = '<nav class="pager" aria-label="posts">%s%s</nav>' % (
-            ('<a rel="prev" href="%s">← %s</a>' % (esc(path_post(lang, older["slug"])), esc(older["langs"][lang]["title"]))) if older else "<span></span>",
-            ('<a rel="next" href="%s">%s →</a>' % (esc(path_post(lang, newer["slug"])), esc(newer["langs"][lang]["title"]))) if newer else "<span></span>")
+            ('<a rel="prev" href="%s">%s %s</a>' % (esc(path_post(lang, older["slug"])), arrow(lang, False), esc(older["langs"][lang]["title"]))) if older else "<span></span>",
+            ('<a rel="next" href="%s">%s %s</a>' % (esc(path_post(lang, newer["slug"])), esc(newer["langs"][lang]["title"]), arrow(lang, True))) if newer else "<span></span>")
     body = ('%s<article class="prose post"><header><p class="post-meta"><time datetime="%s">%s</time><span class="tag">%s</span></p><h1>%s</h1>'
-            '<p class="lead">%s</p></header>%s%s</article>%s%s<p class="back"><a href="%s">← %s</a></p>') % (
+            '<p class="lead">%s</p></header>%s%s</article>%s%s<p class="back"><a href="%s">%s %s</a></p>') % (
         breadcrumb_html(crumbs), iso_time(p), fmt_time(p), esc(t("cat_" + p["category"])), esc(d["title"]), esc(d["description"]), ai,
         markdown(d["body"], ctx.root), pn,
         ('<aside class="langs"><h2>%s</h2><ul>%s</ul></aside>' % (esc(t("other_langs")), others)) if others else "",
-        esc(path_journal(lang)), esc(t("back_journal")))
+        esc(path_journal(lang)), arrow(lang, False), esc(t("back_journal")))
     posting = {"@type": "BlogPosting", "@id": url(path) + "#post", "mainEntityOfPage": url(path), "url": url(path),
                "headline": d["title"], "description": d["description"], "inLanguage": lang, "datePublished": iso_time(p),
                "dateModified": iso_time(p), "image": {"@type": "ImageObject", "url": SITE + OG_IMAGE, "width": 1200, "height": 630},

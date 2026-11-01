@@ -18,7 +18,7 @@ Static site on GitHub Pages. The generator is `scripts/build_site.py` (Python 3.
 | `ops/` | daily 18:00 KST publish job (template only, not installed) |
 | `tests/` | unit tests and the Playwright UI check |
 
-English is at the root; every other language lives under `/<code>/` (ko, ja, zh, es, pt, id, ru, vi, fr, de). English and Korean are the originals; the other nine are translations of the English text (`translation_of: en` in each page and post). To add a language, add `content/i18n/<code>.json`, `content/pages/<code>/*.md` and the code to `LANGS` in `build_site.py`. Journal posts without a translation simply do not appear in that language yet.
+English is at the root; every other language lives under `/<code>/` (ko, ja, zh, es, pt, id, ru, vi, fr, de, ar, hi; ar is right-to-left, `dir="rtl"`). English and Korean are the originals; the other eleven are translations of the English text (`translation_of: en` in each page and post). To add a language, add `content/i18n/<code>.json`, `content/pages/<code>/*.md` and the code to `LANGS` in `build_site.py`. Journal posts without a translation simply do not appear in that language yet.
 
 ## Commands
 
