@@ -57,7 +57,7 @@
   "cat_art": "아트",
   "cat_design": "디자인",
   "releases_title": "릴리스 노트",
-  "releases_desc": "Claimball 버전별 변경 내용이에요. 아직 출시 전이라 지금은 노트가 없어요.",
+  "releases_desc": "Claimball 버전·빌드별 변경 내용이에요. 아직 테스트 중이며 일반 공개 전이에요.",
   "releases_empty": "Claimball은 iOS와 Android로 출시 예정이에요. 첫 버전이 나오면 릴리스 노트가 여기에 올라와요.",
   "rel_status_prep": "준비 중",
   "rel_status_beta": "베타",

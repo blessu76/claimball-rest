@@ -122,10 +122,34 @@ class RightToLeft(unittest.TestCase):
 
 
 class ReleasesPages(unittest.TestCase):
-    def test_each_language_releases_page_shows_the_empty_state(self):
+    IDS = ["1.0.0-%d" % n for n in range(1, 11)]
+
+    def test_each_language_releases_page_has_every_build_anchor(self):
         for l in ALL:
-            d = json.loads((REPO / "content" / "i18n" / (l + ".json")).read_text(encoding="utf-8"))
-            self.assertIn(d["releases_empty"], text_of(l, "releases"), l)
+            p = (REPO / l / "releases" / "index.html") if l != "en" else (REPO / "releases" / "index.html")
+            h = p.read_text(encoding="utf-8")
+            for i in self.IDS:
+                self.assertIn('id="%s"' % i, h, (l, i))
+            self.assertNotIn('class="rel-fallback"', h, l)
+
+    def test_releases_json_has_ten_builds_in_all_thirteen_languages(self):
+        rel = json.loads((REPO / "content" / "releases.json").read_text(encoding="utf-8"))["releases"]
+        self.assertEqual(self.IDS[::-1], [e["id"] for e in rel])
+        for e in rel:
+            for field in ("title", "intro", "notes"):
+                self.assertEqual(sorted(ALL), sorted(e[field]), (e["id"], field))
+        self.assertEqual("prep", rel[0]["status"])
+        self.assertFalse(rel[0]["date"])
+        self.assertTrue(all(e["status"] == "beta" and e["date"] for e in rel[1:]))
+        counts = [len(e["notes"]["en"]) for e in rel]
+        for e in rel:
+            for l in ALL:
+                self.assertEqual(len(e["notes"]["en"]), len(e["notes"][l]), (e["id"], l))
+        self.assertEqual(40, sum(counts))
+
+    def test_arabic_releases_page_is_rtl(self):
+        h = (REPO / "ar" / "releases" / "index.html").read_text(encoding="utf-8")
+        self.assertRegex(h, r'<html[^>]*dir="rtl"')
 
     def test_app_link_targets_resolve(self):
         for l in ALL:

@@ -104,8 +104,12 @@ class Built(unittest.TestCase):
         self.assertIn("<rss", self.read("journal/feed.xml"))
         self.assertIn("<rss", self.read("ko/journal/feed.xml"))
 
-    def test_empty_releases_page_says_coming_soon(self):
-        self.assertIn("coming soon", self.read("releases/index.html").lower())
+    def test_releases_page_lists_every_build_newest_first_with_anchors(self):
+        h = self.read("releases/index.html")
+        ids = ["1.0.0-%d" % n for n in range(10, 0, -1)]
+        for i in ids:
+            self.assertIn('<article class="card release" id="%s">' % i, h)
+        self.assertEqual(ids, re.findall(r'<article class="card release" id="([^"]+)"', h))
 
     def test_policy_pages_are_claimball_with_iltonggi_contact(self):
         for lang_dir in ("", "ko/"):

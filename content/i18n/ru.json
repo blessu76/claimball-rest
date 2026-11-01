@@ -57,7 +57,7 @@
   "cat_art": "Арт",
   "cat_design": "Дизайн",
   "releases_title": "Примечания к выпускам",
-  "releases_desc": "Что изменилось в каждой версии Claimball. Claimball ещё не вышла, поэтому пока примечаний нет.",
+  "releases_desc": "Что изменилось в каждой сборке Claimball. Claimball пока на тестировании и ещё не вышла для всех.",
   "releases_empty": "Claimball скоро выйдет на iOS и Android. Примечания к выпускам появятся здесь, когда выйдет первая версия.",
   "rel_status_prep": "В подготовке",
   "rel_status_beta": "Бета",

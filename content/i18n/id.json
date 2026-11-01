@@ -57,7 +57,7 @@
   "cat_art": "Seni",
   "cat_design": "Desain",
   "releases_title": "Catatan rilis",
-  "releases_desc": "Apa yang berubah di setiap versi Claimball. Claimball belum dirilis, jadi untuk sementara belum ada catatan.",
+  "releases_desc": "Apa yang berubah di setiap build Claimball. Claimball masih dalam pengujian dan belum dirilis ke publik.",
   "releases_empty": "Claimball segera hadir di iOS dan Android. Catatan rilis akan muncul di sini setelah versi pertama dirilis.",
   "rel_status_prep": "Dalam persiapan",
   "rel_status_beta": "Beta",

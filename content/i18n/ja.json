@@ -57,7 +57,7 @@
   "cat_art": "アート",
   "cat_design": "デザイン",
   "releases_title": "リリースノート",
-  "releases_desc": "Claimball の各バージョンの変更点です。Claimball はまだ公開前のため、今のところノートはありません。",
+  "releases_desc": "Claimball のビルドごとの変更点です。Claimball はまだテスト中で、一般公開前です。",
   "releases_empty": "Claimball は iOS と Android 向けに近日公開予定です。最初のバージョンが公開されると、リリースノートがここに載ります。",
   "rel_status_prep": "準備中",
   "rel_status_beta": "ベータ",

@@ -57,7 +57,7 @@
   "cat_art": "美术",
   "cat_design": "设计",
   "releases_title": "更新说明",
-  "releases_desc": "Claimball 各版本的更新内容。Claimball 尚未发布,目前还没有更新说明。",
+  "releases_desc": "Claimball 各构建版本的更新内容。Claimball 仍在测试中,尚未向公众发布。",
   "releases_empty": "Claimball 即将登陆 iOS 和 Android。第一个版本发布后,更新说明会出现在这里。",
   "rel_status_prep": "准备中",
   "rel_status_beta": "测试版",

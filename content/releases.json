@@ -1,1 +1,1164 @@
-{"releases": []}
+{
+  "releases": [
+    {
+      "id": "1.0.0-10",
+      "version": "1.0.0",
+      "status": "prep",
+      "date": "",
+      "title": {
+        "en": "Build 10",
+        "ko": "빌드 10",
+        "ja": "ビルド 10",
+        "zh": "构建版本 10",
+        "es": "Compilación 10",
+        "pt": "Build 10",
+        "id": "Build 10",
+        "ru": "Сборка 10",
+        "vi": "Bản dựng 10",
+        "fr": "Build 10",
+        "de": "Build 10",
+        "ar": "Build 10",
+        "hi": "बिल्ड 10"
+      },
+      "intro": {
+        "en": "Planned for this build. It may change before release.",
+        "ko": "이 빌드에 계획된 내용이에요. 출시 전에 바뀔 수 있어요.",
+        "ja": "このビルドで予定している内容です。公開前に変わることがあります。",
+        "zh": "这是本版本的计划内容，发布前可能会有变动。",
+        "es": "Previsto para esta compilación. Puede cambiar antes del lanzamiento.",
+        "pt": "Planejado para este build. Pode mudar antes do lançamento.",
+        "id": "Direncanakan untuk build ini. Bisa berubah sebelum dirilis.",
+        "ru": "Запланировано для этой сборки. До выхода может измениться.",
+        "vi": "Dự kiến cho bản dựng này. Có thể thay đổi trước khi phát hành.",
+        "fr": "Prévu pour ce build. Peut changer avant la sortie.",
+        "de": "Für diesen Build geplant. Kann sich vor der Veröffentlichung ändern.",
+        "ar": "مخطّط لهذه النسخة. قد يتغيّر قبل الإطلاق.",
+        "hi": "इस बिल्ड के लिए योजना। रिलीज़ से पहले बदल सकता है।"
+      },
+      "notes": {
+        "en": [
+          "Four more languages: Indonesian, Russian, Arabic and Hindi.",
+          "The Release Notes link on the first screen now opens the page in your language, at the notes for the version you are playing."
+        ],
+        "ko": [
+          "언어 네 가지 추가: 인도네시아어, 러시아어, 아랍어, 힌디어.",
+          "첫 화면의 Release Notes 링크가 내 언어 페이지, 그리고 지금 플레이하는 버전의 바뀐 점으로 바로 열립니다."
+        ],
+        "ja": [
+          "言語を4つ追加：インドネシア語、ロシア語、アラビア語、ヒンディー語。",
+          "最初の画面の Release Notes リンクが、お使いの言語のページで、いま遊んでいるバージョンの変更点に直接開くようになります。"
+        ],
+        "zh": [
+          "再增加四种语言：印度尼西亚语、俄语、阿拉伯语和印地语。",
+          "首屏的 Release Notes 链接现在会打开你所用语言的页面，并直接定位到你正在玩的版本的更新内容。"
+        ],
+        "es": [
+          "Cuatro idiomas más: indonesio, ruso, árabe e hindi.",
+          "El enlace de Release Notes de la primera pantalla ahora abre la página en tu idioma, en las notas de la versión que estás jugando."
+        ],
+        "pt": [
+          "Mais quatro idiomas: indonésio, russo, árabe e híndi.",
+          "O link de Release Notes na primeira tela agora abre a página no seu idioma, nas notas da versão que você está jogando."
+        ],
+        "id": [
+          "Empat bahasa lagi: Indonesia, Rusia, Arab, dan Hindi.",
+          "Tautan Release Notes di layar pertama kini membuka halaman dalam bahasamu, tepat di catatan untuk versi yang sedang kamu mainkan."
+        ],
+        "ru": [
+          "Ещё четыре языка: индонезийский, русский, арабский и хинди.",
+          "Ссылка Release Notes на первом экране теперь открывает страницу на вашем языке, сразу на заметках о версии, в которую вы играете."
+        ],
+        "vi": [
+          "Thêm bốn ngôn ngữ nữa: tiếng Indonesia, Nga, Ả Rập và Hindi.",
+          "Liên kết Release Notes ở màn hình đầu tiên giờ mở trang bằng ngôn ngữ của bạn, đúng phần ghi chú của phiên bản bạn đang chơi."
+        ],
+        "fr": [
+          "Quatre langues de plus : indonésien, russe, arabe et hindi.",
+          "Le lien Release Notes du premier écran ouvre désormais la page dans votre langue, directement sur les notes de la version à laquelle vous jouez."
+        ],
+        "de": [
+          "Vier weitere Sprachen: Indonesisch, Russisch, Arabisch und Hindi.",
+          "Der Release-Notes-Link auf dem ersten Bildschirm öffnet jetzt die Seite in deiner Sprache, direkt bei den Hinweisen zur Version, die du spielst."
+        ],
+        "ar": [
+          "أربع لغات إضافية: الإندونيسية والروسية والعربية والهندية.",
+          "أصبح رابط Release Notes في الشاشة الأولى يفتح الصفحة بلغتك، عند ملاحظات الإصدار الذي تلعبه."
+        ],
+        "hi": [
+          "चार और भाषाएँ: इंडोनेशियाई, रूसी, अरबी और हिंदी।",
+          "पहली स्क्रीन का Release Notes लिंक अब आपकी भाषा वाला पेज खोलता है, और सीधे उस वर्शन के नोट्स पर पहुँचता है जिसे आप खेल रहे हैं।"
+        ]
+      }
+    },
+    {
+      "id": "1.0.0-9",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-11-01",
+      "title": {
+        "en": "Build 9",
+        "ko": "빌드 9",
+        "ja": "ビルド 9",
+        "zh": "构建版本 9",
+        "es": "Compilación 9",
+        "pt": "Build 9",
+        "id": "Build 9",
+        "ru": "Сборка 9",
+        "vi": "Bản dựng 9",
+        "fr": "Build 9",
+        "de": "Build 9",
+        "ar": "Build 9",
+        "hi": "बिल्ड 9"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh": "TestFlight 内部测试版本，尚未向公众发布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+      },
+      "notes": {
+        "en": [
+          "A second look for the game: Notebook, a paper-and-grid-notebook style that matches the Claimball website.",
+          "Pick Classic or Notebook in Settings, at the bottom of the settings card. You can switch any time, even in the middle of a session, and nothing restarts.",
+          "Classic stays the default, so the game looks the same until you change it.",
+          "Your theme choice is saved on each device (it is not shared through iCloud), so a phone and a tablet can use different looks.",
+          "Text contrast was improved a little in both themes so small text is easier to read."
+        ],
+        "ko": [
+          "게임의 두 번째 모습, Notebook 테마가 생겼습니다. 클레임볼 웹사이트처럼 모눈 공책에 낙서한 느낌입니다.",
+          "설정 카드 맨 아래에서 Classic과 Notebook 중 고를 수 있습니다. 언제든 바꿀 수 있고, 바꿔도 앱이 다시 시작되지 않습니다.",
+          "기본은 지금까지의 Classic이라, 바꾸기 전에는 화면이 그대로입니다.",
+          "테마는 기기마다 따로 저장됩니다(iCloud로 나누지 않아요). 폰과 태블릿에서 다르게 써도 됩니다.",
+          "두 테마 모두 작은 글씨의 대비를 조금 높여 읽기 쉬워졌습니다."
+        ],
+        "ja": [
+          "ゲームの2つ目の見た目、Notebook テーマが加わりました。Claimball のウェブサイトのように、方眼ノートに落書きしたような雰囲気です。",
+          "設定カードの一番下で Classic と Notebook を選べます。いつでも切り替えられ、切り替えてもアプリは再起動しません。",
+          "初期設定はこれまでの Classic なので、切り替えるまで画面は今までどおりです。",
+          "テーマの選択はデバイスごとに保存されます（iCloud では共有しません）。スマートフォンとタブレットで別の見た目にしても大丈夫です。",
+          "どちらのテーマも、小さな文字のコントラストを少し高めて読みやすくしました。"
+        ],
+        "zh": [
+          "游戏的第二种外观：Notebook 主题，是与 Claimball 网站一致的纸张与方格笔记本风格。",
+          "在设置卡片最底部可以选择 Classic 或 Notebook。随时可以切换，切换后不会重启。",
+          "默认仍是 Classic，所以在你切换之前，游戏外观保持不变。",
+          "主题选择会保存在每台设备上（不会通过 iCloud 共享），所以手机和平板可以使用不同的外观。",
+          "两种主题下的小字对比度都略有提升，更容易阅读。"
+        ],
+        "es": [
+          "Una segunda imagen para el juego: Notebook, un estilo de papel y cuaderno cuadriculado que combina con el sitio web de Claimball.",
+          "Elige Classic o Notebook en Ajustes, al final de la tarjeta de ajustes. Puedes cambiar en cualquier momento, incluso en mitad de una sesión, y nada se reinicia.",
+          "Classic sigue siendo el predeterminado, así que el juego se ve igual hasta que lo cambies.",
+          "Tu elección de tema se guarda en cada dispositivo (no se comparte por iCloud), así que un teléfono y una tableta pueden tener aspectos distintos.",
+          "Se mejoró un poco el contraste del texto en ambos temas para que el texto pequeño sea más fácil de leer."
+        ],
+        "pt": [
+          "Um segundo visual para o jogo: Notebook, um estilo de papel e caderno quadriculado que combina com o site do Claimball.",
+          "Escolha Classic ou Notebook em Configurações, na parte de baixo do cartão de configurações. Você pode alternar a qualquer momento, até no meio de uma sessão, e nada é reiniciado.",
+          "Classic continua sendo o padrão, então o jogo fica igual até você mudar.",
+          "A escolha do tema é salva em cada aparelho (não é compartilhada pelo iCloud), então um celular e um tablet podem ter visuais diferentes.",
+          "O contraste do texto foi melhorado um pouco nos dois temas para facilitar a leitura de textos pequenos."
+        ],
+        "id": [
+          "Tampilan kedua untuk game ini: Notebook, gaya kertas dan buku catatan berpetak yang serasi dengan situs web Claimball.",
+          "Pilih Classic atau Notebook di Pengaturan, di bagian bawah kartu pengaturan. Kamu bisa beralih kapan saja, bahkan di tengah sesi, dan tidak ada yang dimulai ulang.",
+          "Classic tetap menjadi bawaan, jadi tampilan game sama saja sampai kamu mengubahnya.",
+          "Pilihan temamu disimpan di setiap perangkat (tidak dibagikan lewat iCloud), jadi ponsel dan tablet bisa memakai tampilan yang berbeda.",
+          "Kontras teks sedikit ditingkatkan di kedua tema agar teks kecil lebih mudah dibaca."
+        ],
+        "ru": [
+          "Второй облик игры: Notebook, стиль бумаги и тетради в клетку, как на сайте Claimball.",
+          "Выберите Classic или Notebook в настройках, в самом низу карточки настроек. Переключаться можно в любой момент, даже посреди сессии, и ничего не перезапускается.",
+          "По умолчанию остаётся Classic, поэтому игра выглядит так же, пока вы не смените тему.",
+          "Выбор темы сохраняется на каждом устройстве отдельно (через iCloud он не передаётся), поэтому на телефоне и планшете оформление может быть разным.",
+          "В обеих темах немного повышена контрастность текста, чтобы мелкий текст было легче читать."
+        ],
+        "vi": [
+          "Một diện mạo thứ hai cho trò chơi: Notebook, phong cách giấy và vở ô li hợp với website Claimball.",
+          "Chọn Classic hoặc Notebook trong Cài đặt, ở cuối thẻ cài đặt. Bạn có thể đổi bất cứ lúc nào, kể cả giữa chừng một phiên chơi, và không có gì bị khởi động lại.",
+          "Classic vẫn là mặc định, nên trò chơi trông như cũ cho đến khi bạn đổi.",
+          "Lựa chọn giao diện được lưu riêng trên từng thiết bị (không chia sẻ qua iCloud), nên điện thoại và máy tính bảng có thể dùng giao diện khác nhau.",
+          "Độ tương phản của chữ được cải thiện đôi chút ở cả hai giao diện để chữ nhỏ dễ đọc hơn."
+        ],
+        "fr": [
+          "Un second look pour le jeu : Notebook, un style papier et cahier à carreaux assorti au site de Claimball.",
+          "Choisissez Classic ou Notebook dans Réglages, en bas de la carte des réglages. Vous pouvez changer à tout moment, même en pleine session, et rien ne redémarre.",
+          "Classic reste le choix par défaut, donc le jeu garde le même aspect tant que vous ne changez rien.",
+          "Votre choix de thème est enregistré sur chaque appareil (il n'est pas partagé via iCloud), si bien qu'un téléphone et une tablette peuvent avoir des looks différents.",
+          "Le contraste du texte a été un peu amélioré dans les deux thèmes pour que les petits textes soient plus faciles à lire."
+        ],
+        "de": [
+          "Ein zweites Aussehen für das Spiel: Notebook, ein Stil aus Papier und kariertem Heft, passend zur Claimball-Website.",
+          "Wähle in den Einstellungen unten auf der Einstellungskarte zwischen Classic und Notebook. Du kannst jederzeit wechseln, auch mitten in einer Sitzung, und nichts startet neu.",
+          "Classic bleibt die Voreinstellung, das Spiel sieht also gleich aus, bis du wechselst.",
+          "Deine Themenwahl wird auf jedem Gerät einzeln gespeichert (nicht über iCloud geteilt), sodass ein Smartphone und ein Tablet unterschiedlich aussehen können.",
+          "Der Textkontrast wurde in beiden Themen etwas verbessert, damit kleiner Text leichter zu lesen ist."
+        ],
+        "ar": [
+          "مظهر ثانٍ للعبة: Notebook، أسلوب الورق والدفتر المربّع الذي يتناسب مع موقع Claimball.",
+          "اختر Classic أو Notebook من الإعدادات، في أسفل بطاقة الإعدادات. يمكنك التبديل في أي وقت، حتى في منتصف الجلسة، ولا شيء يُعاد تشغيله.",
+          "يبقى Classic هو الافتراضي، فتبقى اللعبة كما هي حتى تغيّر المظهر.",
+          "يُحفظ اختيارك للمظهر على كل جهاز (ولا يُشارَك عبر iCloud)، فيمكن أن يكون للهاتف واللوح مظهران مختلفان.",
+          "تحسّن تباين النص قليلًا في المظهرين ليسهل قراءة النص الصغير."
+        ],
+        "hi": [
+          "गेम का दूसरा रूप: Notebook, काग़ज़ और चौखाने वाली कॉपी की शैली, जो Claimball वेबसाइट से मेल खाती है।",
+          "सेटिंग्स में, सेटिंग्स कार्ड के सबसे नीचे Classic या Notebook चुनिए। आप कभी भी बदल सकते हैं, सेशन के बीच में भी, और कुछ भी दोबारा शुरू नहीं होता।",
+          "Classic ही डिफ़ॉल्ट रहता है, इसलिए आपके बदलने तक गेम पहले जैसा ही दिखता है।",
+          "आपका थीम चुनाव हर डिवाइस पर अलग से सेव होता है (iCloud से साझा नहीं होता), इसलिए फ़ोन और टैबलेट पर अलग-अलग रूप रखा जा सकता है।",
+          "दोनों थीम में टेक्स्ट का कॉन्ट्रास्ट थोड़ा सुधारा गया है, ताकि छोटा टेक्स्ट पढ़ना आसान हो।"
+        ]
+      }
+    },
+    {
+      "id": "1.0.0-8",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-11-01",
+      "title": {
+        "en": "Build 8",
+        "ko": "빌드 8",
+        "ja": "ビルド 8",
+        "zh": "构建版本 8",
+        "es": "Compilación 8",
+        "pt": "Build 8",
+        "id": "Build 8",
+        "ru": "Сборка 8",
+        "vi": "Bản dựng 8",
+        "fr": "Build 8",
+        "de": "Build 8",
+        "ar": "Build 8",
+        "hi": "बिल्ड 8"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh": "TestFlight 内部测试版本，尚未向公众发布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+      },
+      "notes": {
+        "en": [
+          "New: a small Release Notes link at the bottom of the first screen. It opens the Claimball website's page about what changed in each version.",
+          "The link opens in your browser and is shown in English for now."
+        ],
+        "ko": [
+          "새로 추가: 첫 화면 맨 아래의 작은 Release Notes 링크. 누르면 버전마다 무엇이 바뀌었는지 적은 클레임볼 웹사이트 페이지가 열립니다.",
+          "링크는 브라우저에서 열리고, 지금은 영어로만 표시됩니다."
+        ],
+        "ja": [
+          "新機能：最初の画面の一番下に、小さな Release Notes リンクを追加しました。タップすると、バージョンごとの変更点を載せた Claimball ウェブサイトのページが開きます。",
+          "リンクはブラウザで開き、今のところ英語でのみ表示されます。"
+        ],
+        "zh": [
+          "新增：首屏底部有一个小小的 Release Notes 链接。点开后会打开 Claimball 网站上介绍各版本更新内容的页面。",
+          "链接会在浏览器中打开，目前只显示英文。"
+        ],
+        "es": [
+          "Novedad: un pequeño enlace de Release Notes en la parte inferior de la primera pantalla. Abre la página del sitio web de Claimball sobre lo que cambió en cada versión.",
+          "El enlace se abre en el navegador y por ahora se muestra en inglés."
+        ],
+        "pt": [
+          "Novo: um pequeno link de Release Notes na parte de baixo da primeira tela. Ele abre a página do site do Claimball sobre o que mudou em cada versão.",
+          "O link abre no navegador e, por enquanto, é exibido em inglês."
+        ],
+        "id": [
+          "Baru: tautan Release Notes kecil di bagian bawah layar pertama. Tautan ini membuka halaman situs web Claimball tentang apa yang berubah di setiap versi.",
+          "Tautan terbuka di browser dan untuk sementara ditampilkan dalam bahasa Inggris."
+        ],
+        "ru": [
+          "Новое: небольшая ссылка Release Notes внизу первого экрана. Она открывает страницу сайта Claimball о том, что изменилось в каждой версии.",
+          "Ссылка открывается в браузере и пока показывается только на английском."
+        ],
+        "vi": [
+          "Mới: một liên kết Release Notes nhỏ ở cuối màn hình đầu tiên. Liên kết này mở trang trên website Claimball về những gì đã thay đổi ở từng phiên bản.",
+          "Liên kết mở trong trình duyệt và hiện tại chỉ hiển thị bằng tiếng Anh."
+        ],
+        "fr": [
+          "Nouveau : un petit lien Release Notes en bas du premier écran. Il ouvre la page du site de Claimball qui explique ce qui a changé dans chaque version.",
+          "Le lien s'ouvre dans votre navigateur et s'affiche pour l'instant en anglais."
+        ],
+        "de": [
+          "Neu: ein kleiner Release-Notes-Link am unteren Rand des ersten Bildschirms. Er öffnet die Seite der Claimball-Website darüber, was sich in jeder Version geändert hat.",
+          "Der Link öffnet sich im Browser und wird vorerst auf Englisch angezeigt."
+        ],
+        "ar": [
+          "جديد: رابط Release Notes صغير أسفل الشاشة الأولى. يفتح صفحة موقع Claimball التي تشرح ما تغيّر في كل إصدار.",
+          "يُفتح الرابط في المتصفح، ويظهر حاليًا بالإنجليزية فقط."
+        ],
+        "hi": [
+          "नया: पहली स्क्रीन के सबसे नीचे एक छोटा Release Notes लिंक। यह Claimball वेबसाइट का वह पेज खोलता है जिसमें हर वर्शन में क्या बदला, यह लिखा है।",
+          "लिंक ब्राउज़र में खुलता है और फ़िलहाल सिर्फ़ अंग्रेज़ी में दिखता है।"
+        ]
+      }
+    },
+    {
+      "id": "1.0.0-7",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-11-01",
+      "title": {
+        "en": "Build 7",
+        "ko": "빌드 7",
+        "ja": "ビルド 7",
+        "zh": "构建版本 7",
+        "es": "Compilación 7",
+        "pt": "Build 7",
+        "id": "Build 7",
+        "ru": "Сборка 7",
+        "vi": "Bản dựng 7",
+        "fr": "Build 7",
+        "de": "Build 7",
+        "ar": "Build 7",
+        "hi": "बिल्ड 7"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh": "TestFlight 内部测试版本，尚未向公众发布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+      },
+      "notes": {
+        "en": [
+          "Continue on another device (iPhone and iPad): your progress, stars, achievements, the free-trial state and your accessibility settings now follow your iCloud account. It works quietly in the background, and if iCloud is off or offline the game simply keeps its own copy on the device.",
+          "Not shared through iCloud: the Full Unlock purchase (the App Store keeps track of that), the Daily Challenge attempt, and vibration and sound settings.",
+          "If a Full Unlock purchase is refunded or taken back through Family Sharing, the game locks again, and it is careful not to lock by mistake when you are signed out or offline.",
+          "If the app closes in the middle of a Daily Challenge, you get that day's one attempt back. Leaving to the menu on purpose still uses it up.",
+          "The system Back gesture or button during a Daily Challenge now pauses and resumes the match, and from other screens takes you back to the menu instead of closing the app.",
+          "Android purchase support was prepared in the same update; Android is not available yet."
+        ],
+        "ko": [
+          "다른 기기에서 이어하기(아이폰·아이패드): 진행 상황, 별, 업적, 무료 체험 상태, 접근성 설정이 iCloud 계정을 따라갑니다. 조용히 알아서 동작하고, iCloud가 꺼져 있거나 오프라인이면 기기 안에만 저장해 둡니다.",
+          "iCloud로 나누지 않는 것: Full Unlock 구매(App Store가 따로 기억합니다), 일일 도전 시도 기록, 진동·소리 설정.",
+          "Full Unlock을 환불하거나 가족 공유가 해제되면 다시 잠깁니다. 로그아웃이나 오프라인 상태에서 잘못 잠기지 않도록 조심해서 확인합니다.",
+          "일일 도전 도중 앱이 꺼지면 그날의 한 번 시도를 돌려받습니다. 일부러 메뉴로 나가면 시도를 쓴 것으로 칩니다.",
+          "일일 도전 중 시스템 뒤로가기는 일시정지/재개로 동작하고, 다른 화면에서는 앱이 닫히는 대신 메뉴로 돌아갑니다.",
+          "같은 업데이트에서 Android 구매 기능도 준비했습니다. Android 버전은 아직 나오지 않았습니다."
+        ],
+        "ja": [
+          "別のデバイスで続きから（iPhone と iPad）：進行状況、星、実績、無料体験の状態、アクセシビリティ設定が iCloud アカウントに沿って引き継がれます。バックグラウンドで静かに動作し、iCloud がオフまたはオフラインのときは、端末内にだけ保存します。",
+          "iCloud で共有しないもの：Full Unlock の購入（App Store が別に記録しています）、デイリーチャレンジの挑戦記録、振動とサウンドの設定。",
+          "Full Unlock が返金された場合や、ファミリー共有が解除された場合は、再びロックされます。サインアウト中やオフライン中に誤ってロックしないよう、慎重に確認します。",
+          "デイリーチャレンジの途中でアプリが終了した場合は、その日の1回の挑戦権が戻ります。自分でメニューに戻った場合は、挑戦を使ったものとして扱います。",
+          "デイリーチャレンジ中にシステムの戻る操作をすると一時停止／再開になり、ほかの画面ではアプリを閉じずにメニューへ戻ります。",
+          "同じアップデートで Android の購入機能も準備しました。Android 版はまだ公開されていません。"
+        ],
+        "zh": [
+          "在其他设备上继续（iPhone 和 iPad）：你的进度、星星、成就、免费试玩状态和辅助功能设置现在会跟随你的 iCloud 账户。它在后台悄悄运行；如果 iCloud 已关闭或处于离线状态，游戏只会把数据保存在设备上。",
+          "不通过 iCloud 共享的内容：Full Unlock 购买（由 App Store 单独记录）、每日挑战的参与记录，以及震动和声音设置。",
+          "如果 Full Unlock 被退款，或家人共享被取消，游戏会重新锁定；在退出登录或离线时，游戏会谨慎处理，避免误锁。",
+          "如果在每日挑战进行到一半时应用关闭，你会拿回当天唯一的一次机会。主动退回菜单则视为已使用。",
+          "每日挑战中使用系统返回手势或按钮，现在会暂停或继续比赛；在其他界面则返回菜单，而不是关闭应用。",
+          "同一次更新中还为 Android 的购买功能做了准备；Android 版本尚未推出。"
+        ],
+        "es": [
+          "Continúa en otro dispositivo (iPhone y iPad): tu progreso, estrellas, logros, el estado de la prueba gratuita y tus ajustes de accesibilidad ahora siguen a tu cuenta de iCloud. Funciona en segundo plano, y si iCloud está desactivado o sin conexión, el juego simplemente guarda su propia copia en el dispositivo.",
+          "No se comparte por iCloud: la compra de Full Unlock (de eso se encarga la App Store), el intento del Reto diario y los ajustes de vibración y sonido.",
+          "Si una compra de Full Unlock se reembolsa o se retira por Compartir en familia, el juego vuelve a bloquearse, y se cuida de no bloquearse por error cuando no has iniciado sesión o estás sin conexión.",
+          "Si la app se cierra en mitad de un Reto diario, recuperas el único intento de ese día. Salir al menú a propósito sigue gastándolo.",
+          "El gesto o botón de retroceso del sistema durante un Reto diario ahora pausa y reanuda la partida, y desde otras pantallas te lleva al menú en lugar de cerrar la app.",
+          "En la misma actualización se preparó el soporte de compras en Android; Android todavía no está disponible."
+        ],
+        "pt": [
+          "Continue em outro dispositivo (iPhone e iPad): seu progresso, estrelas, conquistas, o estado do teste grátis e suas configurações de acessibilidade agora acompanham a sua conta do iCloud. Funciona discretamente em segundo plano e, se o iCloud estiver desativado ou sem conexão, o jogo simplesmente mantém a própria cópia no aparelho.",
+          "Não compartilhado pelo iCloud: a compra do Full Unlock (a App Store cuida disso), a tentativa do Desafio diário e as configurações de vibração e som.",
+          "Se uma compra do Full Unlock for reembolsada ou retirada pelo Compartilhamento Familiar, o jogo volta a ser bloqueado, com o cuidado de não bloquear por engano quando você está desconectado ou sem internet.",
+          "Se o app fechar no meio de um Desafio diário, você recupera a única tentativa do dia. Sair para o menu de propósito ainda a consome.",
+          "O gesto ou botão de voltar do sistema durante um Desafio diário agora pausa e retoma a partida e, em outras telas, leva você ao menu em vez de fechar o app.",
+          "O suporte a compras no Android foi preparado na mesma atualização; o Android ainda não está disponível."
+        ],
+        "id": [
+          "Lanjutkan di perangkat lain (iPhone dan iPad): progres, bintang, pencapaian, status uji coba gratis, dan pengaturan aksesibilitasmu kini mengikuti akun iCloud-mu. Ini berjalan diam-diam di latar belakang, dan jika iCloud mati atau offline, game cukup menyimpan salinannya sendiri di perangkat.",
+          "Tidak dibagikan lewat iCloud: pembelian Full Unlock (App Store yang mencatatnya), percobaan Tantangan harian, serta pengaturan getaran dan suara.",
+          "Jika pembelian Full Unlock dikembalikan dananya atau ditarik lewat Keluarga Berbagi, game terkunci lagi, dan berhati-hati agar tidak terkunci secara keliru saat kamu keluar akun atau offline.",
+          "Jika aplikasi tertutup di tengah Tantangan harian, kamu mendapatkan kembali satu percobaan hari itu. Keluar ke menu dengan sengaja tetap menghabiskan percobaan itu.",
+          "Gestur atau tombol Kembali sistem saat Tantangan harian kini menjeda dan melanjutkan pertandingan, dan di layar lain membawamu kembali ke menu alih-alih menutup aplikasi.",
+          "Dukungan pembelian Android dipersiapkan dalam pembaruan yang sama; Android belum tersedia."
+        ],
+        "ru": [
+          "Продолжайте на другом устройстве (iPhone и iPad): ваш прогресс, звёзды, достижения, состояние бесплатной пробы и настройки доступности теперь следуют за вашей учётной записью iCloud. Это работает незаметно в фоне, а если iCloud отключён или нет сети, игра просто хранит свою копию на устройстве.",
+          "Через iCloud не передаются: покупка Full Unlock (её отслеживает App Store), попытка ежедневного вызова, а также настройки вибрации и звука.",
+          "Если покупка Full Unlock возвращена или отозвана через семейный доступ, игра снова блокируется; при этом она старается не заблокироваться по ошибке, когда вы вышли из аккаунта или нет сети.",
+          "Если приложение закрылось посреди ежедневного вызова, вам возвращается единственная попытка этого дня. Если вы сами вышли в меню, попытка считается использованной.",
+          "Системный жест или кнопка «Назад» во время ежедневного вызова теперь ставят матч на паузу и возобновляют его, а на других экранах возвращают в меню, а не закрывают приложение.",
+          "В этом же обновлении подготовлена поддержка покупок на Android; Android пока недоступен."
+        ],
+        "vi": [
+          "Tiếp tục trên thiết bị khác (iPhone và iPad): tiến trình, sao, thành tích, trạng thái dùng thử miễn phí và cài đặt trợ năng của bạn giờ đi theo tài khoản iCloud. Việc này chạy âm thầm ở chế độ nền, và nếu iCloud tắt hoặc không có mạng, trò chơi chỉ giữ bản sao riêng trên thiết bị.",
+          "Không chia sẻ qua iCloud: giao dịch mua Full Unlock (App Store tự theo dõi việc này), lượt thử Thử thách hằng ngày, cùng cài đặt rung và âm thanh.",
+          "Nếu giao dịch mua Full Unlock được hoàn tiền hoặc bị thu hồi qua Chia sẻ trong gia đình, trò chơi sẽ khóa lại, và được xử lý cẩn thận để không khóa nhầm khi bạn đã đăng xuất hoặc không có mạng.",
+          "Nếu ứng dụng đóng giữa chừng một Thử thách hằng ngày, bạn được trả lại lượt thử duy nhất của ngày hôm đó. Chủ động thoát ra menu vẫn tính là đã dùng lượt.",
+          "Cử chỉ hoặc nút Quay lại của hệ thống trong Thử thách hằng ngày giờ sẽ tạm dừng và tiếp tục ván đấu, còn ở các màn hình khác sẽ đưa bạn về menu thay vì đóng ứng dụng.",
+          "Hỗ trợ mua hàng trên Android cũng được chuẩn bị trong bản cập nhật này; Android hiện chưa có."
+        ],
+        "fr": [
+          "Continuez sur un autre appareil (iPhone et iPad) : votre progression, vos étoiles, vos succès, l'état de l'essai gratuit et vos réglages d'accessibilité suivent désormais votre compte iCloud. Cela fonctionne discrètement en arrière-plan, et si iCloud est désactivé ou hors ligne, le jeu garde simplement sa propre copie sur l'appareil.",
+          "Non partagés via iCloud : l'achat de Full Unlock (l'App Store s'en charge), la tentative du Défi du jour, ainsi que les réglages de vibration et de son.",
+          "Si un achat de Full Unlock est remboursé ou retiré via le Partage familial, le jeu se verrouille de nouveau, en veillant à ne pas se verrouiller par erreur quand vous êtes déconnecté ou hors ligne.",
+          "Si l'application se ferme en plein Défi du jour, vous récupérez l'unique tentative du jour. Quitter volontairement vers le menu la consomme toujours.",
+          "Le geste ou le bouton Retour du système pendant un Défi du jour met désormais la partie en pause puis la reprend, et sur les autres écrans vous ramène au menu au lieu de fermer l'application.",
+          "La prise en charge des achats sur Android a été préparée dans la même mise à jour ; Android n'est pas encore disponible."
+        ],
+        "de": [
+          "Auf einem anderen Gerät weiterspielen (iPhone und iPad): Dein Fortschritt, deine Sterne, Erfolge, der Status der kostenlosen Testphase und deine Bedienungshilfen folgen jetzt deinem iCloud-Account. Das läuft unauffällig im Hintergrund, und wenn iCloud aus oder offline ist, behält das Spiel einfach seine eigene Kopie auf dem Gerät.",
+          "Nicht über iCloud geteilt: der Kauf von Full Unlock (das übernimmt der App Store), der Versuch bei der Tagesaufgabe sowie die Einstellungen für Vibration und Ton.",
+          "Wird ein Kauf von Full Unlock erstattet oder über die Familienfreigabe entzogen, sperrt sich das Spiel wieder; dabei achtet es darauf, sich nicht fälschlich zu sperren, wenn du abgemeldet oder offline bist.",
+          "Wenn die App mitten in einer Tagesaufgabe schließt, bekommst du den einen Versuch des Tages zurück. Absichtlich ins Menü zu gehen verbraucht ihn weiterhin.",
+          "Die System-Zurück-Geste oder -Taste pausiert und setzt eine Partie in der Tagesaufgabe jetzt fort und führt auf anderen Bildschirmen ins Menü, statt die App zu schließen.",
+          "Die Unterstützung für Käufe unter Android wurde im selben Update vorbereitet; Android ist noch nicht verfügbar."
+        ],
+        "ar": [
+          "تابع على جهاز آخر (iPhone وiPad): أصبح تقدّمك ونجومك وإنجازاتك وحالة التجربة المجانية وإعدادات تسهيل الاستخدام تتبع حساب iCloud الخاص بك. يعمل ذلك بهدوء في الخلفية، وإذا كان iCloud متوقفًا أو بلا اتصال، تحتفظ اللعبة بنسختها الخاصة على الجهاز.",
+          "ما لا يُشارَك عبر iCloud: شراء Full Unlock (يتتبّعه App Store)، ومحاولة التحدي اليومي، وإعدادات الاهتزاز والصوت.",
+          "إذا أُعيد مبلغ شراء Full Unlock أو سُحب عبر المشاركة العائلية، تُقفل اللعبة من جديد، مع الحرص على ألا تُقفل بالخطأ عندما تكون مسجّلًا للخروج أو بلا اتصال.",
+          "إذا أُغلق التطبيق في منتصف التحدي اليومي، تستعيد محاولة ذلك اليوم الواحدة. أما الخروج عمدًا إلى القائمة فيستهلكها.",
+          "أصبح إيماء الرجوع أو زره في النظام أثناء التحدي اليومي يوقف المباراة مؤقتًا ويستأنفها، وفي الشاشات الأخرى يعيدك إلى القائمة بدل إغلاق التطبيق.",
+          "جرى في التحديث نفسه تجهيز دعم المشتريات على Android؛ وAndroid غير متاح بعد."
+        ],
+        "hi": [
+          "दूसरे डिवाइस पर जारी रखें (iPhone और iPad): आपकी प्रोग्रेस, स्टार, उपलब्धियाँ, मुफ़्त ट्रायल की स्थिति और एक्सेसिबिलिटी सेटिंग्स अब आपके iCloud अकाउंट के साथ चलती हैं। यह बैकग्राउंड में चुपचाप काम करता है, और अगर iCloud बंद या ऑफ़लाइन हो तो गेम डिवाइस पर बस अपनी कॉपी रखता है।",
+          "iCloud से साझा नहीं होता: Full Unlock की ख़रीद (इसका हिसाब App Store रखता है), रोज़ की चुनौती का प्रयास, और कंपन व आवाज़ की सेटिंग्स।",
+          "अगर Full Unlock की ख़रीद का रिफ़ंड हो जाए या फ़ैमिली शेयरिंग से हट जाए, तो गेम फिर से लॉक हो जाता है। साइन-आउट या ऑफ़लाइन होने पर वह ग़लती से लॉक न हो, इसका ध्यान रखा जाता है।",
+          "रोज़ की चुनौती के बीच ऐप बंद हो जाए, तो उस दिन का एक प्रयास आपको वापस मिल जाता है। जान-बूझकर मेन्यू में चले जाने पर वह प्रयास ख़र्च माना जाता है।",
+          "रोज़ की चुनौती के दौरान सिस्टम का बैक जेस्चर या बटन अब मैच को रोकता और फिर शुरू करता है, और दूसरी स्क्रीन पर ऐप बंद करने के बजाय आपको मेन्यू में ले जाता है।",
+          "उसी अपडेट में Android पर ख़रीदारी का सपोर्ट भी तैयार किया गया; Android अभी उपलब्ध नहीं है।"
+        ]
+      }
+    },
+    {
+      "id": "1.0.0-6",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-10-31",
+      "title": {
+        "en": "Build 6",
+        "ko": "빌드 6",
+        "ja": "ビルド 6",
+        "zh": "构建版本 6",
+        "es": "Compilación 6",
+        "pt": "Build 6",
+        "id": "Build 6",
+        "ru": "Сборка 6",
+        "vi": "Bản dựng 6",
+        "fr": "Build 6",
+        "de": "Build 6",
+        "ar": "Build 6",
+        "hi": "बिल्ड 6"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh": "TestFlight 内部测试版本，尚未向公众发布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+      },
+      "notes": {
+        "en": [
+          "Full Unlock: try the game free, then make one purchase to unlock everything. It is a one-time purchase, with no subscription and no ads. The price is shown by the store in your own currency.",
+          "Restore Purchases is in Settings, and purchases waiting for approval (Ask to Buy) are handled. The unlock offer appears only at calm moments, such as after a win, and never pushes you.",
+          "Daily Challenge rematches were re-balanced so the toughest pairings are no longer nearly impossible or nearly automatic.",
+          "Requires iOS 15 or later."
+        ],
+        "ko": [
+          "Full Unlock: 무료로 먼저 해 보고, 한 번만 결제하면 모든 것이 열립니다. 한 번 결제하면 끝이고, 구독도 광고도 없습니다. 가격은 스토어가 내 나라 통화로 보여 줍니다.",
+          "설정에서 구매 복원을 할 수 있고, 승인 대기(구매 전 부모 승인) 중인 구매도 처리됩니다. 해금 안내는 이긴 직후처럼 차분한 때에만 나타나며 재촉하지 않습니다.",
+          "일일 도전에서 유난히 쉽거나 거의 불가능하던 상대·변종 조합을 다듬었습니다.",
+          "iOS 15 이상이 필요합니다."
+        ],
+        "ja": [
+          "Full Unlock：まず無料で遊んでみて、一度購入するとすべてが解放されます。買い切りで、サブスクリプションも広告もありません。価格はストアがお使いの通貨で表示します。",
+          "設定から購入を復元でき、承認待ち（「承認と購入のリクエスト」）の購入にも対応しています。解放のご案内は、勝った直後など落ち着いたタイミングにだけ表示し、急かすことはありません。",
+          "デイリーチャレンジで、極端に簡単だったり、ほぼ不可能だったりした対戦相手とバリエーションの組み合わせを調整しました。",
+          "iOS 15 以降が必要です。"
+        ],
+        "zh": [
+          "Full Unlock：先免费试玩，一次购买即可解锁全部内容。一次买断，没有订阅，也没有广告。价格由商店以你所在地区的货币显示。",
+          "可以在设置中恢复购买，并支持等待批准的购买（“请求购买”）。解锁提示只会在获胜之后等平静的时刻出现，绝不催促。",
+          "重新平衡了每日挑战的对手与变体组合，让最难的组合不再几乎不可能或几乎稳赢。",
+          "需要 iOS 15 或更高版本。"
+        ],
+        "es": [
+          "Full Unlock: prueba el juego gratis y, con una sola compra, desbloquea todo. Es un pago único, sin suscripción y sin anuncios. La tienda muestra el precio en tu propia moneda.",
+          "Restaurar compras está en Ajustes, y se gestionan las compras pendientes de aprobación (Solicitar compra). La oferta de desbloqueo solo aparece en momentos tranquilos, como después de ganar, y nunca te presiona.",
+          "Se reequilibraron las revanchas del Reto diario para que las combinaciones más duras ya no sean casi imposibles ni casi automáticas.",
+          "Requiere iOS 15 o posterior."
+        ],
+        "pt": [
+          "Full Unlock: experimente o jogo de graça e depois faça uma única compra para desbloquear tudo. É uma compra única, sem assinatura e sem anúncios. O preço é exibido pela loja na sua própria moeda.",
+          "Restaurar compras fica em Configurações, e compras aguardando aprovação (Pedir para Comprar) são tratadas. A oferta de desbloqueio só aparece em momentos tranquilos, como depois de uma vitória, e nunca pressiona você.",
+          "As revanches do Desafio diário foram reequilibradas para que as combinações mais difíceis não sejam mais quase impossíveis nem quase automáticas.",
+          "Requer iOS 15 ou posterior."
+        ],
+        "id": [
+          "Full Unlock: coba game ini gratis, lalu lakukan satu kali pembelian untuk membuka semuanya. Ini pembelian sekali bayar, tanpa langganan dan tanpa iklan. Harga ditampilkan oleh toko dalam mata uangmu sendiri.",
+          "Pulihkan pembelian ada di Pengaturan, dan pembelian yang menunggu persetujuan (Minta Beli) ditangani. Tawaran pembukaan hanya muncul di saat yang tenang, seperti setelah menang, dan tidak pernah mendesakmu.",
+          "Pertandingan ulang Tantangan harian diseimbangkan ulang agar kombinasi tersulit tidak lagi nyaris mustahil atau nyaris otomatis.",
+          "Membutuhkan iOS 15 atau lebih baru."
+        ],
+        "ru": [
+          "Full Unlock: попробуйте игру бесплатно, а затем одной покупкой откройте всё. Покупка разовая, без подписки и без рекламы. Цену показывает магазин в вашей валюте.",
+          "Восстановить покупки можно в настройках, а покупки, ожидающие подтверждения (функция «Попросить купить»), тоже обрабатываются. Предложение открыть игру появляется только в спокойные моменты, например после победы, и никогда не торопит вас.",
+          "Реванши в ежедневном вызове перебалансированы: самые сложные сочетания больше не бывают почти невозможными или почти автоматическими.",
+          "Требуется iOS 15 или новее."
+        ],
+        "vi": [
+          "Full Unlock: chơi thử miễn phí, rồi mua một lần để mở khóa mọi thứ. Đây là khoản mua một lần, không đăng ký định kỳ và không có quảng cáo. Giá được cửa hàng hiển thị bằng tiền tệ của bạn.",
+          "Khôi phục giao dịch mua nằm trong Cài đặt, và các giao dịch mua đang chờ phê duyệt (Yêu cầu mua) cũng được xử lý. Lời mời mở khóa chỉ xuất hiện vào những lúc thư thả, chẳng hạn sau khi thắng, và không bao giờ thúc ép bạn.",
+          "Các ván tái đấu của Thử thách hằng ngày đã được cân bằng lại để những cặp khó nhất không còn gần như bất khả thi hay gần như tự thắng.",
+          "Yêu cầu iOS 15 trở lên."
+        ],
+        "fr": [
+          "Full Unlock : essayez le jeu gratuitement, puis faites un seul achat pour tout débloquer. C'est un achat unique, sans abonnement et sans publicité. Le prix est affiché par la boutique dans votre propre devise.",
+          "Restaurer les achats se trouve dans Réglages, et les achats en attente d'approbation (Demander à acheter) sont pris en charge. L'offre de déblocage n'apparaît que dans les moments calmes, par exemple après une victoire, et ne vous met jamais la pression.",
+          "Les revanches du Défi du jour ont été rééquilibrées pour que les associations les plus difficiles ne soient plus presque impossibles ni presque automatiques.",
+          "Nécessite iOS 15 ou version ultérieure."
+        ],
+        "de": [
+          "Full Unlock: Probiere das Spiel kostenlos aus und schalte dann mit einem einzigen Kauf alles frei. Es ist ein Einmalkauf, ohne Abo und ohne Werbung. Den Preis zeigt der Store in deiner eigenen Währung an.",
+          "Käufe wiederherstellen findest du in den Einstellungen, und Käufe, die auf Freigabe warten (Kaufanfrage), werden berücksichtigt. Das Freischalt-Angebot erscheint nur in ruhigen Momenten, etwa nach einem Sieg, und drängt dich nie.",
+          "Die Revanchen der Tagesaufgabe wurden neu ausbalanciert, sodass die härtesten Paarungen nicht mehr nahezu unmöglich oder nahezu automatisch sind.",
+          "Erfordert iOS 15 oder neuer."
+        ],
+        "ar": [
+          "Full Unlock: جرّب اللعبة مجانًا، ثم قم بعملية شراء واحدة لفتح كل شيء. إنها عملية شراء لمرة واحدة، بلا اشتراك وبلا إعلانات. ويعرض المتجر السعر بعملتك.",
+          "استعادة المشتريات في الإعدادات، وتُعالَج المشتريات المنتظِرة للموافقة (اطلب الشراء). ولا يظهر عرض الفتح إلا في اللحظات الهادئة، مثل بعد الفوز، ولا يضغط عليك أبدًا.",
+          "أُعيدت موازنة مباريات الإعادة في التحدي اليومي كي لا تبقى أصعب المواجهات شبه مستحيلة أو شبه تلقائية.",
+          "يتطلب iOS 15 أو أحدث."
+        ],
+        "hi": [
+          "Full Unlock: गेम को पहले मुफ़्त में आज़माइए, फिर एक ही ख़रीद से सब कुछ खोल लीजिए। यह एक बार की ख़रीद है, जिसमें न कोई सब्सक्रिप्शन है और न विज्ञापन। क़ीमत स्टोर आपकी अपनी मुद्रा में दिखाता है।",
+          "ख़रीदारी रीस्टोर करें विकल्प सेटिंग्स में है, और मंज़ूरी का इंतज़ार कर रही ख़रीदारी (खरीदने के लिए पूछें) को भी संभाला जाता है। अनलॉक का ऑफ़र सिर्फ़ शांत पलों में दिखता है, जैसे जीत के बाद, और कभी आप पर दबाव नहीं डालता।",
+          "रोज़ की चुनौती के रीमैच को फिर से संतुलित किया गया है, ताकि सबसे कठिन जोड़ियाँ अब लगभग नामुमकिन या लगभग अपने-आप जीत वाली न रहें।",
+          "iOS 15 या उससे नया वर्शन चाहिए।"
+        ]
+      }
+    },
+    {
+      "id": "1.0.0-5",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-10-31",
+      "title": {
+        "en": "Build 5",
+        "ko": "빌드 5",
+        "ja": "ビルド 5",
+        "zh": "构建版本 5",
+        "es": "Compilación 5",
+        "pt": "Build 5",
+        "id": "Build 5",
+        "ru": "Сборка 5",
+        "vi": "Bản dựng 5",
+        "fr": "Build 5",
+        "de": "Build 5",
+        "ar": "Build 5",
+        "hi": "बिल्ड 5"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh": "TestFlight 内部测试版本，尚未向公众发布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+      },
+      "notes": {
+        "en": [
+          "Six AI rivals, each with their own style, in two leagues. Beat one to unlock the next. Your progress is saved.",
+          "Rivals now react with faces and little movements when they enter, score, get scored on, are surprised, win or lose.",
+          "Combo chains: the sound and the haptic buzz step up at 3, 5, 8 and 12 hits in a row. In the last 20 seconds a Fever mode adds a warmer screen tone, bouncing tiles and a quick beep, with the rules unchanged.",
+          "Each match earns 1 to 3 stars, your best stars show on each rival's card, and there is a list of achievements.",
+          "Daily Challenge: one match a day with a twist from five variants.",
+          "New setting, Color-blind patterns: dots on your tiles and stripes on the opponent's.",
+          "Fixed overlapping sound effects. Mirror, the toughest rival, is a little easier."
+        ],
+        "ko": [
+          "AI 상대 6명이 각자 다른 성격으로 두 개의 리그에 등장합니다. 한 명을 이기면 다음 상대가 열리고, 진행 상황은 저장됩니다.",
+          "상대가 입장할 때, 점수를 땄을 때, 잃었을 때, 놀랐을 때, 이기고 질 때 표정과 몸짓으로 반응합니다.",
+          "콤보 연쇄: 3·5·8·12타를 넘길 때마다 효과음과 진동이 단계별로 커집니다. 마지막 20초에는 피버가 켜져 화면 톤이 달라지고 타일이 들썩이며 짧은 비프음이 납니다. 규칙은 그대로입니다.",
+          "한 판마다 별 1~3개를 받고, 상대 카드에 최고 별이 표시되며, 업적 목록 화면이 생겼습니다.",
+          "일일 도전: 하루 한 판, 다섯 가지 변종 규칙 중 하나가 걸립니다.",
+          "새 설정 「색약 무늬」: 내 타일에는 점, 상대 타일에는 줄무늬가 들어갑니다.",
+          "효과음이 겹칠 때 앞 소리가 끊기던 문제를 고쳤고, 가장 어려운 상대 미러를 조금 쉽게 다듬었습니다."
+        ],
+        "ja": [
+          "それぞれ個性の違う6人のAIライバルが、2つのリーグに登場します。1人に勝つと次のライバルが解放されます。進行状況は保存されます。",
+          "ライバルは、登場したとき、得点したとき、点を取られたとき、驚いたとき、勝ったとき、負けたときに、表情と動きで反応します。",
+          "コンボ連鎖：3・5・8・12回続けて打つたびに、効果音と振動が段階的に強くなります。最後の20秒はフィーバーが入り、画面の色味が温かくなり、タイルが弾み、短いビープ音が鳴ります。ルールは変わりません。",
+          "1試合ごとに星を1〜3個獲得でき、各ライバルのカードにベスト星が表示されます。実績の一覧画面も追加しました。",
+          "デイリーチャレンジ：1日1試合、5種類のバリエーションのうち1つのルールで挑みます。",
+          "新しい設定「色覚サポート模様」：自分のマスにはドット、相手のマスにはしま模様が入ります。",
+          "効果音が重なると前の音が途切れる問題を修正しました。最強のライバル、ミラーを少し戦いやすく調整しました。"
+        ],
+        "zh": [
+          "6 位各具风格的 AI 对手，分布在 2 个联赛中。击败一位即可解锁下一位，进度会被保存。",
+          "对手在登场、得分、被得分、受惊、获胜或落败时，会用表情和小动作做出反应。",
+          "连击：连续击球达到 3、5、8、12 次时，音效和震动会逐级增强。最后 20 秒进入 Fever 狂热模式，画面色调变暖，格子跳动，并伴有短促的哔声，规则不变。",
+          "每局可获得 1 到 3 颗星，每位对手的卡片上会显示你的最佳星数，还新增了成就列表。",
+          "每日挑战：每天一局，从五种变体中随机带上一种玩法。",
+          "新增设置“色盲图案”：你的格子上带圆点，对手的格子上带条纹。",
+          "修复了音效重叠时前一个声音被截断的问题。最强的对手镜子（Mirror）略微调低了难度。"
+        ],
+        "es": [
+          "Seis rivales de IA, cada uno con su propio estilo, repartidos en dos ligas. Vence a uno para desbloquear al siguiente. Tu progreso se guarda.",
+          "Los rivales ahora reaccionan con caras y pequeños movimientos cuando entran, puntúan, reciben un punto, se sorprenden, ganan o pierden.",
+          "Cadenas de combo: el sonido y la vibración suben de nivel a los 3, 5, 8 y 12 golpes seguidos. En los últimos 20 segundos, el modo Fever añade un tono de pantalla más cálido, casillas que rebotan y un pitido rápido, sin cambiar las reglas.",
+          "Cada partida da de 1 a 3 estrellas, tus mejores estrellas se ven en la tarjeta de cada rival y hay una lista de logros.",
+          "Reto diario: una partida al día con un giro elegido entre cinco variantes.",
+          "Nuevo ajuste, Patrones para daltonismo: puntos en tus casillas y rayas en las del oponente.",
+          "Se corrigió que los efectos de sonido se solaparan. Espejo, el rival más difícil, es un poco más fácil."
+        ],
+        "pt": [
+          "Seis rivais de IA, cada um com seu próprio estilo, em duas ligas. Vença um para desbloquear o próximo. Seu progresso é salvo.",
+          "Os rivais agora reagem com expressões e pequenos movimentos quando entram, marcam ponto, sofrem ponto, se surpreendem, ganham ou perdem.",
+          "Sequências de combo: o som e a vibração aumentam de nível a 3, 5, 8 e 12 acertos seguidos. Nos últimos 20 segundos, o modo Fever acrescenta um tom de tela mais quente, quadrados que pulam e um bipe rápido, sem mudar as regras.",
+          "Cada partida rende de 1 a 3 estrelas, suas melhores estrelas aparecem no cartão de cada rival e há uma lista de conquistas.",
+          "Desafio diário: uma partida por dia com uma reviravolta escolhida entre cinco variantes.",
+          "Nova configuração, Padrões para daltonismo: pontos nos seus quadrados e listras nos do oponente.",
+          "Corrigimos a sobreposição dos efeitos sonoros. Espelho, o rival mais difícil, ficou um pouco mais fácil."
+        ],
+        "id": [
+          "Enam rival AI dengan gaya masing-masing, dalam dua liga. Kalahkan satu untuk membuka yang berikutnya. Progresmu tersimpan.",
+          "Rival kini bereaksi dengan ekspresi wajah dan gerakan kecil saat masuk, mencetak poin, kebobolan, terkejut, menang, atau kalah.",
+          "Rantai kombo: suara dan getaran meningkat bertahap pada 3, 5, 8, dan 12 pukulan beruntun. Pada 20 detik terakhir, mode Fever menambahkan nuansa layar yang lebih hangat, petak yang memantul, dan bunyi bip singkat, tanpa mengubah aturan.",
+          "Setiap pertandingan memberi 1 sampai 3 bintang, bintang terbaikmu tampil di kartu tiap rival, dan ada daftar pencapaian.",
+          "Tantangan harian: satu pertandingan sehari dengan kejutan dari lima varian.",
+          "Pengaturan baru, Pola buta warna: titik pada petakmu dan garis pada petak lawan.",
+          "Memperbaiki efek suara yang saling tumpang tindih. Mirror, rival tersulit, dibuat sedikit lebih mudah."
+        ],
+        "ru": [
+          "Шесть ИИ-соперников, у каждого свой стиль, в двух лигах. Победите одного, чтобы открыть следующего. Ваш прогресс сохраняется.",
+          "Соперники теперь реагируют мимикой и небольшими движениями, когда выходят на корт, забивают, пропускают, удивляются, побеждают или проигрывают.",
+          "Цепочки комбо: звук и вибрация усиливаются по ступеням на 3, 5, 8 и 12 ударах подряд. В последние 20 секунд включается режим Fever: тон экрана становится теплее, клетки подпрыгивают и звучит короткий сигнал, а правила не меняются.",
+          "За каждый матч можно получить от 1 до 3 звёзд, лучший результат показан на карточке каждого соперника, а ещё есть список достижений.",
+          "Ежедневный вызов: один матч в день с особым условием из пяти вариантов.",
+          "Новая настройка «Узоры для дальтоников»: точки на ваших клетках и полоски на клетках соперника.",
+          "Исправлено наложение звуковых эффектов. Mirror, самый сильный соперник, стал немного легче."
+        ],
+        "vi": [
+          "Sáu đối thủ AI, mỗi người một phong cách, thuộc hai giải đấu. Thắng một người để mở khóa người tiếp theo. Tiến trình của bạn được lưu lại.",
+          "Các đối thủ giờ phản ứng bằng nét mặt và những cử động nhỏ khi bước vào, ghi điểm, bị ghi điểm, bất ngờ, thắng hoặc thua.",
+          "Chuỗi combo: âm thanh và rung tăng dần ở các mốc 3, 5, 8 và 12 lần đánh liên tiếp. Trong 20 giây cuối, chế độ Fever thêm sắc màn hình ấm hơn, các ô nảy lên và một tiếng bíp nhanh, còn luật chơi giữ nguyên.",
+          "Mỗi ván được 1 đến 3 sao, số sao cao nhất của bạn hiện trên thẻ của từng đối thủ, và có danh sách thành tích.",
+          "Thử thách hằng ngày: mỗi ngày một ván với một biến thể được chọn trong năm biến thể.",
+          "Cài đặt mới, Họa tiết cho người mù màu: chấm tròn trên ô của bạn và sọc trên ô của đối thủ.",
+          "Đã sửa lỗi hiệu ứng âm thanh chồng lên nhau. Mirror, đối thủ khó nhất, được làm dễ hơn một chút."
+        ],
+        "fr": [
+          "Six rivaux IA, chacun avec son propre style, répartis en deux ligues. Battez-en un pour débloquer le suivant. Votre progression est enregistrée.",
+          "Les rivaux réagissent désormais par des expressions et de petits mouvements quand ils entrent, marquent, encaissent un point, sont surpris, gagnent ou perdent.",
+          "Enchaînements de combos : le son et la vibration montent d'un cran à 3, 5, 8 et 12 coups d'affilée. Pendant les 20 dernières secondes, le mode Fever ajoute une teinte d'écran plus chaude, des cases qui rebondissent et un bip rapide, sans changer les règles.",
+          "Chaque partie rapporte de 1 à 3 étoiles, vos meilleures étoiles s'affichent sur la carte de chaque rival, et il y a une liste de succès.",
+          "Défi du jour : une partie par jour avec une particularité tirée de cinq variantes.",
+          "Nouveau réglage, Motifs daltonisme : des points sur vos cases et des rayures sur celles de l'adversaire.",
+          "Correction des effets sonores qui se chevauchaient. Miroir, le rival le plus coriace, est un peu plus facile."
+        ],
+        "de": [
+          "Sechs KI-Rivalen, jeder mit eigenem Stil, in zwei Ligen. Besiege einen, um den nächsten freizuschalten. Dein Fortschritt wird gespeichert.",
+          "Die Rivalen reagieren jetzt mit Gesichtsausdrücken und kleinen Bewegungen, wenn sie auftreten, punkten, einen Punkt kassieren, überrascht sind, gewinnen oder verlieren.",
+          "Combo-Ketten: Ton und Vibration steigern sich bei 3, 5, 8 und 12 Treffern in Folge. In den letzten 20 Sekunden bringt der Fever-Modus einen wärmeren Bildschirmton, hüpfende Felder und einen kurzen Piepton, die Regeln bleiben unverändert.",
+          "Jede Partie bringt 1 bis 3 Sterne, deine besten Sterne erscheinen auf der Karte jedes Rivalen, und es gibt eine Liste mit Erfolgen.",
+          "Tagesaufgabe: eine Partie pro Tag mit einer Besonderheit aus fünf Varianten.",
+          "Neue Einstellung, Muster für Farbsehschwäche: Punkte auf deinen Feldern und Streifen auf denen des Gegners.",
+          "Überlagernde Soundeffekte wurden behoben. Spiegel, der härteste Rivale, ist etwas leichter geworden."
+        ],
+        "ar": [
+          "ستة خصوم من الذكاء الاصطناعي، لكلٍّ منهم أسلوبه الخاص، في دوريين. اهزم أحدهم لتفتح الذي يليه. ويُحفظ تقدّمك.",
+          "يتفاعل الخصوم الآن بتعابير الوجه وحركات صغيرة عند دخولهم، وعند التسجيل، وعند استقبال نقطة، وعند الدهشة، وعند الفوز أو الخسارة.",
+          "سلاسل الكومبو: يرتفع الصوت والاهتزاز تدريجيًا عند 3 و5 و8 و12 ضربة متتالية. وفي آخر 20 ثانية يضيف وضع Fever لونًا أدفأ للشاشة ومربّعات تقفز وصافرة سريعة، مع بقاء القواعد كما هي.",
+          "تمنحك كل مباراة من نجمة إلى 3 نجوم، وتظهر أفضل نجومك على بطاقة كل خصم، وهناك قائمة بالإنجازات.",
+          "التحدي اليومي: مباراة واحدة في اليوم بلمسة مختلفة من بين خمسة أنماط.",
+          "إعداد جديد، أنماط لعمى الألوان: نقاط على مربّعاتك وخطوط على مربّعات الخصم.",
+          "تم إصلاح تداخل المؤثرات الصوتية. وأصبح Mirror، أصعب الخصوم، أسهل قليلًا."
+        ],
+        "hi": [
+          "दो लीग में छह AI प्रतिद्वंद्वी, हर एक का अपना अंदाज़। एक को हराइए तो अगला खुल जाता है। आपकी प्रोग्रेस सेव रहती है।",
+          "प्रतिद्वंद्वी अब आने, स्कोर करने, स्कोर खाने, चौंकने, जीतने या हारने पर चेहरे के भावों और छोटी-छोटी हरकतों से प्रतिक्रिया देते हैं।",
+          "कॉम्बो चेन: लगातार 3, 5, 8 और 12 हिट पर आवाज़ और हैप्टिक कंपन चरण-दर-चरण बढ़ते हैं। आख़िरी 20 सेकंड में फ़ीवर मोड स्क्रीन का रंग ज़्यादा गर्म कर देता है, टाइलें उछलती हैं और एक छोटी बीप सुनाई देती है, जबकि नियम वही रहते हैं।",
+          "हर मैच में 1 से 3 स्टार मिलते हैं, आपके सबसे अच्छे स्टार हर प्रतिद्वंद्वी के कार्ड पर दिखते हैं, और उपलब्धियों की एक सूची भी है।",
+          "रोज़ की चुनौती: दिन में एक मैच, पाँच वैरिएंट में से किसी एक ट्विस्ट के साथ।",
+          "नई सेटिंग, कलर-ब्लाइंड पैटर्न: आपकी टाइलों पर बिंदियाँ और विरोधी की टाइलों पर धारियाँ।",
+          "ओवरलैप होती साउंड इफ़ेक्ट वाली गड़बड़ी ठीक की गई। सबसे कठिन प्रतिद्वंद्वी Mirror को थोड़ा आसान किया गया है।"
+        ]
+      }
+    },
+    {
+      "id": "1.0.0-4",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-10-31",
+      "title": {
+        "en": "Build 4",
+        "ko": "빌드 4",
+        "ja": "ビルド 4",
+        "zh": "构建版本 4",
+        "es": "Compilación 4",
+        "pt": "Build 4",
+        "id": "Build 4",
+        "ru": "Сборка 4",
+        "vi": "Bản dựng 4",
+        "fr": "Build 4",
+        "de": "Build 4",
+        "ar": "Build 4",
+        "hi": "बिल्ड 4"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh": "TestFlight 内部测试版本，尚未向公众发布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+      },
+      "notes": {
+        "en": [
+          "A new opening: an intro screen with a short \"pop\" sound, a redesigned menu and a redesigned results screen.",
+          "Score chips on the match screen were tidied up.",
+          "New setting: Sound On/Off (on by default). The intro sound is made for the game."
+        ],
+        "ko": [
+          "새 시작 화면: 짧은 「통」 소리가 나는 인트로, 다시 디자인한 메뉴와 결과 화면이 생겼습니다.",
+          "경기 화면의 점수 칩을 깔끔하게 정리했습니다.",
+          "새 설정 「Sound On/Off」(기본 켜짐). 인트로 소리는 게임을 위해 직접 만들었습니다."
+        ],
+        "ja": [
+          "新しいオープニング：短い「ポン」という音のイントロ画面、デザインを一新したメニューと結果画面。",
+          "試合画面のスコアチップを整理しました。",
+          "新しい設定「サウンド オン/オフ」（初期設定はオン）。イントロの音はこのゲームのために作りました。"
+        ],
+        "zh": [
+          "全新的开场：带有短促“啵”声的开场画面，重新设计的菜单和结果界面。",
+          "整理了比赛界面上的比分标签。",
+          "新增设置：声音开/关（默认开启）。开场音效是专门为这款游戏制作的。"
+        ],
+        "es": [
+          "Una nueva apertura: una pantalla de introducción con un breve sonido de «pop», un menú rediseñado y una pantalla de resultados rediseñada.",
+          "Se ordenaron las fichas de puntuación de la pantalla de partida.",
+          "Nuevo ajuste: Sonido activado/desactivado (activado por defecto). El sonido de la introducción está hecho para el juego."
+        ],
+        "pt": [
+          "Uma nova abertura: uma tela de introdução com um som curto de “pop”, um menu redesenhado e uma tela de resultados redesenhada.",
+          "Os indicadores de pontuação na tela da partida foram organizados.",
+          "Nova configuração: Som ligado/desligado (ligado por padrão). O som da introdução foi feito para o jogo."
+        ],
+        "id": [
+          "Pembukaan baru: layar intro dengan bunyi “pop” singkat, menu yang didesain ulang, dan layar hasil yang didesain ulang.",
+          "Chip skor di layar pertandingan dirapikan.",
+          "Pengaturan baru: Suara Nyala/Mati (nyala secara bawaan). Bunyi intro dibuat khusus untuk game ini."
+        ],
+        "ru": [
+          "Новое начало: заставка с коротким звуком «хлоп», переработанное меню и переработанный экран результатов.",
+          "Аккуратнее оформлены плашки со счётом на экране матча.",
+          "Новая настройка: звук «Вкл./Выкл.» (по умолчанию включён). Звук заставки сделан специально для игры."
+        ],
+        "vi": [
+          "Màn mở đầu mới: màn hình giới thiệu với tiếng “póp” ngắn, menu và màn hình kết quả được thiết kế lại.",
+          "Các thẻ điểm trên màn hình ván đấu đã được sắp xếp gọn gàng hơn.",
+          "Cài đặt mới: Âm thanh Bật/Tắt (mặc định là bật). Âm thanh phần giới thiệu được làm riêng cho trò chơi."
+        ],
+        "fr": [
+          "Une nouvelle ouverture : un écran d'intro avec un bref son de « pop », un menu redessiné et un écran de résultats redessiné.",
+          "Les pastilles de score de l'écran de partie ont été remises en ordre.",
+          "Nouveau réglage : Son activé/désactivé (activé par défaut). Le son de l'intro a été créé pour le jeu."
+        ],
+        "de": [
+          "Ein neuer Auftakt: ein Intro-Bildschirm mit einem kurzen „Plopp“-Ton, ein neu gestaltetes Menü und ein neu gestalteter Ergebnisbildschirm.",
+          "Die Punkte-Chips auf dem Spielbildschirm wurden aufgeräumt.",
+          "Neue Einstellung: Ton ein/aus (standardmäßig an). Der Intro-Ton wurde extra für das Spiel gemacht."
+        ],
+        "ar": [
+          "افتتاحية جديدة: شاشة تمهيدية بصوت “بوب” قصير، وقائمة وشاشة نتائج بتصميم جديد.",
+          "تم ترتيب شارات النتيجة في شاشة المباراة.",
+          "إعداد جديد: الصوت تشغيل/إيقاف (مُشغَّل افتراضيًا). صوت المقدّمة مصنوع خصيصًا للعبة."
+        ],
+        "hi": [
+          "एक नई शुरुआत: छोटी-सी “पॉप” आवाज़ वाली इंट्रो स्क्रीन, नए डिज़ाइन का मेन्यू और नए डिज़ाइन की नतीजों वाली स्क्रीन।",
+          "मैच स्क्रीन पर स्कोर चिप्स को सलीके से सजाया गया।",
+          "नई सेटिंग: आवाज़ चालू/बंद (डिफ़ॉल्ट रूप से चालू)। इंट्रो की आवाज़ इसी गेम के लिए बनाई गई है।"
+        ]
+      }
+    },
+    {
+      "id": "1.0.0-3",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-10-31",
+      "title": {
+        "en": "Build 3",
+        "ko": "빌드 3",
+        "ja": "ビルド 3",
+        "zh": "构建版本 3",
+        "es": "Compilación 3",
+        "pt": "Build 3",
+        "id": "Build 3",
+        "ru": "Сборка 3",
+        "vi": "Bản dựng 3",
+        "fr": "Build 3",
+        "de": "Build 3",
+        "ar": "Build 3",
+        "hi": "बिल्ड 3"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh": "TestFlight 内部测试版本，尚未向公众发布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+      },
+      "notes": {
+        "en": [
+          "A softer, toy-like look: rounded, glossy tiles, a new ball and paddle, and a fresh court. The scoreboard and overlays match.",
+          "Now in nine languages: English, Korean, Japanese, Simplified and Traditional Chinese, Spanish, Brazilian Portuguese, German and French. Longer words no longer spill out of their boxes.",
+          "Your paddle hit now gives a small vibration (lighter for a normal hit, firmer for a smash). You can turn it off in Settings.",
+          "The board now keeps a little margin on both sides and room for its shadow on small phones."
+        ],
+        "ko": [
+          "말랑한 장난감 같은 새 모습: 둥글고 윤기 나는 타일, 새 공과 채, 새 코트. 점수판과 겹침 화면도 같은 느낌으로 바뀌었습니다.",
+          "아홉 개 언어를 지원합니다: 영어, 한국어, 일본어, 중국어 간체·번체, 스페인어, 브라질 포르투갈어, 독일어, 프랑스어. 단어가 긴 언어에서도 글자가 상자 밖으로 넘치지 않습니다.",
+          "내 채로 공을 칠 때 가벼운 진동이 납니다(보통은 약하게, 스매시는 조금 더 세게). 설정에서 끌 수 있습니다.",
+          "작은 폰에서도 판 양옆에 여백이 생기고 아래 그림자 자리가 확보되었습니다."
+        ],
+        "ja": [
+          "やわらかいおもちゃのような新しい見た目：丸くつややかなマス、新しいボールとパドル、新しいコート。スコアボードや重ね表示も同じ雰囲気にそろえました。",
+          "9言語に対応しました：英語、韓国語、日本語、中国語（簡体字・繁体字）、スペイン語、ブラジルポルトガル語、ドイツ語、フランス語。長い単語でも文字が枠からはみ出さなくなりました。",
+          "パドルでボールを打つと軽く振動します（通常は弱く、スマッシュはやや強く）。設定でオフにできます。",
+          "小さいスマートフォンでも、盤面の左右に少し余白があり、下に影の分のスペースを確保しました。"
+        ],
+        "zh": [
+          "更柔和、像玩具一样的新外观：圆润有光泽的格子、全新的球和球拍，以及焕然一新的球场。计分板和浮层也随之统一。",
+          "现已支持九种语言：英语、韩语、日语、简体中文和繁体中文、西班牙语、巴西葡萄牙语、德语和法语。较长的词不会再溢出框外。",
+          "用球拍击球时会有轻微震动（普通击球较轻，扣杀较强）。可以在设置中关闭。",
+          "在小屏手机上，棋盘两侧现在会留出一点边距，下方也为阴影留出了空间。"
+        ],
+        "es": [
+          "Un aspecto más suave, como de juguete: casillas redondeadas y brillantes, una pelota y una pala nuevas, y una pista renovada. El marcador y las capas encajan con el nuevo estilo.",
+          "Ahora en nueve idiomas: inglés, coreano, japonés, chino simplificado y tradicional, español, portugués de Brasil, alemán y francés. Las palabras largas ya no se salen de sus cajas.",
+          "Ahora, al golpear con la pala, notas una pequeña vibración (más ligera en un golpe normal, más firme en un remate). Puedes desactivarla en Ajustes.",
+          "El tablero ahora deja un pequeño margen a ambos lados y espacio para su sombra en teléfonos pequeños."
+        ],
+        "pt": [
+          "Um visual mais suave, parecido com um brinquedo: quadrados arredondados e brilhantes, uma bola e uma raquete novas e uma quadra renovada. O placar e as sobreposições combinam com o novo estilo.",
+          "Agora em nove idiomas: inglês, coreano, japonês, chinês simplificado e tradicional, espanhol, português do Brasil, alemão e francês. Palavras mais longas não ultrapassam mais as caixas.",
+          "Agora, ao acertar a bola com a raquete, você sente uma pequena vibração (mais leve em um golpe normal, mais firme em uma cortada). Você pode desativá-la em Configurações.",
+          "O tabuleiro agora mantém uma pequena margem nos dois lados e espaço para a sombra em celulares pequenos."
+        ],
+        "id": [
+          "Tampilan baru yang lebih lembut dan seperti mainan: petak yang membulat dan mengilap, bola dan dayung baru, serta lapangan yang segar. Papan skor dan tampilan lapisan ikut disesuaikan.",
+          "Sekarang tersedia dalam sembilan bahasa: Inggris, Korea, Jepang, Tionghoa Sederhana dan Tradisional, Spanyol, Portugis Brasil, Jerman, dan Prancis. Kata-kata yang lebih panjang tidak lagi keluar dari kotaknya.",
+          "Saat dayungmu memukul bola, kini ada getaran kecil (lebih ringan untuk pukulan biasa, lebih kuat untuk smash). Kamu bisa mematikannya di Pengaturan.",
+          "Papan kini punya sedikit margin di kedua sisi dan ruang untuk bayangannya di ponsel berukuran kecil."
+        ],
+        "ru": [
+          "Более мягкий вид, как у игрушки: скруглённые глянцевые клетки, новые мяч и ракетка и обновлённый корт. Табло и оверлеи выдержаны в том же стиле.",
+          "Теперь игра на девяти языках: английском, корейском, японском, китайском (упрощённом и традиционном), испанском, португальском (бразильском), немецком и французском. Длинные слова больше не вылезают за рамки.",
+          "Удар ракеткой теперь даёт лёгкую вибрацию (слабее при обычном ударе, сильнее при смэше). Её можно отключить в настройках.",
+          "На маленьких телефонах у поля теперь есть небольшие отступы с обеих сторон и место для тени."
+        ],
+        "vi": [
+          "Diện mạo mềm mại, giống đồ chơi hơn: các ô bo tròn bóng bẩy, bóng và vợt mới, cùng sân đấu mới. Bảng điểm và các lớp hiển thị cũng được làm cho hợp.",
+          "Giờ có chín ngôn ngữ: tiếng Anh, Hàn, Nhật, Trung giản thể và phồn thể, Tây Ban Nha, Bồ Đào Nha (Brazil), Đức và Pháp. Những từ dài không còn tràn ra khỏi khung.",
+          "Khi vợt đánh trúng bóng, giờ có rung nhẹ (nhẹ hơn với cú đánh thường, mạnh hơn với cú đập). Bạn có thể tắt trong Cài đặt.",
+          "Bàn chơi giờ chừa một chút lề hai bên và chỗ cho bóng đổ trên điện thoại nhỏ."
+        ],
+        "fr": [
+          "Un look plus doux, façon jouet : des cases arrondies et brillantes, une nouvelle balle et une nouvelle raquette, et un terrain tout frais. Le tableau d'affichage et les surcouches suivent le même style.",
+          "Désormais en neuf langues : anglais, coréen, japonais, chinois simplifié et traditionnel, espagnol, portugais du Brésil, allemand et français. Les mots plus longs ne débordent plus de leurs cadres.",
+          "Votre coup de raquette déclenche maintenant une petite vibration (plus légère pour un coup normal, plus ferme pour un smash). Vous pouvez la désactiver dans Réglages.",
+          "Le plateau garde maintenant une petite marge de chaque côté et de la place pour son ombre sur les petits téléphones."
+        ],
+        "de": [
+          "Ein weicheres, spielzeugartiges Aussehen: abgerundete, glänzende Felder, ein neuer Ball und Schläger und ein frischer Court. Anzeigetafel und Einblendungen passen dazu.",
+          "Jetzt in neun Sprachen: Englisch, Koreanisch, Japanisch, vereinfachtes und traditionelles Chinesisch, Spanisch, brasilianisches Portugiesisch, Deutsch und Französisch. Längere Wörter laufen nicht mehr aus ihren Kästen heraus.",
+          "Dein Schlägertreffer löst jetzt eine kleine Vibration aus (leichter bei einem normalen Schlag, kräftiger bei einem Smash). Du kannst sie in den Einstellungen ausschalten.",
+          "Das Spielfeld lässt auf kleinen Smartphones jetzt links und rechts etwas Rand und Platz für seinen Schatten."
+        ],
+        "ar": [
+          "مظهر أنعم يشبه الألعاب: مربّعات مستديرة لامعة، وكرة ومضرب جديدان، وملعب منعش. تتناسب لوحة النتائج والطبقات المعروضة مع المظهر الجديد.",
+          "أصبحت اللعبة متوفرة بتسع لغات: الإنجليزية والكورية واليابانية والصينية المبسّطة والتقليدية والإسبانية والبرتغالية البرازيلية والألمانية والفرنسية. ولم تعد الكلمات الأطول تتجاوز حدود صناديقها.",
+          "يصدر الآن اهتزاز خفيف عند ضرب الكرة بالمضرب (أخف في الضربة العادية وأقوى في الضربة الساحقة). يمكنك إيقافه من الإعدادات.",
+          "تترك اللوحة الآن هامشًا صغيرًا على الجانبين ومساحة لظلّها على الهواتف الصغيرة."
+        ],
+        "hi": [
+          "ज़्यादा नरम, खिलौने जैसा नया रूप: गोल और चमकदार टाइलें, नई गेंद और पैडल, और एक ताज़ा कोर्ट। स्कोरबोर्ड और ओवरले भी इसी अंदाज़ में हैं।",
+          "अब नौ भाषाओं में: अंग्रेज़ी, कोरियाई, जापानी, सरल और पारंपरिक चीनी, स्पैनिश, ब्राज़ीली पुर्तगाली, जर्मन और फ़्रेंच। लंबे शब्द अब अपने बॉक्स से बाहर नहीं निकलते।",
+          "पैडल से गेंद लगने पर अब हल्का कंपन होता है (सामान्य शॉट पर हल्का, स्मैश पर थोड़ा तेज़)। इसे सेटिंग्स में बंद किया जा सकता है।",
+          "छोटे फ़ोन पर बोर्ड के दोनों ओर अब थोड़ा मार्जिन और उसकी परछाईं के लिए जगह रहती है।"
+        ]
+      }
+    },
+    {
+      "id": "1.0.0-2",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-10-31",
+      "title": {
+        "en": "Build 2",
+        "ko": "빌드 2",
+        "ja": "ビルド 2",
+        "zh": "构建版本 2",
+        "es": "Compilación 2",
+        "pt": "Build 2",
+        "id": "Build 2",
+        "ru": "Сборка 2",
+        "vi": "Bản dựng 2",
+        "fr": "Build 2",
+        "de": "Build 2",
+        "ar": "Build 2",
+        "hi": "बिल्ड 2"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh": "TestFlight 内部测试版本，尚未向公众发布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+      },
+      "notes": {
+        "en": [
+          "Claimball now has its app icon.",
+          "A pause button during a match (also Esc or P on a keyboard) with Resume, Restart and Quit.",
+          "Fixed items overlapping on some screens."
+        ],
+        "ko": [
+          "클레임볼 앱 아이콘이 생겼습니다.",
+          "경기 중 일시정지 버튼이 생겼습니다(키보드는 Esc 또는 P). 계속하기·다시 하기·나가기를 고를 수 있습니다.",
+          "일부 화면에서 요소가 겹치던 문제를 고쳤습니다."
+        ],
+        "ja": [
+          "Claimball にアプリアイコンができました。",
+          "試合中の一時停止ボタンを追加しました（キーボードでは Esc または P）。再開・やり直し・やめるを選べます。",
+          "一部の画面で要素が重なっていた問題を修正しました。"
+        ],
+        "zh": [
+          "Claimball 现在有了应用图标。",
+          "比赛中新增暂停按钮（键盘上也可按 Esc 或 P），可选择继续、重新开始或退出。",
+          "修复了部分界面中元素重叠的问题。"
+        ],
+        "es": [
+          "Claimball ya tiene su icono de app.",
+          "Un botón de pausa durante la partida (también Esc o P en el teclado) con Seguir, Reiniciar y Salir.",
+          "Se corrigió que algunos elementos se superpusieran en ciertas pantallas."
+        ],
+        "pt": [
+          "O Claimball agora tem o seu ícone de app.",
+          "Um botão de pausa durante a partida (também Esc ou P no teclado) com Continuar, Reiniciar e Sair.",
+          "Corrigimos itens que se sobrepunham em algumas telas."
+        ],
+        "id": [
+          "Claimball kini punya ikon aplikasi.",
+          "Tombol jeda saat pertandingan (di keyboard juga bisa dengan Esc atau P) dengan pilihan Lanjutkan, Ulangi, dan Keluar.",
+          "Memperbaiki elemen yang saling tumpang tindih di beberapa layar."
+        ],
+        "ru": [
+          "У Claimball появилась иконка приложения.",
+          "Во время матча появилась кнопка паузы (на клавиатуре также Esc или P) с пунктами «Продолжить», «Заново» и «Выйти».",
+          "Исправлено наложение элементов друг на друга на некоторых экранах."
+        ],
+        "vi": [
+          "Claimball giờ đã có biểu tượng ứng dụng.",
+          "Có nút tạm dừng trong ván đấu (trên bàn phím là Esc hoặc P) với các lựa chọn Tiếp tục, Chơi lại và Thoát.",
+          "Đã sửa lỗi các mục chồng lên nhau ở một số màn hình."
+        ],
+        "fr": [
+          "Claimball a maintenant son icône d'application.",
+          "Un bouton pause pendant la partie (aussi Échap ou P au clavier) avec Reprendre, Recommencer et Quitter.",
+          "Correction d'éléments qui se chevauchaient sur certains écrans."
+        ],
+        "de": [
+          "Claimball hat jetzt sein App-Symbol.",
+          "Eine Pause-Taste während der Partie (auf der Tastatur auch Esc oder P) mit Weiter, Neustart und Beenden.",
+          "Überlappende Elemente auf einigen Bildschirmen wurden behoben."
+        ],
+        "ar": [
+          "أصبح لـ Claimball الآن أيقونة تطبيق.",
+          "زر إيقاف مؤقت أثناء المباراة (وكذلك Esc أو P على لوحة المفاتيح) مع متابعة وإعادة وخروج.",
+          "تم إصلاح تداخل العناصر في بعض الشاشات."
+        ],
+        "hi": [
+          "Claimball को अब अपना ऐप आइकन मिल गया है।",
+          "मैच के दौरान पॉज़ बटन (कीबोर्ड पर Esc या P भी) जिसमें जारी रखें, फिर से शुरू और बाहर निकलें के विकल्प हैं।",
+          "कुछ स्क्रीन पर चीज़ों के एक-दूसरे पर चढ़ जाने की गड़बड़ी ठीक की गई।"
+        ]
+      }
+    },
+    {
+      "id": "1.0.0-1",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-10-31",
+      "title": {
+        "en": "Build 1",
+        "ko": "빌드 1",
+        "ja": "ビルド 1",
+        "zh": "构建版本 1",
+        "es": "Compilación 1",
+        "pt": "Build 1",
+        "id": "Build 1",
+        "ru": "Сборка 1",
+        "vi": "Bản dựng 1",
+        "fr": "Build 1",
+        "de": "Build 1",
+        "ar": "Build 1",
+        "hi": "बिल्ड 1"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh": "TestFlight 内部测试版本，尚未向公众发布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+      },
+      "notes": {
+        "en": [
+          "The first playable build: a 90-second match on a grid of tiles. Hit the ball to paint tiles your color, and be first to claim 30 or hold more tiles when time runs out.",
+          "A marker shows where the ball will land. Fill the smash gauge by keeping the rally going to paint a wide strip at once.",
+          "A tie goes to sudden death: the next point wins. If a ball is still in the air at 90 seconds, the match waits for it to land.",
+          "The game pauses automatically when you leave the app. Drag, keyboard and touch controls are supported."
+        ],
+        "ko": [
+          "처음으로 플레이할 수 있는 빌드: 타일 판 위에서 90초 동안 겨루는 한 판입니다. 공을 쳐서 타일을 내 색으로 칠하고, 먼저 30칸을 차지하거나 시간이 끝났을 때 더 많이 차지하면 이깁니다.",
+          "공이 떨어질 자리를 표시해 줍니다. 랠리를 이어서 스매시 게이지를 채우면 한 번에 가로로 넓게 칠할 수 있습니다.",
+          "동점이면 서든 데스: 다음 점수를 내는 쪽이 이깁니다. 90초가 끝나는 순간 공이 날고 있으면 착지할 때까지 기다린 뒤 판정합니다.",
+          "앱에서 나가면 자동으로 일시정지됩니다. 드래그, 키보드, 터치로 조작할 수 있습니다."
+        ],
+        "ja": [
+          "最初に遊べるビルド：マスの盤面で90秒間競う1試合です。ボールを打ってマスを自分の色に塗り、先に30マスを取るか、時間切れ時により多く持っていれば勝ちです。",
+          "ボールが落ちる場所に目印が出ます。ラリーを続けてスマッシュゲージをためると、一度に横へ広く塗れます。",
+          "同点ならサドンデス：次に得点した側の勝ちです。90秒の時点でボールが飛んでいたら、着地するまで待ってから判定します。",
+          "アプリから離れると自動で一時停止します。ドラッグ、キーボード、タッチで操作できます。"
+        ],
+        "zh": [
+          "首个可玩的版本：在方格棋盘上进行 90 秒的一局。击球把格子涂成你的颜色，先占满 30 格，或在时间结束时占得更多者获胜。",
+          "会标出球将要落下的位置。保持回合不断来填满扣杀槽，就能一次横向涂出一大片。",
+          "平局进入加时决胜：下一分得分者获胜。如果 90 秒时球还在空中，会等球落地后再判定。",
+          "离开应用时游戏会自动暂停。支持拖动、键盘和触控操作。"
+        ],
+        "es": [
+          "La primera versión jugable: una partida de 90 segundos sobre una cuadrícula de casillas. Golpea la pelota para pintar casillas de tu color y sé el primero en conquistar 30, o tener más casillas cuando se acabe el tiempo.",
+          "Una marca indica dónde caerá la pelota. Llena el medidor de remate manteniendo el peloteo para pintar de una vez una franja ancha.",
+          "Un empate se decide en muerte súbita: gana el siguiente punto. Si a los 90 segundos la pelota sigue en el aire, la partida espera a que caiga.",
+          "El juego se pausa automáticamente al salir de la app. Admite control con arrastre, teclado y pantalla táctil."
+        ],
+        "pt": [
+          "A primeira versão jogável: uma partida de 90 segundos em uma grade de quadrados. Acerte a bola para pintar quadrados com a sua cor e seja o primeiro a conquistar 30, ou tenha mais quadrados quando o tempo acabar.",
+          "Uma marca mostra onde a bola vai cair. Encha o medidor de cortada mantendo a troca de bolas para pintar uma faixa larga de uma só vez.",
+          "Um empate vai para a morte súbita: vence quem fizer o próximo ponto. Se a bola ainda estiver no ar aos 90 segundos, a partida espera ela cair.",
+          "O jogo pausa automaticamente quando você sai do app. Há suporte a controle por arrastar, teclado e toque."
+        ],
+        "id": [
+          "Versi pertama yang bisa dimainkan: satu pertandingan 90 detik di atas papan petak. Pukul bola untuk mewarnai petak dengan warnamu, dan jadilah yang pertama merebut 30 petak atau yang memegang lebih banyak petak saat waktu habis.",
+          "Sebuah penanda menunjukkan di mana bola akan mendarat. Isi meter smash dengan menjaga reli tetap berjalan untuk mewarnai satu jalur lebar sekaligus.",
+          "Jika seri, pertandingan masuk sudden death: poin berikutnya menentukan pemenang. Jika bola masih melayang di detik ke-90, pertandingan menunggu bola itu mendarat.",
+          "Game otomatis berhenti sejenak saat kamu keluar dari aplikasi. Kontrol dengan geser, keyboard, dan sentuhan didukung."
+        ],
+        "ru": [
+          "Первая версия, в которую можно играть: матч на 90 секунд на сетке из клеток. Бейте по мячу, чтобы закрашивать клетки своим цветом, и первым займите 30 клеток или имейте больше клеток к концу времени.",
+          "Метка показывает, куда упадёт мяч. Набирайте шкалу смэша, не прерывая розыгрыш, чтобы закрасить сразу широкую полосу.",
+          "Ничья решается «золотым мячом» (внезапной смертью): побеждает тот, кто выиграет следующее очко. Если на 90-й секунде мяч ещё в воздухе, матч ждёт, пока он упадёт.",
+          "Игра автоматически ставится на паузу, когда вы выходите из приложения. Поддерживается управление перетаскиванием, клавиатурой и касанием."
+        ],
+        "vi": [
+          "Bản chơi được đầu tiên: một ván 90 giây trên lưới ô. Đánh bóng để tô ô bằng màu của bạn, và là người đầu tiên chiếm 30 ô hoặc giữ nhiều ô hơn khi hết giờ.",
+          "Một dấu cho biết bóng sẽ rơi ở đâu. Hãy giữ nhịp đánh qua lại để làm đầy thanh đập bóng, rồi tô một dải rộng cùng lúc.",
+          "Nếu hòa, ván đấu chuyển sang quyết định bất ngờ (sudden death): ai ghi điểm tiếp theo sẽ thắng. Nếu đến giây thứ 90 bóng vẫn còn trên không, ván đấu sẽ chờ bóng rơi xuống.",
+          "Trò chơi tự động tạm dừng khi bạn rời khỏi ứng dụng. Hỗ trợ điều khiển bằng kéo, bàn phím và cảm ứng."
+        ],
+        "fr": [
+          "La première version jouable : une partie de 90 secondes sur une grille de cases. Frappez la balle pour peindre des cases à votre couleur, et soyez le premier à en conquérir 30, ou celui qui en détient le plus quand le temps est écoulé.",
+          "Un repère indique où la balle va atterrir. Remplissez la jauge de smash en prolongeant l'échange pour peindre d'un coup une large bande.",
+          "En cas d'égalité, c'est la mort subite : le prochain point l'emporte. Si une balle est encore en l'air à 90 secondes, la partie attend qu'elle retombe.",
+          "Le jeu se met automatiquement en pause quand vous quittez l'application. Le glissement, le clavier et le toucher sont pris en charge."
+        ],
+        "de": [
+          "Die erste spielbare Version: eine Partie von 90 Sekunden auf einem Raster aus Feldern. Schlage den Ball, um Felder in deiner Farbe zu färben, und sei der Erste mit 30 Feldern oder halte mehr Felder, wenn die Zeit abläuft.",
+          "Eine Markierung zeigt, wo der Ball landen wird. Fülle die Smash-Leiste, indem du den Ballwechsel am Laufen hältst, und färbe so auf einmal einen breiten Streifen.",
+          "Bei Gleichstand gibt es Sudden Death: Der nächste Punkt gewinnt. Ist der Ball nach 90 Sekunden noch in der Luft, wartet die Partie, bis er gelandet ist.",
+          "Das Spiel pausiert automatisch, wenn du die App verlässt. Steuerung per Ziehen, Tastatur und Touch wird unterstützt."
+        ],
+        "ar": [
+          "أول نسخة قابلة للعب: مباراة مدتها 90 ثانية على شبكة من المربّعات. اضرب الكرة لتلوّن المربّعات بلونك، وكن أول من يستولي على 30 مربّعًا أو صاحب العدد الأكبر عند انتهاء الوقت.",
+          "تُظهر علامةٌ المكان الذي ستسقط فيه الكرة. املأ مقياس الضربة الساحقة بإبقاء التبادل مستمرًا لتلوّن شريطًا عريضًا دفعة واحدة.",
+          "يؤدي التعادل إلى الموت المفاجئ: تفوز النقطة التالية. وإذا كانت الكرة لا تزال في الهواء عند الثانية 90، تنتظر المباراة حتى تسقط.",
+          "تتوقف اللعبة مؤقتًا تلقائيًا عند مغادرة التطبيق. ويدعم التحكم بالسحب ولوحة المفاتيح واللمس."
+        ],
+        "hi": [
+          "पहला खेलने लायक बिल्ड: टाइलों की ग्रिड पर 90 सेकंड का एक मैच। गेंद मारकर टाइलों को अपने रंग में रंगिए, और 30 टाइलें सबसे पहले जीतिए, या समय ख़त्म होने पर ज़्यादा टाइलें अपने पास रखिए।",
+          "एक निशान दिखाता है कि गेंद कहाँ गिरेगी। रैली चलाए रखकर स्मैश गेज भरिए, तो एक साथ चौड़ी पट्टी रंग जाती है।",
+          "बराबरी होने पर मैच सडन डेथ में जाता है: अगला पॉइंट जीतने वाला जीतता है। अगर 90 सेकंड पर गेंद हवा में है, तो मैच उसके गिरने तक रुकता है।",
+          "ऐप से बाहर जाते ही गेम अपने-आप रुक जाता है। ड्रैग, कीबोर्ड और टच कंट्रोल चलते हैं।"
+        ]
+      }
+    }
+  ]
+}

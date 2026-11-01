@@ -57,7 +57,7 @@
   "cat_art": "Art",
   "cat_design": "Design",
   "releases_title": "Release notes",
-  "releases_desc": "What changed in each version of Claimball. Claimball has not been released yet, so there are no notes for now.",
+  "releases_desc": "What changed in each build of Claimball. Claimball is still in testing and has not been released to the public yet.",
   "releases_empty": "Claimball is coming soon to iOS and Android. Release notes will appear here once the first version is out.",
   "rel_status_prep": "In preparation",
   "rel_status_beta": "Beta",
