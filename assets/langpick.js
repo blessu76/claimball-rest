@@ -1,11 +1,13 @@
-/* Claimball: language of "/" (inlined into the root home page only; build_site fills in the list).
+/* Claimball: language of every page without a language prefix ("/", /about/, /releases/, /journal/..., never /xx/ and never 404.html).
+   Inlined by build_site, which fills in S (all site languages) and A (the languages that really have THIS page).
    Order: ?lang=xx in the URL > the language the visitor picked on the site (localStorage "cb-lang") > first match in
    navigator.languages (exact tag, then its first part: ko-KR -> ko, zh-TW -> zh) > stay on the English root.
-   ?lang=xx (the company-wide hand-off from play.ipe.rest): a supported language is saved and "/" moves to "/xx/"
-   (en stays on the root, the query is cleaned); an unsupported one is ignored and the later steps decide.
+   Redirect only when the language is not English and A has it; otherwise the page stays (no fallback to the next browser language).
+   ?lang=xx (the company-wide hand-off from play.ipe.rest): a supported language is saved and the page moves to "/xx/<same path>"
+   (en stays on the page, the query is cleaned); an unsupported one is ignored and the later steps decide. Other query params and #hash are kept.
    No server redirect: crawlers see "/" as English. */
 (function(){
-  var S=/*SUPPORTED*/[];
+  var S=/*SUPPORTED*/[],A=/*AVAILABLE*/[];
   /* "ko-KR" -> "ko", "zh_TW" -> "zh" ... first supported match for a language tag, or '' */
   function pick(c){
     c=String(c||'').toLowerCase().replace(/_/g,'-');
@@ -16,7 +18,8 @@
     return S.indexOf(b)>=0?b:'';
   }
   try{
-    if(location.pathname!=='/')return;
+    var seg=location.pathname.split('/')[1];
+    if(seg&&S.indexOf(seg.toLowerCase())>=0)return;
     var to='',saved='',q=location.search||'',keep='',hasLang=false;
     var parts=q.replace(/^\?/,'').split('&').filter(Boolean),rest=[],want='';
     for(var j=0;j<parts.length;j++){
@@ -28,7 +31,7 @@
     if(want){
       try{localStorage.setItem('cb-lang',want)}catch(e){}
       if(want==='en'){
-        if(hasLang&&history.replaceState)history.replaceState(null,'','/'+keep+location.hash);
+        if(hasLang&&history.replaceState)history.replaceState(null,'',location.pathname+keep+location.hash);
         return;
       }
       to=want;
@@ -40,7 +43,8 @@
         for(var i=0;i<L.length&&!to;i++)to=pick(L[i]);
       }
     }
-    if(to&&to!=='en')location.replace('/'+to+'/'+keep+location.hash);
+    if(to&&to!=='en'&&A.indexOf(to)>=0)location.replace('/'+to+location.pathname+keep+location.hash);
+    else if(want&&history.replaceState)history.replaceState(null,'',location.pathname+keep+location.hash);
   }catch(e){}
 })();
 

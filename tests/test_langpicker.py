@@ -45,7 +45,7 @@ class Picker(unittest.TestCase):
     def test_choice_is_remembered_for_each_language(self):
         """click a language -> claimball.js stores it -> langpick.js on '/' goes to it (en + ko)."""
         js = (REPO / "assets" / "claimball.js").read_text(encoding="utf-8")
-        pick = (REPO / "assets" / "langpick.js").read_text(encoding="utf-8").replace("/*SUPPORTED*/[]", json.dumps(list(bs.LANGS)))
+        pick = (REPO / "assets" / "langpick.js").read_text(encoding="utf-8").replace("/*SUPPORTED*/[]", json.dumps(list(bs.LANGS))).replace("/*AVAILABLE*/[]", json.dumps(LANG_DIRS))
         prog = r"""
 const store={};let hrefs=[];
 function run(src,pathname,navLangs){
@@ -82,8 +82,11 @@ class RootLangParam(unittest.TestCase):
     KEY = "cb-lang"
 
     @classmethod
-    def run_root(cls, search="", saved=None, nav=("en-US",), hash_="", pathname="/", langs=None):
-        pick = (REPO / "assets" / "langpick.js").read_text(encoding="utf-8").replace("/*SUPPORTED*/[]", json.dumps(list(langs or bs.LANGS)))
+    def run_root(cls, search="", saved=None, nav=("en-US",), hash_="", pathname="/", langs=None, available=None, script=None):
+        langs = list(langs or bs.LANGS)
+        avail = [l for l in langs if l != "en"] if available is None else list(available)
+        pick = script or (REPO / "assets" / "langpick.js").read_text(encoding="utf-8").replace("/*SUPPORTED*/[]", json.dumps(langs)).replace(
+            "/*AVAILABLE*/[]", json.dumps(avail))
         prog = r"""
 const store=%s;let to=null,replaced=null;const nav=%s;
 const ctx={localStorage:{getItem:k=>store[k]===undefined?null:store[k],setItem:(k,v)=>{store[k]=String(v)}},
@@ -145,17 +148,61 @@ console.log(JSON.stringify({to,replaced,store}));
         r = self.run_root(nav=("th-TH", "it"))
         self.assertEqual((r["to"], r["store"]), (None, {}))
 
-    def test_only_the_root_is_handled(self):
-        self.assertIsNone(self.run_root("?lang=ko", pathname="/about/")["to"])
+    def test_inner_pages_move_to_the_same_page(self):
+        self.assertEqual(self.run_root("?lang=ko", pathname="/about/")["to"], "/ko/about/")
+        r = self.run_root("?x=1&lang=ja", pathname="/journal/", hash_="#h")
+        self.assertEqual(r["to"], "/ja/journal/?x=1#h")
+        self.assertEqual(self.run_root(saved="de", pathname="/releases/")["to"], "/de/releases/")
+        self.assertEqual(self.run_root(nav=("vi-VN",), pathname="/support/")["to"], "/vi/support/")
+
+    def test_never_runs_under_a_language_prefix(self):
+        for path in ("/ko/", "/ko/about/", "/en/", "/KO/journal/", "/zh/"):
+            r = self.run_root("?lang=de", saved="ja", nav=("fr-FR",), pathname=path)
+            self.assertEqual((r["to"], r["store"], r["replaced"]), (None, {"cb-lang": "ja"}, None), path)
+
+    def test_stays_when_the_page_has_no_counterpart(self):
+        # /journal/post/ has only ko and ja: de is a supported language but the visitor stays (no fallback to the next browser language)
+        kw = dict(pathname="/journal/post/", available=["ko", "ja"])
+        self.assertEqual(self.run_root(nav=("ko-KR",), **kw)["to"], "/ko/journal/post/")
+        self.assertIsNone(self.run_root(nav=("de-DE", "ko"), **kw)["to"])
+        r = self.run_root("?lang=de&a=1", **kw)
+        self.assertEqual((r["to"], r["store"][self.KEY], r["replaced"]), (None, "de", "/journal/post/?a=1"))
+        self.assertIsNone(self.run_root(saved="de", nav=("ko-KR",), **kw)["to"])
 
     def test_adding_a_language_needs_only_the_list(self):
         self.assertEqual(self.run_root("?lang=th", langs=["en", "ko", "th"])["to"], "/th/")
 
-    def test_inlined_on_the_root_page_only(self):
-        root = (REPO / "index.html").read_text(encoding="utf-8")
-        self.assertIn("lang", root.split("</head>")[0])
-        self.assertIn("history.replaceState", root.split("</head>")[0])
-        self.assertNotIn("history.replaceState", (REPO / "ko" / "index.html").read_text(encoding="utf-8"))
+    @staticmethod
+    def built_script(f):
+        m = re.search(r"<script>(\(function\(\)\{var S=.*?)</script>", f.read_text(encoding="utf-8"), re.S)
+        return m.group(1) if m else None
+
+    def test_inlined_on_every_prefixless_page_and_nowhere_else(self):
+        for f in REPO.rglob("*.html"):
+            rel = f.relative_to(REPO).parts
+            if rel[0] in ("tests", "scripts", "docs", "ops", "content", "assets"):
+                continue
+            has = self.built_script(f) is not None
+            self.assertEqual(has, rel[0] not in LANG_DIRS and rel[0] != "404.html", str(f.relative_to(REPO)))
+        root = self.built_script(REPO / "index.html")
+        self.assertIn("history.replaceState", root)
+        self.assertNotIn("/*AVAILABLE*/", root)
+        self.assertNotIn(bs.LANGPICK_MARK, "".join(f.read_text(encoding="utf-8") for f in REPO.rglob("*.html") if "tests" not in f.parts))
+
+    def test_each_page_lists_exactly_the_languages_that_have_it(self):
+        for f in REPO.rglob("index.html"):
+            rel = f.relative_to(REPO)
+            if rel.parts[0] in LANG_DIRS + ["tests", "scripts", "docs", "ops", "content", "assets"]:
+                continue
+            have = [l for l in bs.LANGS if l != "en" and (REPO / l / rel).exists()]
+            a = json.loads(re.search(r"A=(\[[^\]]*\])", self.built_script(f)).group(1))
+            self.assertEqual(a, have, str(rel))
+
+    def test_built_script_on_an_inner_page_redirects(self):
+        for rel, path in (("about/index.html", "/about/"), ("releases/index.html", "/releases/"), ("journal/index.html", "/journal/")):
+            script = self.built_script(REPO / rel)
+            self.assertEqual(self.run_root(nav=("ko-KR",), pathname=path, script=script)["to"], "/ko%s" % path, rel)
+            self.assertIsNone(self.run_root(nav=("en-US",), pathname=path, script=script)["to"], rel)
 
 
 if __name__ == "__main__":

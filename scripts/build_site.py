@@ -475,11 +475,15 @@ def queue_errors(root):
 
 
 # ---------------------------------------------------------------- html pieces
-def langpick_script(root, langs):
-    """The root page's language picker (assets/langpick.js) inlined with the languages this build has."""
+LANGPICK_MARK = "<!--LANGPICK-->"
+
+
+def langpick_script(root, langs, available):
+    """The language picker (assets/langpick.js) inlined with the languages this build has (S) and the ones that have this page (A)."""
     src = (Path(root) / "assets" / "langpick.js").read_text(encoding="utf-8")
     src = re.sub(r"/\*.*?\*/", "", src, count=1, flags=re.S)
-    return "<script>%s</script>" % re.sub(r"\s*\n\s*", "", src.replace("/*SUPPORTED*/[]", json.dumps(list(langs)))).strip()
+    return "<script>%s</script>" % re.sub(r"\s*\n\s*", "", src.replace("/*SUPPORTED*/[]", json.dumps(list(langs))).replace(
+        "/*AVAILABLE*/[]", json.dumps([l for l in available if l != "en"]))).strip()
 
 
 class Ctx:
@@ -538,8 +542,8 @@ def render(ctx, lang, *, path, title, desc, body, graph, alt, updated, og_type="
     head.append('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>')
     head.append('<link rel="stylesheet" href="%s">' % FONTS_URL)
     head.append('<link rel="stylesheet" href="/assets/claimball.css?v=%s">' % ASSET_V)
-    if path == "/":
-        head.append(langpick_script(ctx.root, ctx.langs))
+    if lang == "en" and path != "/404.html":  # every page without a language prefix (build_all fills in the list)
+        head.append(LANGPICK_MARK)
     head.append('<script type="application/ld+json">%s</script>' % json.dumps({"@context": "https://schema.org", "@graph": graph},
                                                                             ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"))
     switch = "".join('<a href="%s" hreflang="%s" lang="%s"%s aria-label="%s">%s</a>' % (
@@ -941,6 +945,10 @@ def build_all(ctx):
     for l in MAIN_LANGS:
         if l in ctx.langs:
             files[path_feed(l).lstrip("/")] = build_feed(ctx, l)
+    for rel, text in files.items():  # which languages really have this page: decided from the finished file set
+        if LANGPICK_MARK in text:
+            have = [l for l in ctx.langs if l != "en" and "%s/%s" % (l, rel) in files]
+            files[rel] = text.replace(LANGPICK_MARK, langpick_script(ctx.root, ctx.langs, have))
     return files
 
 
