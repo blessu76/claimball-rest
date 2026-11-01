@@ -75,6 +75,59 @@ console.log(JSON.stringify(out));
             self.assertEqual(to, None if l == "en" else "/%s/" % l, l)
 
 
+    def test_english_user_links_carry_lang_en_but_metadata_does_not(self):
+        """From a non-English page every user link to the English root pins ?lang=en (blocked storage / middle click would otherwise bounce
+        back to the browser language); on English pages nothing changes; hreflang / canonical / og:url / x-default never carry it."""
+        seen = 0
+        for lang, f, h in pages():
+            head = re.search(r"<head>.*?</head>", h, re.S).group(0)
+            self.assertNotIn("?lang=", head, f)
+            menu = re.search(r'<span class="langsw".*?</span>', h, re.S).group(0)
+            fm = re.search(r'<p class="foot-langs".*?</p>', h, re.S)
+            others = re.search(r'<aside class="langs">.*?</aside>', h, re.S)
+            for block in (menu, fm.group(0) if fm else "", others.group(0) if others else ""):
+                for href, l in re.findall(r'<a href="([^"]*)" hreflang="(\w+)"', block):
+                    if l == "en" and lang != "en":
+                        seen += 1
+                        self.assertTrue(href.endswith("?lang=en"), (f, href))
+                        self.assertEqual(href.count("?"), 1, (f, href))
+                    else:
+                        self.assertNotIn("?lang=", href, (f, href))
+            # AI-translation "read the original" link: only the English original needs the pin
+            note = re.search(r'<p class="ai-note">.*?<a href="([^"]*)"', h, re.S)
+            if note:
+                self.assertEqual("?lang=en" in note.group(1), not note.group(1).startswith("/ko/"), (f, note.group(1)))
+            # no other link on any page may carry ?lang= except the English pin
+            for href in re.findall(r'href="([^"]*\?lang=[^"]*)"', h):
+                self.assertTrue(href.endswith("?lang=en") and lang != "en", (f, href))
+        self.assertGreater(seen, 100)
+
+    def test_sitemap_and_llms_have_no_lang_param(self):
+        for name in ("sitemap.xml", "llms.txt"):
+            self.assertNotIn("?lang=", (REPO / name).read_text(encoding="utf-8"), name)
+
+    @unittest.skipUnless(shutil.which("node"), "node required")
+    def test_en_link_from_ja_stays_english_without_storage(self):
+        """/ja/releases/ -> EN link -> langpick.js on /releases/?lang=en with navigator.languages=['ja'] and localStorage throwing: no redirect."""
+        h = (REPO / "ja/releases/index.html").read_text(encoding="utf-8")
+        href = re.search(r'<a href="([^"]*)" hreflang="en"', h).group(1)
+        self.assertEqual(href, "/releases/?lang=en")
+        pick = (REPO / "assets" / "langpick.js").read_text(encoding="utf-8").replace("/*SUPPORTED*/[]", json.dumps(list(bs.LANGS))).replace("/*AVAILABLE*/[]", json.dumps(LANG_DIRS))
+        prog = r"""
+let to=null,hist=null;
+const loc={pathname:'/releases/',search:'?lang=en',hash:'',replace:u=>{to=u}};
+const ls={getItem:()=>{throw new Error('blocked')},setItem:()=>{throw new Error('blocked')}};
+new Function('localStorage','navigator','location','history',%s)(ls,{languages:['ja'],language:'ja'},loc,{replaceState:(a,b,u)=>{hist=u}});
+console.log(JSON.stringify({to,hist}));
+""" % json.dumps(pick)
+        res = subprocess.run(["node", "-e", prog], capture_output=True, text=True, timeout=30)
+        self.assertEqual(res.returncode, 0, res.stderr)
+        self.assertEqual(json.loads(res.stdout), {"to": None, "hist": "/releases/"})
+        # the bare link is what bounced back: same page without ?lang=en goes to /ja/
+        res = subprocess.run(["node", "-e", prog.replace("search:'?lang=en'", "search:''")], capture_output=True, text=True, timeout=30)
+        self.assertEqual(json.loads(res.stdout)["to"], "/ja/releases/")
+
+
 @unittest.skipUnless(shutil.which("node"), "node required")
 class RootLangParam(unittest.TestCase):
     """The company-wide order on "/": ?lang=xx > saved choice ("cb-lang") > browser language > English root."""

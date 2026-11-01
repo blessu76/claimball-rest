@@ -119,6 +119,12 @@ def lp(lang):
     return "" if lang == "en" else "/" + lang
 
 
+def user_href(target, path, cur):
+    """Link a visitor follows to `target` language. English lives at the prefix-less root, where langpick.js re-detects the language; from another
+    language ?lang=en pins it (storage may be blocked, a middle click skips the click handler). Only user links: hreflang/canonical/sitemap stay bare."""
+    return path + "?lang=en" if target == "en" and cur != "en" else path
+
+
 def path_home(lang):
     return lp(lang) + "/"
 
@@ -548,7 +554,7 @@ def render(ctx, lang, *, path, title, desc, body, graph, alt, updated, og_type="
     head.append('<script type="application/ld+json">%s</script>' % json.dumps({"@context": "https://schema.org", "@graph": graph},
                                                                             ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"))
     switch = "".join('<a href="%s" hreflang="%s" lang="%s"%s aria-label="%s">%s</a>' % (
-        esc(alt.get(l) or path_home(l)), l, l, ' aria-current="true"' if l == lang else "", esc(LANGS[l][0]), esc(LANGS[l][3])) for l in ctx.langs)
+        esc(user_href(l, alt.get(l) or path_home(l), lang)), l, l, ' aria-current="true"' if l == lang else "", esc(LANGS[l][0]), esc(LANGS[l][3])) for l in ctx.langs)
     navlinks = [(path_home(lang), t("nav_home"), "home"), (path_page(lang, "about"), t("nav_about"), "about"),
                 (path_journal(lang), t("nav_journal"), "journal"), (path_releases(lang), t("nav_releases"), "releases"),
                 (path_page(lang, "support"), t("nav_support"), "support")]
@@ -563,7 +569,7 @@ def render(ctx, lang, *, path, title, desc, body, graph, alt, updated, og_type="
     if lang in MAIN_LANGS:
         foot_nav_html += '<a href="%s">%s</a>' % (esc(path_feed(lang)), esc(t("rss")))
     foot_langs = ('<p class="foot-langs" aria-label="%s">%s</p>' % (esc(t("lang_label")), " ".join(
-        '<a href="%s" hreflang="%s" lang="%s"%s>%s</a>' % (esc(alt.get(l) or path_home(l)), l, l, ' aria-current="true"' if l == lang else "", esc(LANGS[l][0]))
+        '<a href="%s" hreflang="%s" lang="%s"%s>%s</a>' % (esc(user_href(l, alt.get(l) or path_home(l), lang)), l, l, ' aria-current="true"' if l == lang else "", esc(LANGS[l][0]))
         for l in ctx.langs))) if len(ctx.langs) > 1 else ""
     footer = ('<footer class="site-footer"><div class="foot-inner"><div class="foot-brand"><span class="logo">Claim<span>ball</span></span>'
               '<span class="foot-small">© 2026 ipe() · %s</span><span class="foot-small">%s <a href="https://ipe.rest/">ipe.rest</a></span></div>'
@@ -677,7 +683,8 @@ def build_page(ctx, lang, slug):
     crumbs = [(path_home(lang), t("crumb_home")), (None, meta["title"])]
     ai = ""
     if lang not in MAIN_LANGS:
-        ai = '<p class="ai-note">%s <a href="%s">%s</a></p>' % (esc(t("ai_note")), esc(path_page("ko" if meta.get("translation_of") == "ko" else "en", slug)), esc(t("ai_orig")))
+        src = "ko" if meta.get("translation_of") == "ko" else "en"
+        ai = '<p class="ai-note">%s <a href="%s">%s</a></p>' % (esc(t("ai_note")), esc(user_href(src, path_page(src, slug), lang)), esc(t("ai_orig")))
     body = '%s<article class="prose"><h1>%s</h1>%s%s</article>' % (
         breadcrumb_html(crumbs), esc(meta["title"]), ai, markdown(ctx.sub(md), ctx.root))
     page_ld = {"@type": "AboutPage" if slug == "about" else "WebPage", "@id": url(path_page(lang, slug)) + "#page",
@@ -760,8 +767,8 @@ def build_post(ctx, lang, p):
     ai = ""
     src = d["translation_of"] if lang not in MAIN_LANGS else None
     if src:
-        ai = '<p class="ai-note">%s <a href="%s">%s</a></p>' % (esc(t("ai_note")), esc(path_post(src, p["slug"])), esc(t("ai_orig")))
-    others = "".join('<li><a href="%s" hreflang="%s" lang="%s">%s</a></li>' % (esc(alt[l]), l, l, esc(LANGS[l][0])) for l in avail if l != lang)
+        ai = '<p class="ai-note">%s <a href="%s">%s</a></p>' % (esc(t("ai_note")), esc(user_href(src, path_post(src, p["slug"]), lang)), esc(t("ai_orig")))
+    others = "".join('<li><a href="%s" hreflang="%s" lang="%s">%s</a></li>' % (esc(user_href(l, alt[l], lang)), l, l, esc(LANGS[l][0])) for l in avail if l != lang)
     same_lang = posts_in(ctx, lang)
     idx = next(i for i, x in enumerate(same_lang) if x["slug"] == p["slug"])
     older = same_lang[idx + 1] if idx + 1 < len(same_lang) else None
