@@ -111,15 +111,15 @@ console.log(JSON.stringify({to,replaced,store}));
         self.assertEqual((r["store"][self.KEY], r["replaced"]), ("en", "/"))
 
     def test_lang_unsupported_is_ignored_then_browser_language(self):
-        r = self.run_root("?lang=ja", nav=("ko-KR", "en"))
+        r = self.run_root("?lang=th", nav=("ko-KR", "en"))
         self.assertEqual((r["to"], self.KEY in r["store"]), ("/ko/", False))
 
     def test_lang_unsupported_falls_back_to_english(self):
-        r = self.run_root("?lang=ja", nav=("fr-FR",))
+        r = self.run_root("?lang=th", nav=("it-IT",))
         self.assertEqual((r["to"], r["store"], r["replaced"]), (None, {}, None))
 
     def test_lang_unsupported_does_not_overwrite_saved(self):
-        r = self.run_root("?lang=ja", saved="ko", nav=("en-US",))
+        r = self.run_root("?lang=th", saved="ko", nav=("en-US",))
         self.assertEqual((r["to"], r["store"][self.KEY]), ("/ko/", "ko"))
 
     def test_lang_param_is_normalised(self):
@@ -139,17 +139,17 @@ console.log(JSON.stringify({to,replaced,store}));
     def test_browser_language_in_order_and_region_stripped(self):
         self.assertEqual(self.run_root(nav=("ko-KR", "en-US"))["to"], "/ko/")
         self.assertIsNone(self.run_root(nav=("en-US", "ko-KR"))["to"])
-        self.assertEqual(self.run_root(nav=("fr-FR", "ko"))["to"], "/ko/")
+        self.assertEqual(self.run_root(nav=("it-IT", "ko"))["to"], "/ko/")
 
     def test_unsupported_browser_language_stays_english(self):
-        r = self.run_root(nav=("ja-JP", "fr"))
+        r = self.run_root(nav=("th-TH", "it"))
         self.assertEqual((r["to"], r["store"]), (None, {}))
 
     def test_only_the_root_is_handled(self):
         self.assertIsNone(self.run_root("?lang=ko", pathname="/about/")["to"])
 
     def test_adding_a_language_needs_only_the_list(self):
-        self.assertEqual(self.run_root("?lang=ja", langs=["en", "ko", "ja"])["to"], "/ja/")
+        self.assertEqual(self.run_root("?lang=th", langs=["en", "ko", "th"])["to"], "/th/")
 
     def test_inlined_on_the_root_page_only(self):
         root = (REPO / "index.html").read_text(encoding="utf-8")

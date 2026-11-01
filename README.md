@@ -8,17 +8,17 @@ Static site on GitHub Pages. The generator is `scripts/build_site.py` (Python 3.
 
 | Path | What |
 |---|---|
-| `content/i18n/{en,ko}.json` | UI strings and home copy (same keys in every language) |
-| `content/pages/{en,ko}/{about,privacy,support,terms}.md` | pages (front matter: title, description, updated) |
+| `content/i18n/<lang>.json` | UI strings and home copy (same keys in every language) |
+| `content/pages/<lang>/{about,privacy,support,terms}.md` | pages (front matter: title, description, updated) |
 | `content/releases.json` | release notes (empty until a build is public) |
-| `content/journal/<slug>/{en,ko}.md` | published posts |
+| `content/journal/<slug>/<lang>.md` | published posts |
 | `content/queue/NN-slug/{en,ko}.md` | queued posts (no `published:` yet) |
 | `assets/` | CSS (design tokens are CSS variables), JS, icons, og image |
 | `scripts/` | build, checks, publish, IndexNow |
 | `ops/` | daily 18:00 KST publish job (template only, not installed) |
 | `tests/` | unit tests and the Playwright UI check |
 
-English is at the root, Korean under `/ko/`. More languages can be added later by adding `content/i18n/<code>.json`, `content/pages/<code>/*.md` and the code to `LANGS` in `build_site.py`.
+English is at the root; every other language lives under `/<code>/` (ko, ja, zh, es, pt, id, ru, vi, fr, de). English and Korean are the originals; the other nine are translations of the English text (`translation_of: en` in each page and post). To add a language, add `content/i18n/<code>.json`, `content/pages/<code>/*.md` and the code to `LANGS` in `build_site.py`. Journal posts without a translation simply do not appear in that language yet.
 
 ## Commands
 

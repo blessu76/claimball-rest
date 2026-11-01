@@ -30,7 +30,7 @@ Claimball is a casual player-versus-AI mobile game by ipe() (https://ipe.rest/).
 
 ## Languages
 
-The site is available in 2 languages: English, 한국어. Each language lives under /<code>/ (English at the root).
+The site is available in 11 languages: English, 한국어, 日本語, 简体中文, Español, Português, Bahasa Indonesia, Русский, Tiếng Việt, Français, Deutsch. Each language lives under /<code>/ (English at the root).
 
 ## Contact and operator
 

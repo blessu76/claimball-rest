@@ -14,8 +14,9 @@ Output (generated — never edit by hand)
   /ko/ ...same...
   sitemap.xml  robots.txt  llms.txt  404.html
 
-Languages: phase 1 is en (root) + ko. LANGS lists more codes so that translations can be added later without code changes
-(content/i18n/<lang>.json + content/pages/<lang>/*.md + posts with `translation_of:`).
+Languages: en (root, original) + ko (original) and 9 translations (ja zh es pt id ru vi fr de). A translation needs
+content/i18n/<lang>.json + content/pages/<lang>/*.md (front matter `translation_of: en`) and optionally posts with `translation_of:`;
+every complete language gets /<lang>/ home, pages, releases (empty state while releases.json is empty) and journal.
 
 Usage
   python3 scripts/build_site.py                 # build into the repo root
@@ -34,7 +35,7 @@ import sys
 from pathlib import Path
 
 SITE = "https://claimball.ipe.rest"
-ASSET_V = "20261031a"  # keep in sync: bump when assets/claimball.css or claimball.js change
+ASSET_V = "20261101a"  # keep in sync: bump when assets/claimball.css or claimball.js change
 KST = dt.timezone(dt.timedelta(hours=9))
 SITE_UPDATED = "2026-11-01"  # "Last updated" of home / releases / 404 and sitemap lastmod — bump by hand when their text changes
 OPERATOR = "Davy Kim (ipe Studio)"
@@ -63,6 +64,11 @@ FONTS_URL = ("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Do+Hy
 # order = language switcher order. (name, og locale, direction, short code)
 LANGS = {
     "en": ("English", "en_US", "ltr", "EN"), "ko": ("한국어", "ko_KR", "ltr", "KO"),
+    "ja": ("日本語", "ja_JP", "ltr", "JA"), "zh": ("简体中文", "zh_CN", "ltr", "ZH"),
+    "es": ("Español", "es_ES", "ltr", "ES"), "pt": ("Português", "pt_BR", "ltr", "PT"),
+    "id": ("Bahasa Indonesia", "id_ID", "ltr", "ID"), "ru": ("Русский", "ru_RU", "ltr", "RU"),
+    "vi": ("Tiếng Việt", "vi_VN", "ltr", "VI"), "fr": ("Français", "fr_FR", "ltr", "FR"),
+    "de": ("Deutsch", "de_DE", "ltr", "DE"),
 }
 MAIN_LANGS = ("en", "ko")
 PAGE_SLUGS = ("about", "privacy", "support", "terms")

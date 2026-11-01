@@ -2,9 +2,13 @@
 :root{
   --paper:#FBF8EE; --grid:#D3E2EA; --ink:#1B2540; --ink2:#4B5572; --blue:#2B5FD9; --orange:#FFA726; --orange2:#FFE3B8;
   --chalk:#1F2B27; --onblue:#FFFFFF; --white:#FFFFFF; --tile-line:#BFD0DA;
-  --font-head:'Caveat Brush','Do Hyeon',cursive; --font-body:'Nunito',system-ui,-apple-system,'Apple SD Gothic Neo','Noto Sans KR',sans-serif;
+  --font-head:'Caveat Brush','Nunito','Do Hyeon',cursive; --font-body:'Nunito',system-ui,-apple-system,'Apple SD Gothic Neo','Noto Sans KR',sans-serif;
   --wrap:1120px; --gutter:20px; --radius:22px; --border:3px solid var(--ink);
 }
+/* CJK pages: pick the right regional glyphs (Han characters differ between ja / zh / ko); headings fall back to a bold sans */
+html[lang="ja"]{--font-head:'Caveat Brush','Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif; --font-body:'Nunito','Hiragino Sans','Yu Gothic','Noto Sans JP',system-ui,sans-serif}
+html[lang="zh"]{--font-head:'Caveat Brush','PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif; --font-body:'Nunito','PingFang SC','Microsoft YaHei','Noto Sans SC',system-ui,sans-serif}
+html[lang="ja"] h1,html[lang="ja"] h2,html[lang="ja"] h3,html[lang="zh"] h1,html[lang="zh"] h2,html[lang="zh"] h3{font-weight:800;line-height:1.2}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;min-height:100vh;display:flex;flex-direction:column;background-color:var(--paper);
@@ -28,8 +32,8 @@ img,svg{max-width:100%;height:auto}
 .nav>a{min-height:44px;display:flex;align-items:center;color:var(--ink);text-decoration:none}
 .nav>a[aria-current="page"]{text-decoration:underline;text-decoration-color:var(--orange);text-decoration-thickness:4px;text-underline-offset:6px}
 .nav>a:hover{color:var(--blue)}
-.langsw{display:flex;border:var(--border);border-radius:14px;overflow:hidden;font-size:15px}
-.langsw a{min-height:38px;min-width:44px;display:flex;align-items:center;justify-content:center;color:var(--ink);text-decoration:none;padding:0 8px}
+.langsw{display:flex;flex-wrap:wrap;max-width:100%;border:var(--border);border-radius:14px;overflow:hidden;font-size:15px}
+.langsw a{min-height:38px;min-width:40px;display:flex;align-items:center;justify-content:center;color:var(--ink);text-decoration:none;padding:0 8px}
 .langsw a[aria-current="true"]{background:var(--ink);color:var(--paper)}
 
 /* hero */
