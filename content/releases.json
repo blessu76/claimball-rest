@@ -1,6 +1,122 @@
 {
   "releases": [
     {
+      "id": "1.0.0-13",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-11-03",
+      "title": {
+        "en": "Build 13",
+        "ko": "빌드 13",
+        "ja": "ビルド 13",
+        "zh": "构建版本 13",
+        "es": "Compilación 13",
+        "pt": "Build 13",
+        "id": "Build 13",
+        "ru": "Сборка 13",
+        "vi": "Bản dựng 13",
+        "fr": "Build 13",
+        "de": "Build 13",
+        "ar": "Build 13",
+        "hi": "बिल्ड 13"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh": "TestFlight 内部测试版本，尚未向公众发布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+      },
+      "notes": {
+        "en": [
+          "A tie is now a draw. If both players hold the same number of cells at the end, the result screen says Draw instead of showing a loss.",
+          "Sudden death is fairer: whoever scores the next point wins only by being ahead on cells, however that point is scored.",
+          "The nickname and iCloud hints now describe exactly what is shared and what stays on your device.",
+          "Added the privacy information file Apple requires for apps."
+        ],
+        "ko": [
+          "칸 수가 같으면 무승부로 표시됩니다. 서든 데스가 동점으로 끝나도 「패배」로 나오지 않아요.",
+          "서든 데스에서 점수를 낸 쪽은, 어떤 방식으로 냈든 칸 수에서 앞서 있을 때만 이깁니다.",
+          "닉네임·iCloud 안내 문구를 실제 동작대로 고쳤습니다. 무엇이 공유되고 무엇이 기기에만 남는지 정확히 적었어요.",
+          "앱 개인정보 관련 파일(Apple 요구 사항)을 추가했습니다."
+        ],
+        "ja": [
+          "同点は引き分けになりました。終了時にセル数が同じなら、結果画面に「敗北」ではなく「引き分け」と表示されます。",
+          "サドンデスがより公平になりました。次の得点を取った側は、どんな方法で得点しても、セル数でリードしているときだけ勝ちます。",
+          "ニックネームと iCloud の案内文を、実際の動作どおりに修正しました。共有される内容と端末にだけ残る内容を正確に記載しています。",
+          "Apple がアプリに求めるプライバシー情報ファイルを追加しました。"
+        ],
+        "zh": [
+          "平局现在会显示为平局。如果结束时双方占有的格子数相同，结果画面会显示“平局”，而不是“失败”。",
+          "突然死亡更公平了：拿下下一分的一方，无论以何种方式得分，只有在格子数领先时才算获胜。",
+          "昵称和 iCloud 的提示文字已按实际行为修正，准确说明哪些内容会共享、哪些只保留在你的设备上。",
+          "新增了 Apple 要求应用提供的隐私信息文件。"
+        ],
+        "es": [
+          "Un empate ahora es un empate. Si al final ambos jugadores tienen el mismo número de casillas, la pantalla de resultados muestra Empate en lugar de una derrota.",
+          "La muerte súbita es más justa: quien anota el siguiente punto gana solo si va por delante en casillas, sea cual sea la forma de anotarlo.",
+          "Los avisos de apodo e iCloud ahora describen con exactitud qué se comparte y qué se queda en tu dispositivo.",
+          "Se añadió el archivo de información de privacidad que Apple exige a las apps."
+        ],
+        "pt": [
+          "Um empate agora é um empate. Se os dois jogadores terminarem com o mesmo número de casas, a tela de resultado mostra Empate em vez de derrota.",
+          "A morte súbita ficou mais justa: quem marca o próximo ponto só vence se estiver à frente em casas, seja qual for a forma de marcar.",
+          "Os avisos de apelido e iCloud agora descrevem com exatidão o que é compartilhado e o que fica só no seu dispositivo.",
+          "Adicionado o arquivo de informações de privacidade exigido pela Apple para apps."
+        ],
+        "id": [
+          "Seri kini ditampilkan sebagai seri. Jika di akhir kedua pemain memiliki jumlah petak yang sama, layar hasil menampilkan Seri, bukan kekalahan.",
+          "Sudden death lebih adil: siapa pun yang mencetak poin berikutnya hanya menang jika unggul dalam jumlah petak, bagaimanapun poin itu dicetak.",
+          "Petunjuk nama panggilan dan iCloud kini menjelaskan dengan tepat apa yang dibagikan dan apa yang tetap di perangkatmu.",
+          "Menambahkan berkas informasi privasi yang diwajibkan Apple untuk aplikasi."
+        ],
+        "ru": [
+          "Ничья теперь отображается как ничья. Если в конце у обоих игроков одинаковое число клеток, на экране результата будет «Ничья», а не поражение.",
+          "Внезапная смерть стала честнее: тот, кто набирает следующее очко, побеждает, только если опережает по клеткам, как бы это очко ни было набрано.",
+          "Подсказки про никнейм и iCloud теперь точно описывают, что передаётся, а что остаётся только на вашем устройстве.",
+          "Добавлен файл с информацией о конфиденциальности, который Apple требует от приложений."
+        ],
+        "vi": [
+          "Hòa giờ được hiển thị là hòa. Nếu cuối trận hai người chơi có số ô bằng nhau, màn hình kết quả hiện Hòa thay vì thua.",
+          "Sudden death công bằng hơn: bên ghi điểm tiếp theo chỉ thắng khi dẫn trước về số ô, bất kể điểm đó được ghi theo cách nào.",
+          "Các gợi ý về biệt danh và iCloud nay mô tả chính xác điều gì được chia sẻ và điều gì chỉ nằm trên thiết bị của bạn.",
+          "Đã thêm tệp thông tin quyền riêng tư mà Apple yêu cầu đối với ứng dụng."
+        ],
+        "fr": [
+          "Une égalité est désormais un match nul. Si les deux joueurs ont le même nombre de cases à la fin, l'écran de résultat affiche Match nul au lieu d'une défaite.",
+          "La mort subite est plus équitable : celui qui marque le point suivant ne gagne que s'il mène aux cases, quelle que soit la façon dont ce point est marqué.",
+          "Les messages sur le pseudo et iCloud décrivent désormais précisément ce qui est partagé et ce qui reste sur votre appareil.",
+          "Ajout du fichier d'informations de confidentialité exigé par Apple pour les apps."
+        ],
+        "de": [
+          "Ein Gleichstand ist jetzt ein Unentschieden. Haben beide Spieler am Ende gleich viele Felder, zeigt der Ergebnisbildschirm Unentschieden statt einer Niederlage.",
+          "Sudden Death ist fairer: Wer den nächsten Punkt erzielt, gewinnt nur, wenn er bei den Feldern vorne liegt, egal wie der Punkt erzielt wurde.",
+          "Die Hinweise zu Spitzname und iCloud beschreiben jetzt genau, was geteilt wird und was auf deinem Gerät bleibt.",
+          "Die von Apple für Apps geforderte Datei mit Datenschutzinformationen wurde hinzugefügt."
+        ],
+        "ar": [
+          "أصبح التعادل يُعرض تعادلاً. إذا امتلك اللاعبان العدد نفسه من الخانات في النهاية، تعرض شاشة النتيجة «تعادل» بدل الخسارة.",
+          "أصبح الموت المفاجئ أكثر عدلاً: من يسجّل النقطة التالية لا يفوز إلا إذا كان متقدماً في عدد الخانات، أياً كانت طريقة تسجيل تلك النقطة.",
+          "أصبحت تلميحات الاسم المستعار وiCloud تصف بدقة ما تتم مشاركته وما يبقى على جهازك فقط.",
+          "أضفنا ملف معلومات الخصوصية الذي تطلبه Apple من التطبيقات."
+        ],
+        "hi": [
+          "बराबरी अब ड्रॉ के रूप में दिखती है। अगर अंत में दोनों खिलाड़ियों के पास बराबर खाने हों, तो नतीजे की स्क्रीन हार की जगह ड्रॉ दिखाती है।",
+          "सडन डेथ अब ज़्यादा निष्पक्ष है: अगला पॉइंट बनाने वाला तभी जीतता है जब वह खानों में आगे हो, चाहे वह पॉइंट किसी भी तरह बना हो।",
+          "निकनेम और iCloud के संकेत अब सटीक बताते हैं कि क्या साझा होता है और क्या सिर्फ़ आपके डिवाइस पर रहता है।",
+          "Apple द्वारा ऐप्स के लिए ज़रूरी प्राइवेसी जानकारी वाली फ़ाइल जोड़ी गई।"
+        ]
+      }
+    },
+    {
       "id": "1.0.0-10",
       "version": "1.0.0",
       "status": "beta",

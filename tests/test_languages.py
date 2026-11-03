@@ -122,7 +122,7 @@ class RightToLeft(unittest.TestCase):
 
 
 class ReleasesPages(unittest.TestCase):
-    IDS = ["1.0.0-%d" % n for n in range(1, 11)]
+    IDS = ["1.0.0-%d" % n for n in list(range(1, 11)) + [13]]
 
     def test_each_language_releases_page_has_every_build_anchor(self):
         for l in ALL:
@@ -139,13 +139,13 @@ class ReleasesPages(unittest.TestCase):
             for field in ("title", "intro", "notes"):
                 self.assertEqual(sorted(ALL), sorted(e[field]), (e["id"], field))
         self.assertEqual("beta", rel[0]["status"])
-        self.assertEqual("2026-11-01", rel[0]["date"])
+        self.assertEqual("2026-11-03", rel[0]["date"])
         self.assertTrue(all(e["status"] == "beta" and e["date"] for e in rel))
         counts = [len(e["notes"]["en"]) for e in rel]
         for e in rel:
             for l in ALL:
                 self.assertEqual(len(e["notes"]["en"]), len(e["notes"][l]), (e["id"], l))
-        self.assertEqual(40, sum(counts))
+        self.assertEqual(44, sum(counts))
 
     def test_arabic_releases_page_is_rtl(self):
         h = (REPO / "ar" / "releases" / "index.html").read_text(encoding="utf-8")
