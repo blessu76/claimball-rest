@@ -1,6 +1,96 @@
 {
   "releases": [
     {
+      "id": "1.0.0-15",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-11-03",
+      "title": {
+        "en": "Build 15",
+        "ko": "빌드 15",
+        "ja": "ビルド 15",
+        "zh": "构建版本 15",
+        "es": "Compilación 15",
+        "pt": "Build 15",
+        "id": "Build 15",
+        "ru": "Сборка 15",
+        "vi": "Bản dựng 15",
+        "fr": "Build 15",
+        "de": "Build 15",
+        "ar": "Build 15",
+        "hi": "बिल्ड 15"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh": "TestFlight 内部测试版本，尚未向公众发布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+      },
+      "notes": {
+        "en": [
+          "New My Stats screen: your wins, draws and losses, record against each opponent, and your longest rally — kept only on your device.",
+          "Background music: three original tracks (menu, match, and a faster fever tempo), plus a music on/off toggle in Settings."
+        ],
+        "ko": [
+          "새 '내 기록' 화면: 승·무·패, 상대별 전적, 최장 랠리를 보여 줘요. 기록은 내 기기에만 저장됩니다.",
+          "배경음악 추가: 직접 만든 3곡(메뉴·경기·빨라지는 피버 템포)이 나오고, 설정에서 음악을 켜고 끌 수 있어요."
+        ],
+        "ja": [
+          "新しい「マイ記録」画面：勝ち・引き分け・負け、対戦相手ごとの成績、最長ラリーを確認できます。記録はお使いの端末にのみ保存されます。",
+          "BGMを追加：オリジナル3曲（メニュー・対戦・テンポが上がるフィーバー）と、設定での音楽オン/オフ切り替え。"
+        ],
+        "zh": [
+          "新增“我的战绩”页面：胜、平、负场次，对阵每位对手的成绩以及最长回合，数据仅保存在你的设备上。",
+          "新增背景音乐：三首原创曲目（菜单、比赛、节奏加快的狂热模式），并可在设置中开关音乐。"
+        ],
+        "es": [
+          "Nueva pantalla Mis estadísticas: victorias, empates y derrotas, tu historial contra cada rival y tu intercambio más largo; se guarda solo en tu dispositivo.",
+          "Música de fondo: tres temas originales (menú, partido y un tempo más rápido en modo fiebre) y un interruptor de música en Ajustes."
+        ],
+        "pt": [
+          "Nova tela Minhas estatísticas: vitórias, empates e derrotas, seu histórico contra cada adversário e sua maior sequência de trocas; tudo fica apenas no seu dispositivo.",
+          "Música de fundo: três faixas originais (menu, partida e um ritmo mais rápido no modo febre) e uma chave para ligar/desligar a música em Ajustes."
+        ],
+        "id": [
+          "Layar Statistik Saya yang baru: menang, seri, kalah, rekor melawan setiap lawan, dan reli terpanjang — disimpan hanya di perangkatmu.",
+          "Musik latar: tiga lagu orisinal (menu, pertandingan, dan tempo demam yang lebih cepat), plus sakelar musik nyala/mati di Pengaturan."
+        ],
+        "ru": [
+          "Новый экран «Моя статистика»: победы, ничьи и поражения, счёт против каждого соперника и самый длинный розыгрыш — данные хранятся только на вашем устройстве.",
+          "Фоновая музыка: три оригинальных трека (меню, матч и более быстрый темп в режиме лихорадки) и переключатель музыки в настройках."
+        ],
+        "vi": [
+          "Màn hình Thống kê của tôi mới: thắng, hòa, thua, thành tích với từng đối thủ và pha đánh dài nhất — chỉ lưu trên thiết bị của bạn.",
+          "Nhạc nền: ba bản nhạc gốc (menu, trận đấu và nhịp nhanh hơn ở chế độ fever), kèm công tắc bật/tắt nhạc trong Cài đặt."
+        ],
+        "fr": [
+          "Nouvel écran Mes statistiques : victoires, nuls et défaites, bilan contre chaque adversaire et échange le plus long — conservés uniquement sur votre appareil.",
+          "Musique de fond : trois morceaux originaux (menu, match et un tempo plus rapide en mode fièvre), avec un interrupteur de musique dans les Réglages."
+        ],
+        "de": [
+          "Neuer Bildschirm „Meine Statistik“: Siege, Unentschieden und Niederlagen, Bilanz gegen jeden Gegner und dein längster Ballwechsel – nur auf deinem Gerät gespeichert.",
+          "Hintergrundmusik: drei eigene Stücke (Menü, Spiel und ein schnelleres Fieber-Tempo) sowie ein Musik-Schalter in den Einstellungen."
+        ],
+        "ar": [
+          "شاشة جديدة «إحصاءاتي»: الفوز والتعادل والخسارة، وسجلك أمام كل خصم، وأطول تبادل للكرة — وتُحفظ على جهازك فقط.",
+          "موسيقى خلفية: ثلاث مقطوعات أصلية (القائمة والمباراة وإيقاع أسرع في وضع الحمّى)، مع مفتاح لتشغيل الموسيقى أو إيقافها في الإعدادات."
+        ],
+        "hi": [
+          "नई ‘मेरे आँकड़े’ स्क्रीन: जीत, ड्रॉ और हार, हर विरोधी के खिलाफ रिकॉर्ड और सबसे लंबी रैली — सब सिर्फ आपके डिवाइस पर सहेजा जाता है।",
+          "बैकग्राउंड म्यूज़िक: तीन ओरिजिनल ट्रैक (मेनू, मैच और तेज़ फीवर टेम्पो) और सेटिंग्स में म्यूज़िक चालू/बंद करने का स्विच।"
+        ]
+      }
+    },
+    {
       "id": "1.0.0-14",
       "version": "1.0.0",
       "status": "beta",
