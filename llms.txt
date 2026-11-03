@@ -26,6 +26,7 @@ Claimball is a casual player-versus-AI mobile game by ipe() (https://ipe.rest/).
 
 ## Journal posts (English)
 
+- [How a tied match ends in Claimball](https://claimball.ipe.rest/journal/sudden-death-and-draws/) — 2026-11-03 — A tie used to end in a confusing result. Here is how sudden death works now, and what changed in the latest test builds.
 - [Starting to make Claimball](https://claimball.ipe.rest/journal/starting-claimball/) — 2026-10-31 — The first journal post. What Claimball is, and why this journal exists.
 
 ## Languages
