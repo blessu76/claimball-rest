@@ -1,6 +1,161 @@
 {
   "releases": [
     {
+      "id": "1.0.0-14",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-11-03",
+      "title": {
+        "en": "Build 14",
+        "ko": "빌드 14",
+        "ja": "ビルド 14",
+        "zh": "构建版本 14",
+        "es": "Compilación 14",
+        "pt": "Build 14",
+        "id": "Build 14",
+        "ru": "Сборка 14",
+        "vi": "Bản dựng 14",
+        "fr": "Build 14",
+        "de": "Build 14",
+        "ar": "Build 14",
+        "hi": "बिल्ड 14"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh": "TestFlight 内部测试版本，尚未向公众发布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+      },
+      "notes": {
+        "en": [
+          "A short How to play guide of three cards now greets you on your first match.",
+          "The game screen can now be read aloud with VoiceOver, so every part of a match is announced.",
+          "Large text sizes and small screens no longer cut off or overflow the layout.",
+          "The layout now fits iPad and other tablets properly.",
+          "The game starts normally even if saved data is damaged.",
+          "Added an automatic check that keeps translations safe and complete in all 13 languages.",
+          "Preparing for Android: themed icon and per-app language support (Android is coming soon)."
+        ],
+        "ko": [
+          "첫 판에서 세 장짜리 짧은 게임 방법(How to play) 안내가 나옵니다.",
+          "게임 화면을 VoiceOver로 읽어 줍니다. 경기의 모든 부분을 음성으로 안내해요.",
+          "큰 글꼴이나 작은 화면에서 화면이 잘리거나 넘치던 문제를 고쳤습니다.",
+          "iPad와 태블릿 화면에 맞게 레이아웃을 다듬었습니다.",
+          "저장된 데이터가 손상되어 있어도 게임이 정상적으로 시작됩니다.",
+          "13개 언어의 번역이 안전하고 빠짐없이 들어가는지 자동으로 확인하는 검사를 추가했습니다.",
+          "Android 준비: 테마 아이콘과 앱별 언어를 지원합니다(Android는 준비 중이에요)."
+        ],
+        "ja": [
+          "初めての対戦で、3枚の短い遊び方(How to play)ガイドが表示されます。",
+          "ゲーム画面を VoiceOver で読み上げられるようになりました。対戦のすべてを音声で案内します。",
+          "大きな文字サイズや小さな画面で、表示が切れたりはみ出したりする問題を修正しました。",
+          "iPad やタブレットの画面に合わせてレイアウトを調整しました。",
+          "保存データが壊れていても、ゲームが正常に起動します。",
+          "13言語すべての翻訳が安全で漏れなく入っているかを自動で確認する検査を追加しました。",
+          "Android への準備:テーマアイコンとアプリ別の言語に対応しました(Android は準備中です)。"
+        ],
+        "zh": [
+          "首次对局时会出现三张卡片的简短玩法(How to play)指南。",
+          "游戏画面现已支持 VoiceOver 朗读,对局的每个部分都会语音播报。",
+          "修复了大字体和小屏幕下内容被截断或溢出的问题。",
+          "优化了 iPad 和其他平板的布局。",
+          "即使存档数据损坏,游戏也能正常启动。",
+          "新增自动检查,确保 13 种语言的翻译安全且完整。",
+          "为 Android 做准备:支持主题图标和按应用设置语言(Android 版即将推出)。"
+        ],
+        "es": [
+          "En tu primera partida aparece una breve guía de cómo jugar (How to play) con tres tarjetas.",
+          "La pantalla de juego ya se puede leer en voz alta con VoiceOver, y cada parte de la partida se anuncia.",
+          "Corregimos el texto cortado o desbordado con tamaños de letra grandes y en pantallas pequeñas.",
+          "El diseño ahora se adapta correctamente al iPad y a otras tabletas.",
+          "El juego se inicia con normalidad aunque los datos guardados estén dañados.",
+          "Añadimos una comprobación automática que mantiene las traducciones seguras y completas en los 13 idiomas.",
+          "Preparación para Android: icono con tema e idioma por aplicación (Android llegará pronto)."
+        ],
+        "pt": [
+          "Na sua primeira partida, aparece um guia curto de como jogar (How to play) com três cartões.",
+          "A tela do jogo agora pode ser lida em voz alta com o VoiceOver, e cada parte da partida é anunciada.",
+          "Corrigimos textos cortados ou que transbordavam com fontes grandes e em telas pequenas.",
+          "O layout agora se ajusta corretamente ao iPad e a outros tablets.",
+          "O jogo inicia normalmente mesmo que os dados salvos estejam corrompidos.",
+          "Adicionamos uma verificação automática que mantém as traduções seguras e completas nos 13 idiomas.",
+          "Preparação para o Android: ícone temático e idioma por app (o Android chega em breve)."
+        ],
+        "id": [
+          "Pada pertandingan pertamamu, muncul panduan singkat cara bermain (How to play) dengan tiga kartu.",
+          "Layar permainan kini bisa dibacakan dengan VoiceOver, sehingga setiap bagian pertandingan diumumkan.",
+          "Teks yang terpotong atau meluap pada ukuran huruf besar dan layar kecil sudah diperbaiki.",
+          "Tata letak kini pas untuk iPad dan tablet lainnya.",
+          "Permainan tetap berjalan normal meski data tersimpan rusak.",
+          "Menambahkan pemeriksaan otomatis agar terjemahan di 13 bahasa tetap aman dan lengkap.",
+          "Persiapan Android: ikon bertema dan bahasa per aplikasi (Android segera hadir)."
+        ],
+        "ru": [
+          "В первой партии появляется короткая памятка «Как играть» (How to play) из трёх карточек.",
+          "Игровой экран теперь можно озвучивать через VoiceOver: каждая часть матча объявляется голосом.",
+          "Исправлено: при крупном шрифте и на маленьких экранах текст больше не обрезается и не выходит за границы.",
+          "Макет теперь корректно подстраивается под iPad и другие планшеты.",
+          "Игра запускается нормально, даже если сохранённые данные повреждены.",
+          "Добавлена автоматическая проверка, которая следит за безопасностью и полнотой переводов на всех 13 языках.",
+          "Подготовка к Android: тематическая иконка и язык для отдельных приложений (Android скоро)."
+        ],
+        "vi": [
+          "Trận đầu tiên của bạn sẽ có hướng dẫn cách chơi (How to play) ngắn gồm ba thẻ.",
+          "Màn hình trò chơi giờ có thể được đọc to bằng VoiceOver, mọi phần của trận đấu đều được thông báo.",
+          "Đã sửa lỗi nội dung bị cắt hoặc tràn khi dùng cỡ chữ lớn và trên màn hình nhỏ.",
+          "Bố cục giờ vừa vặn với iPad và các máy tính bảng khác.",
+          "Trò chơi vẫn khởi động bình thường dù dữ liệu đã lưu bị hỏng.",
+          "Thêm bước kiểm tra tự động để bản dịch của cả 13 ngôn ngữ luôn an toàn và đầy đủ.",
+          "Chuẩn bị cho Android: biểu tượng theo chủ đề và ngôn ngữ riêng cho từng ứng dụng (Android sắp ra mắt)."
+        ],
+        "fr": [
+          "Lors de votre première partie, un court guide « Comment jouer » (How to play) en trois cartes s'affiche.",
+          "L'écran de jeu peut désormais être lu à voix haute avec VoiceOver : chaque élément de la partie est annoncé.",
+          "Les textes coupés ou débordants avec les grandes tailles de police et sur les petits écrans sont corrigés.",
+          "La mise en page s'adapte désormais correctement à l'iPad et aux autres tablettes.",
+          "Le jeu démarre normalement même si les données enregistrées sont endommagées.",
+          "Ajout d'un contrôle automatique qui garde les traductions sûres et complètes dans les 13 langues.",
+          "Préparation d'Android : icône thématique et langue par application (Android arrive bientôt)."
+        ],
+        "de": [
+          "In deinem ersten Spiel erscheint eine kurze Spielanleitung (How to play) mit drei Karten.",
+          "Der Spielbildschirm lässt sich jetzt mit VoiceOver vorlesen, jeder Teil des Spiels wird angesagt.",
+          "Abgeschnittene oder überlaufende Inhalte bei großer Schrift und auf kleinen Bildschirmen wurden behoben.",
+          "Das Layout passt jetzt richtig auf iPad und andere Tablets.",
+          "Das Spiel startet normal, auch wenn gespeicherte Daten beschädigt sind.",
+          "Eine automatische Prüfung hält die Übersetzungen in allen 13 Sprachen sicher und vollständig.",
+          "Vorbereitung für Android: Themen-Symbol und Sprache pro App (Android folgt bald)."
+        ],
+        "ar": [
+          "تظهر في مباراتك الأولى إرشادات قصيرة لطريقة اللعب (How to play) من ثلاث بطاقات.",
+          "يمكن الآن قراءة شاشة اللعبة بصوت عالٍ عبر VoiceOver، فيُعلن كل جزء من المباراة.",
+          "أصلحنا النصوص المقطوعة أو الفائضة مع الخطوط الكبيرة والشاشات الصغيرة.",
+          "أصبح التخطيط يناسب iPad والأجهزة اللوحية الأخرى بشكل صحيح.",
+          "تبدأ اللعبة بشكل طبيعي حتى لو كانت البيانات المحفوظة تالفة.",
+          "أضفنا فحصًا تلقائيًا يُبقي الترجمات آمنة وكاملة في اللغات الـ 13.",
+          "استعداد لـ Android: أيقونة بمظهر السمة ولغة خاصة بكل تطبيق (Android قريبًا)."
+        ],
+        "hi": [
+          "आपके पहले मैच में तीन कार्ड वाली छोटी खेलने की गाइड (How to play) दिखती है।",
+          "गेम स्क्रीन को अब VoiceOver से बोलकर सुना जा सकता है, मैच का हर हिस्सा बताया जाता है।",
+          "बड़े फ़ॉन्ट और छोटी स्क्रीन पर कटने या बाहर निकलने वाली सामग्री की समस्या ठीक की गई।",
+          "लेआउट अब iPad और अन्य टैबलेट पर सही बैठता है।",
+          "सेव किया गया डेटा खराब होने पर भी गेम सामान्य रूप से शुरू होता है।",
+          "13 भाषाओं के अनुवाद को सुरक्षित और पूरा रखने के लिए स्वचालित जाँच जोड़ी गई।",
+          "Android की तैयारी: थीम आइकन और ऐप-वार भाषा (Android जल्द आ रहा है)."
+        ]
+      }
+    },
+    {
       "id": "1.0.0-13",
       "version": "1.0.0",
       "status": "beta",
