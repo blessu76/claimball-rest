@@ -6,7 +6,7 @@ the script ran (HH:MM KST); a future time is refused.
 | File | Role |
 |---|---|
 | `publish_daily.sh` | safety checks → push leftovers → `publish_post.py --daily` → green gate → commit → push → live check → IndexNow |
-| `rest.ipe.claimball-publish.plist.template` | launchd job template (`__HOME__` placeholder; launchd does not expand `~`), 18:00 every day, log `~/Library/Logs/claimball-publish.log` |
+| `rest.ipe.claimball-publish.plist.template` | launchd job template (`__HOME__` placeholder; launchd does not expand `~`), 18:00 every day plus retries at 18:30 and 19:00 (no-op once today's post is out), log `~/Library/Logs/claimball-publish.log` |
 | `install_launchd.sh` | renders the template for the current user, `plutil -lint`, writes `~/Library/LaunchAgents/…plist` — does **not** load it |
 
 ## Safety rules (tests: `tests/test_publish_daily.py`)
