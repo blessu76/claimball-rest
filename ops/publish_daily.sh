@@ -19,7 +19,7 @@ skip() { log "SKIP — $*"; exit 0; }
 REPO="${CLAIMBALL_PUBLISH_DIR:-$HOME/Developer/claimball-rest}"
 CHECK_CMD="${CLAIMBALL_CHECK_CMD:-bash scripts/check.sh}"
 # Everything publish_post.py + build_site.py may create or change. Anything else in the tree after a publish means abort.
-PUBLISH_PATHS="content/journal content/queue index.html 404.html sitemap.xml llms.txt robots.txt journal about privacy support terms releases ko"
+PUBLISH_PATHS="content/journal content/queue index.html 404.html sitemap.xml llms.txt robots.txt journal about privacy support terms releases ko ja zh es pt id ru vi fr de ar hi"
 
 [ -d "$REPO/.git" ] || skip "$REPO is not a git clone"
 cd "$REPO"
