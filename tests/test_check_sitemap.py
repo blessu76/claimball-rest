@@ -1,3 +1,4 @@
+import datetime as dt
 import shutil
 import unittest
 from pathlib import Path
@@ -14,7 +15,7 @@ class Sitemap(unittest.TestCase):
         self.addCleanup(shutil.rmtree, self.root, True)
 
     def test_ok(self):
-        errs, urls = cs.check(self.root, NOW)
+        errs, urls = cs.check(self.root, NOW + dt.timedelta(days=2))  # releases lastmod follows the newest build date
         self.assertEqual(errs, [])
         self.assertIn("https://claimball.ipe.rest/", urls)
 

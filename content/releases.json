@@ -1,6 +1,96 @@
 {
   "releases": [
     {
+      "id": "1.0.0-16",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-11-05",
+      "title": {
+        "en": "Build 16",
+        "ko": "빌드 16",
+        "ja": "ビルド 16",
+        "zh": "构建版本 16",
+        "es": "Compilación 16",
+        "pt": "Build 16",
+        "id": "Build 16",
+        "ru": "Сборка 16",
+        "vi": "Bản dựng 16",
+        "fr": "Build 16",
+        "de": "Build 16",
+        "ar": "Build 16",
+        "hi": "बिल्ड 16"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh": "TestFlight 内部测试版本，尚未向公众发布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+      },
+      "notes": {
+        "en": [
+          "Behind-the-scenes quality work: we added tests that check that records merge safely when synced across your devices through iCloud, and a tool for measuring performance.",
+          "Nothing changes in how the game looks or plays in this build."
+        ],
+        "ko": [
+          "내부 품질 개선: iCloud로 여러 기기에 동기화할 때 기록이 안전하게 합쳐지는지 확인하는 테스트와, 성능을 점검하는 도구를 추가했어요.",
+          "이번 빌드에서 게임의 화면이나 플레이는 달라지지 않아요."
+        ],
+        "ja": [
+          "内部の品質改善：iCloud で複数の端末に同期するときに記録が安全に統合されることを確認するテストと、パフォーマンスを計測するツールを追加しました。",
+          "このビルドでゲームの見た目や遊び方は変わりません。"
+        ],
+        "zh": [
+          "内部质量改进：新增测试，用于确认通过 iCloud 在多台设备间同步时记录能够安全合并，并新增性能测量工具。",
+          "此版本中游戏的外观和玩法没有变化。"
+        ],
+        "es": [
+          "Mejoras internas de calidad: añadimos pruebas que comprueban que los registros se combinan con seguridad al sincronizarse entre tus dispositivos mediante iCloud, y una herramienta para medir el rendimiento.",
+          "En esta compilación no cambia el aspecto ni la jugabilidad."
+        ],
+        "pt": [
+          "Melhorias internas de qualidade: adicionamos testes que verificam se os registros são combinados com segurança ao sincronizar entre seus dispositivos pelo iCloud, e uma ferramenta para medir o desempenho.",
+          "Nada muda na aparência nem na jogabilidade neste build."
+        ],
+        "id": [
+          "Peningkatan kualitas internal: kami menambahkan pengujian yang memeriksa bahwa catatan tergabung dengan aman saat disinkronkan antar perangkatmu lewat iCloud, serta alat untuk mengukur performa.",
+          "Tidak ada perubahan pada tampilan maupun cara bermain di build ini."
+        ],
+        "ru": [
+          "Внутренние улучшения качества: добавлены тесты, проверяющие, что записи безопасно объединяются при синхронизации между вашими устройствами через iCloud, и инструмент для измерения производительности.",
+          "Внешний вид и игровой процесс в этой сборке не изменились."
+        ],
+        "vi": [
+          "Cải thiện chất lượng nội bộ: thêm các bài kiểm thử xác nhận dữ liệu được gộp an toàn khi đồng bộ giữa các thiết bị của bạn qua iCloud, cùng một công cụ đo hiệu năng.",
+          "Giao diện và cách chơi không thay đổi trong bản dựng này."
+        ],
+        "fr": [
+          "Améliorations internes de la qualité : nous avons ajouté des tests vérifiant que les données fusionnent sans risque lors de la synchronisation entre vos appareils via iCloud, ainsi qu'un outil de mesure des performances.",
+          "Rien ne change dans l'apparence ni dans le jeu avec ce build."
+        ],
+        "de": [
+          "Interne Qualitätsverbesserungen: Wir haben Tests hinzugefügt, die prüfen, ob Daten bei der Synchronisierung zwischen deinen Geräten über iCloud sicher zusammengeführt werden, sowie ein Werkzeug zur Leistungsmessung.",
+          "An Aussehen und Spielablauf ändert sich in diesem Build nichts."
+        ],
+        "ar": [
+          "تحسينات جودة داخلية: أضفنا اختبارات تتحقق من دمج السجلات بأمان عند المزامنة بين أجهزتك عبر iCloud، وأداة لقياس الأداء.",
+          "لا يتغير شيء في شكل اللعبة أو طريقة اللعب في هذه النسخة."
+        ],
+        "hi": [
+          "आंतरिक गुणवत्ता सुधार: iCloud से आपके डिवाइसों के बीच सिंक होने पर रिकॉर्ड सुरक्षित रूप से मर्ज होते हैं या नहीं, यह जाँचने वाले टेस्ट और प्रदर्शन मापने का एक टूल जोड़ा गया है।",
+          "इस बिल्ड में गेम के दिखने या खेलने के तरीके में कोई बदलाव नहीं है।"
+        ]
+      }
+    },
+    {
       "id": "1.0.0-15",
       "version": "1.0.0",
       "status": "beta",
