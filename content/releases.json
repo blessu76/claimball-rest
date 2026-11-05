@@ -1,6 +1,96 @@
 {
   "releases": [
     {
+      "id": "1.0.0-18",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-11-05",
+      "title": {
+        "en": "Build 18",
+        "ko": "빌드 18",
+        "ja": "ビルド 18",
+        "zh": "构建版本 18",
+        "es": "Compilación 18",
+        "pt": "Build 18",
+        "id": "Build 18",
+        "ru": "Сборка 18",
+        "vi": "Bản dựng 18",
+        "fr": "Build 18",
+        "de": "Build 18",
+        "ar": "Build 18",
+        "hi": "बिल्ड 18"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh": "TestFlight 内部测试版本，尚未向公众发布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+      },
+      "notes": {
+        "en": [
+          "On iPad, wide screens get a dedicated layout: the board sits in the center with panels on both sides, and the menu uses two columns.",
+          "Release Notes now opens in a sheet that slides up inside the app instead of switching to your browser."
+        ],
+        "ko": [
+          "iPad 가로 화면에 전용 배치를 넣었어요. 판이 가운데에 놓이고 양옆에 패널이 붙으며, 메뉴는 2단으로 보여요.",
+          "Release Notes를 누르면 브라우저로 나가지 않고, 앱 안에서 아래에서 위로 올라오는 시트로 열려요."
+        ],
+        "ja": [
+          "iPad の横長画面に専用レイアウトを追加しました。盤面が中央に配置され、両側にパネルが並び、メニューは 2 列で表示されます。",
+          "Release Notes はブラウザに切り替わらず、アプリ内で下から上にスライドするシートで開くようになりました。"
+        ],
+        "zh": [
+          "iPad 宽屏新增专用布局：棋盘居中，两侧显示面板，菜单分为两栏。",
+          "点击 Release Notes 后，不再跳转到浏览器，而是在应用内以从下向上滑出的面板打开。"
+        ],
+        "es": [
+          "En iPad, las pantallas anchas tienen un diseño propio: el tablero va en el centro con paneles a ambos lados y el menú usa dos columnas.",
+          "Release Notes ahora se abre en una hoja que sube desde abajo dentro de la app, en lugar de pasar al navegador."
+        ],
+        "pt": [
+          "No iPad, telas largas ganham um layout próprio: o tabuleiro fica no centro, com painéis dos dois lados, e o menu usa duas colunas.",
+          "Release Notes agora abre em uma folha que sobe de baixo dentro do app, em vez de levar você ao navegador."
+        ],
+        "id": [
+          "Di iPad, layar lebar kini punya tata letak khusus: papan di tengah dengan panel di kedua sisi, dan menu memakai dua kolom.",
+          "Release Notes kini terbuka di lembar yang meluncur naik dari bawah di dalam aplikasi, bukan berpindah ke browser."
+        ],
+        "ru": [
+          "На iPad для широких экранов появилась отдельная раскладка: поле по центру, панели по бокам, меню в две колонки.",
+          "Release Notes теперь открывается в панели, выезжающей снизу прямо в приложении, а не в браузере."
+        ],
+        "vi": [
+          "Trên iPad, màn hình rộng có bố cục riêng: bàn chơi ở giữa, hai bên có bảng điều khiển, và menu chia thành hai cột.",
+          "Release Notes giờ mở trong một tấm trượt từ dưới lên ngay trong ứng dụng, thay vì chuyển sang trình duyệt."
+        ],
+        "fr": [
+          "Sur iPad, les écrans larges ont une mise en page dédiée : le plateau au centre, des panneaux de chaque côté, et le menu sur deux colonnes.",
+          "Release Notes s'ouvre désormais dans une feuille qui glisse depuis le bas, dans l'app, au lieu de passer par le navigateur."
+        ],
+        "de": [
+          "Auf dem iPad gibt es für breite Bildschirme ein eigenes Layout: Das Spielfeld sitzt in der Mitte, Panels links und rechts, das Menü nutzt zwei Spalten.",
+          "Release Notes öffnet jetzt in einem Sheet, das in der App von unten hochfährt, statt in den Browser zu wechseln."
+        ],
+        "ar": [
+          "على iPad، حصلت الشاشات العريضة على تخطيط مخصّص: اللوحة في المنتصف مع لوحات جانبية، والقائمة بعمودين.",
+          "أصبحت Release Notes تُفتح في ورقة تنزلق من الأسفل داخل التطبيق بدلاً من الانتقال إلى المتصفح."
+        ],
+        "hi": [
+          "iPad पर चौड़ी स्क्रीन के लिए अलग लेआउट आया है: बोर्ड बीच में और दोनों ओर पैनल, और मेन्यू दो कॉलम में।",
+          "Release Notes अब ब्राउज़र पर जाने के बजाय ऐप के अंदर नीचे से ऊपर खिसकने वाली शीट में खुलता है।"
+        ]
+      }
+    },
+    {
       "id": "1.0.0-17",
       "version": "1.0.0",
       "status": "beta",
