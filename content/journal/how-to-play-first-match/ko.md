@@ -5,6 +5,7 @@ slug: how-to-play-first-match
 lang: ko
 category: devlog
 keywords: Claimball, 게임 방법, 튜토리얼, 캐주얼 게임, 저널
+published: 2026-11-05T18:41+09:00
 ---
 TestFlight 내부 테스트 빌드인 빌드 14부터 Claimball은 첫 경기를 짧은 '게임 방법' 안내로 시작해요. 아직 일반 공개 전이에요.
 

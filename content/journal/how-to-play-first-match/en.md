@@ -5,6 +5,7 @@ slug: how-to-play-first-match
 lang: en
 category: devlog
 keywords: Claimball, how to play, tutorial, casual game, journal
+published: 2026-11-05T18:41+09:00
 ---
 Since build 14, a TestFlight internal test build, Claimball opens your very first match with a short How to play guide. It is not released to the public yet.
 

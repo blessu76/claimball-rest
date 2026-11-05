@@ -26,6 +26,7 @@ Claimball is a casual player-versus-AI mobile game by ipe() (https://ipe.rest/).
 
 ## Journal posts (English)
 
+- [Your first Claimball match now starts with a short guide](https://claimball.ipe.rest/journal/how-to-play-first-match/) — 2026-11-05 — A three-card How to play guide greets you on your first match in the latest test builds.
 - [My Stats and background music arrive in Claimball](https://claimball.ipe.rest/journal/my-stats-and-music/) — 2026-11-04 — The latest test build adds a My Stats screen with your wins, draws and losses, and three original music tracks with an on/off toggle.
 - [How a tied match ends in Claimball](https://claimball.ipe.rest/journal/sudden-death-and-draws/) — 2026-11-03 — A tie used to end in a confusing result. Here is how sudden death works now, and what changed in the latest test builds.
 - [Starting to make Claimball](https://claimball.ipe.rest/journal/starting-claimball/) — 2026-10-31 — The first journal post. What Claimball is, and why this journal exists.
