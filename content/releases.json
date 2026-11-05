@@ -1,6 +1,96 @@
 {
   "releases": [
     {
+      "id": "1.0.0-17",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-11-05",
+      "title": {
+        "en": "Build 17",
+        "ko": "빌드 17",
+        "ja": "ビルド 17",
+        "zh": "构建版本 17",
+        "es": "Compilación 17",
+        "pt": "Build 17",
+        "id": "Build 17",
+        "ru": "Сборка 17",
+        "vi": "Bản dựng 17",
+        "fr": "Build 17",
+        "de": "Build 17",
+        "ar": "Build 17",
+        "hi": "बिल्ड 17"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh": "TestFlight 内部测试版本，尚未向公众发布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+      },
+      "notes": {
+        "en": [
+          "Behind-the-scenes stability work: the game now guards against unexpected errors and can still start if saved data fails to load, plus added checks for accessibility guidelines.",
+          "Nothing noticeable changes in how the game looks or plays in this build."
+        ],
+        "ko": [
+          "내부 안정성 보강: 예기치 못한 오류가 생겨도 게임이 버틸 수 있게 하고, 저장된 데이터를 불러오지 못해도 시작되도록 했으며, 접근성 지침을 확인하는 테스트를 추가했어요.",
+          "이번 빌드에서 눈에 띄는 화면이나 플레이 변화는 거의 없어요."
+        ],
+        "ja": [
+          "内部の安定性改善：予期しないエラーが起きてもゲームが持ちこたえるようにし、保存データを読み込めなくても起動できるようにしました。アクセシビリティ指針を確認するテストも追加しました。",
+          "このビルドでゲームの見た目や遊び方に目立った変化はほとんどありません。"
+        ],
+        "zh": [
+          "内部稳定性改进：即使发生意外错误，游戏也能继续运行；即使已保存的数据无法加载，游戏仍可启动；并新增了检查无障碍指南的测试。",
+          "此版本中游戏的外观和玩法几乎没有明显变化。"
+        ],
+        "es": [
+          "Mejoras internas de estabilidad: el juego ahora resiste errores inesperados y puede iniciarse aunque no se carguen los datos guardados; además, añadimos pruebas de las pautas de accesibilidad.",
+          "En esta compilación casi no cambia nada visible en el aspecto ni en la jugabilidad."
+        ],
+        "pt": [
+          "Melhorias internas de estabilidade: o jogo agora resiste a erros inesperados e consegue iniciar mesmo que os dados salvos não carreguem; também adicionamos testes das diretrizes de acessibilidade.",
+          "Quase nada visível muda na aparência ou na jogabilidade neste build."
+        ],
+        "id": [
+          "Peningkatan stabilitas internal: game kini tahan terhadap error tak terduga dan tetap bisa dimulai meski data tersimpan gagal dimuat, serta ada pengujian pedoman aksesibilitas.",
+          "Hampir tidak ada perubahan yang terlihat pada tampilan maupun cara bermain di build ini."
+        ],
+        "ru": [
+          "Внутреннее повышение стабильности: игра теперь устойчива к неожиданным ошибкам и запускается, даже если сохранённые данные не загрузились; также добавлены проверки рекомендаций по доступности.",
+          "Заметных изменений во внешнем виде и игровом процессе в этой сборке почти нет."
+        ],
+        "vi": [
+          "Cải thiện độ ổn định bên trong: trò chơi giờ chống chịu được lỗi bất ngờ và vẫn khởi động được dù dữ liệu đã lưu không tải được, đồng thời thêm kiểm tra các nguyên tắc trợ năng.",
+          "Bản dựng này hầu như không có thay đổi dễ nhận thấy về giao diện hay cách chơi."
+        ],
+        "fr": [
+          "Amélioration interne de la stabilité : le jeu résiste désormais aux erreurs inattendues et peut démarrer même si les données enregistrées ne se chargent pas ; des tests sur les consignes d’accessibilité ont aussi été ajoutés.",
+          "Presque rien de visible ne change dans l’apparence ou le gameplay de ce build."
+        ],
+        "de": [
+          "Interne Stabilitätsverbesserung: Das Spiel fängt unerwartete Fehler jetzt ab und startet auch dann, wenn gespeicherte Daten nicht geladen werden können; außerdem wurden Tests für Barrierefreiheits-Richtlinien ergänzt.",
+          "An Aussehen und Spielablauf ändert sich in diesem Build kaum etwas Sichtbares."
+        ],
+        "ar": [
+          "تحسين داخلي للاستقرار: صارت اللعبة تتحمّل الأخطاء غير المتوقعة وتبدأ حتى لو تعذّر تحميل البيانات المحفوظة، مع إضافة اختبارات لإرشادات إمكانية الوصول.",
+          "لا يتغيّر شيء ملحوظ تقريبًا في مظهر اللعبة أو طريقة اللعب في هذه النسخة."
+        ],
+        "hi": [
+          "आंतरिक स्थिरता सुधार: गेम अब अप्रत्याशित त्रुटियों को संभाल लेता है और सहेजा गया डेटा लोड न होने पर भी शुरू हो सकता है; साथ ही एक्सेसिबिलिटी दिशानिर्देशों की जाँच के टेस्ट जोड़े गए हैं।",
+          "इस बिल्ड में गेम के दिखने या खेलने के तरीके में लगभग कोई बदलाव नज़र नहीं आता।"
+        ]
+      }
+    },
+    {
       "id": "1.0.0-16",
       "version": "1.0.0",
       "status": "beta",
