@@ -38,3 +38,15 @@ Deploy: every push to `main` runs `.github/workflows/deploy.yml` (green gate, th
 - Build and tests must be green before any commit.
 - No price, ratings, download counts or reviews on the site; no emoji; no real secrets in the repo.
 - Colors and fonts live in CSS variables at the top of `assets/claimball.css` because the design is still changing.
+
+## ipe_web_kit (private) — local setup
+
+The shared web kit is a private repo, so its source is **not** committed here (this repo is public). Only `vendor/ipe_web_kit.lock` (tag, commit, manifest hash) is. Before building:
+
+```sh
+python3 scripts/kit_lock.py sync --kit ~/Developer/ipe_web_kit   # copy the locked tag from a local kit clone into vendor/ipe_web_kit/ (gitignored)
+python3 scripts/kit_lock.py check                                  # installed copy == lock
+```
+
+CI (`.github/actions/ipe-web-kit`) checks out the kit at the locked commit with a read-only deploy key (secret `IPE_WEB_KIT_DEPLOY_KEY`) and runs the same `sync`.
+To move to another kit tag: `python3 scripts/kit_lock.py sync --kit <clone> --update --tag vX.Y.Z`, run `bash scripts/check.sh`, commit the lock.
