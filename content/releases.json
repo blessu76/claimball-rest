@@ -1,6 +1,96 @@
 {
   "releases": [
     {
+      "id": "1.0.0-19",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-11-06",
+      "title": {
+        "en": "Build 19",
+        "ko": "빌드 19",
+        "ja": "ビルド 19",
+        "zh": "构建版本 19",
+        "es": "Compilación 19",
+        "pt": "Build 19",
+        "id": "Build 19",
+        "ru": "Сборка 19",
+        "vi": "Bản dựng 19",
+        "fr": "Build 19",
+        "de": "Build 19",
+        "ar": "Build 19",
+        "hi": "बिल्ड 19"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh": "TestFlight 内部测试版本，尚未向公众发布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+      },
+      "notes": {
+        "en": [
+          "Behind-the-scenes cleanup: shared building blocks (screen sizing, saved-data reading, version and link handling, crash guard) now come from a common internal kit instead of being copied into the game.",
+          "Nothing noticeable changes in how the game looks or plays in this build — saved data, nicknames and the Release Notes link work exactly as before."
+        ],
+        "ko": [
+          "내부 정리: 화면 크기 판정, 저장 데이터 읽기, 버전·링크 처리, 오류 그물 같은 공통 부품을 게임 안에 복사해 두지 않고 공용 내부 키트에서 가져오도록 바꿨어요.",
+          "이번 빌드에서 눈에 띄는 화면이나 플레이 변화는 없어요. 저장 데이터·닉네임·릴리즈 노트 링크도 전과 똑같이 동작해요."
+        ],
+        "ja": [
+          "内部の整理：画面サイズの判定、保存データの読み込み、バージョンやリンクの処理、エラー対策などの共通部品を、ゲーム内にコピーせず共通の内部キットから使うようにしました。",
+          "このビルドでゲームの見た目や遊び方に目立った変化はありません。保存データ・ニックネーム・リリースノートのリンクも従来どおり動作します。"
+        ],
+        "zh": [
+          "内部整理：屏幕尺寸判断、已保存数据读取、版本与链接处理、崩溃防护等通用部件，现在改用共用的内部工具包，而不是复制在游戏里。",
+          "此版本在游戏外观和玩法上没有明显变化——已保存的数据、昵称和发行说明链接均与之前完全一致。"
+        ],
+        "es": [
+          "Limpieza interna: las piezas comunes (tamaño de pantalla, lectura de datos guardados, manejo de versión y enlaces, protección contra errores) ahora vienen de un kit interno compartido en lugar de estar copiadas en el juego.",
+          "No cambia nada apreciable en el aspecto ni en la jugabilidad de esta compilación: los datos guardados, los apodos y el enlace de notas de versión funcionan igual que antes."
+        ],
+        "pt": [
+          "Limpeza interna: as peças comuns (tamanho de tela, leitura de dados salvos, tratamento de versão e links, proteção contra erros) agora vêm de um kit interno compartilhado, em vez de ficarem copiadas no jogo.",
+          "Nada perceptível muda na aparência ou na jogabilidade deste build — dados salvos, apelidos e o link das notas de versão funcionam exatamente como antes."
+        ],
+        "id": [
+          "Pembersihan internal: komponen umum (penentuan ukuran layar, pembacaan data tersimpan, penanganan versi dan tautan, pelindung error) kini berasal dari kit internal bersama, bukan disalin ke dalam game.",
+          "Tidak ada perubahan yang terlihat pada tampilan atau cara bermain di build ini — data tersimpan, nama panggilan, dan tautan Catatan Rilis bekerja persis seperti sebelumnya."
+        ],
+        "ru": [
+          "Внутренняя уборка: общие детали (определение размера экрана, чтение сохранённых данных, работа с версией и ссылками, защита от сбоев) теперь берутся из общего внутреннего набора, а не копируются в игру.",
+          "В этой сборке ничего заметного не меняется во внешнем виде и игре — сохранённые данные, никнеймы и ссылка на примечания к выпуску работают как раньше."
+        ],
+        "vi": [
+          "Dọn dẹp nội bộ: các bộ phận dùng chung (xác định kích thước màn hình, đọc dữ liệu đã lưu, xử lý phiên bản và liên kết, chống lỗi) nay lấy từ một bộ công cụ nội bộ chung thay vì sao chép vào trò chơi.",
+          "Bản dựng này không có thay đổi dễ thấy về giao diện hay cách chơi — dữ liệu đã lưu, biệt danh và liên kết Ghi chú phát hành hoạt động y như trước."
+        ],
+        "fr": [
+          "Nettoyage interne : les briques communes (taille d'écran, lecture des données sauvegardées, gestion de la version et des liens, protection contre les erreurs) viennent désormais d'un kit interne partagé au lieu d'être copiées dans le jeu.",
+          "Rien de visible ne change dans l'apparence ou le gameplay de ce build — données sauvegardées, pseudos et lien des notes de version fonctionnent exactement comme avant."
+        ],
+        "de": [
+          "Interne Aufräumarbeit: gemeinsame Bausteine (Bildschirmgrößen, Lesen gespeicherter Daten, Versions- und Link-Behandlung, Absturzschutz) kommen jetzt aus einem gemeinsamen internen Kit, statt ins Spiel kopiert zu sein.",
+          "In diesem Build ändert sich nichts Spürbares an Aussehen oder Spielablauf – gespeicherte Daten, Spitznamen und der Link zu den Versionshinweisen funktionieren wie zuvor."
+        ],
+        "ar": [
+          "تنظيف داخلي: القطع المشتركة (تحديد حجم الشاشة، قراءة البيانات المحفوظة، معالجة الإصدار والروابط، الحماية من الأخطاء) صارت تأتي من حزمة داخلية مشتركة بدلًا من نسخها داخل اللعبة.",
+          "لا يتغير شيء ملحوظ في مظهر اللعبة أو طريقة اللعب في هذه النسخة — البيانات المحفوظة والألقاب ورابط ملاحظات الإصدار تعمل تمامًا كما كانت."
+        ],
+        "hi": [
+          "आंतरिक सफ़ाई: स्क्रीन के आकार का निर्धारण, सहेजा गया डेटा पढ़ना, संस्करण और लिंक का संचालन, त्रुटि-सुरक्षा जैसे साझा हिस्से अब गेम में कॉपी करने के बजाय एक साझा आंतरिक किट से आते हैं।",
+          "इस बिल्ड में गेम के रूप या खेलने के तरीके में कोई ध्यान देने योग्य बदलाव नहीं है — सहेजा गया डेटा, उपनाम और रिलीज़ नोट्स लिंक पहले की तरह ही काम करते हैं।"
+        ]
+      }
+    },
+    {
       "id": "1.0.0-18",
       "version": "1.0.0",
       "status": "beta",
