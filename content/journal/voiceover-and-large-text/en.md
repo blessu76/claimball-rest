@@ -5,6 +5,7 @@ slug: voiceover-and-large-text
 lang: en
 category: devlog
 keywords: Claimball, accessibility, VoiceOver, large text, casual game, journal
+published: 2026-11-06T18:00+09:00
 ---
 A fast ball game does not sound easy to play with a screen reader, so we spent build 14, a TestFlight internal test build, on accessibility. It is not released to the public yet.
 

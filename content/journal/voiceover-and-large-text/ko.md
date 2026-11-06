@@ -5,6 +5,7 @@ slug: voiceover-and-large-text
 lang: ko
 category: devlog
 keywords: Claimball, 접근성, VoiceOver, 큰 글꼴, 캐주얼 게임, 저널
+published: 2026-11-06T18:00+09:00
 ---
 빠른 공놀이 게임을 화면 읽기로 즐기기는 쉽지 않아 보여요. 그래서 TestFlight 내부 테스트 빌드인 빌드 14에서 접근성에 시간을 들였어요. 아직 일반 공개 전이에요.
 
