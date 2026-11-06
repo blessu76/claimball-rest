@@ -1,6 +1,83 @@
 {
   "releases": [
     {
+      "id": "1.0.0-20",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-11-06",
+      "title": {
+        "en": "Build 20",
+        "ko": "빌드 20",
+        "ja": "ビルド 20",
+        "zh": "构建版本 20",
+        "es": "Compilación 20",
+        "pt": "Build 20",
+        "id": "Build 20",
+        "ru": "Сборка 20",
+        "vi": "Bản dựng 20",
+        "fr": "Build 20",
+        "de": "Build 20",
+        "ar": "Build 20",
+        "hi": "बिल्ड 20"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh": "TestFlight 内部测试版本，尚未向公众发布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+      },
+      "notes": {
+        "en": [
+          "Behind-the-scenes cleanup: the shared internal kit now comes from a versioned private repository instead of a copy inside the game. Nothing changes in how the game looks or plays, and your saved data works exactly as before."
+        ],
+        "ko": [
+          "내부 정리: 공용 내부 키트를 게임 안 복사본이 아니라 버전이 붙은 비공개 저장소에서 가져오도록 바꿨어요. 화면이나 플레이는 달라지지 않고, 저장 데이터도 전과 똑같이 동작해요."
+        ],
+        "ja": [
+          "内部の整理：共通の内部キットを、ゲーム内のコピーではなくバージョン管理された非公開リポジトリから取得するようにしました。見た目やプレイは変わらず、保存データも以前と同じように動作します。"
+        ],
+        "zh": [
+          "内部整理：共用的内部工具包现在来自带版本号的私有仓库，而不是游戏内的副本。游戏的外观和玩法没有变化，存档数据也和以前完全一样。"
+        ],
+        "es": [
+          "Limpieza interna: el kit interno compartido ahora proviene de un repositorio privado con versiones, en lugar de una copia dentro del juego. No cambia nada en el aspecto ni en el juego, y tus datos guardados funcionan igual que antes."
+        ],
+        "pt": [
+          "Limpeza interna: o kit interno compartilhado agora vem de um repositório privado versionado, em vez de uma cópia dentro do jogo. Nada muda na aparência ou na jogabilidade, e seus dados salvos funcionam como antes."
+        ],
+        "id": [
+          "Pembersihan internal: kit internal bersama kini diambil dari repositori privat berversi, bukan salinan di dalam game. Tampilan dan permainan tidak berubah, dan data tersimpanmu berfungsi seperti sebelumnya."
+        ],
+        "ru": [
+          "Внутренняя уборка: общий внутренний набор теперь берётся из закрытого репозитория с версиями, а не из копии внутри игры. Внешний вид и игра не меняются, сохранённые данные работают как прежде."
+        ],
+        "vi": [
+          "Dọn dẹp nội bộ: bộ công cụ nội bộ dùng chung giờ được lấy từ kho riêng có đánh phiên bản, thay vì bản sao trong game. Giao diện và cách chơi không thay đổi, dữ liệu đã lưu vẫn hoạt động như trước."
+        ],
+        "fr": [
+          "Nettoyage interne : le kit interne partagé provient désormais d'un dépôt privé versionné, et non d'une copie dans le jeu. Rien ne change dans l'apparence ou le jeu, et vos données enregistrées fonctionnent comme avant."
+        ],
+        "de": [
+          "Interne Aufräumarbeiten: Das gemeinsame interne Kit stammt jetzt aus einem versionierten privaten Repository statt aus einer Kopie im Spiel. Aussehen und Spiel bleiben gleich, deine gespeicherten Daten funktionieren wie zuvor."
+        ],
+        "ar": [
+          "تنظيف داخلي: أصبحت الحزمة الداخلية المشتركة تأتي من مستودع خاص بإصدارات محددة بدلاً من نسخة داخل اللعبة. لا يتغير شيء في شكل اللعبة أو طريقة اللعب، وتعمل بياناتك المحفوظة كما كانت."
+        ],
+        "hi": [
+          "आंतरिक सफ़ाई: साझा आंतरिक किट अब गेम के अंदर की कॉपी के बजाय वर्शन वाले निजी रिपॉज़िटरी से आती है। गेम के रूप या खेलने के तरीके में कोई बदलाव नहीं है, और आपका सेव किया डेटा पहले जैसा ही चलता है।"
+        ]
+      }
+    },
+    {
       "id": "1.0.0-19",
       "version": "1.0.0",
       "status": "beta",
