@@ -1,6 +1,109 @@
 {
   "releases": [
     {
+      "id": "1.0.0-21",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-11-06",
+      "title": {
+        "en": "Build 21",
+        "ko": "빌드 21",
+        "ja": "ビルド 21",
+        "zh": "构建版本 21",
+        "es": "Compilación 21",
+        "pt": "Build 21",
+        "id": "Build 21",
+        "ru": "Сборка 21",
+        "vi": "Bản dựng 21",
+        "fr": "Build 21",
+        "de": "Build 21",
+        "ar": "Build 21",
+        "hi": "बिल्ड 21"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh": "TestFlight 内部测试版本，尚未向公众发布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+      },
+      "notes": {
+        "en": [
+          "Landscape support: on phones you can now rotate to a wide board with compact side panels. Your match keeps its state and pauses automatically when you rotate.",
+          "New \"Screen orientation\" setting: choose auto-rotate, portrait only or landscape only.",
+          "Support the maker: three optional one-time tips in Settings. They are just a thank-you and change nothing in the game."
+        ],
+        "ko": [
+          "가로 화면 지원: 폰을 돌리면 넓은 판과 양옆 작은 패널로 보여요. 돌려도 경기 상태가 유지되고 자동으로 일시정지돼요.",
+          "새 설정 「화면 방향」: 자동 회전, 세로 고정, 가로 고정 중에 고를 수 있어요.",
+          "만든 사람 응원하기: 설정에서 선택할 수 있는 한 번짜리 팁 3종이 생겼어요. 감사의 마음일 뿐 게임에는 아무 변화가 없어요."
+        ],
+        "ja": [
+          "横画面に対応：スマホを回すと、広いボードと両側のコンパクトなパネルで表示されます。回転しても試合の状態は保たれ、自動で一時停止します。",
+          "新しい設定「画面の向き」：自動回転・縦固定・横固定から選べます。",
+          "開発者を応援：設定に、任意の1回限りのチップを3種類追加しました。感謝の気持ちを表すだけで、ゲームには何の変化もありません。"
+        ],
+        "zh": [
+          "支持横屏：手机旋转后会显示宽大的棋盘和两侧紧凑的面板。旋转时对局状态保持不变，并会自动暂停。",
+          "新增“屏幕方向”设置：可选择自动旋转、仅竖屏或仅横屏。",
+          "支持开发者：设置中新增三档可选的一次性小费。这只是一份心意，不会改变游戏的任何内容。"
+        ],
+        "es": [
+          "Compatibilidad con horizontal: en el móvil ahora puedes girar para ver un tablero ancho con paneles laterales compactos. La partida conserva su estado y se pausa automáticamente al girar.",
+          "Nuevo ajuste «Orientación de pantalla»: elige giro automático, solo vertical o solo horizontal.",
+          "Apoya al creador: tres propinas opcionales de pago único en Ajustes. Son solo un agradecimiento y no cambian nada en el juego."
+        ],
+        "pt": [
+          "Suporte à horizontal: no celular você agora pode girar para ver um tabuleiro largo com painéis laterais compactos. A partida mantém o estado e pausa automaticamente ao girar.",
+          "Nova configuração «Orientação da tela»: escolha rotação automática, só vertical ou só horizontal.",
+          "Apoie o criador: três gorjetas opcionais de pagamento único em Ajustes. São apenas um agradecimento e não mudam nada no jogo."
+        ],
+        "id": [
+          "Dukungan layar lanskap: di ponsel kini kamu bisa memutar layar untuk melihat papan lebar dengan panel samping yang ringkas. Pertandingan tetap tersimpan dan otomatis dijeda saat layar diputar.",
+          "Pengaturan baru \"Orientasi layar\": pilih putar otomatis, hanya potret, atau hanya lanskap.",
+          "Dukung pembuatnya: tiga tip opsional sekali bayar di Pengaturan. Ini hanya ucapan terima kasih dan tidak mengubah apa pun di dalam game."
+        ],
+        "ru": [
+          "Поддержка горизонтальной ориентации: на телефоне можно повернуть экран и увидеть широкое поле с компактными боковыми панелями. Состояние матча сохраняется, а при повороте игра автоматически ставится на паузу.",
+          "Новая настройка «Ориентация экрана»: автоповорот, только вертикальная или только горизонтальная.",
+          "Поддержать автора: в настройках появились три необязательных разовых чаевых. Это просто благодарность, в игре ничего не меняется."
+        ],
+        "vi": [
+          "Hỗ trợ màn hình ngang: trên điện thoại, bạn có thể xoay để thấy bàn chơi rộng cùng các bảng điều khiển gọn hai bên. Trận đấu giữ nguyên trạng thái và tự động tạm dừng khi xoay.",
+          "Cài đặt mới \"Hướng màn hình\": chọn tự động xoay, chỉ dọc hoặc chỉ ngang.",
+          "Ủng hộ người làm game: ba mức tiền boa tùy chọn, trả một lần trong Cài đặt. Đây chỉ là lời cảm ơn và không thay đổi gì trong game."
+        ],
+        "fr": [
+          "Prise en charge du mode paysage : sur téléphone, vous pouvez désormais pivoter l'écran pour un large plateau avec des panneaux latéraux compacts. La partie conserve son état et se met automatiquement en pause lors de la rotation.",
+          "Nouveau réglage « Orientation de l'écran » : rotation automatique, portrait seul ou paysage seul.",
+          "Soutenir le créateur : trois pourboires facultatifs à paiement unique dans les Réglages. C'est un simple remerciement, sans aucun effet sur le jeu."
+        ],
+        "de": [
+          "Querformat-Unterstützung: Auf dem Handy kannst du jetzt drehen und siehst ein breites Spielfeld mit kompakten Seitenleisten. Das Match behält seinen Zustand und pausiert beim Drehen automatisch.",
+          "Neue Einstellung „Bildschirmausrichtung“: automatisch drehen, nur Hochformat oder nur Querformat.",
+          "Den Entwickler unterstützen: drei optionale Einmal-Trinkgelder in den Einstellungen. Sie sind nur ein Dankeschön und ändern nichts am Spiel."
+        ],
+        "ar": [
+          "دعم الوضع الأفقي: يمكنك الآن تدوير الهاتف لعرض لوحة عريضة مع لوحات جانبية مدمجة. تحتفظ المباراة بحالتها وتتوقف مؤقتًا تلقائيًا عند التدوير.",
+          "إعداد جديد «اتجاه الشاشة»: اختر التدوير التلقائي أو العمودي فقط أو الأفقي فقط.",
+          "ادعم صانع اللعبة: ثلاث إكراميات اختيارية بدفعة واحدة في الإعدادات. إنها مجرد شكر ولا تغيّر شيئًا في اللعبة."
+        ],
+        "hi": [
+          "लैंडस्केप सपोर्ट: फ़ोन पर अब घुमाने से चौड़ा बोर्ड और दोनों ओर छोटे पैनल दिखते हैं। घुमाने पर मैच की स्थिति बनी रहती है और गेम अपने-आप रुक जाता है।",
+          "नई सेटिंग \"स्क्रीन की दिशा\": ऑटो-रोटेट, सिर्फ़ पोर्ट्रेट या सिर्फ़ लैंडस्केप चुनें।",
+          "बनाने वाले को सपोर्ट करें: सेटिंग्स में तीन वैकल्पिक एकबारगी टिप। यह सिर्फ़ धन्यवाद है और गेम में कुछ नहीं बदलता।"
+        ]
+      }
+    },
+    {
       "id": "1.0.0-20",
       "version": "1.0.0",
       "status": "beta",
