@@ -1,6 +1,83 @@
 {
   "releases": [
     {
+      "id": "1.0.0-24",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-11-07",
+      "title": {
+        "en": "Build 24",
+        "ko": "빌드 24",
+        "ja": "ビルド 24",
+        "zh": "构建版本 24",
+        "es": "Compilación 24",
+        "pt": "Build 24",
+        "id": "Build 24",
+        "ru": "Сборка 24",
+        "vi": "Bản dựng 24",
+        "fr": "Build 24",
+        "de": "Build 24",
+        "ar": "Build 24",
+        "hi": "बिल्ड 24"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh": "TestFlight 内部测试版本，尚未向公众发布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+      },
+      "notes": {
+        "en": [
+          "iCloud: your records, daily challenges and season cups now continue too."
+        ],
+        "ko": [
+          "iCloud: 기록·도전·시즌컵 이어하기"
+        ],
+        "ja": [
+          "iCloud：記録・デイリーチャレンジ・シーズンカップも引き継ぎます。"
+        ],
+        "zh": [
+          "iCloud：战绩、每日挑战和赛季杯也会接力同步。"
+        ],
+        "es": [
+          "iCloud: tus estadísticas, desafíos diarios y copas de temporada también continúan."
+        ],
+        "pt": [
+          "iCloud: suas estatísticas, desafios diários e copas da temporada também continuam."
+        ],
+        "id": [
+          "iCloud: catatan, tantangan harian, dan piala musim kini juga berlanjut."
+        ],
+        "ru": [
+          "iCloud: статистика, ежедневные испытания и кубки сезона теперь тоже переносятся."
+        ],
+        "vi": [
+          "iCloud: thành tích, thử thách hằng ngày và cúp mùa giải nay cũng được tiếp nối."
+        ],
+        "fr": [
+          "iCloud : vos statistiques, défis du jour et coupes de saison suivent aussi."
+        ],
+        "de": [
+          "iCloud: Statistiken, Tagesherausforderungen und Saisonpokale werden jetzt ebenfalls übernommen."
+        ],
+        "ar": [
+          "iCloud: تنتقل الآن أيضًا سجلاتك والتحديات اليومية وكؤوس الموسم."
+        ],
+        "hi": [
+          "iCloud: आपके रिकॉर्ड, दैनिक चुनौतियाँ और सीज़न कप भी अब आगे जारी रहते हैं।"
+        ]
+      }
+    },
+    {
       "id": "1.0.0-23",
       "version": "1.0.0",
       "status": "beta",
