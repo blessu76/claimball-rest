@@ -1,6 +1,83 @@
 {
   "releases": [
     {
+      "id": "1.0.0-23",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-11-07",
+      "title": {
+        "en": "Build 23",
+        "ko": "빌드 23",
+        "ja": "ビルド 23",
+        "zh": "构建版本 23",
+        "es": "Compilación 23",
+        "pt": "Build 23",
+        "id": "Build 23",
+        "ru": "Сборка 23",
+        "vi": "Bản dựng 23",
+        "fr": "Build 23",
+        "de": "Build 23",
+        "ar": "Build 23",
+        "hi": "बिल्ड 23"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh": "TestFlight 内部测试版本，尚未向公众发布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+      },
+      "notes": {
+        "en": [
+          "Continue with iCloud: on iPhone and iPad signed in to the same Apple ID, your progress picks up where you left off — it now also syncs when you return to the app."
+        ],
+        "ko": [
+          "iCloud 이어하기: 같은 Apple 계정의 아이폰·아이패드에서 진행이 이어져요. 앱으로 돌아올 때도 바로 맞춰요."
+        ],
+        "ja": [
+          "iCloud で続きから：同じ Apple ID の iPhone と iPad で進行状況が引き継がれます。アプリに戻ったときにもすぐ同期します。"
+        ],
+        "zh": [
+          "iCloud 接力：在同一 Apple ID 的 iPhone 和 iPad 上继续进度，回到应用时也会立即同步。"
+        ],
+        "es": [
+          "Continuar con iCloud: en iPhone y iPad con el mismo ID de Apple, tu progreso continúa donde lo dejaste; ahora también se sincroniza al volver a la app."
+        ],
+        "pt": [
+          "Continue com o iCloud: no iPhone e no iPad com o mesmo ID Apple, seu progresso continua de onde parou; agora também sincroniza ao voltar ao app."
+        ],
+        "id": [
+          "Lanjutkan lewat iCloud: di iPhone dan iPad dengan ID Apple yang sama, progresmu berlanjut; kini juga disinkronkan saat kamu kembali ke app."
+        ],
+        "ru": [
+          "Продолжение через iCloud: на iPhone и iPad с одним Apple ID прогресс сохраняется, и теперь синхронизируется и при возврате в приложение."
+        ],
+        "vi": [
+          "Chơi tiếp qua iCloud: trên iPhone và iPad cùng một Apple ID, tiến trình được tiếp nối; nay cũng đồng bộ khi bạn quay lại ứng dụng."
+        ],
+        "fr": [
+          "Reprise via iCloud : sur iPhone et iPad avec le même identifiant Apple, votre progression continue ; elle se synchronise aussi au retour dans l'app."
+        ],
+        "de": [
+          "Mit iCloud weiterspielen: Auf iPhone und iPad mit derselben Apple-ID geht dein Fortschritt weiter; er wird jetzt auch beim Zurückkehren in die App abgeglichen."
+        ],
+        "ar": [
+          "المتابعة عبر iCloud: على iPhone وiPad بنفس معرّف Apple يستمر تقدّمك، ويُزامَن الآن أيضًا عند العودة إلى التطبيق."
+        ],
+        "hi": [
+          "iCloud से आगे खेलें: एक ही Apple ID वाले iPhone और iPad पर आपकी प्रगति जारी रहती है; ऐप में लौटते ही यह अब सिंक भी होती है।"
+        ]
+      }
+    },
+    {
       "id": "1.0.0-22",
       "version": "1.0.0",
       "status": "beta",
