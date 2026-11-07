@@ -1,6 +1,109 @@
 {
   "releases": [
     {
+      "id": "1.0.0-22",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-11-07",
+      "title": {
+        "en": "Build 22",
+        "ko": "빌드 22",
+        "ja": "ビルド 22",
+        "zh": "构建版本 22",
+        "es": "Compilación 22",
+        "pt": "Build 22",
+        "id": "Build 22",
+        "ru": "Сборка 22",
+        "vi": "Bản dựng 22",
+        "fr": "Build 22",
+        "de": "Build 22",
+        "ar": "Build 22",
+        "hi": "बिल्ड 22"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh": "TestFlight 内部测试版本，尚未向公众发布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+      },
+      "notes": {
+        "en": [
+          "Hit feel: conceding a point now shakes the screen lightly with a haptic tap, and the end of a match has its own vibration for a win and a loss.",
+          "Smash ready cue: when the smash gauge fills up, the paddle flashes with a sparkle and a light tap so you know it's time.",
+          "New daily challenge \"Rally party\": a slower ball that speeds up gently, so you can keep the rally going."
+        ],
+        "ko": [
+          "타격감: 점수를 내주면 화면이 가볍게 흔들리고 진동이 울려요. 경기가 끝날 때도 이기면 · 지면 다른 진동이 나요.",
+          "스매시 충전 알림: 스매시 게이지가 가득 차면 패들이 반짝이며 가벼운 진동으로 알려 줘요.",
+          "새 일일 도전 「랠리 파티」: 공이 느리고 천천히 빨라져서 랠리를 길게 이어 갈 수 있어요."
+        ],
+        "ja": [
+          "打撃感：ポイントを取られると画面が軽く揺れ、振動が伝わります。試合終了時も勝ちと負けで違う振動になります。",
+          "スマッシュ準備の合図：スマッシュゲージが満タンになると、パドルがきらめき、軽い振動でお知らせします。",
+          "新しいデイリーチャレンジ「ラリーパーティ」：ボールが遅く、ゆるやかに加速するので、ラリーを長く続けられます。"
+        ],
+        "zh": [
+          "打击手感：丢分时画面会轻轻晃动并带有震动反馈；比赛结束时，胜利和失败的震动也不同。",
+          "扣杀就绪提示：扣杀能量条充满时，球拍会闪光并伴随轻微震动提醒你。",
+          "新增每日挑战“拉力派对”：球速较慢且加速平缓，更容易把回合打得长久。"
+        ],
+        "es": [
+          "Sensación de golpe: al encajar un punto la pantalla vibra levemente con un toque háptico, y el final de la partida tiene una vibración distinta para victoria y derrota.",
+          "Aviso de remate listo: cuando se llena el medidor de remate, la pala destella con un brillo y un toque suave.",
+          "Nuevo reto diario «Fiesta de rallies»: una bola más lenta que acelera poco a poco, ideal para alargar el intercambio."
+        ],
+        "pt": [
+          "Sensação de golpe: ao sofrer um ponto a tela balança de leve com um toque háptico, e o fim da partida tem uma vibração diferente para vitória e derrota.",
+          "Aviso de smash pronto: quando o medidor de smash enche, a raquete brilha e dá um toque leve.",
+          "Novo desafio diário «Festa de rallies»: uma bola mais lenta que acelera aos poucos, ótima para prolongar a troca."
+        ],
+        "id": [
+          "Sensasi pukulan: saat kehilangan poin layar bergetar ringan disertai getaran haptik, dan akhir pertandingan punya getaran berbeda untuk menang dan kalah.",
+          "Tanda smash siap: saat meteran smash penuh, dayung berkilau dan memberi getaran ringan.",
+          "Tantangan harian baru «Pesta reli»: bola lebih lambat dan menambah kecepatan perlahan, sehingga reli bisa berlangsung lama."
+        ],
+        "ru": [
+          "Ощущение удара: при пропущенном очке экран слегка трясётся с лёгкой вибрацией, а в конце матча вибрация разная для победы и поражения.",
+          "Сигнал готового смэша: когда шкала смэша заполнится, ракетка вспыхивает искрами и слегка вибрирует.",
+          "Новое ежедневное испытание «Вечеринка розыгрышей»: мяч медленнее и разгоняется плавно, так что розыгрыш можно держать долго."
+        ],
+        "vi": [
+          "Cảm giác đánh: khi để mất điểm, màn hình rung nhẹ kèm rung phản hồi, và cuối trận có kiểu rung khác nhau cho thắng và thua.",
+          "Báo hiệu smash sẵn sàng: khi thanh smash đầy, vợt lóe sáng cùng một nhịp rung nhẹ.",
+          "Thử thách hằng ngày mới «Tiệc giao bóng»: bóng chậm và tăng tốc từ từ, giúp bạn kéo dài pha đánh."
+        ],
+        "fr": [
+          "Sensation de frappe : quand vous encaissez un point, l'écran tremble légèrement avec un retour haptique, et la fin de match vibre différemment selon victoire ou défaite.",
+          "Signal de smash prêt : quand la jauge de smash est pleine, la raquette scintille avec une légère vibration.",
+          "Nouveau défi du jour « Fête des échanges » : une balle plus lente qui accélère doucement, idéale pour prolonger l'échange."
+        ],
+        "de": [
+          "Treffergefühl: Bei einem Gegentreffer wackelt der Bildschirm leicht mit haptischem Tippen, und das Spielende vibriert bei Sieg und Niederlage unterschiedlich.",
+          "Smash-bereit-Signal: Ist die Smash-Anzeige voll, funkelt der Schläger mit einem leichten Tippen.",
+          "Neue Tagesherausforderung „Ballwechsel-Party“: ein langsamerer Ball, der sanft schneller wird – ideal für lange Ballwechsel."
+        ],
+        "ar": [
+          "إحساس الضربة: عند خسارة نقطة تهتز الشاشة قليلاً مع اهتزاز لمسي، وتختلف اهتزازة نهاية المباراة بين الفوز والخسارة.",
+          "إشارة جاهزية السماش: عند امتلاء مقياس السماش يلمع المضرب مع اهتزاز خفيف.",
+          "تحدٍّ يومي جديد «حفلة التبادل»: كرة أبطأ تتسارع تدريجياً، فيسهل إطالة التبادل."
+        ],
+        "hi": [
+          "हिट का एहसास: अंक गँवाने पर स्क्रीन हल्का हिलती है और हैप्टिक कंपन मिलता है; मैच ख़त्म होने पर जीत और हार के लिए अलग कंपन होता है।",
+          "स्मैश तैयार का संकेत: स्मैश गेज भरते ही पैडल चमकता है और हल्का कंपन होता है।",
+          "नई दैनिक चुनौती «रैली पार्टी»: गेंद धीमी है और धीरे-धीरे तेज़ होती है, इसलिए रैली लंबी खींच सकते हैं।"
+        ]
+      }
+    },
+    {
       "id": "1.0.0-21",
       "version": "1.0.0",
       "status": "beta",

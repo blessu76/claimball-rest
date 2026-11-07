@@ -106,7 +106,7 @@ class Built(unittest.TestCase):
 
     def test_releases_page_lists_every_build_newest_first_with_anchors(self):
         h = self.read("releases/index.html")
-        ids = ["1.0.0-21", "1.0.0-20", "1.0.0-19", "1.0.0-18", "1.0.0-17", "1.0.0-16", "1.0.0-15", "1.0.0-14", "1.0.0-13"] + ["1.0.0-%d" % n for n in range(10, 0, -1)]
+        ids = ["1.0.0-22", "1.0.0-21", "1.0.0-20", "1.0.0-19", "1.0.0-18", "1.0.0-17", "1.0.0-16", "1.0.0-15", "1.0.0-14", "1.0.0-13"] + ["1.0.0-%d" % n for n in range(10, 0, -1)]
         for i in ids:
             self.assertIn('<article class="card release" id="%s">' % i, h)
         self.assertEqual(ids, re.findall(r'<article class="card release" id="([^"]+)"', h))
