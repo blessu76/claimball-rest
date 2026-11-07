@@ -5,6 +5,7 @@ slug: color-blind-patterns
 lang: en
 category: devlog
 keywords: Claimball, color-blind, accessibility, contrast, casual game, journal
+published: 2026-11-07T18:00+09:00
 ---
 Claimball is a game about two colors on a grid, so color alone is a weak signal for some players. This post covers two small changes from the test builds. They are not released to the public yet.
 

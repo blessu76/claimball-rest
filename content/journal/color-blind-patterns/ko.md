@@ -5,6 +5,7 @@ slug: color-blind-patterns
 lang: ko
 category: devlog
 keywords: Claimball, 색약, 접근성, 대비, 캐주얼 게임, 저널
+published: 2026-11-07T18:00+09:00
 ---
 Claimball은 격자 위에서 두 색이 겨루는 게임이라, 어떤 분께는 색만으로는 구분하기 어려울 수 있어요. 이 글은 테스트 빌드에 들어간 작은 변경 두 가지를 소개해요. 아직 일반 공개 전이에요.
 

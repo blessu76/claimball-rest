@@ -26,6 +26,7 @@ Claimball is a casual player-versus-AI mobile game by ipe() (https://ipe.rest/).
 
 ## Journal posts (English)
 
+- [Color-blind patterns: telling tiles apart without relying on color](https://claimball.ipe.rest/journal/color-blind-patterns/) — 2026-11-07 — A setting adds dots on your tiles and stripes on the opponent's, and text contrast was improved in both looks.
 - [Claimball can be read aloud with VoiceOver and handles large text](https://claimball.ipe.rest/journal/voiceover-and-large-text/) — 2026-11-06 — Build 14 announces every part of a match with VoiceOver and keeps layouts intact at large text sizes and on small screens.
 - [Your first Claimball match now starts with a short guide](https://claimball.ipe.rest/journal/how-to-play-first-match/) — 2026-11-05 — A three-card How to play guide greets you on your first match in the latest test builds.
 - [My Stats and background music arrive in Claimball](https://claimball.ipe.rest/journal/my-stats-and-music/) — 2026-11-04 — The latest test build adds a My Stats screen with your wins, draws and losses, and three original music tracks with an on/off toggle.
