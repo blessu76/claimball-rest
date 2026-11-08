@@ -5,6 +5,7 @@ slug: thirteen-languages
 lang: en
 category: devlog
 keywords: Claimball, languages, localization, casual game, journal
+published: 2026-11-08T18:00+09:00
 ---
 Claimball is a game you can play with almost no reading, but menus, hints and rules still need words. This post is about how the language list grew in the test builds. They are not released to the public yet.
 

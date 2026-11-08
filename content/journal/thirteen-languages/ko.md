@@ -5,6 +5,7 @@ slug: thirteen-languages
 lang: ko
 category: devlog
 keywords: Claimball, 언어, 현지화, 캐주얼 게임, 저널
+published: 2026-11-08T18:00+09:00
 ---
 Claimball은 글을 거의 읽지 않아도 즐길 수 있지만, 메뉴와 힌트와 규칙에는 여전히 말이 필요해요. 이 글은 테스트 빌드에서 언어 목록이 어떻게 늘었는지 이야기해요. 아직 일반 공개 전이에요.
 
