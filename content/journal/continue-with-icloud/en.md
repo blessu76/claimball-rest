@@ -5,6 +5,7 @@ slug: continue-with-icloud
 lang: en
 category: devlog
 keywords: Claimball, iCloud, continue on another device, casual game, journal
+published: 2026-11-09T18:00+09:00
 ---
 Build 7, a TestFlight internal test build, lets you pick up where you left off on another device. It is not released to the public yet.
 

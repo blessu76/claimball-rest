@@ -5,6 +5,7 @@ slug: continue-with-icloud
 lang: ko
 category: devlog
 keywords: Claimball, iCloud, 이어하기, 캐주얼 게임, 저널
+published: 2026-11-09T18:00+09:00
 ---
 TestFlight 내부 테스트 빌드인 빌드 7부터 다른 기기에서 하던 곳에서 이어서 할 수 있어요. 아직 일반 공개 전이에요.
 
