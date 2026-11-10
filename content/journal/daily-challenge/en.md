@@ -5,6 +5,7 @@ slug: daily-challenge
 lang: en
 category: devlog
 keywords: Claimball, daily challenge, casual game, journal
+published: 2026-11-10T18:00+09:00
 ---
 The Daily Challenge is one match a day with a twist, and it has grown over several test builds. They are not released to the public yet.
 

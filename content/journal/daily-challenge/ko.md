@@ -5,6 +5,7 @@ slug: daily-challenge
 lang: ko
 category: devlog
 keywords: Claimball, 일일 도전, 캐주얼 게임, 저널
+published: 2026-11-10T18:00+09:00
 ---
 일일 도전은 하루 한 판에 변수가 붙는 모드로, 여러 테스트 빌드를 거치며 다듬어졌어요. 아직 일반 공개 전이에요.
 

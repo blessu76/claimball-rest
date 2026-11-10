@@ -26,6 +26,7 @@ Claimball is a casual player-versus-AI mobile game by ipe() (https://ipe.rest/).
 
 ## Journal posts (English)
 
+- [The Daily Challenge: one match a day with a twist](https://claimball.ipe.rest/journal/daily-challenge/) — 2026-11-10 — One match a day with a twist, a fairer rematch balance, and what happens if the app closes mid-match.
 - [Continue on another device with iCloud](https://claimball.ipe.rest/journal/continue-with-icloud/) — 2026-11-09 — Your progress, stars, achievements and accessibility settings follow your iCloud account on iPhone and iPad. Here is what is shared and what is not.
 - [Claimball speaks 13 languages in the test builds](https://claimball.ipe.rest/journal/thirteen-languages/) — 2026-11-08 — From nine languages to thirteen, plus an automatic check that keeps every translation complete.
 - [Color-blind patterns: telling tiles apart without relying on color](https://claimball.ipe.rest/journal/color-blind-patterns/) — 2026-11-07 — A setting adds dots on your tiles and stripes on the opponent's, and text contrast was improved in both looks.
