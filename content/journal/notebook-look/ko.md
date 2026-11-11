@@ -5,6 +5,7 @@ slug: notebook-look
 lang: ko
 category: devlog
 keywords: Claimball, 노트북 테마, 설정, 캐주얼 게임, 저널
+published: 2026-11-11T18:00+09:00
 ---
 TestFlight 내부 테스트 빌드인 빌드 9에서 게임에 두 번째 모습이 생겼어요. 아직 일반 공개 전이에요.
 

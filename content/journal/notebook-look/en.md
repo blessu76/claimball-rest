@@ -5,6 +5,7 @@ slug: notebook-look
 lang: en
 category: devlog
 keywords: Claimball, notebook theme, settings, casual game, journal
+published: 2026-11-11T18:00+09:00
 ---
 Build 9, a TestFlight internal test build, gave the game a second look. It is not released to the public yet.
 
