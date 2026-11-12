@@ -20,4 +20,4 @@ Claimball 現在有三首原創曲目：選單一首、對戰一首，另有節�
 
 ## 接下來
 
-Claimball 仍在測試中，即將登陸 iOS 與 Android，目前尚無上市日期。每個版本都列在[版本說明](/releases/)頁面。
+Claimball 仍在測試中，即將登陸 iOS 與 Android，目前尚無上市日期。

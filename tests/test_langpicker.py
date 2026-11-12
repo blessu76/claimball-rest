@@ -113,24 +113,24 @@ console.log(JSON.stringify(out));
 
     @unittest.skipUnless(shutil.which("node"), "node required")
     def test_en_link_from_ja_stays_english_without_storage(self):
-        """/ja/releases/ -> EN link -> langpick.js on /releases/?lang=en with navigator.languages=['ja'] and localStorage throwing: no redirect."""
-        h = (REPO / "ja/releases/index.html").read_text(encoding="utf-8")
+        """/ja/about/ -> EN link -> langpick.js on /about/?lang=en with navigator.languages=['ja'] and localStorage throwing: no redirect."""
+        h = (REPO / "ja/about/index.html").read_text(encoding="utf-8")
         href = re.search(r'<a href="([^"]*)" hreflang="en"', h).group(1)
-        self.assertEqual(href, "/releases/?lang=en")
+        self.assertEqual(href, "/about/?lang=en")
         pick = (REPO / "assets" / "langpick.js").read_text(encoding="utf-8").replace("/*SUPPORTED*/[]", json.dumps(list(bs.LISTED))).replace("/*AVAILABLE*/[]", json.dumps(AVAILABLE))
         prog = r"""
 let to=null,hist=null;
-const loc={pathname:'/releases/',search:'?lang=en',hash:'',replace:u=>{to=u}};
+const loc={pathname:'/about/',search:'?lang=en',hash:'',replace:u=>{to=u}};
 const ls={getItem:()=>{throw new Error('blocked')},setItem:()=>{throw new Error('blocked')}};
 new Function('localStorage','navigator','location','history',%s)(ls,{languages:['ja'],language:'ja'},loc,{replaceState:(a,b,u)=>{hist=u}});
 console.log(JSON.stringify({to,hist}));
 """ % json.dumps(pick)
         res = subprocess.run(["node", "-e", prog], capture_output=True, text=True, timeout=30)
         self.assertEqual(res.returncode, 0, res.stderr)
-        self.assertEqual(json.loads(res.stdout), {"to": None, "hist": "/releases/"})
+        self.assertEqual(json.loads(res.stdout), {"to": None, "hist": "/about/"})
         # the bare link is what bounced back: same page without ?lang=en goes to /ja/
         res = subprocess.run(["node", "-e", prog.replace("search:'?lang=en'", "search:''")], capture_output=True, text=True, timeout=30)
-        self.assertEqual(json.loads(res.stdout)["to"], "/ja/releases/")
+        self.assertEqual(json.loads(res.stdout)["to"], "/ja/about/")
 
 
 @unittest.skipUnless(shutil.which("node"), "node required")
@@ -210,7 +210,7 @@ console.log(JSON.stringify({to,replaced,store}));
         self.assertEqual(self.run_root("?lang=ko", pathname="/about/")["to"], "/ko/about/")
         r = self.run_root("?x=1&lang=ja", pathname="/journal/", hash_="#h")
         self.assertEqual(r["to"], "/ja/journal/?x=1#h")
-        self.assertEqual(self.run_root(saved="de", pathname="/releases/")["to"], "/de/releases/")
+        self.assertEqual(self.run_root(saved="de", pathname="/about/")["to"], "/de/about/")
         self.assertEqual(self.run_root(nav=("vi-VN",), pathname="/support/")["to"], "/vi/support/")
 
     def test_ended_languages_never_redirect(self):
@@ -221,7 +221,7 @@ console.log(JSON.stringify({to,replaced,store}));
         r = self.run_root("?lang=HI")
         self.assertIsNone(r["to"])
         self.assertNotIn(self.KEY, r["store"])
-        self.assertEqual(self.run_root(saved="ar", nav=("en-US",), pathname="/releases/")["to"], None)
+        self.assertEqual(self.run_root(saved="ar", nav=("en-US",), pathname="/about/")["to"], None)
 
     def test_chinese_and_portuguese_map_to_kit_tags(self):
         self.assertEqual(self.run_root(nav=("zh-TW",))["to"], "/zh-Hant/")
@@ -276,7 +276,7 @@ console.log(JSON.stringify({to,replaced,store}));
             self.assertEqual(a, have, str(rel))
 
     def test_built_script_on_an_inner_page_redirects(self):
-        for rel, path in (("about/index.html", "/about/"), ("releases/index.html", "/releases/"), ("journal/index.html", "/journal/")):
+        for rel, path in (("about/index.html", "/about/"), ("journal/index.html", "/journal/")):
             script = self.built_script(REPO / rel)
             self.assertEqual(self.run_root(nav=("ko-KR",), pathname=path, script=script)["to"], "/ko%s" % path, rel)
             self.assertIsNone(self.run_root(nav=("en-US",), pathname=path, script=script)["to"], rel)

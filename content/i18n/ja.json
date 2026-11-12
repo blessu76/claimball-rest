@@ -2,7 +2,6 @@
   "nav_home": "ホーム",
   "nav_about": "概要",
   "nav_journal": "ジャーナル",
-  "nav_releases": "リリース",
   "nav_support": "サポート",
   "nav_privacy": "プライバシー",
   "nav_terms": "利用規約",
@@ -56,13 +55,6 @@
   "cat_devlog": "開発ログ",
   "cat_art": "アート",
   "cat_design": "デザイン",
-  "releases_title": "リリースノート",
-  "releases_desc": "Claimball のビルドごとの変更点です。Claimball はまだテスト中で、一般公開前です。",
-  "releases_empty": "Claimball は iOS と Android 向けに近日公開予定です。最初のバージョンが公開されると、リリースノートがここに載ります。",
-  "rel_status_prep": "準備中",
-  "rel_status_beta": "ベータ",
-  "rel_status_live": "公開済み",
-  "rel_en_note": "このノートは英語のみです。",
   "nf_h": "ページが見つかりません",
   "nf_p": "お探しのページが見つかりませんでした。移動したか、アドレスが間違っている可能性があります。"
 }

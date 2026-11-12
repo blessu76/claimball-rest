@@ -24,4 +24,4 @@ Acessibilidade não é uma tarefa de uma vez só. Vamos continuar testando com e
 
 ## O que vem a seguir
 
-Claimball ainda está em testes e chega em breve para iOS e Android. Ainda não há data de lançamento. Todas as versões estão listadas na página de [notas de versão](/pt-BR/releases/).
+Claimball ainda está em testes e chega em breve para iOS e Android. Ainda não há data de lançamento.

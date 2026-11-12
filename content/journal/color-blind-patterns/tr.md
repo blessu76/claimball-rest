@@ -24,4 +24,4 @@ Desen ayarını istediğin zaman açıp kapatabilirsin, bu yüzden karşılaşt�
 
 ## Sırada ne var
 
-Claimball hâlâ test aşamasında ve iOS ile Android için çok yakında geliyor. Henüz bir çıkış tarihi yok. Her derleme [sürüm notları](/releases/) sayfasında listelenir.
+Claimball hâlâ test aşamasında ve iOS ile Android için çok yakında geliyor. Henüz bir çıkış tarihi yok.

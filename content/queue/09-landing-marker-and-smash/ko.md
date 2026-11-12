@@ -30,4 +30,4 @@ keywords: Claimball, 착지 표시, 스매시, 90초 경기, 조작, 저널
 
 ## 다음 소식
 
-Claimball은 아직 테스트 중이고 iOS와 Android로 출시 예정이에요. 출시일은 정해지지 않았어요. 빌드별 변경 내용은 [릴리즈 노트](/releases/)에서 볼 수 있어요.
+Claimball은 아직 테스트 중이고 iOS와 Android로 출시 예정이에요. 출시일은 정해지지 않았어요.

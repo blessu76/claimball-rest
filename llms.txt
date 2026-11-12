@@ -20,7 +20,6 @@ Claimball is a casual player-versus-AI mobile game by ipe() (https://ipe.rest/).
 - [Support](https://claimball.ipe.rest/support/): contact and questions
 - [Privacy Policy](https://claimball.ipe.rest/privacy/)
 - [Terms of Use](https://claimball.ipe.rest/terms/)
-- [Release notes](https://claimball.ipe.rest/releases/)
 - [Journal](https://claimball.ipe.rest/journal/): notes from the making of the game
 - [RSS](https://claimball.ipe.rest/journal/feed.xml)
 

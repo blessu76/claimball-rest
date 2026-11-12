@@ -22,6 +22,6 @@ Kami akan memakai jurnal ini untuk membagikan catatan pembuatan game. Untuk seka
 
 ## Selanjutnya
 
-Claimball gratis untuk dicoba, satu kali pembelian membuka seluruh game, dan tidak ada iklan maupun langganan. Harganya akan diumumkan menjelang rilis. Belum ada tanggal rilis. Kalau ada kabar, kabarnya akan muncul di sini dan di [catatan rilis](/id/releases/).
+Claimball gratis untuk dicoba, satu kali pembelian membuka seluruh game, dan tidak ada iklan maupun langganan. Harganya akan diumumkan menjelang rilis. Belum ada tanggal rilis.
 
 *Diperbarui 2026-10-31: detail durasi pertandingan, rival, dan harga diperbarui.*

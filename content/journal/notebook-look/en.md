@@ -23,4 +23,4 @@ Your theme choice is saved on each device and is not shared through iCloud, so a
 
 ## What is next
 
-Claimball is still in testing and coming soon to iOS and Android. There is no release date yet. Every build is listed on the [release notes](/releases/) page.
+Claimball is still in testing and coming soon to iOS and Android. There is no release date yet.

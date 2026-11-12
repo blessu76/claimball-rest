@@ -24,4 +24,4 @@ Her gün tek bir hakkın var. Sürpriz bir dizi çeşitten değişir, böylece m
 
 ## Sırada ne var
 
-Claimball hâlâ test aşamasında ve iOS ile Android için çok yakında geliyor. Henüz bir çıkış tarihi yok. Her derleme [sürüm notları](/releases/) sayfasında listelenir.
+Claimball hâlâ test aşamasında ve iOS ile Android için çok yakında geliyor. Henüz bir çıkış tarihi yok.

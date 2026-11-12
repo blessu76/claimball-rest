@@ -20,4 +20,4 @@ Claimball artık üç özgün parçaya sahip: biri menü, biri maçlar, biri de 
 
 ## Sırada ne var
 
-Claimball hâlâ test aşamasında ve iOS ile Android için çok yakında geliyor. Henüz bir çıkış tarihi yok. Her derleme [sürüm notları](/releases/) sayfasında listelenir.
+Claimball hâlâ test aşamasında ve iOS ile Android için çok yakında geliyor. Henüz bir çıkış tarihi yok.

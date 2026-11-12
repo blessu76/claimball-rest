@@ -8,7 +8,7 @@ Offline checks
   1. sitemap.xml is valid XML and every <loc> is on https://claimball.ipe.rest.
   2. every <loc> has a file on disk (index.html of that path).
   3. every published post (content/journal/<slug>/<lang>.md) is listed, nothing unpublished is listed.
-  4. home / about / privacy / support / terms / releases / journal exist for every language that has a home page.
+  4. home / about / privacy / support / terms / journal exist for every language that has a home page.
   5. hreflang: lists itself + x-default, every target is itself in the sitemap, references are reciprocal.
   6. no <lastmod> or post time is in the future.
 """
@@ -56,7 +56,7 @@ def check(root, now=None):
             errs.append("lastmod in the future: %s %s" % (u, lastmod[u]))
     homes = [l for l in bs.LISTED if bs.url(bs.path_home(l)) in urls]
     for l in homes:
-        for path in [bs.path_page(l, x) for x in bs.PAGE_SLUGS] + [bs.path_releases(l), bs.path_journal(l)]:
+        for path in [bs.path_page(l, x) for x in bs.PAGE_SLUGS] + [bs.path_journal(l)]:
             if bs.url(path) not in urls:
                 errs.append("missing from sitemap: %s" % bs.url(path))
     for loc, links in urls.items():

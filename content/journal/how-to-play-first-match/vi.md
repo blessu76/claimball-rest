@@ -20,4 +20,4 @@ Một trò chơi chơi theo những lượt ngắn cần tự giải thích th�
 
 ## Tiếp theo là gì
 
-Claimball vẫn đang thử nghiệm và sắp ra mắt trên iOS và Android. Hiện chưa có ngày phát hành. Mọi bản dựng đều được liệt kê trong trang [ghi chú phát hành](/vi/releases/).
+Claimball vẫn đang thử nghiệm và sắp ra mắt trên iOS và Android. Hiện chưa có ngày phát hành.

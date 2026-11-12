@@ -24,4 +24,4 @@ TestFlight 內部測試版的第 9 版，為遊戲帶來了第二種外觀。目
 
 ## 接下來
 
-Claimball 仍在測試中，即將登陸 iOS 與 Android，目前尚無上市日期。每個版本都列在[版本說明](/releases/)頁面。
+Claimball 仍在測試中，即將登陸 iOS 與 Android，目前尚無上市日期。

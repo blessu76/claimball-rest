@@ -1,4 +1,4 @@
-/* Claimball: language of every page without a language prefix ("/", /about/, /releases/, /journal/..., never /xx/ and never 404.html).
+/* Claimball: language of every page without a language prefix ("/", /about/, /journal/..., never /xx/ and never 404.html).
    Inlined by build_site, which fills in S (all site languages) and A (the languages that really have THIS page).
    Order: ?lang=xx in the URL > the language the visitor picked on the site (localStorage "cb-lang") > first match in
    navigator.languages (same rules as the kit's languages.resolve: zh-TW/HK/MO/Hant -> zh-Hant, zh-CN/Hans -> none,

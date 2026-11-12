@@ -24,4 +24,4 @@ Lựa chọn giao diện được lưu trên từng thiết bị và không chia
 
 ## Tiếp theo là gì
 
-Claimball vẫn đang thử nghiệm và sắp ra mắt trên iOS và Android. Hiện chưa có ngày phát hành. Mọi bản dựng đều được liệt kê trong trang [ghi chú phát hành](/vi/releases/).
+Claimball vẫn đang thử nghiệm và sắp ra mắt trên iOS và Android. Hiện chưa có ngày phát hành.

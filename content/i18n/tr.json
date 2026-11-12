@@ -2,7 +2,6 @@
   "nav_home": "Ana sayfa",
   "nav_about": "Hakkında",
   "nav_journal": "Günlük",
-  "nav_releases": "Sürümler",
   "nav_support": "Destek",
   "nav_privacy": "Gizlilik",
   "nav_terms": "Koşullar",
@@ -56,13 +55,6 @@
   "cat_devlog": "Geliştirme günlüğü",
   "cat_art": "Sanat",
   "cat_design": "Tasarım",
-  "releases_title": "Sürüm notları",
-  "releases_desc": "Claimball'un her derlemesinde nelerin değiştiği. Claimball hâlâ test aşamasında ve henüz herkese açılmadı.",
-  "releases_empty": "Claimball iOS ve Android için çok yakında geliyor. İlk sürüm çıktığında sürüm notları burada görünecek.",
-  "rel_status_prep": "Hazırlanıyor",
-  "rel_status_beta": "Beta",
-  "rel_status_live": "Yayınlandı",
-  "rel_en_note": "Bu not yalnızca İngilizce olarak mevcut.",
   "nf_h": "Sayfa bulunamadı",
   "nf_p": "Bu sayfayı bulamadık. Taşınmış olabilir ya da adres yanlış yazılmış olabilir."
 }

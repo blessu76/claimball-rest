@@ -23,4 +23,4 @@ You can turn the pattern setting on and off at any time, so it is easy to compar
 
 ## What is next
 
-Claimball is still in testing and coming soon to iOS and Android. There is no release date yet. Every build is listed on the [release notes](/releases/) page.
+Claimball is still in testing and coming soon to iOS and Android. There is no release date yet.

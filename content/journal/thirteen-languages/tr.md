@@ -24,4 +24,4 @@ Daha uzun kelimeler artık kutularından taşmıyor ve Arapça, sağdan sola dü
 
 ## Sırada ne var
 
-Claimball hâlâ test aşamasında ve iOS ile Android için çok yakında geliyor. Henüz bir çıkış tarihi yok. Her derleme [sürüm notları](/releases/) sayfasında listelenir.
+Claimball hâlâ test aşamasında ve iOS ile Android için çok yakında geliyor. Henüz bir çıkış tarihi yok.

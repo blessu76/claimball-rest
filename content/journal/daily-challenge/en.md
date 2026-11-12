@@ -23,4 +23,4 @@ Build 7 handles the awkward cases. If the app closes in the middle of a Daily Ch
 
 ## What is next
 
-Claimball is still in testing and coming soon to iOS and Android. There is no release date yet. Every build is listed on the [release notes](/releases/) page.
+Claimball is still in testing and coming soon to iOS and Android. There is no release date yet.

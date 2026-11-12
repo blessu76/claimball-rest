@@ -59,7 +59,7 @@ class LanguageSet(unittest.TestCase):
     def test_every_language_page_exists_in_the_output(self):
         for l in ALL:
             for parts in ((), ("about",), ("privacy",), ("support",), ("terms",), ("journal",),
-                          ("journal", "starting-claimball"), ("releases",)):
+                          ("journal", "starting-claimball")):
                 self.assertTrue(out(l, *parts).is_file(), (l, parts))
 
     def test_html_lang_matches(self):
@@ -68,7 +68,7 @@ class LanguageSet(unittest.TestCase):
 
     def test_every_language_is_left_to_right(self):
         for l in ALL:
-            for parts in ((), ("about",), ("privacy",), ("journal", "starting-claimball"), ("releases",)):
+            for parts in ((), ("about",), ("privacy",), ("journal", "starting-claimball")):
                 self.assertIn('<html lang="%s" dir="ltr"' % l, out(l, *parts).read_text(encoding="utf-8"), (l, parts))
 
     def test_hreflang_covers_all_languages_and_x_default(self):
@@ -77,17 +77,12 @@ class LanguageSet(unittest.TestCase):
             tags = re.findall(r'<link rel="alternate" hreflang="([^"]+)"', page)
             self.assertEqual(sorted(tags), sorted(ALL + ("x-default",)), l)
 
-    def test_sitemap_lists_every_language_home_and_releases(self):
+    def test_sitemap_lists_every_language_home(self):
         sm = (REPO / "sitemap.xml").read_text(encoding="utf-8")
         for l in ALL:
             if l == "en":
                 continue
             self.assertIn("https://claimball.ipe.rest/%s/</loc>" % l, sm, l)
-            self.assertIn("https://claimball.ipe.rest/%s/releases/</loc>" % l, sm, l)
-
-    def test_english_releases_path_is_kept(self):
-        self.assertTrue((REPO / "releases" / "index.html").is_file())
-
 
 class RightToLeft(unittest.TestCase):
     CSS = (REPO / "assets" / "claimball.css").read_text(encoding="utf-8")
@@ -108,38 +103,6 @@ class RightToLeft(unittest.TestCase):
         page = text_of("ja", "about")
         for l in ALL:
             self.assertIn('hreflang="%s"' % l, page)
-
-
-class ReleasesPages(unittest.TestCase):
-    IDS = ["1.0.0-%d" % n for n in list(range(1, 11)) + [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27]]
-
-    def test_each_language_releases_page_has_every_build_anchor(self):
-        for l in ALL:
-            p = (REPO / l / "releases" / "index.html") if l != "en" else (REPO / "releases" / "index.html")
-            h = p.read_text(encoding="utf-8")
-            for i in self.IDS:
-                self.assertIn('id="%s"' % i, h, (l, i))
-            self.assertNotIn('class="rel-fallback"', h, l)
-
-    def test_releases_json_has_ten_builds_in_all_twelve_languages(self):
-        rel = json.loads((REPO / "content" / "releases.json").read_text(encoding="utf-8"))["releases"]
-        self.assertEqual(self.IDS[::-1], [e["id"] for e in rel])
-        for e in rel:
-            for field in ("title", "intro", "notes"):
-                self.assertTrue(set(ALL) <= set(e[field]), (e["id"], field))
-        self.assertEqual("beta", rel[0]["status"])
-        self.assertEqual("2026-11-12", rel[0]["date"])
-        self.assertTrue(all(e["status"] == "beta" and e["date"] for e in rel))
-        counts = [len(e["notes"]["en"]) for e in rel]
-        for e in rel:
-            for l in ALL:
-                self.assertEqual(len(e["notes"]["en"]), len(e["notes"][l]), (e["id"], l))
-        self.assertEqual(74, sum(counts))
-
-    def test_app_link_targets_resolve(self):
-        for l in ALL:
-            if l != "en":
-                self.assertTrue((REPO / l / "releases" / "index.html").is_file(), l)
 
 
 class PrivacyWording(unittest.TestCase):

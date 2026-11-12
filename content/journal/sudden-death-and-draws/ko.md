@@ -25,4 +25,4 @@ Claimball 한 경기는 공책 격자 위에서 90초 동안 이어지고, 대�
 
 ## 앞으로
 
-Claimball은 아직 테스트 중이고 iOS와 Android로 출시 예정이에요. 출시일은 아직 없어요. 소식이 생기면 이곳과 [릴리스 노트](/ko/releases/)에 올릴게요.
+Claimball은 아직 테스트 중이고 iOS와 Android로 출시 예정이에요. 출시일은 아직 없어요.

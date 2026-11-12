@@ -24,4 +24,4 @@ Nếu một giao dịch mua được hoàn tiền hoặc bị thu hồi qua Chia
 
 ## Tiếp theo là gì
 
-Claimball vẫn đang thử nghiệm và sắp ra mắt trên iOS và Android. Hiện chưa có ngày phát hành. Mọi bản dựng đều được liệt kê trong trang [ghi chú phát hành](/vi/releases/).
+Claimball vẫn đang thử nghiệm và sắp ra mắt trên iOS và Android. Hiện chưa có ngày phát hành.

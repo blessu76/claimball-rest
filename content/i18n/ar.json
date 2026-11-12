@@ -2,7 +2,6 @@
   "nav_home": "الرئيسية",
   "nav_about": "حول اللعبة",
   "nav_journal": "المدوّنة",
-  "nav_releases": "الإصدارات",
   "nav_support": "الدعم",
   "nav_privacy": "الخصوصية",
   "nav_terms": "الشروط",
@@ -56,13 +55,6 @@
   "cat_devlog": "يوميات التطوير",
   "cat_art": "الفن",
   "cat_design": "التصميم",
-  "releases_title": "ملاحظات الإصدار",
-  "releases_desc": "ما الذي تغيّر في كل نسخة من Claimball. لا تزال Claimball قيد الاختبار ولم تصدر للعموم بعد.",
-  "releases_empty": "Claimball قادمة قريبًا إلى iOS وAndroid. ستظهر ملاحظات الإصدار هنا عند صدور النسخة الأولى.",
-  "rel_status_prep": "قيد الإعداد",
-  "rel_status_beta": "تجريبي",
-  "rel_status_live": "صدر",
-  "rel_en_note": "هذه الملاحظة متوفرة بالإنجليزية فقط.",
   "nf_h": "الصفحة غير موجودة",
   "nf_p": "لم نعثر على هذه الصفحة. ربما نُقلت، أو أن العنوان به خطأ إملائي."
 }

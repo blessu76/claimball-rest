@@ -23,4 +23,4 @@ Build 14 added an automatic check that keeps the translations safe and complete 
 
 ## What is next
 
-Claimball is still in testing and coming soon to iOS and Android. There is no release date yet. Every build is listed on the [release notes](/releases/) page.
+Claimball is still in testing and coming soon to iOS and Android. There is no release date yet.

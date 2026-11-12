@@ -5,12 +5,11 @@ Sources
   content/i18n/<lang>.json              UI strings + home copy (same keys in every language, see KEYS)
   content/pages/<lang>/<page>.md        about / privacy / support / terms (front matter title + description + updated,
                                         Markdown body, placeholders {{OPERATOR}} {{EMAIL}} {{EFFECTIVE}})
-  content/releases.json                 release notes, newest first (may be empty while no build is public)
   content/journal/<slug>/<lang>.md      PUBLISHED posts (front matter + Markdown). Queue lives in content/queue/ and is never built.
 
 Output (generated — never edit by hand)
   en lives at the root, every other language under /<lang>/:
-  /  /about/  /privacy/  /support/  /terms/  /releases/  /journal/  /journal/page/N/  /journal/<slug>/  /journal/feed.xml
+  /  /about/  /privacy/  /support/  /terms/  /journal/  /journal/page/N/  /journal/<slug>/  /journal/feed.xml
   /ko/ ...same...
   sitemap.xml  robots.txt  llms.txt  404.html
 
@@ -39,9 +38,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "vendor"))
 from ipe_web_kit import languages as kit_languages  # noqa: E402
 
 SITE = "https://claimball.ipe.rest"
-ASSET_V = "20261101c"  # keep in sync: bump when assets/claimball.css or claimball.js change
+ASSET_V = "20261112a"  # keep in sync: bump when assets/claimball.css or claimball.js change
 KST = dt.timezone(dt.timedelta(hours=9))
-SITE_UPDATED = "2026-11-01"  # "Last updated" of home / releases / 404 and sitemap lastmod — bump by hand when their text changes
+SITE_UPDATED = "2026-11-12"  # "Last updated" of home / 404 and sitemap lastmod — bump by hand when their text changes
 OPERATOR = "Davy Kim (ipe Studio)"
 EMAIL = "ipe.haven@gmail.com"
 EFFECTIVE = "2026-11-01"
@@ -81,16 +80,15 @@ MAIN_LANGS = ("en", "ko")
 PAGE_SLUGS = ("about", "privacy", "support", "terms")
 CATEGORIES = ("devlog", "art", "design")
 KEYS = (
-    "nav_home nav_about nav_journal nav_releases nav_support nav_privacy nav_terms skip lang_label "
+    "nav_home nav_about nav_journal nav_support nav_privacy nav_terms skip lang_label "
     "aria_main aria_footer aria_breadcrumb aria_pagination aria_posts status_badge read_more all_posts "
     "empty ai_note ai_orig rss prev next page crumb_home other_langs footer_line back_journal updated_label "
     "journal_title journal_desc home_title home_desc hero_h1 hero_lead "
     "store_soon store_aria hero_note board_aria you_label rival_label time_label "
     "how_h card1_h card1_p card2_h card2_p card3_h card3_p rivals_h rivals_p latest_h cta_h cta_p "
-    "cat_devlog cat_art cat_design releases_title releases_desc releases_empty rel_status_prep rel_status_beta rel_status_live rel_en_note "
+    "cat_devlog cat_art cat_design "
     "nf_h nf_p"
 ).split()
-RELEASE_STATUS = ("prep", "beta", "live")
 REQUIRED_POST = ("title", "description", "slug", "lang", "category", "published")
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 PUB_RE = re.compile(r"^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})\+09:00$")
@@ -138,10 +136,6 @@ def path_home(lang):
 
 def path_page(lang, slug):
     return "%s/%s/" % (lp(lang), slug)
-
-
-def path_releases(lang):
-    return path_page(lang, "releases")
 
 
 def path_journal(lang, page=1):
@@ -340,51 +334,6 @@ def load_pages(root):
     return pages, errs
 
 
-def load_releases(root):
-    """-> (entries newest first, errors). entry = {id, version, status, date, title{lang}, intro{lang}, notes{lang: [..]}}.
-    An empty list is fine: no build is public yet."""
-    f = Path(root) / "content" / "releases.json"
-    if not f.is_file():
-        return [], ["content/releases.json: missing"]
-    try:
-        raw = json.loads(f.read_text(encoding="utf-8"))["releases"]
-    except (ValueError, KeyError, TypeError) as ex:
-        return [], ["content/releases.json: %s" % ex]
-    errs, out, seen = [], [], set()
-    for i, e in enumerate(raw):
-        tag = "releases.json[%d]" % i
-        if not isinstance(e, dict):
-            errs.append("%s: not an object" % tag); continue
-        tag = "releases.json %s" % e.get("id", i)
-        if not re.match(r"^[A-Za-z0-9._-]+$", str(e.get("id", ""))) or e["id"] in seen:
-            errs.append("%s: id missing, malformed or duplicated" % tag)
-        seen.add(e.get("id"))
-        if e.get("status") not in RELEASE_STATUS:
-            errs.append("%s: status must be one of %s" % (tag, "/".join(RELEASE_STATUS)))
-        if not str(e.get("version", "")).strip():
-            errs.append("%s: version missing" % tag)
-        if e.get("date") and not DATE_RE.match(e["date"]):
-            errs.append("%s: date must look like 2026-10-31 (or be empty)" % tag)
-        for field in ("title", "intro", "notes"):
-            v = e.get(field)
-            if not isinstance(v, dict):
-                errs.append("%s: %s must be an object keyed by language" % (tag, field)); continue
-            for need in MAIN_LANGS:
-                if not v.get(need):
-                    errs.append("%s: %s.%s missing" % (tag, field, need))
-            for l, val in v.items():
-                if l not in LANGS:
-                    errs.append("%s: %s has unknown language %r" % (tag, field, l)); continue
-                items = val if field == "notes" else [val]
-                if not isinstance(items, list) or not all(isinstance(x, str) and x.strip() for x in items):
-                    errs.append("%s: %s.%s must be %s" % (tag, field, l, "a list of non-empty strings" if field == "notes" else "a non-empty string"))
-                    continue
-                for x in items:
-                    errs += text_problems("%s: %s.%s" % (tag, field, l), x)
-        out.append(e)
-    return out, errs
-
-
 def parse_published(v):
     m = PUB_RE.match(v)
     if not m:
@@ -501,10 +450,9 @@ def langpick_script(root, langs, available):
 
 
 class Ctx:
-    def __init__(self, root, i18n, pages, posts, langs, now, releases=(), built=None):
+    def __init__(self, root, i18n, pages, posts, langs, now, built=None):
         self.root, self.i18n, self.pages, self.posts, self.langs, self.now = root, i18n, pages, posts, langs, now
         self.built = list(built or langs)
-        self.releases = list(releases)
 
     def t(self, lang, key):
         return self.i18n[lang][key]
@@ -564,14 +512,14 @@ def render(ctx, lang, *, path, title, desc, body, graph, alt, updated, og_type="
     switch = "".join('<a href="%s" hreflang="%s" lang="%s"%s aria-label="%s">%s</a>' % (
         esc(user_href(l, alt.get(l) or path_home(l), lang)), l, l, ' aria-current="true"' if l == lang else "", esc(LANGS[l][0]), esc(LANGS[l][3])) for l in ctx.langs)
     navlinks = [(path_home(lang), t("nav_home"), "home"), (path_page(lang, "about"), t("nav_about"), "about"),
-                (path_journal(lang), t("nav_journal"), "journal"), (path_releases(lang), t("nav_releases"), "releases"),
+                (path_journal(lang), t("nav_journal"), "journal"),
                 (path_page(lang, "support"), t("nav_support"), "support")]
     nav_html = "".join('<a href="%s"%s>%s</a>' % (esc(h), ' aria-current="page"' if nav == k else "", esc(label)) for h, label, k in navlinks)
     header = ('<header class="site-header"><div class="bar"><a class="brand" href="%s" aria-label="Claimball">Claim<span>ball</span></a>'
               '<nav class="nav" aria-label="%s">%s<span class="langsw" role="group" aria-label="%s">%s</span></nav></div></header>') % (
         esc(path_home(lang)), esc(t("aria_main")), nav_html, esc(t("lang_label")), switch)
     foot_nav = [(path_home(lang), t("nav_home")), (path_page(lang, "about"), t("nav_about")), (path_journal(lang), t("nav_journal")),
-                (path_releases(lang), t("nav_releases")), (path_page(lang, "support"), t("nav_support")),
+                (path_page(lang, "support"), t("nav_support")),
                 (path_page(lang, "privacy"), t("nav_privacy")), (path_page(lang, "terms"), t("nav_terms"))]
     foot_nav_html = "".join('<a href="%s">%s</a>' % (esc(h), esc(label)) for h, label in foot_nav)
     if lang in MAIN_LANGS:
@@ -709,32 +657,6 @@ def build_page(ctx, lang, slug):
                                          nav=slug if slug in ("about", "support") else "")
 
 
-def build_releases(ctx, lang):
-    t = lambda k: ctx.t(lang, k)  # noqa: E731
-    crumbs = [(path_home(lang), t("crumb_home")), (None, t("releases_title"))]
-    cards = []
-    for e in ctx.releases:
-        own = lang in e["notes"] and lang in e["title"] and lang in e["intro"]
-        src = lang if own else "en"
-        status = t("rel_status_" + e["status"])
-        date = ' · <time datetime="%s">%s</time>' % (esc(e["date"]), esc(e["date"])) if e.get("date") else ""
-        attrs = "" if own else ' lang="en" dir="ltr"'
-        note = "" if own else '<p class="rel-fallback">%s</p>' % esc(t("rel_en_note"))
-        cards.append('<article class="card release" id="%s"><p class="meta"><span class="tag">%s</span> %s%s</p>'
-                     '<h2%s>%s</h2>%s<p%s>%s</p><ul%s>%s</ul></article>' % (
-                         esc(e["id"]), esc(status), esc(e["version"]), date, attrs, esc(e["title"][src]), note, attrs, esc(e["intro"][src]), attrs,
-                         "".join("<li>%s</li>" % inline(x) for x in e["notes"][src])))
-    listing = "".join(cards) if cards else '<div class="card release"><p>%s</p></div>' % esc(t("releases_empty"))
-    body = '%s<h1 class="page-h">%s</h1><p class="lead">%s</p><div class="releases">%s</div>' % (
-        breadcrumb_html(crumbs, t("aria_breadcrumb")), esc(t("releases_title")), esc(t("releases_desc")), listing)
-    page_ld = {"@type": "CollectionPage", "@id": url(path_releases(lang)) + "#page", "url": url(path_releases(lang)),
-               "name": t("releases_title"), "description": t("releases_desc"), "inLanguage": lang, "isPartOf": {"@id": SITE + "/#website"}}
-    graph = [ORG, website_ld(lang, ctx), page_ld, breadcrumb_ld(crumbs)]
-    alt = {l: path_releases(l) for l in ctx.langs}
-    return path_releases(lang), render(ctx, lang, path=path_releases(lang), title="%s — Claimball" % t("releases_title"),
-                                       desc=t("releases_desc"), body=body, graph=graph, alt=alt, updated=lastmod_releases(ctx), nav="releases")
-
-
 def build_list(ctx, lang, page):
     t = lambda k: ctx.t(lang, k)  # noqa: E731
     items = posts_in(ctx, lang)
@@ -817,10 +739,6 @@ def build_404(ctx):
 
 
 # ---------------------------------------------------------------- site files
-def lastmod_releases(ctx):
-    return max([e["date"] for e in ctx.releases if e.get("date")] + [SITE_UPDATED])
-
-
 def sitemap_entries(ctx):
     """[(path, lastmod, {lang: path})]"""
     ents = []
@@ -831,8 +749,6 @@ def sitemap_entries(ctx):
         for l in ctx.langs:
             if (l, slug) in ctx.pages:
                 ents.append((path_page(l, slug), ctx.pages[(l, slug)][0]["updated"], {x: path_page(x, slug) for x in ctx.langs if (x, slug) in ctx.pages}))
-    for l in ctx.langs:
-        ents.append((path_releases(l), lastmod_releases(ctx), {x: path_releases(x) for x in ctx.langs}))
     for l in ctx.langs:
         n = len(posts_in(ctx, l))
         ents.append((path_journal(l), lm, {x: path_journal(x) for x in ctx.langs}))
@@ -885,7 +801,6 @@ def build_llms(ctx):
             "- [Support](%s%s): contact and questions" % (SITE, path_page("en", "support")),
             "- [Privacy Policy](%s%s)" % (SITE, path_page("en", "privacy")),
             "- [Terms of Use](%s%s)" % (SITE, path_page("en", "terms")),
-            "- [Release notes](%s%s)" % (SITE, path_releases("en")),
             "- [Journal](%s%s): notes from the making of the game" % (SITE, path_journal("en")),
             "- [RSS](%s%s)" % (SITE, path_feed("en")), "", "## Journal posts (English)", ""]
     for p in posts_in(ctx, "en"):
@@ -923,8 +838,7 @@ def make_ctx(root, now=None, require_all=False):
     i18n, errs = load_i18n(root)
     pages, e2 = load_pages(root)
     posts, e3 = load_posts(root, now)
-    releases, e4 = load_releases(root)
-    errs += e2 + e3 + e4 + queue_errors(root)
+    errs += e2 + e3 + queue_errors(root)
     complete = [l for l in LANGS if l in i18n and all((l, s) in pages for s in PAGE_SLUGS)]
     if "en" not in complete or "ko" not in complete:
         errs.append("en and ko must both be complete (i18n + %s)" % " + ".join(PAGE_SLUGS))
@@ -941,11 +855,11 @@ def make_ctx(root, now=None, require_all=False):
     for p in posts:
         p["langs"] = {l: v for l, v in p["langs"].items() if l in built}
     posts = [p for p in posts if p["langs"]]
-    return Ctx(root, i18n, pages, posts, langs, now, releases, built), errs
+    return Ctx(root, i18n, pages, posts, langs, now, built), errs
 
 
 # 옛 코드 폴더 → 새 태그. 옛 주소는 같은 경로의 새 주소로 보낸다(meta refresh + canonical, 서버 리다이렉트 없음).
-LEGACY_REDIRECTS = {"pt": ("pt-BR", ("", "about/", "privacy/", "support/", "terms/", "releases/", "journal/", "journal/starting-claimball/"))}
+LEGACY_REDIRECTS = {"pt": ("pt-BR", ("", "about/", "privacy/", "support/", "terms/", "journal/", "journal/starting-claimball/"))}
 
 
 def build_redirect(old, new, path):
@@ -970,7 +884,6 @@ def build_all(ctx):
         put(*build_home(ctx, l))
         for slug in PAGE_SLUGS:
             put(*build_page(ctx, l, slug))
-        put(*build_releases(ctx, l))
         for pg in range(1, pages_count(len(posts_in(ctx, l))) + 1):
             put(*build_list(ctx, l, pg))
         for p in ctx.posts:
@@ -996,7 +909,7 @@ def build_all(ctx):
 
 def clean(root):
     root = Path(root)
-    for name in ["journal", "releases"] + list(PAGE_SLUGS) + [l for l in LANGS if l != "en"] + list(LEGACY_REDIRECTS):
+    for name in ["journal"] + list(PAGE_SLUGS) + [l for l in LANGS if l != "en"] + list(LEGACY_REDIRECTS):
         d = root / name
         if d.is_dir():
             shutil.rmtree(d)

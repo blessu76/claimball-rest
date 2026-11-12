@@ -2,7 +2,6 @@
   "nav_home": "Start",
   "nav_about": "Über",
   "nav_journal": "Journal",
-  "nav_releases": "Versionen",
   "nav_support": "Support",
   "nav_privacy": "Datenschutz",
   "nav_terms": "Nutzungsbedingungen",
@@ -56,13 +55,6 @@
   "cat_devlog": "Entwicklungslog",
   "cat_art": "Kunst",
   "cat_design": "Design",
-  "releases_title": "Versionshinweise",
-  "releases_desc": "Was sich in jedem Build von Claimball geändert hat. Claimball befindet sich noch im Test und ist noch nicht öffentlich erschienen.",
-  "releases_empty": "Claimball erscheint bald für iOS und Android. Die Versionshinweise erscheinen hier, sobald die erste Version veröffentlicht ist.",
-  "rel_status_prep": "In Vorbereitung",
-  "rel_status_beta": "Beta",
-  "rel_status_live": "Veröffentlicht",
-  "rel_en_note": "Dieser Hinweis ist nur auf Englisch verfügbar.",
   "nf_h": "Seite nicht gefunden",
   "nf_p": "Wir konnten diese Seite nicht finden. Sie wurde vielleicht verschoben, oder die Adresse enthält einen Tippfehler."
 }

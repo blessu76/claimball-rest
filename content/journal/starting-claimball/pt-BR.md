@@ -22,6 +22,6 @@ Vamos usar este diário para compartilhar notas da criação do jogo. Por enquan
 
 ## O que vem a seguir
 
-Claimball é grátis para experimentar, uma única compra libera o jogo completo e não há anúncios nem assinatura. O preço será divulgado perto do lançamento. Ainda não há data de lançamento. Quando houver novidades, elas aparecerão aqui e nas [notas de versão](/pt-BR/releases/).
+Claimball é grátis para experimentar, uma única compra libera o jogo completo e não há anúncios nem assinatura. O preço será divulgado perto do lançamento. Ainda não há data de lançamento.
 
 *Atualizado em 2026-10-31: detalhes sobre a duração das partidas, os rivais e o preço foram atualizados.*

@@ -24,4 +24,4 @@ Erişilebilirlik tek seferlik bir iş değil. Oyun büyüdükçe bu ayarlar aç�
 
 ## Sırada ne var
 
-Claimball hâlâ test aşamasında ve iOS ile Android için çok yakında geliyor. Henüz bir çıkış tarihi yok. Her derleme [sürüm notları](/releases/) sayfasında listelenir.
+Claimball hâlâ test aşamasında ve iOS ile Android için çok yakında geliyor. Henüz bir çıkış tarihi yok.

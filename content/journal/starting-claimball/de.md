@@ -22,6 +22,6 @@ Wir nutzen dieses Journal, um Notizen aus der Entstehung des Spiels zu teilen. I
 
 ## Wie es weitergeht
 
-Claimball ist kostenlos zu testen, ein einziger Kauf schaltet das komplette Spiel frei, und es gibt keine Werbung und kein Abo. Der Preis wird kurz vor dem Start bekannt gegeben. Ein Erscheinungsdatum gibt es noch nicht. Wenn es Neuigkeiten gibt, erscheinen sie hier und in den [Versionshinweisen](/de/releases/).
+Claimball ist kostenlos zu testen, ein einziger Kauf schaltet das komplette Spiel frei, und es gibt keine Werbung und kein Abo. Der Preis wird kurz vor dem Start bekannt gegeben. Ein Erscheinungsdatum gibt es noch nicht.
 
 *Aktualisiert am 2026-10-31: Angaben zu Partiedauer, Rivalen und Preis aktualisiert.*

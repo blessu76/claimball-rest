@@ -24,4 +24,4 @@ A versão 7 cuida dos casos chatos. Se o app fechar no meio de um Desafio diári
 
 ## O que vem a seguir
 
-Claimball ainda está em testes e chega em breve para iOS e Android. Ainda não há data de lançamento. Todas as versões estão listadas na página de [notas de versão](/pt-BR/releases/).
+Claimball ainda está em testes e chega em breve para iOS e Android. Ainda não há data de lançamento.

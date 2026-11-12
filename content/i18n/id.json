@@ -2,7 +2,6 @@
   "nav_home": "Beranda",
   "nav_about": "Tentang",
   "nav_journal": "Jurnal",
-  "nav_releases": "Rilis",
   "nav_support": "Dukungan",
   "nav_privacy": "Privasi",
   "nav_terms": "Ketentuan",
@@ -56,13 +55,6 @@
   "cat_devlog": "Log pengembangan",
   "cat_art": "Seni",
   "cat_design": "Desain",
-  "releases_title": "Catatan rilis",
-  "releases_desc": "Apa yang berubah di setiap build Claimball. Claimball masih dalam pengujian dan belum dirilis ke publik.",
-  "releases_empty": "Claimball segera hadir di iOS dan Android. Catatan rilis akan muncul di sini setelah versi pertama dirilis.",
-  "rel_status_prep": "Dalam persiapan",
-  "rel_status_beta": "Beta",
-  "rel_status_live": "Dirilis",
-  "rel_en_note": "Catatan ini hanya tersedia dalam bahasa Inggris.",
   "nf_h": "Halaman tidak ditemukan",
   "nf_p": "Kami tidak dapat menemukan halaman itu. Mungkin sudah dipindahkan, atau alamatnya salah ketik."
 }

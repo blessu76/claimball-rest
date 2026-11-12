@@ -22,6 +22,6 @@ Bu günlüğü oyunun yapım notlarını paylaşmak için kullanacağız. Şimdi
 
 ## Sırada ne var
 
-Claimball'un denemesi ücretsiz, tek bir satın alma oyunun tamamının kilidini açıyor; reklam ve abonelik yok. Fiyat, çıkışa yakın duyurulacak. Henüz bir çıkış tarihi yok. Haber olduğunda burada ve [sürüm notlarında](/tr/releases/) görünecek.
+Claimball'un denemesi ücretsiz, tek bir satın alma oyunun tamamının kilidini açıyor; reklam ve abonelik yok. Fiyat, çıkışa yakın duyurulacak. Henüz bir çıkış tarihi yok.
 
 *2026-10-31 güncellemesi: maç süresi, rakipler ve fiyat ayrıntıları güncellendi.*

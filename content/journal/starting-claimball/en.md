@@ -21,6 +21,6 @@ We will use this journal to share notes from the making of the game. For now, th
 
 ## What is next
 
-Claimball is free to try, a single purchase unlocks the full game, and there are no ads and no subscription. The price will be announced closer to launch. There is no release date yet. When there is news, it will show up here and in the [release notes](/releases/).
+Claimball is free to try, a single purchase unlocks the full game, and there are no ads and no subscription. The price will be announced closer to launch. There is no release date yet.
 
 *Updated 2026-10-31: match length, rivals and pricing details updated.*

@@ -24,4 +24,4 @@ Bạn có thể bật hoặc tắt tùy chọn họa tiết bất cứ lúc nào
 
 ## Tiếp theo là gì
 
-Claimball vẫn đang thử nghiệm và sắp ra mắt trên iOS và Android. Hiện chưa có ngày phát hành. Mọi bản dựng đều được liệt kê trong trang [ghi chú phát hành](/vi/releases/).
+Claimball vẫn đang thử nghiệm và sắp ra mắt trên iOS và Android. Hiện chưa có ngày phát hành.

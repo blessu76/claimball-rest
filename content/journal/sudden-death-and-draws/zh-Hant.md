@@ -26,4 +26,4 @@ published: 2026-11-03T21:05+09:00
 
 ## 接下來
 
-Claimball 仍在測試中，即將登陸 iOS 與 Android，目前尚無上市日期。有消息時，會在這裡與[版本說明](/releases/)公布。
+Claimball 仍在測試中，即將登陸 iOS 與 Android，目前尚無上市日期。

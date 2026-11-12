@@ -22,6 +22,6 @@ Chúng tôi sẽ dùng nhật ký này để chia sẻ những ghi chép về qu
 
 ## Tiếp theo là gì
 
-Claimball chơi thử miễn phí, chỉ cần mua một lần là mở khóa toàn bộ trò chơi, và không có quảng cáo hay đăng ký định kỳ. Giá sẽ được công bố gần ngày ra mắt. Hiện chưa có ngày phát hành. Khi có tin, tin sẽ xuất hiện ở đây và trong [ghi chú phát hành](/vi/releases/).
+Claimball chơi thử miễn phí, chỉ cần mua một lần là mở khóa toàn bộ trò chơi, và không có quảng cáo hay đăng ký định kỳ. Giá sẽ được công bố gần ngày ra mắt. Hiện chưa có ngày phát hành.
 
 *Cập nhật 2026-10-31: đã cập nhật thông tin về thời lượng ván chơi, đối thủ và giá.*

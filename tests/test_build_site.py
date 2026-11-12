@@ -7,7 +7,7 @@ from pathlib import Path
 
 from helpers import NOW, REPO, bs, build, jsonld, make_site
 
-PAGES = ["", "about/", "privacy/", "support/", "terms/", "releases/", "journal/"]
+PAGES = ["", "about/", "privacy/", "support/", "terms/", "journal/"]
 
 
 class Built(unittest.TestCase):
@@ -67,7 +67,7 @@ class Built(unittest.TestCase):
         self.assertIn("Nunito", h)
 
     def test_language_picker_on_every_prefixless_page_but_not_under_a_language_or_404(self):
-        for rel in ("index.html", "about/index.html", "releases/index.html", "journal/index.html"):
+        for rel in ("index.html", "about/index.html", "journal/index.html"):
             self.assertIn("cb-lang", self.read(rel), rel)
         for rel in ("ko/index.html", "ko/about/index.html", "404.html"):
             self.assertNotIn("cb-lang", self.read(rel), rel)
@@ -97,7 +97,7 @@ class Built(unittest.TestCase):
 
     def test_sitemap_robots_llms_feed(self):
         sm = self.read("sitemap.xml")
-        for pth in ("/", "/ko/", "/about/", "/ko/terms/", "/support/", "/releases/", "/journal/", "/journal/beta-post/"):
+        for pth in ("/", "/ko/", "/about/", "/ko/terms/", "/support/", "/journal/", "/journal/beta-post/"):
             self.assertIn("<loc>https://claimball.ipe.rest%s</loc>" % pth, sm)
         self.assertNotIn("/404", sm)
         self.assertIn("Sitemap: https://claimball.ipe.rest/sitemap.xml", self.read("robots.txt"))
@@ -108,13 +108,6 @@ class Built(unittest.TestCase):
         self.assertIn("https://claimball.ipe.rest/journal/beta-post/", llms)
         self.assertIn("<rss", self.read("journal/feed.xml"))
         self.assertIn("<rss", self.read("ko/journal/feed.xml"))
-
-    def test_releases_page_lists_every_build_newest_first_with_anchors(self):
-        h = self.read("releases/index.html")
-        ids = ["1.0.0-27", "1.0.0-26", "1.0.0-25", "1.0.0-24", "1.0.0-23", "1.0.0-22", "1.0.0-21", "1.0.0-20", "1.0.0-19", "1.0.0-18", "1.0.0-17", "1.0.0-16", "1.0.0-15", "1.0.0-14", "1.0.0-13"] + ["1.0.0-%d" % n for n in range(10, 0, -1)]
-        for i in ids:
-            self.assertIn('<article class="card release" id="%s">' % i, h)
-        self.assertEqual(ids, re.findall(r'<article class="card release" id="([^"]+)"', h))
 
     def test_policy_pages_are_claimball_with_iltonggi_contact(self):
         for lang_dir in ("", "ko/"):
@@ -209,11 +202,6 @@ class Rules(unittest.TestCase):
         f = self.root / "content" / "pages" / "en" / "privacy.md"
         f.write_text(re.sub(r"updated:.*\n", "", f.read_text(encoding="utf-8")), encoding="utf-8")
         self.assertTrue(any("missing updated" in e for e in self.errs()))
-
-    def test_release_entry_validated(self):
-        (self.root / "content" / "releases.json").write_text('{"releases":[{"id":"1.0","version":"1.0","status":"nope","title":{},"intro":{},"notes":{}}]}', encoding="utf-8")
-        self.assertTrue(any("status must be" in e for e in self.errs()))
-
 
 class Repo(unittest.TestCase):
     def test_cname_and_indexnow_key(self):

@@ -25,4 +25,4 @@ The logo and the Max combo number now keep their correct order in right-to-left 
 
 ## What is next
 
-Claimball is still in testing and coming soon to iOS and Android. There is no release date yet. News will show up here and in the [release notes](/releases/).
+Claimball is still in testing and coming soon to iOS and Android. There is no release date yet.

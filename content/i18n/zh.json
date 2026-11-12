@@ -2,7 +2,6 @@
   "nav_home": "首页",
   "nav_about": "关于",
   "nav_journal": "日志",
-  "nav_releases": "版本",
   "nav_support": "支持",
   "nav_privacy": "隐私",
   "nav_terms": "条款",
@@ -56,13 +55,6 @@
   "cat_devlog": "开发日志",
   "cat_art": "美术",
   "cat_design": "设计",
-  "releases_title": "更新说明",
-  "releases_desc": "Claimball 各构建版本的更新内容。Claimball 仍在测试中,尚未向公众发布。",
-  "releases_empty": "Claimball 即将登陆 iOS 和 Android。第一个版本发布后,更新说明会出现在这里。",
-  "rel_status_prep": "准备中",
-  "rel_status_beta": "测试版",
-  "rel_status_live": "已发布",
-  "rel_en_note": "此说明仅提供英文版。",
   "nf_h": "找不到页面",
   "nf_p": "我们找不到该页面。它可能已被移动,或者地址输入有误。"
 }

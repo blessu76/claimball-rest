@@ -2,7 +2,6 @@
   "nav_home": "होम",
   "nav_about": "परिचय",
   "nav_journal": "जर्नल",
-  "nav_releases": "रिलीज़",
   "nav_support": "सहायता",
   "nav_privacy": "गोपनीयता",
   "nav_terms": "शर्तें",
@@ -56,13 +55,6 @@
   "cat_devlog": "डेव लॉग",
   "cat_art": "आर्ट",
   "cat_design": "डिज़ाइन",
-  "releases_title": "रिलीज़ नोट्स",
-  "releases_desc": "Claimball के हर बिल्ड में क्या बदला। Claimball अभी टेस्टिंग में है और आम जनता के लिए जारी नहीं हुआ है।",
-  "releases_empty": "Claimball जल्द ही iOS और Android पर आ रहा है। पहला वर्शन आते ही रिलीज़ नोट्स यहाँ दिखेंगे।",
-  "rel_status_prep": "तैयारी में",
-  "rel_status_beta": "बीटा",
-  "rel_status_live": "रिलीज़ हो चुका",
-  "rel_en_note": "यह नोट केवल अंग्रेज़ी में उपलब्ध है।",
   "nf_h": "पेज नहीं मिला",
   "nf_p": "हमें वह पेज नहीं मिला। हो सकता है वह कहीं और चला गया हो, या पता लिखने में गलती हो गई हो।"
 }

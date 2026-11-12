@@ -20,4 +20,4 @@ Claimball agora tem três músicas originais: uma para o menu, uma para as parti
 
 ## O que vem a seguir
 
-Claimball ainda está em testes e chega em breve para iOS e Android. Ainda não há data de lançamento. Todas as versões estão listadas na página de [notas de versão](/pt-BR/releases/).
+Claimball ainda está em testes e chega em breve para iOS e Android. Ainda não há data de lançamento.

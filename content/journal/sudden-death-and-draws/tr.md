@@ -26,4 +26,4 @@ Logo ve Maks kombo sayısı, Arapça gibi sağdan sola yazılan dillerde artık 
 
 ## Sırada ne var
 
-Claimball hâlâ test aşamasında ve iOS ile Android için çok yakında geliyor. Henüz bir çıkış tarihi yok. Haberler burada ve [sürüm notlarında](/releases/) görünecek.
+Claimball hâlâ test aşamasında ve iOS ile Android için çok yakında geliyor. Henüz bir çıkış tarihi yok.

@@ -22,6 +22,6 @@ Nous utiliserons ce journal pour partager des notes sur la fabrication du jeu. P
 
 ## La suite
 
-Claimball est gratuit à essayer, un seul achat débloque le jeu complet, et il n'y a ni publicité ni abonnement. Le prix sera annoncé à l'approche du lancement. Il n'y a pas encore de date de sortie. Quand il y aura du nouveau, cela apparaîtra ici et dans les [notes de version](/fr/releases/).
+Claimball est gratuit à essayer, un seul achat débloque le jeu complet, et il n'y a ni publicité ni abonnement. Le prix sera annoncé à l'approche du lancement. Il n'y a pas encore de date de sortie.
 
 *Mis à jour le 2026-10-31 : les informations sur la durée des parties, les rivaux et le prix ont été mises à jour.*

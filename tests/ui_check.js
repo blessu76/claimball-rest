@@ -17,7 +17,7 @@ const server = http.createServer((req, res) => {
   fs.createReadStream(f).pipe(res);
 });
 function pagesToCheck() {
-  const base = ['/', '/about/', '/privacy/', '/support/', '/terms/', '/releases/', '/journal/'];
+  const base = ['/', '/about/', '/privacy/', '/support/', '/terms/', '/journal/'];
   const J = path.join(ROOT, 'content', 'journal');
   const slugs = fs.existsSync(J) ? fs.readdirSync(J).filter(d => fs.statSync(path.join(J, d)).isDirectory()) : [];
   const out = [...base];

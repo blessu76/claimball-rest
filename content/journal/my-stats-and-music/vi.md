@@ -20,4 +20,4 @@ Claimball giờ có ba bản nhạc gốc: một cho menu, một cho ván đấu
 
 ## Tiếp theo là gì
 
-Claimball vẫn đang thử nghiệm và sắp ra mắt trên iOS và Android. Hiện chưa có ngày phát hành. Mọi bản dựng đều được liệt kê trong trang [ghi chú phát hành](/vi/releases/).
+Claimball vẫn đang thử nghiệm và sắp ra mắt trên iOS và Android. Hiện chưa có ngày phát hành.

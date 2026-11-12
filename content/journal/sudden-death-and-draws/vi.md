@@ -26,4 +26,4 @@ Logo và con số Combo tối đa giờ giữ đúng thứ tự trong các ngôn
 
 ## Tiếp theo là gì
 
-Claimball vẫn đang thử nghiệm và sắp ra mắt trên iOS và Android. Hiện chưa có ngày phát hành. Tin tức sẽ xuất hiện ở đây và trong [ghi chú phát hành](/vi/releases/).
+Claimball vẫn đang thử nghiệm và sắp ra mắt trên iOS và Android. Hiện chưa có ngày phát hành.

@@ -26,4 +26,4 @@ O logo e o número do Combo máximo agora mantêm a ordem correta em idiomas esc
 
 ## O que vem a seguir
 
-Claimball ainda está em testes e chega em breve para iOS e Android. Ainda não há data de lançamento. As novidades aparecerão aqui e nas [notas de versão](/pt-BR/releases/).
+Claimball ainda está em testes e chega em breve para iOS e Android. Ainda não há data de lançamento.

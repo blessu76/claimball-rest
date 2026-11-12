@@ -15,7 +15,7 @@ class Sitemap(unittest.TestCase):
         self.addCleanup(shutil.rmtree, self.root, True)
 
     def test_ok(self):
-        errs, urls = cs.check(self.root, NOW + dt.timedelta(days=10))  # releases lastmod follows the newest build date
+        errs, urls = cs.check(self.root, NOW + dt.timedelta(days=10))
         self.assertEqual(errs, [])
         self.assertIn("https://claimball.ipe.rest/", urls)
 

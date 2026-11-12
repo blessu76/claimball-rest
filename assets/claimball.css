@@ -127,10 +127,6 @@ th,td{border:2px solid var(--ink);padding:8px 10px;text-align:start}
 .btn.ghost{background:var(--white);color:var(--ink)}
 .btn:hover{color:var(--onblue);transform:translateY(-1px)}.btn.ghost:hover{color:var(--ink)}
 .empty{font-weight:700;color:var(--ink2)}
-.releases{display:flex;flex-direction:column;gap:22px;margin-top:20px}
-.release h2{font-size:34px}
-.release .meta{font-size:14px;font-weight:800;color:var(--ink2)}
-.release ul{margin:0;padding-inline-start:22px}
 .rel-fallback{font-size:14px}
 
 /* footer */

@@ -10,7 +10,6 @@ Static site on GitHub Pages. The generator is `scripts/build_site.py` (Python 3.
 |---|---|
 | `content/i18n/<lang>.json` | UI strings and home copy (same keys in every language) |
 | `content/pages/<lang>/{about,privacy,support,terms}.md` | pages (front matter: title, description, updated) |
-| `content/releases.json` | release notes (empty until a build is public) |
 | `content/journal/<slug>/<lang>.md` | published posts |
 | `content/queue/NN-slug/{en,ko}.md` | queued posts (no `published:` yet) |
 | `assets/` | CSS (design tokens are CSS variables), JS, icons, og image |
