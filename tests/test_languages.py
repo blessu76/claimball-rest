@@ -111,7 +111,7 @@ class RightToLeft(unittest.TestCase):
 
 
 class ReleasesPages(unittest.TestCase):
-    IDS = ["1.0.0-%d" % n for n in list(range(1, 11)) + [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]]
+    IDS = ["1.0.0-%d" % n for n in list(range(1, 11)) + [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27]]
 
     def test_each_language_releases_page_has_every_build_anchor(self):
         for l in ALL:
@@ -128,13 +128,13 @@ class ReleasesPages(unittest.TestCase):
             for field in ("title", "intro", "notes"):
                 self.assertTrue(set(ALL) <= set(e[field]), (e["id"], field))
         self.assertEqual("beta", rel[0]["status"])
-        self.assertEqual("2026-11-07", rel[0]["date"])
+        self.assertEqual("2026-11-12", rel[0]["date"])
         self.assertTrue(all(e["status"] == "beta" and e["date"] for e in rel))
         counts = [len(e["notes"]["en"]) for e in rel]
         for e in rel:
             for l in ALL:
                 self.assertEqual(len(e["notes"]["en"]), len(e["notes"][l]), (e["id"], l))
-        self.assertEqual(70, sum(counts))
+        self.assertEqual(74, sum(counts))
 
     def test_app_link_targets_resolve(self):
         for l in ALL:

@@ -1,6 +1,234 @@
 {
   "releases": [
     {
+      "id": "1.0.0-27",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-11-12",
+      "title": {
+        "en": "Build 27",
+        "ko": "빌드 27",
+        "ja": "ビルド 27",
+        "zh-Hant": "建置版本 27",
+        "es": "Compilación 27",
+        "pt-BR": "Build 27",
+        "fr": "Build 27",
+        "de": "Build 27",
+        "id": "Build 27",
+        "th": "บิลด์ 27",
+        "vi": "Bản dựng 27",
+        "tr": "Derleme 27"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
+      },
+      "notes": {
+        "en": [
+          "You can now change the app language yourself in Settings."
+        ],
+        "ko": [
+          "이제 설정에서 앱 언어를 직접 바꿀 수 있어요."
+        ],
+        "ja": [
+          "設定からアプリの言語を自分で切り替えられるようになりました。"
+        ],
+        "zh-Hant": [
+          "現在可以在設定中自行切換應用程式語言。"
+        ],
+        "es": [
+          "Ahora puedes cambiar el idioma de la app tú mismo en Ajustes."
+        ],
+        "pt-BR": [
+          "Agora você pode trocar o idioma do app por conta própria em Ajustes."
+        ],
+        "fr": [
+          "Vous pouvez maintenant changer vous-même la langue de l'appli dans les Réglages."
+        ],
+        "de": [
+          "Du kannst die App-Sprache jetzt selbst in den Einstellungen ändern."
+        ],
+        "id": [
+          "Sekarang kamu bisa mengganti bahasa aplikasi sendiri di Pengaturan."
+        ],
+        "th": [
+          "ตอนนี้คุณเปลี่ยนภาษาของแอปเองได้ในการตั้งค่า"
+        ],
+        "vi": [
+          "Giờ bạn có thể tự đổi ngôn ngữ ứng dụng trong Cài đặt."
+        ],
+        "tr": [
+          "Artık uygulama dilini Ayarlar'dan kendin değiştirebilirsin."
+        ]
+      }
+    },
+    {
+      "id": "1.0.0-26",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-11-12",
+      "title": {
+        "en": "Build 26",
+        "ko": "빌드 26",
+        "ja": "ビルド 26",
+        "zh-Hant": "建置版本 26",
+        "es": "Compilación 26",
+        "pt-BR": "Build 26",
+        "fr": "Build 26",
+        "de": "Build 26",
+        "id": "Build 26",
+        "th": "บิลด์ 26",
+        "vi": "Bản dựng 26",
+        "tr": "Derleme 26"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
+      },
+      "notes": {
+        "en": [
+          "The app now supports 12 languages, adding Thai, Vietnamese and Turkish, and Portuguese is now Brazilian Portuguese.",
+          "The language list has been tidied up. Languages we no longer support are removed from the list."
+        ],
+        "ko": [
+          "앱 언어가 12개로 늘었어요. 태국어·베트남어·터키어가 새로 들어왔고, 포르투갈어는 브라질 포르투갈어로 맞췄어요.",
+          "언어 목록이 정리됐어요. 더 이상 지원하지 않는 언어는 목록에서 빠집니다."
+        ],
+        "ja": [
+          "アプリの対応言語が12言語になりました。タイ語・ベトナム語・トルコ語が加わり、ポルトガル語はブラジルポルトガル語になりました。",
+          "言語リストを整理しました。対応を終了した言語はリストから外れます。"
+        ],
+        "zh-Hant": [
+          "應用程式現在支援 12 種語言，新增泰語、越南語和土耳其語，葡萄牙語也調整為巴西葡萄牙語。",
+          "語言清單已整理，不再支援的語言會從清單中移除。"
+        ],
+        "es": [
+          "La app ahora admite 12 idiomas: se suman tailandés, vietnamita y turco, y el portugués pasa a ser portugués de Brasil.",
+          "Hemos ordenado la lista de idiomas. Los idiomas que ya no admitimos se quitan de la lista."
+        ],
+        "pt-BR": [
+          "O app agora tem 12 idiomas, com a chegada do tailandês, vietnamita e turco, e o português agora é o português do Brasil.",
+          "A lista de idiomas foi organizada. Os idiomas que não damos mais suporte saem da lista."
+        ],
+        "fr": [
+          "L'appli prend désormais en charge 12 langues : le thaï, le vietnamien et le turc arrivent, et le portugais devient le portugais du Brésil.",
+          "La liste des langues a été remise en ordre. Les langues qui ne sont plus prises en charge en sont retirées."
+        ],
+        "de": [
+          "Die App unterstützt jetzt 12 Sprachen: Thai, Vietnamesisch und Türkisch sind neu, und Portugiesisch ist jetzt brasilianisches Portugiesisch.",
+          "Die Sprachliste wurde aufgeräumt. Nicht mehr unterstützte Sprachen verschwinden aus der Liste."
+        ],
+        "id": [
+          "Aplikasi kini mendukung 12 bahasa: bahasa Thai, Vietnam, dan Turki ditambahkan, dan bahasa Portugis kini menjadi Portugis Brasil.",
+          "Daftar bahasa telah dirapikan. Bahasa yang tidak lagi didukung dihapus dari daftar."
+        ],
+        "th": [
+          "แอปรองรับ 12 ภาษาแล้ว เพิ่มภาษาไทย เวียดนาม และตุรกี และภาษาโปรตุเกสเปลี่ยนเป็นโปรตุเกสแบบบราซิล",
+          "จัดระเบียบรายการภาษาใหม่ ภาษาที่ไม่รองรับอีกต่อไปจะถูกนำออกจากรายการ"
+        ],
+        "vi": [
+          "Ứng dụng nay hỗ trợ 12 ngôn ngữ, thêm tiếng Thái, tiếng Việt và tiếng Thổ Nhĩ Kỳ, và tiếng Bồ Đào Nha nay là tiếng Bồ Đào Nha (Brazil).",
+          "Danh sách ngôn ngữ đã được sắp xếp lại. Các ngôn ngữ không còn hỗ trợ sẽ bị gỡ khỏi danh sách."
+        ],
+        "tr": [
+          "Uygulama artık 12 dili destekliyor: Tayca, Vietnamca ve Türkçe eklendi, Portekizce de artık Brezilya Portekizcesi.",
+          "Dil listesi düzenlendi. Artık desteklemediğimiz diller listeden kaldırıldı."
+        ]
+      }
+    },
+    {
+      "id": "1.0.0-25",
+      "version": "1.0.0",
+      "status": "beta",
+      "date": "2026-11-11",
+      "title": {
+        "en": "Build 25",
+        "ko": "빌드 25",
+        "ja": "ビルド 25",
+        "zh-Hant": "建置版本 25",
+        "es": "Compilación 25",
+        "pt-BR": "Build 25",
+        "fr": "Build 25",
+        "de": "Build 25",
+        "id": "Build 25",
+        "th": "บิลด์ 25",
+        "vi": "Bản dựng 25",
+        "tr": "Derleme 25"
+      },
+      "intro": {
+        "en": "A TestFlight internal test build, not released to the public yet.",
+        "ko": "TestFlight 내부 테스트 빌드이며, 아직 일반 공개 전이에요.",
+        "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "fr": "Un build de test interne TestFlight, pas encore publié au public.",
+        "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
+        "id": "Build uji internal TestFlight, belum dirilis ke publik.",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
+      },
+      "notes": {
+        "en": [
+          "No changes to gameplay. We updated how release notes are prepared and published behind the scenes."
+        ],
+        "ko": [
+          "게임 플레이에는 달라진 점이 없습니다. 릴리즈 노트를 정리해 올리는 내부 절차를 손봤어요."
+        ],
+        "ja": [
+          "ゲームプレイに変更はありません。リリースノートを整理して公開する内部の手順を見直しました。"
+        ],
+        "zh-Hant": [
+          "遊戲玩法沒有變動。我們調整了整理並發布版本說明的內部流程。"
+        ],
+        "es": [
+          "No hay cambios en la jugabilidad. Hemos mejorado, entre bastidores, cómo se preparan y publican las notas de la versión."
+        ],
+        "pt-BR": [
+          "Nenhuma mudança na jogabilidade. Ajustamos nos bastidores como as notas de versão são preparadas e publicadas."
+        ],
+        "fr": [
+          "Aucun changement dans le gameplay. Nous avons amélioré en coulisses la façon dont les notes de version sont préparées et publiées."
+        ],
+        "de": [
+          "Keine Änderungen am Gameplay. Hinter den Kulissen haben wir überarbeitet, wie die Versionshinweise erstellt und veröffentlicht werden."
+        ],
+        "id": [
+          "Tidak ada perubahan pada gameplay. Kami memperbarui cara catatan rilis disiapkan dan dipublikasikan di balik layar."
+        ],
+        "th": [
+          "ไม่มีการเปลี่ยนแปลงในการเล่นเกม เราปรับปรุงขั้นตอนเบื้องหลังในการจัดทำและเผยแพร่บันทึกการอัปเดต"
+        ],
+        "vi": [
+          "Lối chơi không thay đổi. Chúng tôi đã cải tiến quy trình nội bộ để soạn và đăng ghi chú phát hành."
+        ],
+        "tr": [
+          "Oynanışta değişiklik yok. Sürüm notlarının hazırlanma ve yayımlanma sürecini arka planda iyileştirdik."
+        ]
+      }
+    },
+    {
       "id": "1.0.0-24",
       "version": "1.0.0",
       "status": "beta",

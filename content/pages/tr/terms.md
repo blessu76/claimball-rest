@@ -1,6 +1,6 @@
 ---
-title: Terms of Use
-description: Terms of Use for Claimball.
+title: Kullanım Koşulları
+description: Claimball kullanım koşulları.
 translation_of: en
 updated: 2026-10-31
 ---

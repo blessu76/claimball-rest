@@ -1,6 +1,6 @@
 ---
-title: Privacy Policy
-description: Privacy policy for Claimball. The app collects no personal information; the website collects basic visit statistics through Google Analytics.
+title: Gizlilik Politikası
+description: Claimball gizlilik politikası. Uygulama kişisel bilgi toplamaz; web sitesi Google Analytics ile temel ziyaret istatistikleri toplar.
 translation_of: en
 updated: 2026-11-01
 ---
