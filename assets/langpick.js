@@ -1,25 +1,33 @@
 /* Claimball: language of every page without a language prefix ("/", /about/, /releases/, /journal/..., never /xx/ and never 404.html).
    Inlined by build_site, which fills in S (all site languages) and A (the languages that really have THIS page).
    Order: ?lang=xx in the URL > the language the visitor picked on the site (localStorage "cb-lang") > first match in
-   navigator.languages (exact tag, then its first part: ko-KR -> ko, zh-TW -> zh) > stay on the English root.
+   navigator.languages (same rules as the kit's languages.resolve: zh-TW/HK/MO/Hant -> zh-Hant, zh-CN/Hans -> none,
+   pt* -> pt-BR, in -> id, en* -> en, other tags by their first part) > stay on the English root.
    Redirect only when the language is not English and A has it; otherwise the page stays (no fallback to the next browser language).
    ?lang=xx (the company-wide hand-off from play.ipe.rest): a supported language is saved and the page moves to "/xx/<same path>"
    (en stays on the page, the query is cleaned); an unsupported one is ignored and the later steps decide. Other query params and #hash are kept.
    No server redirect: crawlers see "/" as English. */
 (function(){
   var S=/*SUPPORTED*/[],A=/*AVAILABLE*/[];
-  /* "ko-KR" -> "ko", "zh_TW" -> "zh" ... first supported match for a language tag, or '' */
+  /* browser/device tag -> a supported language, or '' (zh-CN, ru, ... -> '' so the next browser language is tried) */
   function pick(c){
-    c=String(c||'').toLowerCase().replace(/_/g,'-');
-    /* legacy codes: Android/old browsers say "in" for Indonesian. Traditional Chinese (zh-Hant) has no pages yet, so it goes to zh. */
-    if(c.split('-')[0]==='in')c='id'+c.slice(2);
-    if(S.indexOf(c)>=0)return c;
-    var b=c.split('-')[0];
-    return S.indexOf(b)>=0?b:'';
+    var p=String(c||'').toLowerCase().replace(/_/g,'-').split('-').filter(Boolean);
+    if(!p.length)return '';
+    var code=p[0]==='in'?'id':p[0];
+    if(code==='zh'){
+      var sub=p.slice(1);
+      var script=sub.filter(function(x){return x.length===4&&/^[a-z]+$/.test(x)})[0];
+      var region=sub.filter(function(x){return x.length===2&&/^[a-z]+$/.test(x)})[0];
+      var hant=script?script==='hant':(!!region&&['tw','hk','mo'].indexOf(region)>=0);
+      return hant&&S.indexOf('zh-Hant')>=0?'zh-Hant':'';
+    }
+    if(code==='pt')return S.indexOf('pt-BR')>=0?'pt-BR':'';
+    for(var i=0;i<S.length;i++)if(S[i].toLowerCase()===code)return S[i];
+    return '';
   }
   try{
     var seg=location.pathname.split('/')[1];
-    if(seg&&S.indexOf(seg.toLowerCase())>=0)return;
+    for(var k=0;seg&&k<S.length;k++)if(S[k].toLowerCase()===seg.toLowerCase())return;
     var to='',saved='',q=location.search||'',keep='',hasLang=false;
     var parts=q.replace(/^\?/,'').split('&').filter(Boolean),rest=[],want='';
     for(var j=0;j<parts.length;j++){

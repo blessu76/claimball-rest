@@ -1,4 +1,4 @@
-"""All 13 languages are really built, linked to each other, and keep the privacy wording."""
+"""All 12 kit languages are really built, linked to each other, and keep the privacy wording."""
 import html
 import json
 import re
@@ -7,7 +7,7 @@ from pathlib import Path
 
 from helpers import REPO, bs
 
-ALL = ("en", "ko", "ja", "zh", "es", "pt", "id", "ru", "vi", "fr", "de", "ar", "hi")
+ALL = ("en", "ko", "ja", "zh-Hant", "es", "pt-BR", "fr", "de", "id", "th", "vi", "tr")
 GAOPTOUT = "https://tools.google.com/dlpage/gaoptout"
 
 
@@ -21,8 +21,8 @@ def text_of(lang, *parts):
 
 
 class LanguageSet(unittest.TestCase):
-    def test_the_registry_is_the_thirteen_languages(self):
-        self.assertEqual(tuple(bs.LANGS), ALL)
+    def test_the_registry_is_the_twelve_languages(self):
+        self.assertEqual(tuple(bs.LISTED), ALL)
         self.assertEqual(bs.MAIN_LANGS, ("en", "ko"))
 
     def test_every_language_has_source_files(self):
@@ -66,12 +66,10 @@ class LanguageSet(unittest.TestCase):
         for l in ALL:
             self.assertIn('<html lang="%s"' % l, out(l).read_text(encoding="utf-8"), l)
 
-    def test_only_arabic_is_right_to_left(self):
+    def test_every_language_is_left_to_right(self):
         for l in ALL:
-            want = "rtl" if l == "ar" else "ltr"
-            self.assertEqual(bs.LANGS[l][2], want, l)
             for parts in ((), ("about",), ("privacy",), ("journal", "starting-claimball"), ("releases",)):
-                self.assertIn('<html lang="%s" dir="%s"' % (l, want), out(l, *parts).read_text(encoding="utf-8"), (l, parts))
+                self.assertIn('<html lang="%s" dir="ltr"' % l, out(l, *parts).read_text(encoding="utf-8"), (l, parts))
 
     def test_hreflang_covers_all_languages_and_x_default(self):
         for l in ALL:
@@ -101,24 +99,15 @@ class RightToLeft(unittest.TestCase):
             self.assertNotIn(bad, text_part, bad)
         self.assertRegex(self.CSS, r"\.phone\{direction:ltr;")
 
-    def test_pager_and_back_arrows_follow_the_reading_direction(self):
+    def test_back_arrows_point_left_in_english(self):
         self.assertEqual((bs.arrow("en", False), bs.arrow("en", True)), ("\u2190", "\u2192"))
-        self.assertEqual((bs.arrow("ar", False), bs.arrow("ar", True)), ("\u2192", "\u2190"))
-        self.assertIn("\u2192 " + json.loads((REPO / "content" / "i18n" / "ar.json").read_text(encoding="utf-8"))["back_journal"],
-                      text_of("ar", "journal", "starting-claimball"))
         self.assertIn("\u2190 " + json.loads((REPO / "content" / "i18n" / "en.json").read_text(encoding="utf-8"))["back_journal"],
                       text_of("en", "journal", "starting-claimball"))
 
-    def test_arabic_and_hindi_have_system_font_stacks(self):
-        self.assertRegex(self.CSS, r'html\[lang="ar"\]\{[^}]*Geeza Pro[^}]*Noto Sans Arabic')
-        self.assertRegex(self.CSS, r'html\[lang="hi"\]\{[^}]*Devanagari Sangam MN[^}]*Noto Sans Devanagari')
-
-    def test_the_language_switcher_lists_both_new_languages(self):
-        page = text_of("ar", "about")
-        for l in ("ar", "hi"):
+    def test_the_language_switcher_lists_every_language(self):
+        page = text_of("ja", "about")
+        for l in ALL:
             self.assertIn('hreflang="%s"' % l, page)
-        self.assertIn(">AR</a>", page)
-        self.assertIn(">HI</a>", page)
 
 
 class ReleasesPages(unittest.TestCase):
@@ -132,12 +121,12 @@ class ReleasesPages(unittest.TestCase):
                 self.assertIn('id="%s"' % i, h, (l, i))
             self.assertNotIn('class="rel-fallback"', h, l)
 
-    def test_releases_json_has_ten_builds_in_all_thirteen_languages(self):
+    def test_releases_json_has_ten_builds_in_all_twelve_languages(self):
         rel = json.loads((REPO / "content" / "releases.json").read_text(encoding="utf-8"))["releases"]
         self.assertEqual(self.IDS[::-1], [e["id"] for e in rel])
         for e in rel:
             for field in ("title", "intro", "notes"):
-                self.assertEqual(sorted(ALL), sorted(e[field]), (e["id"], field))
+                self.assertTrue(set(ALL) <= set(e[field]), (e["id"], field))
         self.assertEqual("beta", rel[0]["status"])
         self.assertEqual("2026-11-07", rel[0]["date"])
         self.assertTrue(all(e["status"] == "beta" and e["date"] for e in rel))
@@ -146,10 +135,6 @@ class ReleasesPages(unittest.TestCase):
             for l in ALL:
                 self.assertEqual(len(e["notes"]["en"]), len(e["notes"][l]), (e["id"], l))
         self.assertEqual(70, sum(counts))
-
-    def test_arabic_releases_page_is_rtl(self):
-        h = (REPO / "ar" / "releases" / "index.html").read_text(encoding="utf-8")
-        self.assertRegex(h, r'<html[^>]*dir="rtl"')
 
     def test_app_link_targets_resolve(self):
         for l in ALL:

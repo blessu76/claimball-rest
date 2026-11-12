@@ -9,21 +9,26 @@ import unittest
 from helpers import REPO, bs
 
 LANG_DIRS = [l for l in bs.LANGS if l != "en"]
+AVAILABLE = [l for l in bs.LISTED if l != "en"]
+SKIP_DIRS = ("tests", "scripts", "docs", "ops", "content", "assets") + tuple(bs.LEGACY_REDIRECTS)
 
 
 def pages():
     out = []
     for p in REPO.rglob("index.html"):
         rel = p.relative_to(REPO).parts
-        if rel[0] in ("tests", "scripts", "docs", "ops", "content", "assets"):
+        if rel[0] in SKIP_DIRS:
             continue
         lang = rel[0] if rel[0] in LANG_DIRS else "en"
-        out.append((lang, str(p.relative_to(REPO)), p.read_text(encoding="utf-8")))
+        text = p.read_text(encoding="utf-8")
+        if 'http-equiv="refresh"' in text:
+            continue
+        out.append((lang, str(p.relative_to(REPO)), text))
     return out
 
 
 class Picker(unittest.TestCase):
-    def test_both_languages_have_pages(self):
+    def test_every_language_folder_has_pages(self):
         self.assertEqual({l for l, _, _ in pages()}, set(bs.LANGS))
 
     def test_picker_shows_the_pages_own_language(self):
@@ -31,9 +36,9 @@ class Picker(unittest.TestCase):
             name = bs.LANGS[lang][0]
             self.assertEqual(re.search(r'<html lang="([\w-]+)"', h).group(1), lang, f)
             menu = re.search(r'<span class="langsw".*?</span>', h, re.S).group(0)
-            cur = re.findall(r'<a href="[^"]*" hreflang="(\w+)"[^>]*aria-current', menu)
-            self.assertEqual(cur, [lang], f)
-            self.assertEqual(len(re.findall(r'<a ', menu)), len(bs.LANGS), f)
+            cur = re.findall(r'<a href="[^"]*" hreflang="([\w-]+)"[^>]*aria-current', menu)
+            self.assertEqual(cur, [lang] if lang in bs.LISTED else [], f)
+            self.assertEqual(len(re.findall(r'<a ', menu)), len(bs.LISTED), f)
 
     def test_picker_links_stay_on_the_same_page(self):
         for lang, f, h in pages():
@@ -45,7 +50,7 @@ class Picker(unittest.TestCase):
     def test_choice_is_remembered_for_each_language(self):
         """click a language -> claimball.js stores it -> langpick.js on '/' goes to it (en + ko)."""
         js = (REPO / "assets" / "claimball.js").read_text(encoding="utf-8")
-        pick = (REPO / "assets" / "langpick.js").read_text(encoding="utf-8").replace("/*SUPPORTED*/[]", json.dumps(list(bs.LANGS))).replace("/*AVAILABLE*/[]", json.dumps(LANG_DIRS))
+        pick = (REPO / "assets" / "langpick.js").read_text(encoding="utf-8").replace("/*SUPPORTED*/[]", json.dumps(list(bs.LISTED))).replace("/*AVAILABLE*/[]", json.dumps(AVAILABLE))
         prog = r"""
 const store={};let hrefs=[];
 function run(src,pathname,navLangs){
@@ -67,7 +72,7 @@ for(const l of %s){
   out.push([l,store['cb-lang'],r.to]);
 }
 console.log(JSON.stringify(out));
-""" % (json.dumps(list(bs.LANGS)), json.dumps(js), "x", json.dumps(pick))
+""" % (json.dumps(list(bs.LISTED)), json.dumps(js), "x", json.dumps(pick))
         res = subprocess.run(["node", "-e", prog], capture_output=True, text=True, timeout=30)
         self.assertEqual(res.returncode, 0, res.stderr)
         for l, saved, to in json.loads(res.stdout):
@@ -112,7 +117,7 @@ console.log(JSON.stringify(out));
         h = (REPO / "ja/releases/index.html").read_text(encoding="utf-8")
         href = re.search(r'<a href="([^"]*)" hreflang="en"', h).group(1)
         self.assertEqual(href, "/releases/?lang=en")
-        pick = (REPO / "assets" / "langpick.js").read_text(encoding="utf-8").replace("/*SUPPORTED*/[]", json.dumps(list(bs.LANGS))).replace("/*AVAILABLE*/[]", json.dumps(LANG_DIRS))
+        pick = (REPO / "assets" / "langpick.js").read_text(encoding="utf-8").replace("/*SUPPORTED*/[]", json.dumps(list(bs.LISTED))).replace("/*AVAILABLE*/[]", json.dumps(AVAILABLE))
         prog = r"""
 let to=null,hist=null;
 const loc={pathname:'/releases/',search:'?lang=en',hash:'',replace:u=>{to=u}};
@@ -136,7 +141,7 @@ class RootLangParam(unittest.TestCase):
 
     @classmethod
     def run_root(cls, search="", saved=None, nav=("en-US",), hash_="", pathname="/", langs=None, available=None, script=None):
-        langs = list(langs or bs.LANGS)
+        langs = list(langs or bs.LISTED)
         avail = [l for l in langs if l != "en"] if available is None else list(available)
         pick = script or (REPO / "assets" / "langpick.js").read_text(encoding="utf-8").replace("/*SUPPORTED*/[]", json.dumps(langs)).replace(
             "/*AVAILABLE*/[]", json.dumps(avail))
@@ -167,15 +172,15 @@ console.log(JSON.stringify({to,replaced,store}));
         self.assertEqual((r["store"][self.KEY], r["replaced"]), ("en", "/"))
 
     def test_lang_unsupported_is_ignored_then_browser_language(self):
-        r = self.run_root("?lang=th", nav=("ko-KR", "en"))
+        r = self.run_root("?lang=ru", nav=("ko-KR", "en"))
         self.assertEqual((r["to"], self.KEY in r["store"]), ("/ko/", False))
 
     def test_lang_unsupported_falls_back_to_english(self):
-        r = self.run_root("?lang=th", nav=("it-IT",))
+        r = self.run_root("?lang=ru", nav=("it-IT",))
         self.assertEqual((r["to"], r["store"], r["replaced"]), (None, {}, None))
 
     def test_lang_unsupported_does_not_overwrite_saved(self):
-        r = self.run_root("?lang=th", saved="ko", nav=("en-US",))
+        r = self.run_root("?lang=ru", saved="ko", nav=("en-US",))
         self.assertEqual((r["to"], r["store"][self.KEY]), ("/ko/", "ko"))
 
     def test_lang_param_is_normalised(self):
@@ -198,7 +203,7 @@ console.log(JSON.stringify({to,replaced,store}));
         self.assertEqual(self.run_root(nav=("it-IT", "ko"))["to"], "/ko/")
 
     def test_unsupported_browser_language_stays_english(self):
-        r = self.run_root(nav=("th-TH", "it"))
+        r = self.run_root(nav=("ru-RU", "it"))
         self.assertEqual((r["to"], r["store"]), (None, {}))
 
     def test_inner_pages_move_to_the_same_page(self):
@@ -208,19 +213,27 @@ console.log(JSON.stringify({to,replaced,store}));
         self.assertEqual(self.run_root(saved="de", pathname="/releases/")["to"], "/de/releases/")
         self.assertEqual(self.run_root(nav=("vi-VN",), pathname="/support/")["to"], "/vi/support/")
 
-    def test_arabic_and_hindi_go_to_their_own_paths(self):
-        self.assertEqual(self.run_root(nav=("ar-SA", "en"))["to"], "/ar/")
-        self.assertEqual(self.run_root(nav=("ar",), pathname="/about/")["to"], "/ar/about/")
-        self.assertEqual(self.run_root(nav=("hi-IN",))["to"], "/hi/")
-        self.assertEqual(self.run_root(nav=("hi",), pathname="/support/")["to"], "/hi/support/")
-        self.assertEqual(self.run_root("?lang=ar", pathname="/journal/", hash_="#x")["to"], "/ar/journal/#x")
+    def test_ended_languages_never_redirect(self):
+        self.assertIsNone(self.run_root(nav=("ar-SA", "en"))["to"])
+        self.assertIsNone(self.run_root(nav=("hi-IN",), pathname="/about/")["to"])
+        self.assertIsNone(self.run_root(nav=("ru-RU",))["to"])
+        self.assertIsNone(self.run_root(nav=("zh-CN",))["to"])
         r = self.run_root("?lang=HI")
-        self.assertEqual((r["to"], r["store"][self.KEY]), ("/hi/", "hi"))
-        self.assertEqual(self.run_root(saved="ar", nav=("en-US",), pathname="/releases/")["to"], "/ar/releases/")
-        self.assertEqual(self.run_root(saved="hi", nav=("ko-KR",))["to"], "/hi/")
+        self.assertIsNone(r["to"])
+        self.assertNotIn(self.KEY, r["store"])
+        self.assertEqual(self.run_root(saved="ar", nav=("en-US",), pathname="/releases/")["to"], None)
+
+    def test_chinese_and_portuguese_map_to_kit_tags(self):
+        self.assertEqual(self.run_root(nav=("zh-TW",))["to"], "/zh-Hant/")
+        self.assertEqual(self.run_root(nav=("zh-HK", "en"), pathname="/about/")["to"], "/zh-Hant/about/")
+        self.assertEqual(self.run_root(nav=("zh-Hant-TW",))["to"], "/zh-Hant/")
+        self.assertIsNone(self.run_root(nav=("zh-CN",))["to"])
+        self.assertEqual(self.run_root(nav=("pt-PT",))["to"], "/pt-BR/")
+        self.assertEqual(self.run_root("?lang=pt", pathname="/journal/", hash_="#x")["to"], "/pt-BR/journal/#x")
+        self.assertEqual(self.run_root(nav=("in-ID",))["to"], "/id/")
 
     def test_never_runs_under_a_language_prefix(self):
-        for path in ("/ko/", "/ko/about/", "/en/", "/KO/journal/", "/zh/", "/ar/", "/hi/about/"):
+        for path in ("/ko/", "/ko/about/", "/en/", "/KO/journal/", "/zh-Hant/", "/pt-BR/about/"):
             r = self.run_root("?lang=de", saved="ja", nav=("fr-FR",), pathname=path)
             self.assertEqual((r["to"], r["store"], r["replaced"]), (None, {"cb-lang": "ja"}, None), path)
 
@@ -244,7 +257,7 @@ console.log(JSON.stringify({to,replaced,store}));
     def test_inlined_on_every_prefixless_page_and_nowhere_else(self):
         for f in REPO.rglob("*.html"):
             rel = f.relative_to(REPO).parts
-            if rel[0] in ("tests", "scripts", "docs", "ops", "content", "assets"):
+            if rel[0] in SKIP_DIRS:
                 continue
             has = self.built_script(f) is not None
             self.assertEqual(has, rel[0] not in LANG_DIRS and rel[0] != "404.html", str(f.relative_to(REPO)))
@@ -256,9 +269,9 @@ console.log(JSON.stringify({to,replaced,store}));
     def test_each_page_lists_exactly_the_languages_that_have_it(self):
         for f in REPO.rglob("index.html"):
             rel = f.relative_to(REPO)
-            if rel.parts[0] in LANG_DIRS + ["tests", "scripts", "docs", "ops", "content", "assets"]:
+            if rel.parts[0] in LANG_DIRS + list(SKIP_DIRS):
                 continue
-            have = [l for l in bs.LANGS if l != "en" and (REPO / l / rel).exists()]
+            have = [l for l in AVAILABLE if (REPO / l / rel).exists()]
             a = json.loads(re.search(r"A=(\[[^\]]*\])", self.built_script(f)).group(1))
             self.assertEqual(a, have, str(rel))
 

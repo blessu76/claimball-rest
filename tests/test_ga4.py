@@ -25,6 +25,8 @@ class Ga4(unittest.TestCase):
     def test_every_generated_page_has_the_snippet_once(self):
         self.assertGreater(len(self.pages), 15)
         for rel, text in self.pages.items():
+            if 'http-equiv="refresh"' in text:
+                continue
             with self.subTest(rel):
                 self.assertEqual(text.count(GA_ID), 1)
                 self.assertEqual(text.count("googletagmanager.com/gtag/js"), 1)

@@ -44,6 +44,7 @@ def make_site(langs=("en", "ko"), posts=(("alpha-post", "2026-11-01T18:00+09:00"
             (d / (l + ".md")).write_text(post_text(slug, l, "Queued %s %s" % (slug, l)), encoding="utf-8")
     shutil.copy(REPO / "content" / "releases.json", root / "content" / "releases.json")
     shutil.copytree(REPO / "assets", root / "assets")
+    shutil.copytree(REPO / "vendor" / "ipe_web_kit", root / "vendor" / "ipe_web_kit")
     return root
 
 

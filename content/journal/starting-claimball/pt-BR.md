@@ -2,7 +2,7 @@
 title: Começando a fazer Claimball
 description: A primeira publicação do diário. O que é Claimball e por que este diário existe.
 slug: starting-claimball
-lang: pt
+lang: pt-BR
 category: devlog
 translation_of: en
 published: 2026-10-31T07:40+09:00
@@ -22,6 +22,6 @@ Vamos usar este diário para compartilhar notas da criação do jogo. Por enquan
 
 ## O que vem a seguir
 
-Claimball é grátis para experimentar, uma única compra libera o jogo completo e não há anúncios nem assinatura. O preço será divulgado perto do lançamento. Ainda não há data de lançamento. Quando houver novidades, elas aparecerão aqui e nas [notas de versão](/pt/releases/).
+Claimball é grátis para experimentar, uma única compra libera o jogo completo e não há anúncios nem assinatura. O preço será divulgado perto do lançamento. Ainda não há data de lançamento. Quando houver novidades, elas aparecerão aqui e nas [notas de versão](/pt-BR/releases/).
 
 *Atualizado em 2026-10-31: detalhes sobre a duração das partidas, os rivais e o preço foram atualizados.*

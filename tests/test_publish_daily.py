@@ -26,6 +26,7 @@ class PublishDaily(unittest.TestCase):
         # The real repo ignores __pycache__; without it, CI's Python (which writes bytecode next to the scripts the
         # publish run imports) leaves an untracked scripts/__pycache__ and the "unexpected paths" guard rolls back.
         shutil.copy(REPO / ".gitignore", site / ".gitignore")
+        shutil.copytree(REPO / "vendor" / "ipe_web_kit", site / "vendor" / "ipe_web_kit", dirs_exist_ok=True)
         helpers.build(site)
         self.tmp = Path(tempfile.mkdtemp(prefix="claimball-pd-"))
         self.addCleanup(shutil.rmtree, self.tmp, True)

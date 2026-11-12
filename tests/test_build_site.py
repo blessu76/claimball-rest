@@ -29,8 +29,13 @@ class Built(unittest.TestCase):
                 self.assertTrue((self.root / (lang_dir + p) / "index.html").is_file(), lang_dir + p)
         self.assertTrue((self.root / "404.html").is_file())
 
-    def test_phase_one_languages_only(self):
+    def test_only_fully_translated_languages_are_built(self):
         self.assertEqual(self.ctx.langs, ["en", "ko"])
+
+    def test_real_content_builds_every_listed_language(self):
+        ctx, errs = bs.make_ctx(REPO)
+        self.assertEqual(errs, [])
+        self.assertEqual(ctx.langs, list(bs.LISTED))
 
     def test_last_updated_on_every_page(self):
         for lang_dir in ("", "ko/"):

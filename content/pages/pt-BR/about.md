@@ -23,7 +23,7 @@ Claimball é grátis para experimentar, e uma única compra libera o jogo comple
 
 ## Plataformas
 
-Claimball chega em breve para iOS e Android. Acompanhe o [diário](/pt/journal/) para ver as notas da criação do jogo e acesse o [Suporte](/pt/support/) se quiser escrever para nós.
+Claimball chega em breve para iOS e Android. Acompanhe o [diário](/pt-BR/journal/) para ver as notas da criação do jogo e acesse o [Suporte](/pt-BR/support/) se quiser escrever para nós.
 
 ## Quem faz
 

@@ -11,14 +11,17 @@
         "ja": "ビルド 24",
         "zh": "构建版本 24",
         "es": "Compilación 24",
-        "pt": "Build 24",
+        "pt-BR": "Build 24",
         "id": "Build 24",
         "ru": "Сборка 24",
         "vi": "Bản dựng 24",
         "fr": "Build 24",
         "de": "Build 24",
         "ar": "Build 24",
-        "hi": "बिल्ड 24"
+        "hi": "बिल्ड 24",
+        "zh-Hant": "建置版本 24",
+        "th": "บิลด์ 24",
+        "tr": "Derleme 24"
       },
       "intro": {
         "en": "A TestFlight internal test build, not released to the public yet.",
@@ -26,14 +29,17 @@
         "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
         "zh": "TestFlight 内部测试版本，尚未向公众发布。",
         "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
-        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
         "id": "Build uji internal TestFlight, belum dirilis ke publik.",
         "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
         "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
         "fr": "Un build de test interne TestFlight, pas encore publié au public.",
         "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
         "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
-        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
       },
       "notes": {
         "en": [
@@ -51,7 +57,7 @@
         "es": [
           "iCloud: tus estadísticas, desafíos diarios y copas de temporada también continúan."
         ],
-        "pt": [
+        "pt-BR": [
           "iCloud: suas estatísticas, desafios diários e copas da temporada também continuam."
         ],
         "id": [
@@ -74,6 +80,15 @@
         ],
         "hi": [
           "iCloud: आपके रिकॉर्ड, दैनिक चुनौतियाँ और सीज़न कप भी अब आगे जारी रहते हैं।"
+        ],
+        "zh-Hant": [
+          "iCloud：戰績、每日挑戰和賽季盃也會接續同步。"
+        ],
+        "th": [
+          "iCloud: สถิติ ความท้าทายรายวัน และถ้วยประจำซีซันของคุณก็เล่นต่อได้แล้วเช่นกัน"
+        ],
+        "tr": [
+          "iCloud: kayıtların, günlük meydan okumaların ve sezon kupaların da artık kaldığın yerden devam ediyor."
         ]
       }
     },
@@ -88,14 +103,17 @@
         "ja": "ビルド 23",
         "zh": "构建版本 23",
         "es": "Compilación 23",
-        "pt": "Build 23",
+        "pt-BR": "Build 23",
         "id": "Build 23",
         "ru": "Сборка 23",
         "vi": "Bản dựng 23",
         "fr": "Build 23",
         "de": "Build 23",
         "ar": "Build 23",
-        "hi": "बिल्ड 23"
+        "hi": "बिल्ड 23",
+        "zh-Hant": "建置版本 23",
+        "th": "บิลด์ 23",
+        "tr": "Derleme 23"
       },
       "intro": {
         "en": "A TestFlight internal test build, not released to the public yet.",
@@ -103,14 +121,17 @@
         "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
         "zh": "TestFlight 内部测试版本，尚未向公众发布。",
         "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
-        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
         "id": "Build uji internal TestFlight, belum dirilis ke publik.",
         "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
         "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
         "fr": "Un build de test interne TestFlight, pas encore publié au public.",
         "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
         "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
-        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
       },
       "notes": {
         "en": [
@@ -128,7 +149,7 @@
         "es": [
           "Continuar con iCloud: en iPhone y iPad con el mismo ID de Apple, tu progreso continúa donde lo dejaste; ahora también se sincroniza al volver a la app."
         ],
-        "pt": [
+        "pt-BR": [
           "Continue com o iCloud: no iPhone e no iPad com o mesmo ID Apple, seu progresso continua de onde parou; agora também sincroniza ao voltar ao app."
         ],
         "id": [
@@ -151,6 +172,15 @@
         ],
         "hi": [
           "iCloud से आगे खेलें: एक ही Apple ID वाले iPhone और iPad पर आपकी प्रगति जारी रहती है; ऐप में लौटते ही यह अब सिंक भी होती है।"
+        ],
+        "zh-Hant": [
+          "使用 iCloud 接續：在登入同一個 Apple ID 的 iPhone 和 iPad 上，進度會從上次離開的地方繼續，現在回到 App 時也會同步。"
+        ],
+        "th": [
+          "เล่นต่อด้วย iCloud: บน iPhone และ iPad ที่ลงชื่อเข้าใช้ด้วย Apple ID เดียวกัน ความคืบหน้าจะต่อจากจุดที่ค้างไว้ และตอนนี้ยังซิงก์เมื่อคุณกลับมาที่แอปด้วย"
+        ],
+        "tr": [
+          "iCloud ile devam et: aynı Apple ID ile oturum açmış iPhone ve iPad'lerde ilerlemen kaldığın yerden sürer; artık uygulamaya döndüğünde de eşitleniyor."
         ]
       }
     },
@@ -165,14 +195,17 @@
         "ja": "ビルド 22",
         "zh": "构建版本 22",
         "es": "Compilación 22",
-        "pt": "Build 22",
+        "pt-BR": "Build 22",
         "id": "Build 22",
         "ru": "Сборка 22",
         "vi": "Bản dựng 22",
         "fr": "Build 22",
         "de": "Build 22",
         "ar": "Build 22",
-        "hi": "बिल्ड 22"
+        "hi": "बिल्ड 22",
+        "zh-Hant": "建置版本 22",
+        "th": "บิลด์ 22",
+        "tr": "Derleme 22"
       },
       "intro": {
         "en": "A TestFlight internal test build, not released to the public yet.",
@@ -180,14 +213,17 @@
         "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
         "zh": "TestFlight 内部测试版本，尚未向公众发布。",
         "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
-        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
         "id": "Build uji internal TestFlight, belum dirilis ke publik.",
         "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
         "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
         "fr": "Un build de test interne TestFlight, pas encore publié au public.",
         "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
         "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
-        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
       },
       "notes": {
         "en": [
@@ -215,7 +251,7 @@
           "Aviso de remate listo: cuando se llena el medidor de remate, la pala destella con un brillo y un toque suave.",
           "Nuevo reto diario «Fiesta de rallies»: una bola más lenta que acelera poco a poco, ideal para alargar el intercambio."
         ],
-        "pt": [
+        "pt-BR": [
           "Sensação de golpe: ao sofrer um ponto a tela balança de leve com um toque háptico, e o fim da partida tem uma vibração diferente para vitória e derrota.",
           "Aviso de smash pronto: quando o medidor de smash enche, a raquete brilha e dá um toque leve.",
           "Novo desafio diário «Festa de rallies»: uma bola mais lenta que acelera aos poucos, ótima para prolongar a troca."
@@ -254,6 +290,21 @@
           "हिट का एहसास: अंक गँवाने पर स्क्रीन हल्का हिलती है और हैप्टिक कंपन मिलता है; मैच ख़त्म होने पर जीत और हार के लिए अलग कंपन होता है।",
           "स्मैश तैयार का संकेत: स्मैश गेज भरते ही पैडल चमकता है और हल्का कंपन होता है।",
           "नई दैनिक चुनौती «रैली पार्टी»: गेंद धीमी है और धीरे-धीरे तेज़ होती है, इसलिए रैली लंबी खींच सकते हैं।"
+        ],
+        "zh-Hant": [
+          "打擊手感：失分時畫面會輕微震動並伴隨觸覺回饋，比賽結束時勝利與落敗也各有專屬震動。",
+          "大招就緒提示：大招量表充滿時，球拍會閃爍光芒並輕輕震動，讓你知道時機到了。",
+          "全新每日挑戰「對打派對」：球速較慢並會緩緩加速，讓你能持續對打。"
+        ],
+        "th": [
+          "สัมผัสการตี: เมื่อเสียแต้มหน้าจอจะสั่นเบา ๆ พร้อมแรงสั่นสะเทือน และตอนจบแมตช์ก็มีการสั่นเฉพาะสำหรับชัยชนะและความพ่ายแพ้",
+          "สัญญาณสแมชพร้อม: เมื่อมาตรวัดสแมชเต็ม ไม้ตีจะวาบประกายพร้อมแตะเบา ๆ ให้รู้ว่าถึงเวลาแล้ว",
+          "ความท้าทายรายวันใหม่ \"ปาร์ตี้ตีโต้\": ลูกช้าลงและค่อย ๆ เร็วขึ้น เพื่อให้คุณตีโต้ต่อเนื่องได้"
+        ],
+        "tr": [
+          "Vuruş hissi: sayı verdiğinde ekran hafifçe titrer ve dokunsal geri bildirim gelir; maçın sonunda da galibiyet ve mağlubiyet için ayrı titreşimler var.",
+          "Smaç hazır işareti: smaç göstergesi dolduğunda raket parıltıyla yanıp söner ve hafifçe titrer; zamanın geldiğini anlarsın.",
+          "Yeni günlük meydan okuma \"Ralli partisi\": daha yavaş ve yavaş yavaş hızlanan bir top; raliyi sürdürmen için."
         ]
       }
     },
@@ -268,14 +319,17 @@
         "ja": "ビルド 21",
         "zh": "构建版本 21",
         "es": "Compilación 21",
-        "pt": "Build 21",
+        "pt-BR": "Build 21",
         "id": "Build 21",
         "ru": "Сборка 21",
         "vi": "Bản dựng 21",
         "fr": "Build 21",
         "de": "Build 21",
         "ar": "Build 21",
-        "hi": "बिल्ड 21"
+        "hi": "बिल्ड 21",
+        "zh-Hant": "建置版本 21",
+        "th": "บิลด์ 21",
+        "tr": "Derleme 21"
       },
       "intro": {
         "en": "A TestFlight internal test build, not released to the public yet.",
@@ -283,14 +337,17 @@
         "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
         "zh": "TestFlight 内部测试版本，尚未向公众发布。",
         "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
-        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
         "id": "Build uji internal TestFlight, belum dirilis ke publik.",
         "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
         "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
         "fr": "Un build de test interne TestFlight, pas encore publié au public.",
         "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
         "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
-        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
       },
       "notes": {
         "en": [
@@ -318,7 +375,7 @@
           "Nuevo ajuste «Orientación de pantalla»: elige giro automático, solo vertical o solo horizontal.",
           "Apoya al creador: tres propinas opcionales de pago único en Ajustes. Son solo un agradecimiento y no cambian nada en el juego."
         ],
-        "pt": [
+        "pt-BR": [
           "Suporte à horizontal: no celular você agora pode girar para ver um tabuleiro largo com painéis laterais compactos. A partida mantém o estado e pausa automaticamente ao girar.",
           "Nova configuração «Orientação da tela»: escolha rotação automática, só vertical ou só horizontal.",
           "Apoie o criador: três gorjetas opcionais de pagamento único em Ajustes. São apenas um agradecimento e não mudam nada no jogo."
@@ -357,6 +414,21 @@
           "लैंडस्केप सपोर्ट: फ़ोन पर अब घुमाने से चौड़ा बोर्ड और दोनों ओर छोटे पैनल दिखते हैं। घुमाने पर मैच की स्थिति बनी रहती है और गेम अपने-आप रुक जाता है।",
           "नई सेटिंग \"स्क्रीन की दिशा\": ऑटो-रोटेट, सिर्फ़ पोर्ट्रेट या सिर्फ़ लैंडस्केप चुनें।",
           "बनाने वाले को सपोर्ट करें: सेटिंग्स में तीन वैकल्पिक एकबारगी टिप। यह सिर्फ़ धन्यवाद है और गेम में कुछ नहीं बदलता।"
+        ],
+        "zh-Hant": [
+          "支援橫向顯示：在手機上可旋轉成寬版棋盤，並搭配精簡的側邊面板。比賽會保留狀態，旋轉時自動暫停。",
+          "新增「螢幕方向」設定：可選擇自動旋轉、僅直向或僅橫向。",
+          "支持開發者：設定中有三個可自由選擇的一次性打賞。這只是一份感謝，不會改變遊戲內容。"
+        ],
+        "th": [
+          "รองรับแนวนอน: บนโทรศัพท์ตอนนี้หมุนเป็นกระดานกว้างพร้อมแผงด้านข้างขนาดกะทัดรัดได้ แมตช์จะคงสถานะไว้และหยุดชั่วคราวอัตโนมัติเมื่อคุณหมุนหน้าจอ",
+          "การตั้งค่าใหม่ \"การวางแนวหน้าจอ\": เลือกหมุนอัตโนมัติ แนวตั้งเท่านั้น หรือแนวนอนเท่านั้น",
+          "สนับสนุนผู้สร้าง: ทิปแบบครั้งเดียวสามระดับในการตั้งค่า เป็นแค่คำขอบคุณและไม่ได้เปลี่ยนอะไรในเกม"
+        ],
+        "tr": [
+          "Yatay mod desteği: telefonlarda artık kompakt yan panellerle geniş bir tahtaya döndürebilirsin. Maçın durumu korunur ve ekranı döndürdüğünde otomatik olarak duraklatılır.",
+          "Yeni \"Ekran yönü\" ayarı: otomatik döndürme, yalnızca dikey veya yalnızca yatay seçeneklerinden birini seç.",
+          "Yapımcıyı destekle: Ayarlar'da isteğe bağlı üç tek seferlik bahşiş. Sadece bir teşekkür; oyunda hiçbir şeyi değiştirmez."
         ]
       }
     },
@@ -371,14 +443,17 @@
         "ja": "ビルド 20",
         "zh": "构建版本 20",
         "es": "Compilación 20",
-        "pt": "Build 20",
+        "pt-BR": "Build 20",
         "id": "Build 20",
         "ru": "Сборка 20",
         "vi": "Bản dựng 20",
         "fr": "Build 20",
         "de": "Build 20",
         "ar": "Build 20",
-        "hi": "बिल्ड 20"
+        "hi": "बिल्ड 20",
+        "zh-Hant": "建置版本 20",
+        "th": "บิลด์ 20",
+        "tr": "Derleme 20"
       },
       "intro": {
         "en": "A TestFlight internal test build, not released to the public yet.",
@@ -386,14 +461,17 @@
         "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
         "zh": "TestFlight 内部测试版本，尚未向公众发布。",
         "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
-        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
         "id": "Build uji internal TestFlight, belum dirilis ke publik.",
         "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
         "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
         "fr": "Un build de test interne TestFlight, pas encore publié au public.",
         "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
         "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
-        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
       },
       "notes": {
         "en": [
@@ -411,7 +489,7 @@
         "es": [
           "Limpieza interna: el kit interno compartido ahora proviene de un repositorio privado con versiones, en lugar de una copia dentro del juego. No cambia nada en el aspecto ni en el juego, y tus datos guardados funcionan igual que antes."
         ],
-        "pt": [
+        "pt-BR": [
           "Limpeza interna: o kit interno compartilhado agora vem de um repositório privado versionado, em vez de uma cópia dentro do jogo. Nada muda na aparência ou na jogabilidade, e seus dados salvos funcionam como antes."
         ],
         "id": [
@@ -434,6 +512,15 @@
         ],
         "hi": [
           "आंतरिक सफ़ाई: साझा आंतरिक किट अब गेम के अंदर की कॉपी के बजाय वर्शन वाले निजी रिपॉज़िटरी से आती है। गेम के रूप या खेलने के तरीके में कोई बदलाव नहीं है, और आपका सेव किया डेटा पहले जैसा ही चलता है।"
+        ],
+        "zh-Hant": [
+          "幕後整理：共用的內部工具組改由有版本控管的私有儲存庫提供，不再內建於遊戲中。遊戲的外觀與玩法完全不變，已儲存的資料也照常運作。"
+        ],
+        "th": [
+          "ปรับปรุงเบื้องหลัง: ชุดเครื่องมือภายในที่ใช้ร่วมกันตอนนี้มาจากที่เก็บส่วนตัวที่มีการกำหนดเวอร์ชัน แทนที่จะเป็นสำเนาในเกม รูปลักษณ์และการเล่นของเกมไม่เปลี่ยน และข้อมูลที่บันทึกไว้ใช้งานได้เหมือนเดิมทุกประการ"
+        ],
+        "tr": [
+          "Perde arkası temizliği: ortak iç araç seti artık oyunun içindeki bir kopya yerine sürümlü bir özel depodan geliyor. Oyunun görünüşü ve oynanışı değişmiyor, kayıtlı verilerin eskisi gibi çalışıyor."
         ]
       }
     },
@@ -448,14 +535,17 @@
         "ja": "ビルド 19",
         "zh": "构建版本 19",
         "es": "Compilación 19",
-        "pt": "Build 19",
+        "pt-BR": "Build 19",
         "id": "Build 19",
         "ru": "Сборка 19",
         "vi": "Bản dựng 19",
         "fr": "Build 19",
         "de": "Build 19",
         "ar": "Build 19",
-        "hi": "बिल्ड 19"
+        "hi": "बिल्ड 19",
+        "zh-Hant": "建置版本 19",
+        "th": "บิลด์ 19",
+        "tr": "Derleme 19"
       },
       "intro": {
         "en": "A TestFlight internal test build, not released to the public yet.",
@@ -463,14 +553,17 @@
         "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
         "zh": "TestFlight 内部测试版本，尚未向公众发布。",
         "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
-        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
         "id": "Build uji internal TestFlight, belum dirilis ke publik.",
         "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
         "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
         "fr": "Un build de test interne TestFlight, pas encore publié au public.",
         "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
         "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
-        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
       },
       "notes": {
         "en": [
@@ -493,7 +586,7 @@
           "Limpieza interna: las piezas comunes (tamaño de pantalla, lectura de datos guardados, manejo de versión y enlaces, protección contra errores) ahora vienen de un kit interno compartido en lugar de estar copiadas en el juego.",
           "No cambia nada apreciable en el aspecto ni en la jugabilidad de esta compilación: los datos guardados, los apodos y el enlace de notas de versión funcionan igual que antes."
         ],
-        "pt": [
+        "pt-BR": [
           "Limpeza interna: as peças comuns (tamanho de tela, leitura de dados salvos, tratamento de versão e links, proteção contra erros) agora vêm de um kit interno compartilhado, em vez de ficarem copiadas no jogo.",
           "Nada perceptível muda na aparência ou na jogabilidade deste build — dados salvos, apelidos e o link das notas de versão funcionam exatamente como antes."
         ],
@@ -524,6 +617,18 @@
         "hi": [
           "आंतरिक सफ़ाई: स्क्रीन के आकार का निर्धारण, सहेजा गया डेटा पढ़ना, संस्करण और लिंक का संचालन, त्रुटि-सुरक्षा जैसे साझा हिस्से अब गेम में कॉपी करने के बजाय एक साझा आंतरिक किट से आते हैं।",
           "इस बिल्ड में गेम के रूप या खेलने के तरीके में कोई ध्यान देने योग्य बदलाव नहीं है — सहेजा गया डेटा, उपनाम और रिलीज़ नोट्स लिंक पहले की तरह ही काम करते हैं।"
+        ],
+        "zh-Hant": [
+          "幕後整理：共用的基礎元件（畫面尺寸調整、儲存資料讀取、版本與連結處理、當機防護）改由共通的內部工具組提供，不再複製到遊戲中。",
+          "此版本在外觀與玩法上沒有明顯變化，已儲存的資料、暱稱和版本說明連結都照常運作。"
+        ],
+        "th": [
+          "ปรับปรุงเบื้องหลัง: ส่วนประกอบพื้นฐานที่ใช้ร่วมกัน (การปรับขนาดหน้าจอ การอ่านข้อมูลที่บันทึก การจัดการเวอร์ชันและลิงก์ ตัวป้องกันแอปค้าง) ตอนนี้มาจากชุดเครื่องมือภายในกลาง แทนที่จะคัดลอกไว้ในเกม",
+          "บิลด์นี้ไม่มีอะไรเปลี่ยนที่สังเกตได้ในรูปลักษณ์หรือการเล่น ข้อมูลที่บันทึกไว้ ชื่อเล่น และลิงก์บันทึกการเปลี่ยนแปลงใช้งานได้เหมือนเดิม"
+        ],
+        "tr": [
+          "Perde arkası temizliği: ortak yapı taşları (ekran boyutlandırma, kayıtlı veri okuma, sürüm ve bağlantı işleme, çökme koruması) artık oyuna kopyalanmak yerine ortak bir iç araç setinden geliyor.",
+          "Bu derlemede oyunun görünüşünde veya oynanışında fark edilir bir değişiklik yok; kayıtlı veriler, takma adlar ve Sürüm Notları bağlantısı eskisi gibi çalışıyor."
         ]
       }
     },
@@ -538,14 +643,17 @@
         "ja": "ビルド 18",
         "zh": "构建版本 18",
         "es": "Compilación 18",
-        "pt": "Build 18",
+        "pt-BR": "Build 18",
         "id": "Build 18",
         "ru": "Сборка 18",
         "vi": "Bản dựng 18",
         "fr": "Build 18",
         "de": "Build 18",
         "ar": "Build 18",
-        "hi": "बिल्ड 18"
+        "hi": "बिल्ड 18",
+        "zh-Hant": "建置版本 18",
+        "th": "บิลด์ 18",
+        "tr": "Derleme 18"
       },
       "intro": {
         "en": "A TestFlight internal test build, not released to the public yet.",
@@ -553,14 +661,17 @@
         "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
         "zh": "TestFlight 内部测试版本，尚未向公众发布。",
         "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
-        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
         "id": "Build uji internal TestFlight, belum dirilis ke publik.",
         "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
         "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
         "fr": "Un build de test interne TestFlight, pas encore publié au public.",
         "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
         "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
-        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
       },
       "notes": {
         "en": [
@@ -583,7 +694,7 @@
           "En iPad, las pantallas anchas tienen un diseño propio: el tablero va en el centro con paneles a ambos lados y el menú usa dos columnas.",
           "Release Notes ahora se abre en una hoja que sube desde abajo dentro de la app, en lugar de pasar al navegador."
         ],
-        "pt": [
+        "pt-BR": [
           "No iPad, telas largas ganham um layout próprio: o tabuleiro fica no centro, com painéis dos dois lados, e o menu usa duas colunas.",
           "Release Notes agora abre em uma folha que sobe de baixo dentro do app, em vez de levar você ao navegador."
         ],
@@ -614,6 +725,18 @@
         "hi": [
           "iPad पर चौड़ी स्क्रीन के लिए अलग लेआउट आया है: बोर्ड बीच में और दोनों ओर पैनल, और मेन्यू दो कॉलम में।",
           "Release Notes अब ब्राउज़र पर जाने के बजाय ऐप के अंदर नीचे से ऊपर खिसकने वाली शीट में खुलता है।"
+        ],
+        "zh-Hant": [
+          "在 iPad 上，寬螢幕有專屬版面：棋盤置中，兩側各有面板，選單改為兩欄。",
+          "版本說明現在會在 App 內以向上滑出的面板開啟，不再跳轉到瀏覽器。"
+        ],
+        "th": [
+          "บน iPad หน้าจอกว้างมีเลย์เอาต์เฉพาะ: กระดานอยู่ตรงกลางพร้อมแผงทั้งสองข้าง และเมนูแบ่งเป็นสองคอลัมน์",
+          "บันทึกการเปลี่ยนแปลงตอนนี้เปิดเป็นแผ่นที่เลื่อนขึ้นมาภายในแอป แทนที่จะสลับไปยังเบราว์เซอร์"
+        ],
+        "tr": [
+          "iPad'de geniş ekranlar için özel bir yerleşim var: tahta ortada, iki yanda paneller bulunuyor ve menü iki sütun kullanıyor.",
+          "Sürüm Notları artık tarayıcına geçmek yerine uygulama içinde aşağıdan kayan bir sayfada açılıyor."
         ]
       }
     },
@@ -628,14 +751,17 @@
         "ja": "ビルド 17",
         "zh": "构建版本 17",
         "es": "Compilación 17",
-        "pt": "Build 17",
+        "pt-BR": "Build 17",
         "id": "Build 17",
         "ru": "Сборка 17",
         "vi": "Bản dựng 17",
         "fr": "Build 17",
         "de": "Build 17",
         "ar": "Build 17",
-        "hi": "बिल्ड 17"
+        "hi": "बिल्ड 17",
+        "zh-Hant": "建置版本 17",
+        "th": "บิลด์ 17",
+        "tr": "Derleme 17"
       },
       "intro": {
         "en": "A TestFlight internal test build, not released to the public yet.",
@@ -643,14 +769,17 @@
         "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
         "zh": "TestFlight 内部测试版本，尚未向公众发布。",
         "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
-        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
         "id": "Build uji internal TestFlight, belum dirilis ke publik.",
         "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
         "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
         "fr": "Un build de test interne TestFlight, pas encore publié au public.",
         "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
         "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
-        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
       },
       "notes": {
         "en": [
@@ -673,7 +802,7 @@
           "Mejoras internas de estabilidad: el juego ahora resiste errores inesperados y puede iniciarse aunque no se carguen los datos guardados; además, añadimos pruebas de las pautas de accesibilidad.",
           "En esta compilación casi no cambia nada visible en el aspecto ni en la jugabilidad."
         ],
-        "pt": [
+        "pt-BR": [
           "Melhorias internas de estabilidade: o jogo agora resiste a erros inesperados e consegue iniciar mesmo que os dados salvos não carreguem; também adicionamos testes das diretrizes de acessibilidade.",
           "Quase nada visível muda na aparência ou na jogabilidade neste build."
         ],
@@ -704,6 +833,18 @@
         "hi": [
           "आंतरिक स्थिरता सुधार: गेम अब अप्रत्याशित त्रुटियों को संभाल लेता है और सहेजा गया डेटा लोड न होने पर भी शुरू हो सकता है; साथ ही एक्सेसिबिलिटी दिशानिर्देशों की जाँच के टेस्ट जोड़े गए हैं।",
           "इस बिल्ड में गेम के दिखने या खेलने के तरीके में लगभग कोई बदलाव नज़र नहीं आता।"
+        ],
+        "zh-Hant": [
+          "幕後穩定性強化：遊戲現在能防範非預期的錯誤，即使儲存資料載入失敗仍可啟動，並新增輔助使用準則的檢查。",
+          "此版本在外觀與玩法上沒有明顯變化。"
+        ],
+        "th": [
+          "ปรับปรุงความเสถียรเบื้องหลัง: เกมตอนนี้ป้องกันข้อผิดพลาดที่ไม่คาดคิด และยังเริ่มต้นได้แม้โหลดข้อมูลที่บันทึกไว้ไม่สำเร็จ พร้อมเพิ่มการตรวจสอบตามแนวทางการเข้าถึง",
+          "บิลด์นี้ไม่มีอะไรเปลี่ยนที่สังเกตได้ในรูปลักษณ์หรือการเล่น"
+        ],
+        "tr": [
+          "Perde arkası kararlılık çalışması: oyun artık beklenmedik hatalara karşı korunuyor ve kayıtlı veriler yüklenemese bile açılabiliyor; ayrıca erişilebilirlik yönergeleri için kontroller eklendi.",
+          "Bu derlemede oyunun görünüşünde veya oynanışında fark edilir bir değişiklik yok."
         ]
       }
     },
@@ -718,14 +859,17 @@
         "ja": "ビルド 16",
         "zh": "构建版本 16",
         "es": "Compilación 16",
-        "pt": "Build 16",
+        "pt-BR": "Build 16",
         "id": "Build 16",
         "ru": "Сборка 16",
         "vi": "Bản dựng 16",
         "fr": "Build 16",
         "de": "Build 16",
         "ar": "Build 16",
-        "hi": "बिल्ड 16"
+        "hi": "बिल्ड 16",
+        "zh-Hant": "建置版本 16",
+        "th": "บิลด์ 16",
+        "tr": "Derleme 16"
       },
       "intro": {
         "en": "A TestFlight internal test build, not released to the public yet.",
@@ -733,14 +877,17 @@
         "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
         "zh": "TestFlight 内部测试版本，尚未向公众发布。",
         "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
-        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
         "id": "Build uji internal TestFlight, belum dirilis ke publik.",
         "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
         "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
         "fr": "Un build de test interne TestFlight, pas encore publié au public.",
         "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
         "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
-        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
       },
       "notes": {
         "en": [
@@ -763,7 +910,7 @@
           "Mejoras internas de calidad: añadimos pruebas que comprueban que los registros se combinan con seguridad al sincronizarse entre tus dispositivos mediante iCloud, y una herramienta para medir el rendimiento.",
           "En esta compilación no cambia el aspecto ni la jugabilidad."
         ],
-        "pt": [
+        "pt-BR": [
           "Melhorias internas de qualidade: adicionamos testes que verificam se os registros são combinados com segurança ao sincronizar entre seus dispositivos pelo iCloud, e uma ferramenta para medir o desempenho.",
           "Nada muda na aparência nem na jogabilidade neste build."
         ],
@@ -794,6 +941,18 @@
         "hi": [
           "आंतरिक गुणवत्ता सुधार: iCloud से आपके डिवाइसों के बीच सिंक होने पर रिकॉर्ड सुरक्षित रूप से मर्ज होते हैं या नहीं, यह जाँचने वाले टेस्ट और प्रदर्शन मापने का एक टूल जोड़ा गया है।",
           "इस बिल्ड में गेम के दिखने या खेलने के तरीके में कोई बदलाव नहीं है।"
+        ],
+        "zh-Hant": [
+          "幕後品質強化：新增測試，確認紀錄透過 iCloud 在你的裝置之間同步時能安全合併，另外也加入效能量測工具。",
+          "此版本在外觀與玩法上沒有任何變化。"
+        ],
+        "th": [
+          "ปรับปรุงคุณภาพเบื้องหลัง: เพิ่มการทดสอบที่ตรวจว่าสถิติรวมกันได้อย่างปลอดภัยเมื่อซิงก์ข้ามอุปกรณ์ของคุณผ่าน iCloud และเครื่องมือสำหรับวัดประสิทธิภาพ",
+          "บิลด์นี้ไม่มีอะไรเปลี่ยนในรูปลักษณ์หรือการเล่น"
+        ],
+        "tr": [
+          "Perde arkası kalite çalışması: kayıtların iCloud üzerinden cihazların arasında eşitlenirken güvenle birleştiğini denetleyen testler ve performans ölçme aracı ekledik.",
+          "Bu derlemede oyunun görünüşünde veya oynanışında hiçbir şey değişmiyor."
         ]
       }
     },
@@ -808,14 +967,17 @@
         "ja": "ビルド 15",
         "zh": "构建版本 15",
         "es": "Compilación 15",
-        "pt": "Build 15",
+        "pt-BR": "Build 15",
         "id": "Build 15",
         "ru": "Сборка 15",
         "vi": "Bản dựng 15",
         "fr": "Build 15",
         "de": "Build 15",
         "ar": "Build 15",
-        "hi": "बिल्ड 15"
+        "hi": "बिल्ड 15",
+        "zh-Hant": "建置版本 15",
+        "th": "บิลด์ 15",
+        "tr": "Derleme 15"
       },
       "intro": {
         "en": "A TestFlight internal test build, not released to the public yet.",
@@ -823,14 +985,17 @@
         "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
         "zh": "TestFlight 内部测试版本，尚未向公众发布。",
         "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
-        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
         "id": "Build uji internal TestFlight, belum dirilis ke publik.",
         "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
         "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
         "fr": "Un build de test interne TestFlight, pas encore publié au public.",
         "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
         "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
-        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
       },
       "notes": {
         "en": [
@@ -853,7 +1018,7 @@
           "Nueva pantalla Mis estadísticas: victorias, empates y derrotas, tu historial contra cada rival y tu intercambio más largo; se guarda solo en tu dispositivo.",
           "Música de fondo: tres temas originales (menú, partido y un tempo más rápido en modo fiebre) y un interruptor de música en Ajustes."
         ],
-        "pt": [
+        "pt-BR": [
           "Nova tela Minhas estatísticas: vitórias, empates e derrotas, seu histórico contra cada adversário e sua maior sequência de trocas; tudo fica apenas no seu dispositivo.",
           "Música de fundo: três faixas originais (menu, partida e um ritmo mais rápido no modo febre) e uma chave para ligar/desligar a música em Ajustes."
         ],
@@ -884,6 +1049,18 @@
         "hi": [
           "नई ‘मेरे आँकड़े’ स्क्रीन: जीत, ड्रॉ और हार, हर विरोधी के खिलाफ रिकॉर्ड और सबसे लंबी रैली — सब सिर्फ आपके डिवाइस पर सहेजा जाता है।",
           "बैकग्राउंड म्यूज़िक: तीन ओरिजिनल ट्रैक (मेनू, मैच और तेज़ फीवर टेम्पो) और सेटिंग्स में म्यूज़िक चालू/बंद करने का स्विच।"
+        ],
+        "zh-Hant": [
+          "全新「我的統計」畫面：你的勝、平、負場數、對每位對手的戰績，以及最長對打紀錄，僅保存在你的裝置上。",
+          "背景音樂：三首原創曲目（選單、比賽，以及節奏更快的狂熱模式），並可在設定中開關音樂。"
+        ],
+        "th": [
+          "หน้าจอสถิติของฉันใหม่: ชนะ เสมอ แพ้ ผลงานเทียบกับคู่แข่งแต่ละคน และการตีโต้ที่ยาวที่สุดของคุณ เก็บไว้ในอุปกรณ์ของคุณเท่านั้น",
+          "เพลงประกอบ: เพลงต้นฉบับสามเพลง (เมนู แมตช์ และจังหวะเฟเวอร์ที่เร็วขึ้น) พร้อมสวิตช์เปิด/ปิดเพลงในการตั้งค่า"
+        ],
+        "tr": [
+          "Yeni İstatistiklerim ekranı: galibiyet, beraberlik ve mağlubiyetlerin, her rakibe karşı kaydın ve en uzun ralin; yalnızca cihazında saklanır.",
+          "Fon müziği: üç özgün parça (menü, maç ve daha hızlı bir fever temposu) ve Ayarlar'da müziği açıp kapatan bir anahtar."
         ]
       }
     },
@@ -898,14 +1075,17 @@
         "ja": "ビルド 14",
         "zh": "构建版本 14",
         "es": "Compilación 14",
-        "pt": "Build 14",
+        "pt-BR": "Build 14",
         "id": "Build 14",
         "ru": "Сборка 14",
         "vi": "Bản dựng 14",
         "fr": "Build 14",
         "de": "Build 14",
         "ar": "Build 14",
-        "hi": "बिल्ड 14"
+        "hi": "बिल्ड 14",
+        "zh-Hant": "建置版本 14",
+        "th": "บิลด์ 14",
+        "tr": "Derleme 14"
       },
       "intro": {
         "en": "A TestFlight internal test build, not released to the public yet.",
@@ -913,14 +1093,17 @@
         "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
         "zh": "TestFlight 内部测试版本，尚未向公众发布。",
         "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
-        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
         "id": "Build uji internal TestFlight, belum dirilis ke publik.",
         "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
         "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
         "fr": "Un build de test interne TestFlight, pas encore publié au public.",
         "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
         "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
-        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
       },
       "notes": {
         "en": [
@@ -968,7 +1151,7 @@
           "Añadimos una comprobación automática que mantiene las traducciones seguras y completas en los 13 idiomas.",
           "Preparación para Android: icono con tema e idioma por aplicación (Android llegará pronto)."
         ],
-        "pt": [
+        "pt-BR": [
           "Na sua primeira partida, aparece um guia curto de como jogar (How to play) com três cartões.",
           "A tela do jogo agora pode ser lida em voz alta com o VoiceOver, e cada parte da partida é anunciada.",
           "Corrigimos textos cortados ou que transbordavam com fontes grandes e em telas pequenas.",
@@ -1039,6 +1222,33 @@
           "सेव किया गया डेटा खराब होने पर भी गेम सामान्य रूप से शुरू होता है।",
           "13 भाषाओं के अनुवाद को सुरक्षित और पूरा रखने के लिए स्वचालित जाँच जोड़ी गई।",
           "Android की तैयारी: थीम आइकन और ऐप-वार भाषा (Android जल्द आ रहा है)."
+        ],
+        "zh-Hant": [
+          "第一場比賽時會出現三張卡片組成的簡短「遊玩說明」。",
+          "遊戲畫面現在支援 VoiceOver 朗讀，比賽中的每個部分都會報讀。",
+          "大字體和小螢幕不再造成版面被截斷或溢出。",
+          "版面現在能正確適配 iPad 和其他平板。",
+          "即使儲存資料損毀，遊戲也能正常啟動。",
+          "新增自動檢查，確保全部 13 種語言的翻譯安全且完整。",
+          "為 Android 做準備：主題圖示與各 App 語言設定支援（Android 即將推出）。"
+        ],
+        "th": [
+          "คู่มือวิธีเล่นสั้น ๆ สามการ์ดจะต้อนรับคุณในแมตช์แรก",
+          "หน้าจอเกมตอนนี้อ่านออกเสียงด้วย VoiceOver ได้ ทุกส่วนของแมตช์จึงมีเสียงบอก",
+          "ตัวอักษรขนาดใหญ่และหน้าจอเล็กไม่ทำให้เลย์เอาต์ถูกตัดหรือล้นอีกต่อไป",
+          "เลย์เอาต์ตอนนี้พอดีกับ iPad และแท็บเล็ตอื่น ๆ อย่างเหมาะสม",
+          "เกมเริ่มได้ตามปกติแม้ข้อมูลที่บันทึกไว้เสียหาย",
+          "เพิ่มการตรวจสอบอัตโนมัติเพื่อให้คำแปลปลอดภัยและครบถ้วนในทั้ง 13 ภาษา",
+          "เตรียมพร้อมสำหรับ Android: ไอคอนตามธีมและการรองรับภาษาต่อแอป (Android เร็ว ๆ นี้)"
+        ],
+        "tr": [
+          "İlk maçında seni üç kartlık kısa bir Nasıl oynanır rehberi karşılıyor.",
+          "Oyun ekranı artık VoiceOver ile sesli okunabiliyor; maçın her bölümü seslendiriliyor.",
+          "Büyük yazı boyutları ve küçük ekranlar artık yerleşimi kesmiyor veya taşırmıyor.",
+          "Yerleşim artık iPad'e ve diğer tabletlere düzgün uyuyor.",
+          "Kayıtlı veriler bozulmuş olsa bile oyun normal şekilde açılıyor.",
+          "Çevirilerin 13 dilin tamamında güvenli ve eksiksiz kalmasını sağlayan otomatik bir denetim eklendi.",
+          "Android'e hazırlık: temalı simge ve uygulama başına dil desteği (Android yakında geliyor)."
         ]
       }
     },
@@ -1053,14 +1263,17 @@
         "ja": "ビルド 13",
         "zh": "构建版本 13",
         "es": "Compilación 13",
-        "pt": "Build 13",
+        "pt-BR": "Build 13",
         "id": "Build 13",
         "ru": "Сборка 13",
         "vi": "Bản dựng 13",
         "fr": "Build 13",
         "de": "Build 13",
         "ar": "Build 13",
-        "hi": "बिल्ड 13"
+        "hi": "बिल्ड 13",
+        "zh-Hant": "建置版本 13",
+        "th": "บิลด์ 13",
+        "tr": "Derleme 13"
       },
       "intro": {
         "en": "A TestFlight internal test build, not released to the public yet.",
@@ -1068,14 +1281,17 @@
         "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
         "zh": "TestFlight 内部测试版本，尚未向公众发布。",
         "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
-        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
         "id": "Build uji internal TestFlight, belum dirilis ke publik.",
         "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
         "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
         "fr": "Un build de test interne TestFlight, pas encore publié au public.",
         "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
         "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
-        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
       },
       "notes": {
         "en": [
@@ -1108,7 +1324,7 @@
           "Los avisos de apodo e iCloud ahora describen con exactitud qué se comparte y qué se queda en tu dispositivo.",
           "Se añadió el archivo de información de privacidad que Apple exige a las apps."
         ],
-        "pt": [
+        "pt-BR": [
           "Um empate agora é um empate. Se os dois jogadores terminarem com o mesmo número de casas, a tela de resultado mostra Empate em vez de derrota.",
           "A morte súbita ficou mais justa: quem marca o próximo ponto só vence se estiver à frente em casas, seja qual for a forma de marcar.",
           "Os avisos de apelido e iCloud agora descrevem com exatidão o que é compartilhado e o que fica só no seu dispositivo.",
@@ -1155,6 +1371,24 @@
           "सडन डेथ अब ज़्यादा निष्पक्ष है: अगला पॉइंट बनाने वाला तभी जीतता है जब वह खानों में आगे हो, चाहे वह पॉइंट किसी भी तरह बना हो।",
           "निकनेम और iCloud के संकेत अब सटीक बताते हैं कि क्या साझा होता है और क्या सिर्फ़ आपके डिवाइस पर रहता है।",
           "Apple द्वारा ऐप्स के लिए ज़रूरी प्राइवेसी जानकारी वाली फ़ाइल जोड़ी गई।"
+        ],
+        "zh-Hant": [
+          "平手現在算和局。比賽結束時若雙方佔領的格數相同，結果畫面會顯示和局，而不是落敗。",
+          "突然死亡更公平：下一分的得主必須在格數上領先才能獲勝，無論該分如何取得。",
+          "暱稱與 iCloud 提示現在會清楚說明哪些內容會共享、哪些只留在你的裝置上。",
+          "新增 Apple 對 App 要求的隱私權資訊檔案。"
+        ],
+        "th": [
+          "ผลเสมอตอนนี้นับเป็นเสมอ หากทั้งสองฝ่ายครองช่องเท่ากันเมื่อจบ หน้าผลลัพธ์จะแสดงว่าเสมอ แทนที่จะแสดงว่าแพ้",
+          "ซัดเดนเดธยุติธรรมขึ้น: ผู้ที่ทำแต้มถัดไปจะชนะก็ต่อเมื่อนำอยู่ในจำนวนช่อง ไม่ว่าแต้มนั้นจะได้มาอย่างไร",
+          "คำแนะนำเรื่องชื่อเล่นและ iCloud ตอนนี้อธิบายชัดเจนว่าอะไรถูกแชร์และอะไรอยู่ในอุปกรณ์ของคุณเท่านั้น",
+          "เพิ่มไฟล์ข้อมูลความเป็นส่วนตัวที่ Apple กำหนดสำหรับแอป"
+        ],
+        "tr": [
+          "Berabere artık beraberlik sayılıyor. Maç sonunda iki oyuncu da aynı sayıda hücreye sahipse sonuç ekranı mağlubiyet yerine Beraberlik yazıyor.",
+          "Ani ölüm daha adil: bir sonraki sayıyı alan, o sayı nasıl alınmış olursa olsun, yalnızca hücrelerde öndeyse kazanıyor.",
+          "Takma ad ve iCloud ipuçları artık nelerin paylaşıldığını ve nelerin cihazında kaldığını tam olarak anlatıyor.",
+          "Apple'ın uygulamalar için istediği gizlilik bilgi dosyası eklendi."
         ]
       }
     },
@@ -1169,14 +1403,17 @@
         "ja": "ビルド 10",
         "zh": "构建版本 10",
         "es": "Compilación 10",
-        "pt": "Build 10",
+        "pt-BR": "Build 10",
         "id": "Build 10",
         "ru": "Сборка 10",
         "vi": "Bản dựng 10",
         "fr": "Build 10",
         "de": "Build 10",
         "ar": "Build 10",
-        "hi": "बिल्ड 10"
+        "hi": "बिल्ड 10",
+        "zh-Hant": "建置版本 10",
+        "th": "บิลด์ 10",
+        "tr": "Derleme 10"
       },
       "intro": {
         "en": "A TestFlight internal test build, not released to the public yet.",
@@ -1184,14 +1421,17 @@
         "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
         "zh": "TestFlight 内部测试版本，尚未向公众发布。",
         "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
-        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
         "id": "Build uji internal TestFlight, belum dirilis ke publik.",
         "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
         "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
         "fr": "Un build de test interne TestFlight, pas encore publié au public.",
         "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
         "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
-        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
       },
       "notes": {
         "en": [
@@ -1214,7 +1454,7 @@
           "Cuatro idiomas más: indonesio, ruso, árabe e hindi.",
           "El enlace de Release Notes de la primera pantalla ahora abre la página en tu idioma, en las notas de la versión que estás jugando."
         ],
-        "pt": [
+        "pt-BR": [
           "Mais quatro idiomas: indonésio, russo, árabe e híndi.",
           "O link de Release Notes na primeira tela agora abre a página no seu idioma, nas notas da versão que você está jogando."
         ],
@@ -1245,6 +1485,18 @@
         "hi": [
           "चार और भाषाएँ: इंडोनेशियाई, रूसी, अरबी और हिंदी।",
           "पहली स्क्रीन का Release Notes लिंक अब आपकी भाषा वाला पेज खोलता है, और सीधे उस वर्शन के नोट्स पर पहुँचता है जिसे आप खेल रहे हैं।"
+        ],
+        "zh-Hant": [
+          "新增四種語言：印尼文、俄文、阿拉伯文和印地文。",
+          "首頁的版本說明連結現在會以你的語言開啟，並直接前往你正在玩的版本說明。"
+        ],
+        "th": [
+          "เพิ่มอีกสี่ภาษา: อินโดนีเซีย รัสเซีย อาหรับ และฮินดี",
+          "ลิงก์บันทึกการเปลี่ยนแปลงในหน้าแรกตอนนี้เปิดหน้าในภาษาของคุณ ที่บันทึกของเวอร์ชันที่คุณกำลังเล่นอยู่"
+        ],
+        "tr": [
+          "Dört dil daha: Endonezce, Rusça, Arapça ve Hintçe.",
+          "İlk ekrandaki Sürüm Notları bağlantısı artık sayfayı kendi dilinde, oynadığın sürümün notlarında açıyor."
         ]
       }
     },
@@ -1259,14 +1511,17 @@
         "ja": "ビルド 9",
         "zh": "构建版本 9",
         "es": "Compilación 9",
-        "pt": "Build 9",
+        "pt-BR": "Build 9",
         "id": "Build 9",
         "ru": "Сборка 9",
         "vi": "Bản dựng 9",
         "fr": "Build 9",
         "de": "Build 9",
         "ar": "Build 9",
-        "hi": "बिल्ड 9"
+        "hi": "बिल्ड 9",
+        "zh-Hant": "建置版本 9",
+        "th": "บิลด์ 9",
+        "tr": "Derleme 9"
       },
       "intro": {
         "en": "A TestFlight internal test build, not released to the public yet.",
@@ -1274,14 +1529,17 @@
         "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
         "zh": "TestFlight 内部测试版本，尚未向公众发布。",
         "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
-        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
         "id": "Build uji internal TestFlight, belum dirilis ke publik.",
         "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
         "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
         "fr": "Un build de test interne TestFlight, pas encore publié au public.",
         "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
         "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
-        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
       },
       "notes": {
         "en": [
@@ -1319,7 +1577,7 @@
           "Tu elección de tema se guarda en cada dispositivo (no se comparte por iCloud), así que un teléfono y una tableta pueden tener aspectos distintos.",
           "Se mejoró un poco el contraste del texto en ambos temas para que el texto pequeño sea más fácil de leer."
         ],
-        "pt": [
+        "pt-BR": [
           "Um segundo visual para o jogo: Notebook, um estilo de papel e caderno quadriculado que combina com o site do Claimball.",
           "Escolha Classic ou Notebook em Configurações, na parte de baixo do cartão de configurações. Você pode alternar a qualquer momento, até no meio de uma sessão, e nada é reiniciado.",
           "Classic continua sendo o padrão, então o jogo fica igual até você mudar.",
@@ -1374,6 +1632,27 @@
           "Classic ही डिफ़ॉल्ट रहता है, इसलिए आपके बदलने तक गेम पहले जैसा ही दिखता है।",
           "आपका थीम चुनाव हर डिवाइस पर अलग से सेव होता है (iCloud से साझा नहीं होता), इसलिए फ़ोन और टैबलेट पर अलग-अलग रूप रखा जा सकता है।",
           "दोनों थीम में टेक्स्ट का कॉन्ट्रास्ट थोड़ा सुधारा गया है, ताकि छोटा टेक्स्ट पढ़ना आसान हो।"
+        ],
+        "zh-Hant": [
+          "遊戲的第二種外觀：筆記本，一種紙張與方格筆記本風格，與 Claimball 網站相呼應。",
+          "在設定卡片底部選擇經典或筆記本。你可以隨時切換，即使在進行中也行，不需要重新啟動。",
+          "預設仍為經典，所以在你更改之前遊戲外觀不變。",
+          "你的主題選擇會儲存在每台裝置上（不會透過 iCloud 共享），所以手機和平板可以使用不同外觀。",
+          "兩種主題的文字對比度都略有提升，小字更容易閱讀。"
+        ],
+        "th": [
+          "รูปลักษณ์ที่สองของเกม: สมุดโน้ต สไตล์กระดาษและสมุดตาราง ให้เข้ากับเว็บไซต์ Claimball",
+          "เลือกคลาสสิกหรือสมุดโน้ตได้ในการตั้งค่า ที่ด้านล่างของการ์ดการตั้งค่า สลับได้ทุกเมื่อแม้ระหว่างเล่น และไม่ต้องเริ่มใหม่",
+          "คลาสสิกยังเป็นค่าเริ่มต้น เกมจึงดูเหมือนเดิมจนกว่าคุณจะเปลี่ยน",
+          "ธีมที่คุณเลือกจะบันทึกไว้ในแต่ละอุปกรณ์ (ไม่แชร์ผ่าน iCloud) โทรศัพท์และแท็บเล็ตจึงใช้รูปลักษณ์ต่างกันได้",
+          "ปรับความคมชัดของข้อความในทั้งสองธีมเล็กน้อย ให้ตัวอักษรเล็กอ่านง่ายขึ้น"
+        ],
+        "tr": [
+          "Oyunun ikinci bir görünümü: Defter, Claimball web sitesiyle uyumlu, kâğıt ve kareli defter tarzı.",
+          "Ayarlar'da, ayar kartının en altında Klasik veya Defter'i seç. İstediğin zaman, oturumun ortasında bile geçiş yapabilirsin ve hiçbir şey yeniden başlamaz.",
+          "Klasik varsayılan olarak kalıyor; sen değiştirene kadar oyun aynı görünür.",
+          "Tema seçimin her cihazda ayrı saklanır (iCloud ile paylaşılmaz); böylece telefon ve tablet farklı görünümler kullanabilir.",
+          "Her iki temada da metin kontrastı biraz iyileştirildi, küçük yazılar daha kolay okunuyor."
         ]
       }
     },
@@ -1388,14 +1667,17 @@
         "ja": "ビルド 8",
         "zh": "构建版本 8",
         "es": "Compilación 8",
-        "pt": "Build 8",
+        "pt-BR": "Build 8",
         "id": "Build 8",
         "ru": "Сборка 8",
         "vi": "Bản dựng 8",
         "fr": "Build 8",
         "de": "Build 8",
         "ar": "Build 8",
-        "hi": "बिल्ड 8"
+        "hi": "बिल्ड 8",
+        "zh-Hant": "建置版本 8",
+        "th": "บิลด์ 8",
+        "tr": "Derleme 8"
       },
       "intro": {
         "en": "A TestFlight internal test build, not released to the public yet.",
@@ -1403,14 +1685,17 @@
         "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
         "zh": "TestFlight 内部测试版本，尚未向公众发布。",
         "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
-        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
         "id": "Build uji internal TestFlight, belum dirilis ke publik.",
         "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
         "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
         "fr": "Un build de test interne TestFlight, pas encore publié au public.",
         "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
         "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
-        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
       },
       "notes": {
         "en": [
@@ -1433,7 +1718,7 @@
           "Novedad: un pequeño enlace de Release Notes en la parte inferior de la primera pantalla. Abre la página del sitio web de Claimball sobre lo que cambió en cada versión.",
           "El enlace se abre en el navegador y por ahora se muestra en inglés."
         ],
-        "pt": [
+        "pt-BR": [
           "Novo: um pequeno link de Release Notes na parte de baixo da primeira tela. Ele abre a página do site do Claimball sobre o que mudou em cada versão.",
           "O link abre no navegador e, por enquanto, é exibido em inglês."
         ],
@@ -1464,6 +1749,18 @@
         "hi": [
           "नया: पहली स्क्रीन के सबसे नीचे एक छोटा Release Notes लिंक। यह Claimball वेबसाइट का वह पेज खोलता है जिसमें हर वर्शन में क्या बदला, यह लिखा है।",
           "लिंक ब्राउज़र में खुलता है और फ़िलहाल सिर्फ़ अंग्रेज़ी में दिखता है।"
+        ],
+        "zh-Hant": [
+          "新增：首頁底部有個小小的版本說明連結，會開啟 Claimball 網站上說明各版本變更的頁面。",
+          "連結會在瀏覽器中開啟，目前以英文顯示。"
+        ],
+        "th": [
+          "ใหม่: ลิงก์บันทึกการเปลี่ยนแปลงเล็ก ๆ ที่ด้านล่างของหน้าแรก เปิดหน้าเว็บไซต์ Claimball ที่บอกว่าแต่ละเวอร์ชันเปลี่ยนอะไรบ้าง",
+          "ลิงก์เปิดในเบราว์เซอร์ของคุณและแสดงเป็นภาษาอังกฤษไปก่อน"
+        ],
+        "tr": [
+          "Yeni: ilk ekranın altında küçük bir Sürüm Notları bağlantısı. Claimball web sitesinde her sürümde nelerin değiştiğini anlatan sayfayı açar.",
+          "Bağlantı tarayıcında açılır ve şimdilik İngilizce gösterilir."
         ]
       }
     },
@@ -1478,14 +1775,17 @@
         "ja": "ビルド 7",
         "zh": "构建版本 7",
         "es": "Compilación 7",
-        "pt": "Build 7",
+        "pt-BR": "Build 7",
         "id": "Build 7",
         "ru": "Сборка 7",
         "vi": "Bản dựng 7",
         "fr": "Build 7",
         "de": "Build 7",
         "ar": "Build 7",
-        "hi": "बिल्ड 7"
+        "hi": "बिल्ड 7",
+        "zh-Hant": "建置版本 7",
+        "th": "บิลด์ 7",
+        "tr": "Derleme 7"
       },
       "intro": {
         "en": "A TestFlight internal test build, not released to the public yet.",
@@ -1493,14 +1793,17 @@
         "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
         "zh": "TestFlight 内部测试版本，尚未向公众发布。",
         "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
-        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
         "id": "Build uji internal TestFlight, belum dirilis ke publik.",
         "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
         "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
         "fr": "Un build de test interne TestFlight, pas encore publié au public.",
         "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
         "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
-        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
       },
       "notes": {
         "en": [
@@ -1543,7 +1846,7 @@
           "El gesto o botón de retroceso del sistema durante un Reto diario ahora pausa y reanuda la partida, y desde otras pantallas te lleva al menú en lugar de cerrar la app.",
           "En la misma actualización se preparó el soporte de compras en Android; Android todavía no está disponible."
         ],
-        "pt": [
+        "pt-BR": [
           "Continue em outro dispositivo (iPhone e iPad): seu progresso, estrelas, conquistas, o estado do teste grátis e suas configurações de acessibilidade agora acompanham a sua conta do iCloud. Funciona discretamente em segundo plano e, se o iCloud estiver desativado ou sem conexão, o jogo simplesmente mantém a própria cópia no aparelho.",
           "Não compartilhado pelo iCloud: a compra do Full Unlock (a App Store cuida disso), a tentativa do Desafio diário e as configurações de vibração e som.",
           "Se uma compra do Full Unlock for reembolsada ou retirada pelo Compartilhamento Familiar, o jogo volta a ser bloqueado, com o cuidado de não bloquear por engano quando você está desconectado ou sem internet.",
@@ -1606,6 +1909,30 @@
           "रोज़ की चुनौती के बीच ऐप बंद हो जाए, तो उस दिन का एक प्रयास आपको वापस मिल जाता है। जान-बूझकर मेन्यू में चले जाने पर वह प्रयास ख़र्च माना जाता है।",
           "रोज़ की चुनौती के दौरान सिस्टम का बैक जेस्चर या बटन अब मैच को रोकता और फिर शुरू करता है, और दूसरी स्क्रीन पर ऐप बंद करने के बजाय आपको मेन्यू में ले जाता है।",
           "उसी अपडेट में Android पर ख़रीदारी का सपोर्ट भी तैयार किया गया; Android अभी उपलब्ध नहीं है।"
+        ],
+        "zh-Hant": [
+          "在其他裝置上接續（iPhone 和 iPad）：你的進度、星星、成就、免費試玩狀態和輔助使用設定現在會跟著 iCloud 帳號走。它在背景靜靜運作，若 iCloud 已關閉或離線，遊戲只會在裝置上保留自己的副本。",
+          "不會透過 iCloud 共享：完整解鎖購買（由 App Store 負責記錄）、每日挑戰的嘗試次數，以及震動與音效設定。",
+          "若完整解鎖的購買被退款或因家人共享而被收回，遊戲會再次上鎖，並且在你登出或離線時會小心避免誤鎖。",
+          "如果 App 在每日挑戰中途關閉，你會拿回當天唯一的一次嘗試機會。若是刻意離開回到選單，則仍會用掉。",
+          "在每日挑戰中使用系統的返回手勢或按鈕，現在會暫停並繼續比賽；在其他畫面則會回到選單，而不是關閉 App。",
+          "同一次更新中也已準備好 Android 的購買支援；Android 尚未推出。"
+        ],
+        "th": [
+          "เล่นต่อบนอุปกรณ์อื่น (iPhone และ iPad): ความคืบหน้า ดาว ความสำเร็จ สถานะทดลองเล่นฟรี และการตั้งค่าการเข้าถึงของคุณตอนนี้ตามบัญชี iCloud ของคุณไป ทำงานเงียบ ๆ อยู่เบื้องหลัง และหาก iCloud ปิดหรือออฟไลน์ เกมก็แค่เก็บสำเนาของตัวเองไว้ในอุปกรณ์",
+          "ไม่แชร์ผ่าน iCloud: การซื้อปลดล็อกเต็มรูปแบบ (App Store เป็นผู้ติดตาม) ครั้งที่เล่นความท้าทายรายวัน และการตั้งค่าการสั่นและเสียง",
+          "หากการซื้อปลดล็อกเต็มรูปแบบถูกคืนเงินหรือถูกเรียกคืนผ่านการแชร์กับครอบครัว เกมจะล็อกอีกครั้ง และจะระวังไม่ล็อกโดยไม่ได้ตั้งใจเมื่อคุณออกจากระบบหรือออฟไลน์",
+          "หากแอปปิดกลางความท้าทายรายวัน คุณจะได้สิทธิ์เล่นหนึ่งครั้งของวันนั้นคืน แต่การออกไปที่เมนูโดยตั้งใจยังนับว่าใช้สิทธิ์แล้ว",
+          "ท่าทางหรือปุ่มย้อนกลับของระบบระหว่างความท้าทายรายวันตอนนี้จะหยุดและเล่นต่อแมตช์ และจากหน้าจออื่นจะพากลับไปเมนู แทนที่จะปิดแอป",
+          "เตรียมรองรับการซื้อบน Android ไว้ในการอัปเดตเดียวกัน Android ยังไม่พร้อมใช้งาน"
+        ],
+        "tr": [
+          "Başka cihazda devam et (iPhone ve iPad): ilerlemen, yıldızların, başarımların, ücretsiz deneme durumun ve erişilebilirlik ayarların artık iCloud hesabını takip ediyor. Arka planda sessizce çalışır; iCloud kapalıysa veya çevrimdışıysa oyun kendi kopyasını cihazda tutmaya devam eder.",
+          "iCloud ile paylaşılmayanlar: Tam Kilit Açma satın alımı (bunu App Store takip eder), Günlük Meydan Okuma denemesi ve titreşim ile ses ayarları.",
+          "Tam Kilit Açma satın alımı iade edilirse veya Aile Paylaşımı üzerinden geri alınırsa oyun yeniden kilitlenir; oturumun kapalıyken veya çevrimdışıyken yanlışlıkla kilitlememeye dikkat eder.",
+          "Uygulama Günlük Meydan Okuma ortasında kapanırsa o günün tek hakkını geri alırsın. Bilerek menüye çıkmak ise hakkı harcar.",
+          "Günlük Meydan Okuma sırasında sistem Geri hareketi veya düğmesi artık maçı duraklatıp sürdürüyor; diğer ekranlarda ise uygulamayı kapatmak yerine seni menüye döndürüyor.",
+          "Android satın alma desteği aynı güncellemede hazırlandı; Android henüz kullanılamıyor."
         ]
       }
     },
@@ -1620,14 +1947,17 @@
         "ja": "ビルド 6",
         "zh": "构建版本 6",
         "es": "Compilación 6",
-        "pt": "Build 6",
+        "pt-BR": "Build 6",
         "id": "Build 6",
         "ru": "Сборка 6",
         "vi": "Bản dựng 6",
         "fr": "Build 6",
         "de": "Build 6",
         "ar": "Build 6",
-        "hi": "बिल्ड 6"
+        "hi": "बिल्ड 6",
+        "zh-Hant": "建置版本 6",
+        "th": "บิลด์ 6",
+        "tr": "Derleme 6"
       },
       "intro": {
         "en": "A TestFlight internal test build, not released to the public yet.",
@@ -1635,14 +1965,17 @@
         "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
         "zh": "TestFlight 内部测试版本，尚未向公众发布。",
         "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
-        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
         "id": "Build uji internal TestFlight, belum dirilis ke publik.",
         "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
         "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
         "fr": "Un build de test interne TestFlight, pas encore publié au public.",
         "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
         "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
-        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
       },
       "notes": {
         "en": [
@@ -1675,7 +2008,7 @@
           "Se reequilibraron las revanchas del Reto diario para que las combinaciones más duras ya no sean casi imposibles ni casi automáticas.",
           "Requiere iOS 15 o posterior."
         ],
-        "pt": [
+        "pt-BR": [
           "Full Unlock: experimente o jogo de graça e depois faça uma única compra para desbloquear tudo. É uma compra única, sem assinatura e sem anúncios. O preço é exibido pela loja na sua própria moeda.",
           "Restaurar compras fica em Configurações, e compras aguardando aprovação (Pedir para Comprar) são tratadas. A oferta de desbloqueio só aparece em momentos tranquilos, como depois de uma vitória, e nunca pressiona você.",
           "As revanches do Desafio diário foram reequilibradas para que as combinações mais difíceis não sejam mais quase impossíveis nem quase automáticas.",
@@ -1722,6 +2055,24 @@
           "ख़रीदारी रीस्टोर करें विकल्प सेटिंग्स में है, और मंज़ूरी का इंतज़ार कर रही ख़रीदारी (खरीदने के लिए पूछें) को भी संभाला जाता है। अनलॉक का ऑफ़र सिर्फ़ शांत पलों में दिखता है, जैसे जीत के बाद, और कभी आप पर दबाव नहीं डालता।",
           "रोज़ की चुनौती के रीमैच को फिर से संतुलित किया गया है, ताकि सबसे कठिन जोड़ियाँ अब लगभग नामुमकिन या लगभग अपने-आप जीत वाली न रहें।",
           "iOS 15 या उससे नया वर्शन चाहिए।"
+        ],
+        "zh-Hant": [
+          "完整解鎖：先免費試玩，再一次購買即可解鎖全部內容。這是一次性購買，沒有訂閱，也沒有廣告。價格由商店以你所在地的貨幣顯示。",
+          "設定中有「恢復購買」，並支援等待核准的購買（購買請求）。解鎖提示只會在平靜的時刻出現，例如獲勝之後，絕不會催促你。",
+          "重新調整了每日挑戰重賽的平衡，最強的對戰組合不再幾乎不可能或幾乎自動獲勝。",
+          "需要 iOS 15 或更新版本。"
+        ],
+        "th": [
+          "ปลดล็อกเต็มรูปแบบ: ลองเล่นฟรี แล้วซื้อครั้งเดียวเพื่อปลดล็อกทุกอย่าง เป็นการซื้อครั้งเดียว ไม่มีการสมัครสมาชิก และไม่มีโฆษณา ราคาแสดงโดยสโตร์เป็นสกุลเงินของคุณ",
+          "กู้คืนการซื้ออยู่ในการตั้งค่า และรองรับการซื้อที่รออนุมัติ (ขอซื้อ) ข้อเสนอปลดล็อกจะปรากฏเฉพาะในช่วงเวลาสงบ เช่น หลังชนะ และไม่เร่งรัดคุณ",
+          "ปรับสมดุลการแข่งซ้ำของความท้าทายรายวันใหม่ คู่ที่แข็งที่สุดจึงไม่เกือบเป็นไปไม่ได้หรือเกือบชนะอัตโนมัติอีกต่อไป",
+          "ต้องใช้ iOS 15 ขึ้นไป"
+        ],
+        "tr": [
+          "Tam Kilit Açma: oyunu ücretsiz dene, sonra tek bir satın alımla her şeyin kilidini aç. Tek seferlik bir satın alım; abonelik ve reklam yok. Fiyatı mağaza kendi para biriminde gösterir.",
+          "Satın Alımları Geri Yükle Ayarlar'da, onay bekleyen satın alımlar (Satın Almak İçin Sor) da destekleniyor. Kilit açma teklifi yalnızca sakin anlarda, örneğin bir galibiyetten sonra çıkar ve seni asla zorlamaz.",
+          "Günlük Meydan Okuma rövanşları yeniden dengelendi; en zor eşleşmeler artık neredeyse imkânsız veya neredeyse otomatik değil.",
+          "iOS 15 veya üzeri gerekir."
         ]
       }
     },
@@ -1736,14 +2087,17 @@
         "ja": "ビルド 5",
         "zh": "构建版本 5",
         "es": "Compilación 5",
-        "pt": "Build 5",
+        "pt-BR": "Build 5",
         "id": "Build 5",
         "ru": "Сборка 5",
         "vi": "Bản dựng 5",
         "fr": "Build 5",
         "de": "Build 5",
         "ar": "Build 5",
-        "hi": "बिल्ड 5"
+        "hi": "बिल्ड 5",
+        "zh-Hant": "建置版本 5",
+        "th": "บิลด์ 5",
+        "tr": "Derleme 5"
       },
       "intro": {
         "en": "A TestFlight internal test build, not released to the public yet.",
@@ -1751,14 +2105,17 @@
         "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
         "zh": "TestFlight 内部测试版本，尚未向公众发布。",
         "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
-        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
         "id": "Build uji internal TestFlight, belum dirilis ke publik.",
         "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
         "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
         "fr": "Un build de test interne TestFlight, pas encore publié au public.",
         "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
         "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
-        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
       },
       "notes": {
         "en": [
@@ -1806,7 +2163,7 @@
           "Nuevo ajuste, Patrones para daltonismo: puntos en tus casillas y rayas en las del oponente.",
           "Se corrigió que los efectos de sonido se solaparan. Espejo, el rival más difícil, es un poco más fácil."
         ],
-        "pt": [
+        "pt-BR": [
           "Seis rivais de IA, cada um com seu próprio estilo, em duas ligas. Vença um para desbloquear o próximo. Seu progresso é salvo.",
           "Os rivais agora reagem com expressões e pequenos movimentos quando entram, marcam ponto, sofrem ponto, se surpreendem, ganham ou perdem.",
           "Sequências de combo: o som e a vibração aumentam de nível a 3, 5, 8 e 12 acertos seguidos. Nos últimos 20 segundos, o modo Fever acrescenta um tom de tela mais quente, quadrados que pulam e um bipe rápido, sem mudar as regras.",
@@ -1877,6 +2234,33 @@
           "रोज़ की चुनौती: दिन में एक मैच, पाँच वैरिएंट में से किसी एक ट्विस्ट के साथ।",
           "नई सेटिंग, कलर-ब्लाइंड पैटर्न: आपकी टाइलों पर बिंदियाँ और विरोधी की टाइलों पर धारियाँ।",
           "ओवरलैप होती साउंड इफ़ेक्ट वाली गड़बड़ी ठीक की गई। सबसे कठिन प्रतिद्वंद्वी Mirror को थोड़ा आसान किया गया है।"
+        ],
+        "zh-Hant": [
+          "六位 AI 對手，各有自己的風格，分屬兩個聯賽。擊敗一位即可解鎖下一位。你的進度會被儲存。",
+          "對手現在會以表情和小動作回應：登場、得分、失分、驚訝、獲勝或落敗時都有反應。",
+          "連擊：連續擊中 3、5、8 和 12 次時，音效和震動會逐級升高。最後 20 秒會進入狂熱模式，畫面色調更溫暖、方塊跳動並伴隨短促嗶聲，規則不變。",
+          "每場比賽可獲得 1 到 3 顆星，你的最佳星數會顯示在每位對手的卡片上，另有成就清單。",
+          "每日挑戰：每天一場比賽，並從五種變化中加入一個特別規則。",
+          "新增設定「色盲圖樣」：你的方塊上會有圓點，對手的方塊上則是條紋。",
+          "修正了音效重疊的問題。最強對手「鏡像」稍微簡單了一些。"
+        ],
+        "th": [
+          "คู่แข่ง AI หกคน แต่ละคนมีสไตล์ของตัวเอง ใน 2 ลีก ชนะคนหนึ่งเพื่อปลดล็อกคนถัดไป ความคืบหน้าของคุณถูกบันทึกไว้",
+          "คู่แข่งตอนนี้แสดงปฏิกิริยาด้วยสีหน้าและท่าทางเล็ก ๆ เมื่อเข้าสนาม ทำแต้ม เสียแต้ม ตกใจ ชนะ หรือแพ้",
+          "คอมโบต่อเนื่อง: เสียงและแรงสั่นจะไต่ระดับเมื่อตีติดต่อกัน 3, 5, 8 และ 12 ครั้ง ใน 20 วินาทีสุดท้ายโหมดเฟเวอร์จะเพิ่มโทนหน้าจออุ่นขึ้น กระเบื้องเด้ง และเสียงบี๊บสั้น ๆ โดยกติกาไม่เปลี่ยน",
+          "แต่ละแมตช์ได้ 1 ถึง 3 ดาว ดาวที่ดีที่สุดจะแสดงบนการ์ดของคู่แข่งแต่ละคน และมีรายการความสำเร็จ",
+          "ความท้าทายรายวัน: วันละหนึ่งแมตช์พร้อมกติกาพิเศษจากห้าแบบ",
+          "การตั้งค่าใหม่ ลวดลายสำหรับผู้ตาบอดสี: จุดบนช่องของคุณและลายทางบนช่องของคู่แข่ง",
+          "แก้ไขเสียงเอฟเฟกต์ทับซ้อนกัน มิเรอร์ คู่แข่งที่แข็งที่สุด ง่ายขึ้นเล็กน้อย"
+        ],
+        "tr": [
+          "Her biri kendi tarzına sahip, iki ligde altı yapay zekâ rakibi. Bir sonrakinin kilidini açmak için birini yen. İlerlemen kaydedilir.",
+          "Rakipler artık sahaya girdiklerinde, sayı yaptıklarında, sayı yediklerinde, şaşırdıklarında, kazandıklarında veya kaybettiklerinde yüz ifadeleri ve küçük hareketlerle tepki veriyor.",
+          "Kombo zincirleri: art arda 3, 5, 8 ve 12 vuruşta ses ve titreşim kademe kademe yükselir. Son 20 saniyede Fever modu daha sıcak bir ekran tonu, zıplayan karolar ve kısa bir bip ekler; kurallar değişmez.",
+          "Her maç 1 ila 3 yıldız kazandırır, en iyi yıldızların her rakibin kartında görünür ve bir başarımlar listesi var.",
+          "Günlük Meydan Okuma: günde bir maç, beş çeşit arasından bir sürprizle.",
+          "Yeni ayar, Renk körlüğü desenleri: senin karolarında noktalar, rakibin karolarında çizgiler.",
+          "Üst üste binen ses efektleri düzeltildi. En zor rakip Ayna biraz daha kolay."
         ]
       }
     },
@@ -1891,14 +2275,17 @@
         "ja": "ビルド 4",
         "zh": "构建版本 4",
         "es": "Compilación 4",
-        "pt": "Build 4",
+        "pt-BR": "Build 4",
         "id": "Build 4",
         "ru": "Сборка 4",
         "vi": "Bản dựng 4",
         "fr": "Build 4",
         "de": "Build 4",
         "ar": "Build 4",
-        "hi": "बिल्ड 4"
+        "hi": "बिल्ड 4",
+        "zh-Hant": "建置版本 4",
+        "th": "บิลด์ 4",
+        "tr": "Derleme 4"
       },
       "intro": {
         "en": "A TestFlight internal test build, not released to the public yet.",
@@ -1906,14 +2293,17 @@
         "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
         "zh": "TestFlight 内部测试版本，尚未向公众发布。",
         "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
-        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
         "id": "Build uji internal TestFlight, belum dirilis ke publik.",
         "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
         "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
         "fr": "Un build de test interne TestFlight, pas encore publié au public.",
         "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
         "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
-        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
       },
       "notes": {
         "en": [
@@ -1941,7 +2331,7 @@
           "Se ordenaron las fichas de puntuación de la pantalla de partida.",
           "Nuevo ajuste: Sonido activado/desactivado (activado por defecto). El sonido de la introducción está hecho para el juego."
         ],
-        "pt": [
+        "pt-BR": [
           "Uma nova abertura: uma tela de introdução com um som curto de “pop”, um menu redesenhado e uma tela de resultados redesenhada.",
           "Os indicadores de pontuação na tela da partida foram organizados.",
           "Nova configuração: Som ligado/desligado (ligado por padrão). O som da introdução foi feito para o jogo."
@@ -1980,6 +2370,21 @@
           "एक नई शुरुआत: छोटी-सी “पॉप” आवाज़ वाली इंट्रो स्क्रीन, नए डिज़ाइन का मेन्यू और नए डिज़ाइन की नतीजों वाली स्क्रीन।",
           "मैच स्क्रीन पर स्कोर चिप्स को सलीके से सजाया गया।",
           "नई सेटिंग: आवाज़ चालू/बंद (डिफ़ॉल्ट रूप से चालू)। इंट्रो की आवाज़ इसी गेम के लिए बनाई गई है।"
+        ],
+        "zh-Hant": [
+          "全新開場：包含短促「啵」聲的開場畫面、重新設計的選單和重新設計的結果畫面。",
+          "整理了比賽畫面上的分數標籤。",
+          "新增設定：音效開／關（預設為開）。開場音效是專為這款遊戲製作的。"
+        ],
+        "th": [
+          "การเปิดตัวแบบใหม่: หน้าอินโทรพร้อมเสียง \"ป๊อป\" สั้น ๆ เมนูที่ออกแบบใหม่ และหน้าผลลัพธ์ที่ออกแบบใหม่",
+          "จัดระเบียบป้ายคะแนนบนหน้าแมตช์ให้เรียบร้อยขึ้น",
+          "การตั้งค่าใหม่: เปิด/ปิดเสียง (เปิดเป็นค่าเริ่มต้น) เสียงอินโทรทำขึ้นเพื่อเกมนี้โดยเฉพาะ"
+        ],
+        "tr": [
+          "Yeni bir açılış: kısa bir \"pop\" sesli giriş ekranı, yeniden tasarlanan menü ve yeniden tasarlanan sonuç ekranı.",
+          "Maç ekranındaki skor etiketleri düzenlendi.",
+          "Yeni ayar: Ses Açık/Kapalı (varsayılan olarak açık). Giriş sesi bu oyun için yapıldı."
         ]
       }
     },
@@ -1994,14 +2399,17 @@
         "ja": "ビルド 3",
         "zh": "构建版本 3",
         "es": "Compilación 3",
-        "pt": "Build 3",
+        "pt-BR": "Build 3",
         "id": "Build 3",
         "ru": "Сборка 3",
         "vi": "Bản dựng 3",
         "fr": "Build 3",
         "de": "Build 3",
         "ar": "Build 3",
-        "hi": "बिल्ड 3"
+        "hi": "बिल्ड 3",
+        "zh-Hant": "建置版本 3",
+        "th": "บิลด์ 3",
+        "tr": "Derleme 3"
       },
       "intro": {
         "en": "A TestFlight internal test build, not released to the public yet.",
@@ -2009,14 +2417,17 @@
         "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
         "zh": "TestFlight 内部测试版本，尚未向公众发布。",
         "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
-        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
         "id": "Build uji internal TestFlight, belum dirilis ke publik.",
         "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
         "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
         "fr": "Un build de test interne TestFlight, pas encore publié au public.",
         "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
         "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
-        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
       },
       "notes": {
         "en": [
@@ -2049,7 +2460,7 @@
           "Ahora, al golpear con la pala, notas una pequeña vibración (más ligera en un golpe normal, más firme en un remate). Puedes desactivarla en Ajustes.",
           "El tablero ahora deja un pequeño margen a ambos lados y espacio para su sombra en teléfonos pequeños."
         ],
-        "pt": [
+        "pt-BR": [
           "Um visual mais suave, parecido com um brinquedo: quadrados arredondados e brilhantes, uma bola e uma raquete novas e uma quadra renovada. O placar e as sobreposições combinam com o novo estilo.",
           "Agora em nove idiomas: inglês, coreano, japonês, chinês simplificado e tradicional, espanhol, português do Brasil, alemão e francês. Palavras mais longas não ultrapassam mais as caixas.",
           "Agora, ao acertar a bola com a raquete, você sente uma pequena vibração (mais leve em um golpe normal, mais firme em uma cortada). Você pode desativá-la em Configurações.",
@@ -2096,6 +2507,24 @@
           "अब नौ भाषाओं में: अंग्रेज़ी, कोरियाई, जापानी, सरल और पारंपरिक चीनी, स्पैनिश, ब्राज़ीली पुर्तगाली, जर्मन और फ़्रेंच। लंबे शब्द अब अपने बॉक्स से बाहर नहीं निकलते।",
           "पैडल से गेंद लगने पर अब हल्का कंपन होता है (सामान्य शॉट पर हल्का, स्मैश पर थोड़ा तेज़)। इसे सेटिंग्स में बंद किया जा सकता है।",
           "छोटे फ़ोन पर बोर्ड के दोनों ओर अब थोड़ा मार्जिन और उसकी परछाईं के लिए जगह रहती है।"
+        ],
+        "zh-Hant": [
+          "更柔和、像玩具般的外觀：圓潤有光澤的方塊、全新的球與球拍，以及嶄新的球場。計分板和浮層也隨之搭配。",
+          "現已支援九種語言：英文、韓文、日文、簡體與繁體中文、西班牙文、巴西葡萄牙文、德文和法文。較長的字詞不再溢出框外。",
+          "球拍擊球現在會帶來輕微震動（一般擊球較輕，大招較強）。你可以在設定中關閉。",
+          "在小螢幕手機上，棋盤現在兩側保留少許邊距，並留出陰影的空間。"
+        ],
+        "th": [
+          "รูปลักษณ์นุ่มนวลเหมือนของเล่น: กระเบื้องมนเงางาม ลูกบอลและไม้ตีใหม่ และสนามใหม่ กระดานคะแนนและโอเวอร์เลย์ก็เข้าชุดกัน",
+          "ตอนนี้มีเก้าภาษา: อังกฤษ เกาหลี ญี่ปุ่น จีนตัวย่อและตัวเต็ม สเปน โปรตุเกสบราซิล เยอรมัน และฝรั่งเศส คำยาว ๆ ไม่ล้นออกนอกกรอบอีกต่อไป",
+          "การตีด้วยไม้ตอนนี้มีแรงสั่นเล็กน้อย (เบากว่าสำหรับการตีปกติ หนักกว่าสำหรับสแมช) ปิดได้ในการตั้งค่า",
+          "กระดานตอนนี้เว้นขอบเล็กน้อยทั้งสองด้านและมีที่ว่างสำหรับเงาบนโทรศัพท์จอเล็ก"
+        ],
+        "tr": [
+          "Daha yumuşak, oyuncak gibi bir görünüm: yuvarlak ve parlak karolar, yeni bir top ve raket, ve yeni bir kort. Skor tabelası ve katmanlar da uyumlu.",
+          "Artık dokuz dilde: İngilizce, Korece, Japonca, Basitleştirilmiş ve Geleneksel Çince, İspanyolca, Brezilya Portekizcesi, Almanca ve Fransızca. Uzun sözcükler artık kutularından taşmıyor.",
+          "Raketle vuruşun artık hafif bir titreşim veriyor (normal vuruşta daha hafif, smaçta daha sert). Ayarlar'dan kapatabilirsin.",
+          "Tahta artık küçük telefonlarda iki yanında biraz boşluk ve gölgesi için yer bırakıyor."
         ]
       }
     },
@@ -2110,14 +2539,17 @@
         "ja": "ビルド 2",
         "zh": "构建版本 2",
         "es": "Compilación 2",
-        "pt": "Build 2",
+        "pt-BR": "Build 2",
         "id": "Build 2",
         "ru": "Сборка 2",
         "vi": "Bản dựng 2",
         "fr": "Build 2",
         "de": "Build 2",
         "ar": "Build 2",
-        "hi": "बिल्ड 2"
+        "hi": "बिल्ड 2",
+        "zh-Hant": "建置版本 2",
+        "th": "บิลด์ 2",
+        "tr": "Derleme 2"
       },
       "intro": {
         "en": "A TestFlight internal test build, not released to the public yet.",
@@ -2125,14 +2557,17 @@
         "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
         "zh": "TestFlight 内部测试版本，尚未向公众发布。",
         "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
-        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
         "id": "Build uji internal TestFlight, belum dirilis ke publik.",
         "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
         "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
         "fr": "Un build de test interne TestFlight, pas encore publié au public.",
         "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
         "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
-        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
       },
       "notes": {
         "en": [
@@ -2160,7 +2595,7 @@
           "Un botón de pausa durante la partida (también Esc o P en el teclado) con Seguir, Reiniciar y Salir.",
           "Se corrigió que algunos elementos se superpusieran en ciertas pantallas."
         ],
-        "pt": [
+        "pt-BR": [
           "O Claimball agora tem o seu ícone de app.",
           "Um botão de pausa durante a partida (também Esc ou P no teclado) com Continuar, Reiniciar e Sair.",
           "Corrigimos itens que se sobrepunham em algumas telas."
@@ -2199,6 +2634,21 @@
           "Claimball को अब अपना ऐप आइकन मिल गया है।",
           "मैच के दौरान पॉज़ बटन (कीबोर्ड पर Esc या P भी) जिसमें जारी रखें, फिर से शुरू और बाहर निकलें के विकल्प हैं।",
           "कुछ स्क्रीन पर चीज़ों के एक-दूसरे पर चढ़ जाने की गड़बड़ी ठीक की गई।"
+        ],
+        "zh-Hant": [
+          "Claimball 現在有了自己的 App 圖示。",
+          "比賽中新增暫停按鈕（鍵盤上也可用 Esc 或 P），提供繼續、重新開始和離開。",
+          "修正了部分畫面上項目重疊的問題。"
+        ],
+        "th": [
+          "Claimball มีไอคอนแอปแล้ว",
+          "ปุ่มหยุดชั่วคราวระหว่างแมตช์ (หรือกด Esc หรือ P บนคีย์บอร์ด) พร้อมเล่นต่อ เริ่มใหม่ และออก",
+          "แก้ไขรายการที่ซ้อนทับกันบนบางหน้าจอ"
+        ],
+        "tr": [
+          "Claimball artık kendi uygulama simgesine sahip.",
+          "Maç sırasında bir duraklatma düğmesi (klavyede Esc veya P de olur); Devam, Yeniden Başlat ve Çık seçenekleriyle.",
+          "Bazı ekranlarda üst üste binen öğeler düzeltildi."
         ]
       }
     },
@@ -2213,14 +2663,17 @@
         "ja": "ビルド 1",
         "zh": "构建版本 1",
         "es": "Compilación 1",
-        "pt": "Build 1",
+        "pt-BR": "Build 1",
         "id": "Build 1",
         "ru": "Сборка 1",
         "vi": "Bản dựng 1",
         "fr": "Build 1",
         "de": "Build 1",
         "ar": "Build 1",
-        "hi": "बिल्ड 1"
+        "hi": "बिल्ड 1",
+        "zh-Hant": "建置版本 1",
+        "th": "บิลด์ 1",
+        "tr": "Derleme 1"
       },
       "intro": {
         "en": "A TestFlight internal test build, not released to the public yet.",
@@ -2228,14 +2681,17 @@
         "ja": "TestFlight の社内テスト用ビルドで、まだ一般公開されていません。",
         "zh": "TestFlight 内部测试版本，尚未向公众发布。",
         "es": "Una compilación de prueba interna de TestFlight, aún no publicada al público.",
-        "pt": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
+        "pt-BR": "Um build de teste interno do TestFlight, ainda não lançado ao público.",
         "id": "Build uji internal TestFlight, belum dirilis ke publik.",
         "ru": "Внутренняя тестовая сборка TestFlight, пока не выпущенная для всех.",
         "vi": "Bản dựng thử nghiệm nội bộ trên TestFlight, chưa phát hành cho công chúng.",
         "fr": "Un build de test interne TestFlight, pas encore publié au public.",
         "de": "Ein interner TestFlight-Testbuild, noch nicht öffentlich veröffentlicht.",
         "ar": "نسخة اختبار داخلية عبر TestFlight، لم تُطلق للعموم بعد.",
-        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।"
+        "hi": "TestFlight का आंतरिक टेस्ट बिल्ड, जो अभी आम जनता के लिए जारी नहीं हुआ है।",
+        "zh-Hant": "TestFlight 內部測試版本，尚未向大眾發布。",
+        "th": "บิลด์ทดสอบภายในบน TestFlight ยังไม่เปิดให้ใช้งานสาธารณะ",
+        "tr": "Henüz herkese açık olmayan, TestFlight iç test derlemesi."
       },
       "notes": {
         "en": [
@@ -2268,7 +2724,7 @@
           "Un empate se decide en muerte súbita: gana el siguiente punto. Si a los 90 segundos la pelota sigue en el aire, la partida espera a que caiga.",
           "El juego se pausa automáticamente al salir de la app. Admite control con arrastre, teclado y pantalla táctil."
         ],
-        "pt": [
+        "pt-BR": [
           "A primeira versão jogável: uma partida de 90 segundos em uma grade de quadrados. Acerte a bola para pintar quadrados com a sua cor e seja o primeiro a conquistar 30, ou tenha mais quadrados quando o tempo acabar.",
           "Uma marca mostra onde a bola vai cair. Encha o medidor de cortada mantendo a troca de bolas para pintar uma faixa larga de uma só vez.",
           "Um empate vai para a morte súbita: vence quem fizer o próximo ponto. Se a bola ainda estiver no ar aos 90 segundos, a partida espera ela cair.",
@@ -2315,6 +2771,24 @@
           "एक निशान दिखाता है कि गेंद कहाँ गिरेगी। रैली चलाए रखकर स्मैश गेज भरिए, तो एक साथ चौड़ी पट्टी रंग जाती है।",
           "बराबरी होने पर मैच सडन डेथ में जाता है: अगला पॉइंट जीतने वाला जीतता है। अगर 90 सेकंड पर गेंद हवा में है, तो मैच उसके गिरने तक रुकता है।",
           "ऐप से बाहर जाते ही गेम अपने-आप रुक जाता है। ड्रैग, कीबोर्ड और टच कंट्रोल चलते हैं।"
+        ],
+        "zh-Hant": [
+          "第一個可遊玩的版本：在方塊格上進行 90 秒的比賽。擊球把方塊塗成你的顏色，搶先佔領 30 格，或在時間結束時佔有較多方塊者獲勝。",
+          "會有標記顯示球的落點。持續對打來充滿大招量表，即可一次塗出一整條寬帶。",
+          "平手時進入突然死亡：下一分決定勝負。若 90 秒時球仍在空中，比賽會等球落地。",
+          "離開 App 時遊戲會自動暫停。支援拖曳、鍵盤和觸控操作。"
+        ],
+        "th": [
+          "บิลด์แรกที่เล่นได้: แมตช์ 90 วินาทีบนตารางกระเบื้อง ตีลูกเพื่อระบายกระเบื้องเป็นสีของคุณ และเป็นคนแรกที่ครอง 30 ช่อง หรือครองมากกว่าเมื่อหมดเวลา",
+          "เครื่องหมายแสดงจุดที่ลูกจะตก เติมมาตรวัดสแมชด้วยการตีโต้ต่อเนื่องเพื่อระบายแถบกว้างในครั้งเดียว",
+          "เสมอจะไปซัดเดนเดธ: แต้มถัดไปชนะ หากลูกยังลอยอยู่ที่ 90 วินาที แมตช์จะรอให้ลูกตก",
+          "เกมหยุดชั่วคราวอัตโนมัติเมื่อคุณออกจากแอป รองรับการควบคุมด้วยการลาก คีย์บอร์ด และการสัมผัส"
+        ],
+        "tr": [
+          "İlk oynanabilir derleme: karo ızgarası üzerinde 90 saniyelik bir maç. Topa vurup karoları kendi rengine boya; 30 hücreyi ilk alan ol veya süre dolduğunda daha çok karoya sahip ol.",
+          "Bir işaret topun nereye ineceğini gösterir. Raliyi sürdürerek smaç göstergesini doldur ve tek seferde geniş bir şeridi boya.",
+          "Beraberlik ani ölüme gider: bir sonraki sayı kazandırır. 90. saniyede top hâlâ havadaysa maç topun yere inmesini bekler.",
+          "Uygulamadan çıktığında oyun otomatik olarak duraklar. Sürükleme, klavye ve dokunmatik kontroller desteklenir."
         ]
       }
     }

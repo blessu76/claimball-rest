@@ -42,7 +42,7 @@ def check(root, now=None):
     errs += perrs
     want = set()
     for p in posts:
-        want.update(bs.url(bs.path_post(l, p["slug"])) for l in p["langs"] if (root / "content" / "i18n" / (l + ".json")).is_file())
+        want.update(bs.url(bs.path_post(l, p["slug"])) for l in p["langs"] if l in bs.LISTED and (root / "content" / "i18n" / (l + ".json")).is_file())
     for u in sorted(want - set(urls)):
         errs.append("published post missing from sitemap: %s" % u)
     for u in sorted(urls):
@@ -54,7 +54,7 @@ def check(root, now=None):
             errs.append("in sitemap but not a published post: %s" % u)
         if lastmod[u] > now.strftime("%Y-%m-%d"):
             errs.append("lastmod in the future: %s %s" % (u, lastmod[u]))
-    homes = [l for l in bs.LANGS if bs.url(bs.path_home(l)) in urls]
+    homes = [l for l in bs.LISTED if bs.url(bs.path_home(l)) in urls]
     for l in homes:
         for path in [bs.path_page(l, x) for x in bs.PAGE_SLUGS] + [bs.path_releases(l), bs.path_journal(l)]:
             if bs.url(path) not in urls:
