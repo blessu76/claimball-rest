@@ -2,7 +2,7 @@
 title: Chính sách quyền riêng tư
 description: Chính sách quyền riêng tư của Claimball. Ứng dụng không thu thập thông tin cá nhân; trang web thu thập thống kê lượt truy cập cơ bản thông qua Google Analytics.
 translation_of: en
-updated: 2026-11-01
+updated: 2026-11-12
 ---
 **Tóm tắt:** ứng dụng Claimball không thu thập thông tin cá nhân và không chứa công cụ phân tích. Trang web này thu thập thống kê lượt truy cập cơ bản thông qua Google Analytics, ghi nhớ ngôn ngữ của bạn ngay trong trình duyệt của bạn, và không yêu cầu tên, email hay tài khoản. Chúng tôi không có quảng cáo và không bán dữ liệu.
 
@@ -15,6 +15,8 @@ Ngày có hiệu lực: {{EFFECTIVE}} · Đơn vị vận hành: {{OPERATOR}}
 Ứng dụng không chứa SDK quảng cáo, phân tích hay theo dõi. Điều này chỉ áp dụng cho Ứng dụng; trang web được mô tả ở mục 2.
 
 **Đồng bộ iCloud (iOS).** Để bạn có thể tiếp tục chơi trên một thiết bị khác đăng nhập cùng tài khoản Apple, Ứng dụng trên iOS lưu tiến trình của bạn vào iCloud của chính bạn (kho lưu trữ khóa-giá trị của iCloud) và đồng bộ giữa các thiết bị của bạn. Phần này gồm các đối thủ bạn đã đánh bại, số sao, thành tích, việc bạn đã dùng bản chơi thử miễn phí hay chưa, và hai cài đặt trợ năng. Apple lưu dữ liệu này trong tài khoản iCloud của bạn. Dữ liệu không được gửi đến ipe() hay bất kỳ máy chủ nào do chúng tôi vận hành, và chúng tôi không thể xem được. Trạng thái mua hàng không được đồng bộ, vì App Store là nguồn xác thực cho các giao dịch mua. Nếu bạn tắt iCloud cho Ứng dụng (hoặc cho thiết bị của bạn), tiến trình của bạn chỉ được giữ trên thiết bị đó. Phiên bản Android hiện chỉ lưu mọi thứ trên thiết bị.
+
+**Game Center, Google Play Games và giao dịch mua.** Nếu bạn dùng Game Center (iOS) hoặc Google Play Games (Android) trong ứng dụng, thành tích của bạn được gửi tới Apple hoặc Google theo chính sách quyền riêng tư của họ; chúng tôi không nhận được. Giao dịch mua trong ứng dụng do App Store hoặc Google Play xử lý hoàn toàn; chúng tôi không bao giờ thấy thông tin thanh toán của bạn, chỉ biết giao dịch mua có đang hiệu lực trên thiết bị hay không.
 
 ## 2. Trang web
 

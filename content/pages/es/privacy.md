@@ -2,7 +2,7 @@
 title: Política de privacidad
 description: Política de privacidad de Claimball. La aplicación no recopila información personal; el sitio web recopila estadísticas básicas de visitas mediante Google Analytics.
 translation_of: en
-updated: 2026-11-01
+updated: 2026-11-12
 ---
 **En resumen:** la aplicación Claimball no recopila información personal y no incluye analítica. Este sitio web recopila estadísticas básicas de visitas mediante Google Analytics, recuerda tu idioma en tu propio navegador y no pide nombre, correo electrónico ni cuenta. No hay anuncios y no vendemos datos.
 
@@ -15,6 +15,8 @@ La aplicación Claimball («la Aplicación») es un juego móvil operado por un 
 La Aplicación no contiene SDK de publicidad, analítica ni seguimiento. Esto se aplica solo a la Aplicación; el sitio web se describe en la sección 2.
 
 **Sincronización con iCloud (iOS).** Para que puedas seguir jugando en otro dispositivo con la misma cuenta de Apple, la Aplicación de iOS guarda tu progreso en tu propio iCloud (almacenamiento clave-valor de iCloud) y lo sincroniza entre tus dispositivos. Esto incluye los rivales que has vencido, las estrellas, los logros, si has usado la prueba gratuita y dos ajustes de accesibilidad. Apple conserva estos datos en tu cuenta de iCloud. No se envían a ipe() ni a ningún servidor que gestionemos, y no podemos verlos. El estado de las compras no se sincroniza, porque la fuente de verdad de las compras es la App Store. Si desactivas iCloud para la Aplicación (o para tu dispositivo), tu progreso se conserva únicamente en ese dispositivo. La versión de Android guarda actualmente todo solo en el dispositivo.
+
+**Game Center, Google Play Juegos y compras.** Si usas Game Center (iOS) o Google Play Juegos (Android) en la app, tus logros se envían a Apple o a Google conforme a sus propias políticas de privacidad; nosotros no los recibimos. Las compras dentro de la app las gestiona por completo la App Store o Google Play; nunca vemos tus datos de pago, solo si una compra está activa en tu dispositivo.
 
 ## 2. El sitio web
 

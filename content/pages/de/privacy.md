@@ -2,7 +2,7 @@
 title: Datenschutzerklärung
 description: Datenschutzerklärung für Claimball. Die App erhebt keine personenbezogenen Daten; die Website erhebt grundlegende Besuchsstatistiken über Google Analytics.
 translation_of: en
-updated: 2026-11-01
+updated: 2026-11-12
 ---
 **Kurz gesagt:** Die Claimball-App erhebt keine personenbezogenen Daten und enthält keine Analyse. Diese Website erhebt grundlegende Besuchsstatistiken über Google Analytics, merkt sich deine Sprache in deinem eigenen Browser und verlangt weder Namen, E-Mail noch Konto. Es gibt keine Werbung, und wir verkaufen keine Daten.
 
@@ -15,6 +15,8 @@ Die Claimball-App („die App“) ist ein mobiles Spiel, das von einem Einzelent
 Die App enthält keine Werbe-, Analyse- oder Tracking-SDKs. Das gilt nur für die App; die Website wird in Abschnitt 2 beschrieben.
 
 **iCloud-Synchronisierung (iOS).** Damit du auf einem anderen Gerät, das mit demselben Apple-Konto angemeldet ist, weiterspielen kannst, speichert die iOS-App deinen Fortschritt in deiner eigenen iCloud (iCloud-Schlüssel-Wert-Speicher) und gleicht ihn zwischen deinen Geräten ab. Dazu gehören die besiegten Rivalen, Sterne, Erfolge, ob du den kostenlosen Test genutzt hast, und zwei Bedienungshilfen-Einstellungen. Apple bewahrt diese Daten in deinem iCloud-Konto auf. Sie werden weder an ipe() noch an einen von uns betriebenen Server gesendet, und wir können sie nicht einsehen. Der Kaufstatus wird nicht synchronisiert, weil der App Store für Käufe maßgeblich ist. Wenn du iCloud für die App (oder für dein Gerät) ausschaltest, bleibt dein Fortschritt nur auf diesem Gerät. Die Android-Version speichert derzeit alles nur auf dem Gerät.
+
+**Game Center, Google Play Spiele und Käufe.** Wenn Sie in der App Game Center (iOS) oder Google Play Spiele (Android) nutzen, werden Ihre Erfolge nach den jeweiligen Datenschutzrichtlinien an Apple bzw. Google übermittelt; wir erhalten sie nicht. In-App-Käufe werden vollständig vom App Store oder Google Play abgewickelt; wir sehen Ihre Zahlungsdaten nie, nur ob ein Kauf auf Ihrem Gerät aktiv ist.
 
 ## 2. Die Website
 

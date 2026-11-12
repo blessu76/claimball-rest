@@ -2,7 +2,7 @@
 title: Kebijakan Privasi
 description: Kebijakan privasi Claimball. Aplikasi tidak mengumpulkan informasi pribadi; situs web mengumpulkan statistik kunjungan dasar melalui Google Analytics.
 translation_of: en
-updated: 2026-11-01
+updated: 2026-11-12
 ---
 **Singkatnya:** aplikasi Claimball tidak mengumpulkan informasi pribadi dan tidak memuat alat analitik. Situs web ini mengumpulkan statistik kunjungan dasar melalui Google Analytics, mengingat bahasamu di browser milikmu sendiri, dan tidak meminta nama, email, atau akun. Tidak ada iklan dan kami tidak menjual data.
 
@@ -15,6 +15,8 @@ Aplikasi Claimball ("Aplikasi") adalah game seluler yang dioperasikan oleh penge
 Aplikasi tidak memuat SDK iklan, analitik, atau pelacakan. Ini hanya berlaku untuk Aplikasi; situs web dijelaskan di bagian 2.
 
 **Sinkronisasi iCloud (iOS).** Agar kamu dapat terus bermain di perangkat lain yang masuk dengan akun Apple yang sama, Aplikasi iOS menyimpan kemajuanmu ke iCloud milikmu sendiri (penyimpanan kunci-nilai iCloud) dan menyinkronkannya di antara perangkatmu. Ini mencakup rival yang telah kamu kalahkan, bintang, pencapaian, apakah kamu sudah memakai percobaan gratis, dan dua pengaturan aksesibilitas. Apple menyimpan data ini di akun iCloud-mu. Data ini tidak dikirim ke ipe() atau ke server mana pun yang kami jalankan, dan kami tidak dapat melihatnya. Status pembelian tidak disinkronkan, karena App Store adalah sumber acuan untuk pembelian. Jika kamu mematikan iCloud untuk Aplikasi (atau untuk perangkatmu), kemajuanmu hanya disimpan di perangkat itu. Versi Android saat ini menyimpan semuanya hanya di perangkat.
+
+**Game Center, Google Play Games, dan pembelian.** Jika Anda memakai Game Center (iOS) atau Google Play Games (Android) di aplikasi, pencapaian Anda dikirim ke Apple atau Google sesuai kebijakan privasi masing-masing; kami tidak menerimanya. Pembelian dalam aplikasi sepenuhnya ditangani oleh App Store atau Google Play; kami tidak pernah melihat data pembayaran Anda, hanya apakah suatu pembelian aktif di perangkat Anda.
 
 ## 2. Situs web
 

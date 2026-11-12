@@ -43,7 +43,7 @@ KST = dt.timezone(dt.timedelta(hours=9))
 SITE_UPDATED = "2026-11-12"  # "Last updated" of home / 404 and sitemap lastmod — bump by hand when their text changes
 OPERATOR = "Davy Kim (ipe Studio)"
 EMAIL = "ipe.haven@gmail.com"
-EFFECTIVE = "2026-11-01"
+EFFECTIVE = "2026-11-12"
 # GA4 (same property as ipe.rest). Inserted once into every page by render(); the privacy policy (section 2), the support FAQ
 # and llms.txt say so -> change them together with this. The app itself has no analytics SDK.
 GA_MEASUREMENT_ID = "G-XG4BH800J0"

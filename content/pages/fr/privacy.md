@@ -2,7 +2,7 @@
 title: Politique de confidentialité
 description: Politique de confidentialité de Claimball. L'application ne collecte aucune information personnelle ; le site web collecte des statistiques de visite de base via Google Analytics.
 translation_of: en
-updated: 2026-11-01
+updated: 2026-11-12
 ---
 **En bref :** l'application Claimball ne collecte aucune information personnelle et ne contient aucun outil d'analyse. Ce site web collecte des statistiques de visite de base via Google Analytics, retient votre langue dans votre propre navigateur et ne demande ni nom, ni e-mail, ni compte. Il n'y a pas de publicité et nous ne vendons pas de données.
 
@@ -15,6 +15,8 @@ L'application Claimball (« l'Application ») est un jeu mobile exploité par un
 L'Application ne contient aucun SDK de publicité, d'analyse ou de suivi. Cela ne concerne que l'Application ; le site web est décrit à la section 2.
 
 **Synchronisation iCloud (iOS).** Pour que vous puissiez continuer à jouer sur un autre appareil connecté avec le même compte Apple, l'Application iOS enregistre votre progression dans votre propre iCloud (stockage clé-valeur iCloud) et la synchronise entre vos appareils. Cela comprend les rivaux que vous avez battus, les étoiles, les succès, le fait que vous ayez utilisé l'essai gratuit et deux réglages d'accessibilité. Apple conserve ces données dans votre compte iCloud. Elles ne sont envoyées ni à ipe() ni à aucun serveur que nous exploitons, et nous ne pouvons pas les voir. L'état des achats n'est pas synchronisé, car l'App Store fait foi pour les achats. Si vous désactivez iCloud pour l'Application (ou pour votre appareil), votre progression est conservée uniquement sur cet appareil. La version Android stocke actuellement tout uniquement sur l'appareil.
+
+**Game Center, Google Play Jeux et achats.** Si vous utilisez Game Center (iOS) ou Google Play Jeux (Android) dans l'application, vos succès sont transmis à Apple ou à Google selon leurs propres politiques de confidentialité ; nous ne les recevons pas. Les achats intégrés sont entièrement gérés par l'App Store ou Google Play ; nous ne voyons jamais vos informations de paiement, seulement si un achat est actif sur votre appareil.
 
 ## 2. Le site web
 

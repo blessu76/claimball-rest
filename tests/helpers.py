@@ -10,7 +10,7 @@ REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO / "scripts"))
 import build_site as bs  # noqa: E402
 
-NOW = dt.datetime(2026, 11, 3, 20, 0, tzinfo=bs.KST)
+NOW = dt.datetime(2026, 11, 12, 20, 0, tzinfo=bs.KST)
 
 
 def post_text(slug, lang, title, published=None, extra=""):

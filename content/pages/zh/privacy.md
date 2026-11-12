@@ -2,7 +2,7 @@
 title: 隐私政策
 description: Claimball 的隐私政策。应用不收集任何个人信息;网站通过 Google Analytics 收集基本的访问统计。
 translation_of: en
-updated: 2026-11-01
+updated: 2026-11-12
 ---
 **简而言之:** Claimball 应用不收集任何个人信息,也不包含分析工具。本网站通过 Google Analytics 收集基本的访问统计,仅在您自己的浏览器中记住您选择的语言,也不要求提供姓名、电子邮件或账号。我们没有广告,也不出售数据。
 
@@ -15,6 +15,8 @@ Claimball 应用(以下简称"本应用")是由个人开发者 {{OPERATOR}} 运�
 本应用不包含任何广告、分析或跟踪 SDK。以上仅适用于本应用;网站的情况见第 2 节。
 
 **iCloud 同步(iOS)。** 为了让您能在登录同一 Apple 账号的其他设备上继续游戏,iOS 版本应用会把您的进度保存到您自己的 iCloud(iCloud 键值存储),并在您的设备之间同步。内容包括已击败的对手、星星、成就、是否已使用免费试玩,以及两项辅助功能设置。这些数据由 Apple 保存在您的 iCloud 账号中,不会发送给 ipe(),也不会发送到我们运营的任何服务器,我们无法查看。购买状态不会同步,因为购买记录以 App Store 为准。如果您为本应用(或为您的设备)关闭 iCloud,进度将只保存在该设备上。Android 版本目前只把所有内容保存在设备上。
+
+**Game Center、Google Play 游戏与购买。** 如果您在应用中使用 Game Center(iOS)或 Google Play 游戏(Android),成就信息会按 Apple 或 Google 各自的隐私政策发送给对方,我们不会收到。应用内购买完全由 App Store 或 Google Play 处理,我们看不到您的支付信息,只会确认设备上的购买是否有效。
 
 ## 2. 网站
 

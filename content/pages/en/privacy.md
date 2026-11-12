@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 description: Privacy policy for Claimball. The app collects no personal information; the website collects basic visit statistics through Google Analytics.
-updated: 2026-11-01
+updated: 2026-11-12
 ---
 **In short:** the Claimball app collects no personal information and contains no analytics. This website collects basic visit statistics through Google Analytics, remembers your language in your own browser, and asks for no name, email or account. There are no ads and we do not sell data.
 
@@ -14,6 +14,8 @@ The Claimball app ("the App") is a mobile game operated by an individual develop
 The App contains no advertising, analytics or tracking SDKs. This applies to the App only; the website is described in section 2.
 
 **iCloud sync (iOS).** So that you can keep playing on another device signed in with the same Apple account, the iOS App saves your progress to your own iCloud (iCloud key-value storage) and syncs it between your devices. This covers the rivals you have beaten, stars, achievements, whether you have used the free taste, and two accessibility settings. Apple keeps this data in your iCloud account. It is not sent to ipe() or to any server we run, and we cannot see it. Purchase status is not synced, because the App Store is the source of truth for purchases. If you turn iCloud off for the App (or for your device), your progress is kept on that device only. The Android version currently stores everything on the device only.
+
+**Game Center, Google Play Games and purchases.** If you use Game Center (iOS) or Google Play Games (Android) in the App, your achievements are sent to Apple or Google under their own privacy policies; we do not receive them. In-app purchases are handled entirely by the App Store or Google Play; we never see your payment details, only whether a purchase is active on your device.
 
 ## 2. The website
 
