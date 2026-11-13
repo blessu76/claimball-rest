@@ -5,6 +5,7 @@ slug: combos-and-fever
 lang: ko
 category: devlog
 keywords: Claimball, 콤보, 피버, 별, 업적, 저널
+published: 2026-11-13T21:14+09:00
 ---
 TestFlight 내부 테스트 빌드인 빌드 5에서 Claimball 한 판에 리듬이 생겼어요. 아직 일반 공개 전이에요.
 

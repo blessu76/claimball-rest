@@ -5,6 +5,7 @@ slug: combos-and-fever
 lang: en
 category: devlog
 keywords: Claimball, combo, fever mode, stars, achievements, journal
+published: 2026-11-13T21:14+09:00
 ---
 Build 5, a TestFlight internal test build, gave a Claimball match more of a rhythm. It is not released to the public yet.
 
