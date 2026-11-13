@@ -1,12 +1,13 @@
 # Daily publish automation (not installed by this repo)
 
-Policy: **one post a day at 18:00 KST** while the app is unreleased (2026-10-29). The publish time recorded in each post is the real time
+Policy: **one post a day at a random afternoon time (12:00–17:59 KST, never the same hour as yesterday; `publish_gate.py`)** while the app is unreleased (2026-10-29). The publish time recorded in each post is the real time
 the script ran (HH:MM KST); a future time is refused.
 
 | File | Role |
 |---|---|
 | `publish_daily.sh` | safety checks → push leftovers → `publish_post.py --daily` → green gate → commit → push → live check → IndexNow |
-| `rest.ipe.claimball-publish.plist.template` | launchd job template (`__HOME__` placeholder; launchd does not expand `~`), 18:00 every day plus retries at 18:30 and 19:00 (no-op once today's post is out), log `~/Library/Logs/claimball-publish.log` |
+| `rest.ipe.claimball-publish.plist.template` | launchd job template (`__HOME__` placeholder; launchd does not expand `~`), calls `publish_gate.py` every 15 min 12:00–18:45; the gate draws the day's slot into `~/.ipe/queue/claimball/slot.json` and runs `publish_daily.sh` once from then on (no-op once published), log `~/Library/Logs/claimball-publish.log` |
+| `publish_gate.py` | random-slot gate (tests/test_publish_gate.py); retries each tick while publish_daily SKIPs/fails |
 | `install_launchd.sh` | renders the template for the current user, `plutil -lint`, writes `~/Library/LaunchAgents/…plist` — does **not** load it |
 
 ## Safety rules (tests: `tests/test_publish_daily.py`)

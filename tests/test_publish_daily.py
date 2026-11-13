@@ -282,7 +282,7 @@ class OpsFiles(unittest.TestCase):
         out = (tmp / "LA" / "rest.ipe.claimball-publish.plist").read_text(encoding="utf-8")
         self.assertNotIn("__HOME__", out)
         self.assertIn(str(tmp / "home" / "Library" / "Logs" / "claimball-publish.log"), out)
-        self.assertIn(str(tmp / "home" / "Developer" / "claimball-rest" / "ops" / "publish_daily.sh"), out)
+        self.assertIn(str(tmp / "home" / "Developer" / "claimball-rest" / "ops" / "publish_gate.py"), out)
         if shutil.which("plutil"):
             self.assertEqual(subprocess.run(["plutil", "-lint", str(tmp / "LA" / "rest.ipe.claimball-publish.plist")], capture_output=True).returncode, 0)
 
