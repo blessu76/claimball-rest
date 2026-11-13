@@ -38,7 +38,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "vendor"))
 from ipe_web_kit import languages as kit_languages  # noqa: E402
 
 SITE = "https://claimball.ipe.rest"
-ASSET_V = "20261113b"  # keep in sync: bump when assets/claimball.css or claimball.js change
+ASSET_V = "20261113c"  # keep in sync: bump when assets/claimball.css or claimball.js change
 KST = dt.timezone(dt.timedelta(hours=9))
 SITE_UPDATED = "2026-11-12"  # "Last updated" of home / 404 and sitemap lastmod — bump by hand when their text changes
 OPERATOR = "Davy Kim (ipe Studio)"
