@@ -1,6 +1,7 @@
 ---
 title: iCloud로 다른 기기에서 이어서 해요
 description: 진행 상황, 별, 업적, 접근성 설정이 iPhone과 iPad에서 iCloud 계정을 따라가요. 공유되는 것과 아닌 것을 정리했어요.
+summary: 클레임볼(Claimball)은 다른 기기에서 하던 곳에서 이어서 할 수 있어요. iPhone과 iPad에서 진행 상황, 별, 업적, 무료 체험 상태, 접근성 설정이 iCloud 계정을 따라가고, 전체 잠금 해제 구매와 일일 도전 시도 기회, 진동·소리 설정은 기기에 남아요. 아직 테스트 중이고 iOS와 Android로 출시 예정이에요.
 slug: continue-with-icloud
 lang: ko
 category: devlog
@@ -24,3 +25,17 @@ iPhone과 iPad에서 진행 상황, 별, 업적, 무료 체험 상태, 접근성
 ## 다음 소식
 
 Claimball은 아직 테스트 중이고 iOS와 Android로 출시 예정이에요. 출시일은 정해지지 않았어요.
+
+## 자주 묻는 질문
+
+### Claimball에서 iCloud 계정을 따라가는 것은 무엇인가요?
+iPhone과 iPad에서 진행 상황, 별, 업적, 무료 체험 상태, 접근성 설정이 iCloud 계정을 따라가요. 조용히 백그라운드에서 동작해요.
+
+### iCloud로 공유되지 않는 것은 무엇인가요?
+전체 잠금 해제 구매(App Store가 따로 관리해요), 일일 도전 시도 기회, 진동과 소리 설정은 기기에만 남아요.
+
+### iCloud가 꺼져 있거나 오프라인이면 어떻게 되나요?
+게임은 기기 안의 사본을 그대로 써요.
+
+### Claimball은 이미 출시됐나요?
+아직이에요. 테스트 중이고 iOS와 Android로 출시 예정이며, 출시일은 정해지지 않았어요.

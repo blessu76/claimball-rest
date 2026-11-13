@@ -56,5 +56,8 @@
   "cat_art": "Arte",
   "cat_design": "Diseño",
   "nf_h": "Página no encontrada",
-  "nf_p": "No pudimos encontrar esa página. Puede que se haya movido o que la dirección esté mal escrita."
+  "nf_p": "No pudimos encontrar esa página. Puede que se haya movido o que la dirección esté mal escrita.",
+  "summary_label": "En resumen:",
+  "faq_h": "Preguntas frecuentes",
+  "about_game": "Sobre el juego: Claimball es un juego casual de duelo sobre una cuadrícula de cuaderno para iOS y Android (próximamente, aún no publicado)."
 }

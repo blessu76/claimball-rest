@@ -1,6 +1,7 @@
 ---
 title: Claimball can be read aloud with VoiceOver and handles large text
 description: Build 14 announces every part of a match with VoiceOver and keeps layouts intact at large text sizes and on small screens.
+summary: Build 14 of Claimball, a TestFlight internal test build, lets VoiceOver announce every part of a match and keeps the layout intact at large text sizes and on small screens. The same pass made the layout fit iPad and other tablets. It is not released to the public yet.
 slug: voiceover-and-large-text
 lang: en
 category: devlog
@@ -24,3 +25,14 @@ Accessibility is not a one-time task. We will keep testing with these settings t
 ## What is next
 
 Claimball is still in testing and coming soon to iOS and Android. There is no release date yet.
+
+## FAQ
+
+### Can Claimball be played with VoiceOver?
+The game screen can now be read aloud with VoiceOver, so every part of a match is announced.
+
+### What happens when I raise the text size or use a small phone?
+The layout no longer gets cut off or overflows when you raise the text size in your system settings or play on a small phone.
+
+### Does the layout fit tablets?
+Yes. The same pass made the layout fit iPad and other tablets properly.

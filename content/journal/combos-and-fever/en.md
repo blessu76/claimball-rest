@@ -1,6 +1,7 @@
 ---
 title: Combos, Fever and stars: how a Claimball match builds up
 description: Build 5 added combo chains, a Fever mode in the last 20 seconds, one to three stars per match and a list of achievements.
+summary: In Claimball, combo chains step up the sound and vibration at 3, 5, 8 and 12 hits in a row, and a Fever mode switches on in the last 20 seconds without changing the rules. Each match earns 1 to 3 stars, and six AI rivals react with faces and movements. It is still in testing and coming soon to iOS and Android.
 slug: combos-and-fever
 lang: en
 category: devlog
@@ -28,3 +29,17 @@ The six AI rivals now react with faces and little movements when they enter, sco
 ## What is next
 
 Claimball is still in testing and coming soon to iOS and Android. There is no release date yet.
+
+## FAQ
+
+### When do combo effects step up?
+The sound and the haptic buzz step up at 3, 5, 8 and 12 hits in a row.
+
+### What is Fever?
+In the last 20 seconds a Fever mode switches on, with a warmer screen tone, bouncing tiles and a quick beep. The rules stay exactly the same, so it changes how the end of a match feels, not how it is decided.
+
+### How many stars can a match earn?
+Each match earns 1 to 3 stars. Your best stars show on each rival's card, and a list of achievements keeps track of the rest.
+
+### Is Claimball released yet?
+Not yet. It is still in testing and coming soon to iOS and Android, and there is no release date yet.

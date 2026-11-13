@@ -1,6 +1,7 @@
 ---
 title: Claimball은 VoiceOver로 읽을 수 있고 큰 글꼴도 지원해요
 description: 빌드 14에서는 VoiceOver가 경기의 모든 부분을 알려 주고, 큰 글꼴과 작은 화면에서도 화면이 깨지지 않아요.
+summary: Claimball의 TestFlight 내부 테스트 빌드인 빌드 14에서는 VoiceOver가 경기의 모든 부분을 알려 주고, 큰 글꼴과 작은 화면에서도 화면이 잘리거나 넘치지 않아요. iPad와 다른 태블릿에도 화면이 맞게 됐고, 아직 일반 공개 전이에요.
 slug: voiceover-and-large-text
 lang: ko
 category: devlog
@@ -24,3 +25,14 @@ published: 2026-11-06T18:00+09:00
 ## 다음 소식
 
 Claimball은 아직 테스트 중이고 iOS와 Android로 출시 예정이에요. 출시일은 정해지지 않았어요.
+
+## 자주 묻는 질문
+
+### Claimball을 VoiceOver로 즐길 수 있나요?
+이제 게임 화면을 VoiceOver로 읽을 수 있어서 경기의 모든 부분이 안내돼요.
+
+### 글자 크기를 키우거나 작은 휴대폰에서 하면 어떻게 되나요?
+시스템 설정에서 글자 크기를 키우거나 작은 휴대폰에서 플레이해도 화면이 잘리거나 넘치지 않아요.
+
+### 태블릿에서도 화면이 맞나요?
+네. 같은 작업으로 iPad와 다른 태블릿에도 화면이 제대로 맞게 됐어요.

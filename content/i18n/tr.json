@@ -56,5 +56,8 @@
   "cat_art": "Sanat",
   "cat_design": "Tasarım",
   "nf_h": "Sayfa bulunamadı",
-  "nf_p": "Bu sayfayı bulamadık. Taşınmış olabilir ya da adres yanlış yazılmış olabilir."
+  "nf_p": "Bu sayfayı bulamadık. Taşınmış olabilir ya da adres yanlış yazılmış olabilir.",
+  "summary_label": "Kısaca:",
+  "faq_h": "Sık sorulan sorular",
+  "about_game": "Oyun hakkında: Claimball, iOS ve Android için defter ızgarası üzerinde oynanan rahat bir düello oyunudur (yakında, henüz yayımlanmadı)."
 }

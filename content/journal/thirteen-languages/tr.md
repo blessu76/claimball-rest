@@ -1,6 +1,7 @@
 ---
 title: Claimball test derlemelerinde 13 dil konuşuyor
 description: Dokuz dilden on üçe ve her çevirinin eksiksiz kalmasını sağlayan otomatik bir kontrol.
+summary: Claimball test derlemelerinde 13 dili destekliyor; 3. derlemeden dokuz dil ve 10. derlemede eklenen dört dil. 14. derleme her çevirinin eksiksiz kalmasını sağlayan otomatik bir kontrol ekledi. Bu derlemeler henüz herkese açık değil.
 slug: thirteen-languages
 lang: tr
 category: devlog
@@ -25,3 +26,14 @@ Daha uzun kelimeler artık kutularından taşmıyor ve Arapça, sağdan sola dü
 ## Sırada ne var
 
 Claimball hâlâ test aşamasında ve iOS ile Android için çok yakında geliyor. Henüz bir çıkış tarihi yok.
+
+## Sık sorulan sorular
+
+### Claimball hangi dilleri destekliyor?
+3. derleme oyunu dokuz dile taşıdı: İngilizce, Korece, Japonca, Basitleştirilmiş ve Geleneksel Çince, İspanyolca, Brezilya Portekizcesi, Almanca ve Fransızca. 10. derleme dört dil daha ekledi: Endonezce, Rusça, Arapça ve Hintçe.
+
+### Claimball sağdan sola yazıyı ve uzun kelimeleri destekliyor mu?
+Evet. Daha uzun kelimeler artık kutularından taşmıyor ve Arapça, sağdan sola düzende doğru sırasını koruyor.
+
+### Çeviriler nasıl eksiksiz tutuluyor?
+14. derleme, 13 dilin hepsinde çevirileri güvende ve eksiksiz tutan otomatik bir kontrol ekledi; böylece eksik bir satır, derleme çıkmadan yakalanıyor.

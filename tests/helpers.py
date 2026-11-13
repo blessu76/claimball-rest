@@ -16,8 +16,10 @@ NOW = dt.datetime(2026, 11, 12, 20, 0, tzinfo=bs.KST)
 def post_text(slug, lang, title, published=None, extra=""):
     pub = ("published: %s\n" % published) if published else ""
     tr = "translation_of: en\n" if lang not in bs.MAIN_LANGS else ""
-    return ("---\ntitle: %s\ndescription: Desc of %s in %s.\nslug: %s\nlang: %s\ncategory: devlog\n%s%s%s---\n"
-            "## Heading\n\nBody of **%s** with a [link](https://ipe.rest/) and `code`.\n") % (title, slug, lang, slug, lang, tr, pub, extra, slug)
+    faq_h = "자주 묻는 질문" if lang == "ko" else "FAQ"
+    return ("---\ntitle: %s\ndescription: Desc of %s in %s.\nsummary: Short answer for %s in %s. Second sentence.\nslug: %s\nlang: %s\ncategory: devlog\n%s%s%s---\n"
+            "## Heading\n\nBody of **%s** with a [link](https://ipe.rest/) and `code`.\n\n## %s\n\n### Is it a question?\n\nYes, it is.\n\n### And another?\n\nYes, [really](https://ipe.rest/).\n") % (
+        title, slug, lang, slug, lang, slug, lang, tr, pub, extra, slug, faq_h)
 
 
 def make_site(langs=("en", "ko"), posts=(("alpha-post", "2026-11-01T18:00+09:00"), ("beta-post", "2026-11-02T18:00+09:00")), queue=()):

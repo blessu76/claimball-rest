@@ -38,7 +38,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "vendor"))
 from ipe_web_kit import languages as kit_languages  # noqa: E402
 
 SITE = "https://claimball.ipe.rest"
-ASSET_V = "20261112a"  # keep in sync: bump when assets/claimball.css or claimball.js change
+ASSET_V = "20261113a"  # keep in sync: bump when assets/claimball.css or claimball.js change
 KST = dt.timezone(dt.timedelta(hours=9))
 SITE_UPDATED = "2026-11-12"  # "Last updated" of home / 404 and sitemap lastmod — bump by hand when their text changes
 OPERATOR = "Davy Kim (ipe Studio)"
@@ -86,7 +86,7 @@ KEYS = (
     "journal_title journal_desc home_title home_desc hero_h1 hero_lead "
     "store_soon store_aria hero_note board_aria you_label rival_label time_label "
     "how_h card1_h card1_p card2_h card2_p card3_h card3_p rivals_h rivals_p latest_h cta_h cta_p "
-    "cat_devlog cat_art cat_design "
+    "cat_devlog cat_art cat_design summary_label faq_h about_game "
     "nf_h nf_p"
 ).split()
 REQUIRED_POST = ("title", "description", "slug", "lang", "category", "published")
@@ -341,6 +341,48 @@ def parse_published(v):
     return dt.datetime(*map(int, m.groups()), tzinfo=KST)
 
 
+FAQ_HEADINGS = {"en": "FAQ", "ko": "자주 묻는 질문"}  # the `faq_h` i18n value of the two original languages
+
+
+def faq_items(body, heading):
+    """[(question, answer)] from the `## <heading>` section of a post body: each `### question` followed by its answer paragraph(s)."""
+    items, in_faq, q, ans = [], False, None, []
+    for ln in body.split("\n"):
+        s = ln.strip()
+        m = re.match(r"^(#{2,4})\s+(.*)$", s)
+        if m and len(m.group(1)) == 2:
+            if in_faq and q is not None:
+                items.append((q, " ".join(ans).strip()))
+            in_faq, q, ans = (m.group(2).strip() == heading), None, []
+            continue
+        if not in_faq:
+            continue
+        if m and len(m.group(1)) == 3:
+            if q is not None:
+                items.append((q, " ".join(ans).strip()))
+            q, ans = m.group(2).strip(), []
+        elif q is not None and s:
+            ans.append(s)
+    if in_faq and q is not None:
+        items.append((q, " ".join(ans).strip()))
+    return [(a, re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", re.sub(r"[*`]", "", b))) for a, b in items]
+
+
+def geo_problems(tag, lang, summary, body):
+    errs = []
+    if not summary.strip():
+        errs.append("%s: front matter `summary:` (2-3 sentences that answer the post's question) is required" % tag)
+    elif len(summary) > 480:
+        errs.append("%s: summary is too long (%d > 480 characters)" % (tag, len(summary)))
+    faq = faq_items(body, FAQ_HEADINGS[lang])
+    if len(faq) < 2:
+        errs.append("%s: needs a `## %s` section with at least 2 `### question` entries" % (tag, FAQ_HEADINGS[lang]))
+    for q, a in faq:
+        if not a:
+            errs.append("%s: FAQ question %r has no answer" % (tag, q))
+    return errs
+
+
 def load_posts(root, now=None, include_dir="journal"):
     """-> (posts sorted newest first, errors). post = {slug, published, category, langs:{lang: {...}}}"""
     now = now or dt.datetime.now(KST)
@@ -385,9 +427,14 @@ def load_posts(root, now=None, include_dir="journal"):
                 errs.append("%s: translation_of: ko|en required" % tag)
             if not body.strip():
                 errs.append("%s: empty body" % tag)
-            errs += text_problems(tag, meta["title"] + meta["description"] + body)
+            errs += text_problems(tag, meta["title"] + meta["description"] + meta.get("summary", "") + body)
+            if meta.get("modified") and not PUB_RE.match(meta["modified"]):
+                errs.append("%s: modified must look like 2026-11-03T21:05+09:00" % tag)
+            if lang in MAIN_LANGS:  # GEO: the originals always carry a short answer and a FAQ (queue posts too, see queue_errors)
+                errs += geo_problems(tag, lang, meta.get("summary", ""), body)
             post["langs"][lang] = {"title": meta["title"], "description": meta["description"], "body": body,
-                                   "translation_of": meta.get("translation_of"), "keywords": meta.get("keywords", "")}
+                                   "translation_of": meta.get("translation_of"), "keywords": meta.get("keywords", ""),
+                                   "summary": meta.get("summary", ""), "modified": meta.get("modified", "")}
         if not post["langs"]:
             errs.append("%s: folder has no post files" % slug); continue
         for need in MAIN_LANGS:
@@ -430,7 +477,9 @@ def queue_errors(root):
                 errs.append("%s: category must be one of %s" % (tag, "/".join(CATEGORIES)))
             if f.stem not in MAIN_LANGS and meta.get("translation_of") not in MAIN_LANGS:
                 errs.append("%s: translation_of: ko|en required" % tag)
-            errs += text_problems(tag, meta.get("title", "") + meta.get("description", "") + body)
+            errs += text_problems(tag, meta.get("title", "") + meta.get("description", "") + meta.get("summary", "") + body)
+            if f.stem in MAIN_LANGS:
+                errs += geo_problems(tag, f.stem, meta.get("summary", ""), body)
         for need in MAIN_LANGS:
             if need not in langs:
                 errs.append("queue/%s: %s original missing" % (d.name, need))
@@ -478,7 +527,7 @@ def latest_post_date(ctx):
     return max([fmt_date(p) for p in ctx.posts] + [SITE_UPDATED])
 
 
-def render(ctx, lang, *, path, title, desc, body, graph, alt, updated, og_type="website", noindex=False, hreflang=True, nav=""):
+def render(ctx, lang, *, path, title, desc, body, graph, alt, updated, og_type="website", noindex=False, hreflang=True, nav="", extra_head=()):
     t = lambda k: ctx.t(lang, k)  # noqa: E731
     name, og_loc, direction, short = LANGS[lang]
     canonical = url(path)
@@ -500,6 +549,7 @@ def render(ctx, lang, *, path, title, desc, body, graph, alt, updated, og_type="
              '<meta name="theme-color" content="#FBF8EE">', '<meta name="color-scheme" content="light">',
              '<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">',
              '<link rel="apple-touch-icon" href="/assets/icon-180.png">']
+    head += list(extra_head)
     if lang in MAIN_LANGS:
         head.append('<link rel="alternate" type="application/rss+xml" title="Claimball Journal (%s)" href="%s">' % (lang, path_feed(lang)))
     head.append('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>')
@@ -709,24 +759,35 @@ def build_post(ctx, lang, p):
             esc(t("aria_posts")),
             ('<a rel="prev" href="%s">%s %s</a>' % (esc(path_post(lang, older["slug"])), arrow(lang, False), esc(older["langs"][lang]["title"]))) if older else "<span></span>",
             ('<a rel="next" href="%s">%s %s</a>' % (esc(path_post(lang, newer["slug"])), esc(newer["langs"][lang]["title"]), arrow(lang, True))) if newer else "<span></span>")
+    summary = ('<p class="summary"><strong>%s</strong> %s</p>' % (esc(t("summary_label")), esc(d["summary"]))) if d["summary"] else ""
+    about = '<p class="about-game">%s</p>' % esc(t("about_game"))
     body = ('%s<article class="prose post"><header><p class="post-meta"><time datetime="%s">%s</time><span class="tag">%s</span></p><h1>%s</h1>'
-            '<p class="lead">%s</p></header>%s%s</article>%s%s<p class="back"><a href="%s">%s %s</a></p>') % (
-        breadcrumb_html(crumbs, t("aria_breadcrumb")), iso_time(p), fmt_time(p), esc(t("cat_" + p["category"])), esc(d["title"]), esc(d["description"]), ai,
-        markdown(d["body"], ctx.root), pn,
+            '<p class="lead">%s</p></header>%s%s%s%s</article>%s%s<p class="back"><a href="%s">%s %s</a></p>') % (
+        breadcrumb_html(crumbs, t("aria_breadcrumb")), iso_time(p), fmt_time(p), esc(t("cat_" + p["category"])), esc(d["title"]), esc(d["description"]), summary, ai,
+        markdown(d["body"], ctx.root), about, pn,
         ('<aside class="langs"><h2>%s</h2><ul>%s</ul></aside>' % (esc(t("other_langs")), others)) if others else "",
         esc(path_journal(lang)), arrow(lang, False), esc(t("back_journal")))
     posting = {"@type": "BlogPosting", "@id": url(path) + "#post", "mainEntityOfPage": url(path), "url": url(path),
                "headline": d["title"], "description": d["description"], "inLanguage": lang, "datePublished": iso_time(p),
-               "dateModified": iso_time(p), "image": {"@type": "ImageObject", "url": SITE + OG_IMAGE, "width": 1200, "height": 630},
+               "dateModified": d["modified"] or iso_time(p), "image": {"@type": "ImageObject", "url": SITE + OG_IMAGE, "width": 1200, "height": 630},
                "author": ORG, "publisher": {"@id": ORG_ID}, "isPartOf": {"@id": url(path_journal(lang)) + "#blog"},
-               "about": {"@id": SITE + "/#game"}, "articleSection": p["category"]}
+               "about": {"@id": SITE + "/#game"}, "mentions": {"@id": SITE + "/#game"}, "articleSection": p["category"]}
     if d["keywords"]:
         posting["keywords"] = d["keywords"]
+    if d["summary"]:
+        posting["abstract"] = d["summary"]
     if src:
         posting["translationOfWork"] = {"@type": "BlogPosting", "url": url(path_post(src, p["slug"])), "inLanguage": src}
-    graph = [ORG, website_ld(lang, ctx), posting, breadcrumb_ld(crumbs)]
+    graph = [ORG, website_ld(lang, ctx), game_ld(lang, ctx), posting, breadcrumb_ld(crumbs)]
+    faq = faq_items(d["body"], t("faq_h"))
+    if len(faq) >= 2 and all(a for _, a in faq):
+        graph.append({"@type": "FAQPage", "@id": url(path) + "#faq", "inLanguage": lang, "mainEntity": [
+            {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]})
+    extra = ['<meta property="article:published_time" content="%s">' % iso_time(p),
+             '<meta property="article:modified_time" content="%s">' % esc(d["modified"] or iso_time(p)),
+             '<meta property="article:section" content="%s">' % esc(p["category"])]
     return path, render(ctx, lang, path=path, title="%s — Claimball" % d["title"], desc=d["description"], body=body, graph=graph,
-                        alt=alt, updated=fmt_date(p), og_type="article", nav="journal")
+                        alt=alt, updated=fmt_date(p), og_type="article", nav="journal", extra_head=extra)
 
 
 def build_404(ctx):

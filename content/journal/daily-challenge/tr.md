@@ -1,6 +1,7 @@
 ---
 title: Günlük Meydan Okuma: günde bir maç, bir sürprizle
 description: Günde bir maç ve bir sürpriz, daha adil rövanş dengesi ve maç ortasında uygulama kapanırsa ne olduğu.
+summary: Claimball Günlük Meydan Okuma, günde bir maç ve bir dizi çeşit arasından değişen bir sürpriz demek. Meydan okuma ortasında uygulama kapanırsa o günün tek hakkını geri alırsın, ama bilerek menüye çıkmak hakkı yine harcar. Hâlâ test aşamasında ve iOS ile Android için çok yakında geliyor.
 slug: daily-challenge
 lang: tr
 category: devlog
@@ -25,3 +26,17 @@ Her gün tek bir hakkın var. Sürpriz bir dizi çeşitten değişir, böylece m
 ## Sırada ne var
 
 Claimball hâlâ test aşamasında ve iOS ile Android için çok yakında geliyor. Henüz bir çıkış tarihi yok.
+
+## Sık sorulan sorular
+
+### Günlük Meydan Okuma için kaç hakkım var?
+Her gün tek bir hakkın var. Sürpriz bir dizi çeşitten değişir, böylece maç art arda iki kez aynı olmaz.
+
+### Günlük Meydan Okuma sırasında uygulama kapanırsa ne olur?
+O günün tek hakkını geri alırsın. Bilerek menüye çıkmak hakkı yine harcar.
+
+### Sistem Geri hareketi ya da düğmesi ne yapar?
+Günlük Meydan Okuma sırasında maçı duraklatıp sürdürür; diğer ekranlarda uygulamayı kapatmak yerine seni menüye döndürür.
+
+### Claimball çıktı mı?
+Henüz çıkmadı. Hâlâ test aşamasında ve iOS ile Android için çok yakında geliyor. Henüz bir çıkış tarihi yok.

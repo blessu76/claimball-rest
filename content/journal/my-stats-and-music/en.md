@@ -1,6 +1,7 @@
 ---
 title: My Stats and background music arrive in Claimball
 description: The latest test build adds a My Stats screen with your wins, draws and losses, and three original music tracks with an on/off toggle.
+summary: Build 15 of Claimball, a TestFlight internal test build, adds a My Stats screen with your wins, draws and losses, plus three original music tracks you can turn on or off in Settings. It is not released to the public yet.
 slug: my-stats-and-music
 lang: en
 category: devlog
@@ -20,3 +21,14 @@ Claimball now has three original tracks: one for the menu, one for matches, and 
 ## What is next
 
 Claimball is still in testing and coming soon to iOS and Android. There is no release date yet.
+
+## FAQ
+
+### What does the My Stats screen show in Claimball?
+It shows your wins, draws and losses, your record against each opponent, and your longest rally.
+
+### Where are my records stored?
+These records are kept only on your device.
+
+### How many music tracks does Claimball have, and can I turn them off?
+Claimball has three original tracks: one for the menu, one for matches, and a faster fever tempo. You can turn the music on or off with a toggle in Settings.

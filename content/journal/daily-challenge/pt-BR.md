@@ -1,6 +1,7 @@
 ---
 title: O Desafio diário, uma partida por dia com uma reviravolta
 description: Uma partida por dia com uma reviravolta, revanches mais equilibradas e o que acontece se o app fechar no meio da partida.
+summary: O Desafio diário do Claimball é uma partida por dia com uma reviravolta que muda dentro de um conjunto de variantes. Se o app fechar no meio de um Desafio diário, você recebe de volta a única tentativa do dia, mas sair para o menu de propósito ainda a gasta. Ainda está em testes e chega em breve para iOS e Android.
 slug: daily-challenge
 lang: pt-BR
 category: devlog
@@ -25,3 +26,17 @@ A versão 7 cuida dos casos chatos. Se o app fechar no meio de um Desafio diári
 ## O que vem a seguir
 
 Claimball ainda está em testes e chega em breve para iOS e Android. Ainda não há data de lançamento.
+
+## Perguntas frequentes
+
+### Quantas tentativas do Desafio diário eu tenho?
+A cada dia você tem uma única tentativa. A reviravolta muda dentro de um conjunto de variantes, então a partida nunca é exatamente igual duas vezes seguidas.
+
+### E se o app fechar durante um Desafio diário?
+Você recebe de volta a única tentativa do dia. Sair para o menu de propósito ainda a gasta.
+
+### O que faz o gesto ou botão Voltar?
+Durante um Desafio diário, ele pausa e retoma a partida, e em outras telas leva você de volta ao menu em vez de fechar o app.
+
+### O Claimball já foi lançado?
+Ainda não. Ele está em testes e chega em breve para iOS e Android. Ainda não há data de lançamento.

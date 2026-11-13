@@ -1,6 +1,7 @@
 ---
 title: Claimball VoiceOver ile sesli okunabiliyor ve büyük yazıyı destekliyor
 description: 14. derleme, bir maçın her bölümünü VoiceOver ile duyuruyor ve düzenleri büyük yazı boyutlarında ve küçük ekranlarda bozulmadan koruyor.
+summary: Claimball'un TestFlight dahili test derlemesi olan 14. derleme, bir maçın her bölümünü VoiceOver ile duyuruyor ve düzeni büyük yazı boyutlarında ve küçük ekranlarda bozulmadan koruyor. Aynı çalışma düzeni iPad ve diğer tabletlere de oturttu. Henüz herkese açık değil.
 slug: voiceover-and-large-text
 lang: tr
 category: devlog
@@ -25,3 +26,14 @@ Erişilebilirlik tek seferlik bir iş değil. Oyun büyüdükçe bu ayarlar aç�
 ## Sırada ne var
 
 Claimball hâlâ test aşamasında ve iOS ile Android için çok yakında geliyor. Henüz bir çıkış tarihi yok.
+
+## Sık sorulan sorular
+
+### Claimball VoiceOver ile oynanabilir mi?
+Oyun ekranı artık VoiceOver ile sesli okunabiliyor; bir maçın her bölümü duyuruluyor.
+
+### Yazı boyutunu büyütürsem ya da küçük bir telefon kullanırsam ne olur?
+Sistem ayarlarında yazı boyutunu büyüttüğünde ya da küçük bir telefonda oynadığında düzen artık kesilmiyor ya da taşmıyor.
+
+### Düzen tabletlere uyuyor mu?
+Evet. Aynı çalışma, düzeni iPad ve diğer tabletlere de düzgün oturttu.

@@ -1,6 +1,7 @@
 ---
 title: Two looks for Claimball: Classic and Notebook
 description: Notebook is a paper-and-grid-notebook style that matches the Claimball website, and you can switch any time in Settings.
+summary: Claimball has two looks, Classic and Notebook. Notebook is a paper-and-grid-notebook style that matches the Claimball website, and you can switch in Settings at any time without restarting. Classic stays the default. It is still in testing and coming soon to iOS and Android.
 slug: notebook-look
 lang: en
 category: devlog
@@ -24,3 +25,17 @@ Your theme choice is saved on each device and is not shared through iCloud, so a
 ## What is next
 
 Claimball is still in testing and coming soon to iOS and Android. There is no release date yet.
+
+## FAQ
+
+### How do I switch between Classic and Notebook?
+Pick Classic or Notebook in Settings, at the bottom of the settings card. You can switch at any time, even in the middle of a session, and nothing restarts.
+
+### Which look is the default?
+Classic stays the default, so the game looks the same until you change it.
+
+### Is my theme choice shared between devices?
+No. Your theme choice is saved on each device and is not shared through iCloud, so a phone and a tablet can use different looks.
+
+### Is Claimball released yet?
+Not yet. It is still in testing and coming soon to iOS and Android, and there is no release date yet.

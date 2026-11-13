@@ -1,6 +1,7 @@
 ---
 title: Continue em outro dispositivo com o iCloud
 description: Seu progresso, estrelas, conquistas e ajustes de acessibilidade acompanham sua conta do iCloud no iPhone e no iPad. Veja o que é compartilhado e o que não é.
+summary: O Claimball permite retomar de onde você parou em outro dispositivo. No iPhone e no iPad, seu progresso, estrelas, conquistas, o estado do período de teste grátis e seus ajustes de acessibilidade acompanham sua conta do iCloud, enquanto a compra do Desbloqueio completo, a tentativa do Desafio diário e os ajustes de vibração e som ficam no dispositivo. Ainda está em testes e chega em breve para iOS e Android.
 slug: continue-with-icloud
 lang: pt-BR
 category: devlog
@@ -25,3 +26,17 @@ Se uma compra for reembolsada ou retirada pelo Compartilhamento Familiar, o jogo
 ## O que vem a seguir
 
 Claimball ainda está em testes e chega em breve para iOS e Android. Ainda não há data de lançamento.
+
+## Perguntas frequentes
+
+### O que acompanha minha conta do iCloud no Claimball?
+No iPhone e no iPad, seu progresso, estrelas, conquistas, o estado do período de teste grátis e seus ajustes de acessibilidade acompanham sua conta do iCloud. Tudo funciona discretamente em segundo plano.
+
+### O que não é compartilhado pelo iCloud?
+A compra do Desbloqueio completo (a App Store cuida disso), a tentativa do Desafio diário e os ajustes de vibração e som ficam no dispositivo.
+
+### O que acontece se o iCloud estiver desligado ou sem conexão?
+O jogo simplesmente mantém a própria cópia no dispositivo.
+
+### O Claimball já foi lançado?
+Ainda não. Ele está em testes e chega em breve para iOS e Android. Ainda não há data de lançamento.

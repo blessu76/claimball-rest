@@ -1,6 +1,7 @@
 ---
 title: 透過 iCloud 在其他裝置上繼續遊玩
 description: 你的進度、星星、成就與無障礙設定，會在 iPhone 與 iPad 上跟著你的 iCloud 帳號走。以下說明哪些會同步、哪些不會。
+summary: Claimball 讓你可以在另一台裝置上接續上次的進度。在 iPhone 與 iPad 上，進度、星星、成就、免費試玩狀態與無障礙設定會跟著 iCloud 帳號走，而完整解鎖的購買項目、每日挑戰的嘗試次數，以及震動與音效設定則只留在裝置上。遊戲仍在測試中，即將登陸 iOS 與 Android。
 slug: continue-with-icloud
 lang: zh-Hant
 category: devlog
@@ -25,3 +26,17 @@ published: 2026-11-09T18:00+09:00
 ## 接下來
 
 Claimball 仍在測試中，即將登陸 iOS 與 Android，目前尚無上市日期。
+
+## 常見問題
+
+### Claimball 中有哪些內容會跟著我的 iCloud 帳號走？
+在 iPhone 與 iPad 上，你的進度、星星、成就、免費試玩狀態與無障礙設定，都會跟著 iCloud 帳號走，並在背景默默完成同步。
+
+### 哪些內容不會透過 iCloud 共享？
+完整解鎖的購買項目（由 App Store 負責記錄）、每日挑戰的嘗試次數，以及震動與音效設定只會留在裝置上。
+
+### 如果 iCloud 已關閉或離線會怎樣？
+遊戲就只會在裝置上保留自己的副本。
+
+### Claimball 已經上市了嗎？
+還沒有。遊戲仍在測試中，即將登陸 iOS 與 Android，目前尚無上市日期。

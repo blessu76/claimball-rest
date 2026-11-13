@@ -1,6 +1,7 @@
 ---
 title: Thống kê của tôi và nhạc nền đã có trong Claimball
 description: Bản dựng thử nghiệm mới nhất thêm màn hình Thống kê của tôi với số trận thắng, hòa và thua, cùng ba bản nhạc gốc có nút bật/tắt.
+summary: Bản dựng 15 của Claimball, một bản thử nghiệm nội bộ trên TestFlight, thêm màn hình Thống kê của tôi với số trận thắng, hòa và thua, cùng ba bản nhạc gốc có thể bật hoặc tắt trong Cài đặt. Bản này chưa được phát hành cho công chúng.
 slug: my-stats-and-music
 lang: vi
 category: devlog
@@ -21,3 +22,14 @@ Claimball giờ có ba bản nhạc gốc: một cho menu, một cho ván đấu
 ## Tiếp theo là gì
 
 Claimball vẫn đang thử nghiệm và sắp ra mắt trên iOS và Android. Hiện chưa có ngày phát hành.
+
+## Câu hỏi thường gặp
+
+### Màn hình Thống kê của tôi trong Claimball hiển thị gì?
+Màn hình hiển thị số trận thắng, hòa và thua, thành tích của bạn với từng đối thủ, và pha trao đổi bóng dài nhất.
+
+### Số liệu của tôi được lưu ở đâu?
+Những số liệu này chỉ được lưu trên thiết bị của bạn.
+
+### Claimball có mấy bản nhạc và tôi có tắt được không?
+Claimball có ba bản nhạc gốc: một cho menu, một cho ván đấu, và một bản nhịp nhanh hơn cho chế độ fever. Bạn có thể bật hoặc tắt nhạc bằng nút gạt trong Cài đặt.

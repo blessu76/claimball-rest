@@ -119,6 +119,8 @@ img,svg{max-width:100%;height:auto}
 .table-wrap{overflow-x:auto}
 table{border-collapse:collapse;width:100%}
 th,td{border:2px solid var(--ink);padding:8px 10px;text-align:start}
+.prose .summary{margin:0 0 20px;padding:12px 16px;border:2px solid var(--ink);border-radius:12px;background:var(--paper);overflow-wrap:anywhere}
+.about-game{margin:28px 0 0;font-size:14px;color:var(--ink2)}
 .ai-note{font-size:14px;color:var(--ink2)}
 .langs ul{padding-inline-start:20px}
 .updated{margin:28px 0 0;font-size:14px;font-weight:700;color:var(--ink2)}

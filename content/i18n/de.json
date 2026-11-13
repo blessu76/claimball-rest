@@ -56,5 +56,8 @@
   "cat_art": "Kunst",
   "cat_design": "Design",
   "nf_h": "Seite nicht gefunden",
-  "nf_p": "Wir konnten diese Seite nicht finden. Sie wurde vielleicht verschoben, oder die Adresse enthält einen Tippfehler."
+  "nf_p": "Wir konnten diese Seite nicht finden. Sie wurde vielleicht verschoben, oder die Adresse enthält einen Tippfehler.",
+  "summary_label": "Kurz gesagt:",
+  "faq_h": "Häufige Fragen",
+  "about_game": "Über das Spiel: Claimball ist ein lockeres Duellspiel auf einem Notizbuchraster für iOS und Android (demnächst, noch nicht veröffentlicht)."
 }

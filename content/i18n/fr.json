@@ -56,5 +56,8 @@
   "cat_art": "Art",
   "cat_design": "Design",
   "nf_h": "Page introuvable",
-  "nf_p": "Nous n'avons pas trouvé cette page. Elle a peut-être été déplacée, ou l'adresse contient une faute de frappe."
+  "nf_p": "Nous n'avons pas trouvé cette page. Elle a peut-être été déplacée, ou l'adresse contient une faute de frappe.",
+  "summary_label": "En bref :",
+  "faq_h": "Questions fréquentes",
+  "about_game": "À propos du jeu : Claimball est un jeu de duel décontracté sur une grille de cahier pour iOS et Android (bientôt disponible, pas encore sorti)."
 }

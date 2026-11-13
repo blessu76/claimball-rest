@@ -1,6 +1,7 @@
 ---
 title: Claimball pode ser lido em voz alta com o VoiceOver e lida bem com texto grande
 description: A versão 14 anuncia cada parte da partida com o VoiceOver e mantém os layouts intactos em tamanhos de texto grandes e em telas pequenas.
+summary: A versão 14 do Claimball, uma versão de teste interno do TestFlight, anuncia cada parte da partida com o VoiceOver e mantém o layout intacto em tamanhos de texto grandes e em telas pequenas. A mesma revisão ajustou o layout ao iPad e a outros tablets. Ela ainda não foi lançada ao público.
 slug: voiceover-and-large-text
 lang: pt-BR
 category: devlog
@@ -25,3 +26,14 @@ Acessibilidade não é uma tarefa de uma vez só. Vamos continuar testando com e
 ## O que vem a seguir
 
 Claimball ainda está em testes e chega em breve para iOS e Android. Ainda não há data de lançamento.
+
+## Perguntas frequentes
+
+### Dá para jogar Claimball com o VoiceOver?
+A tela do jogo agora pode ser lida em voz alta com o VoiceOver, então cada parte da partida é anunciada.
+
+### O que acontece se eu aumentar o texto ou usar um celular pequeno?
+O layout não é mais cortado nem transborda quando você aumenta o tamanho do texto nos ajustes do sistema ou joga em um celular pequeno.
+
+### O layout se ajusta a tablets?
+Sim. A mesma revisão fez o layout se ajustar direito ao iPad e a outros tablets.

@@ -1,6 +1,7 @@
 ---
 title: Free to try, one purchase to unlock everything
 description: Build 6 added the planned purchase: try Claimball free, then unlock everything once. No ads, no subscription, and a Restore button.
+summary: Claimball is planned to be free to try, with a single purchase that unlocks everything. There are no ads and no subscription, and a Restore button brings the unlock back. It is still in testing and coming soon to iOS and Android. The price has not been announced.
 slug: free-to-try-one-purchase
 lang: en
 category: devlog
@@ -31,3 +32,17 @@ A refund removes the unlock, but only after the game has seen the store say so o
 ## What is next
 
 Claimball is still in testing and coming soon to iOS and Android. There is no release date yet.
+
+## FAQ
+
+### Can I try Claimball for free?
+Yes. Claimball is free to try. You can play and get a taste of the rivals before you decide anything.
+
+### What does the purchase include?
+A single purchase unlocks everything. There are no ads and no subscription. The amount is shown by the store in your own currency when it is available, and the price has not been announced.
+
+### What if I bought before or my purchase is pending?
+A Restore button in Settings brings the unlock back. If a purchase is waiting for approval, for example under Ask to Buy, the game waits instead of guessing.
+
+### What happens if a purchase is refunded?
+A refund removes the unlock, but only after the game has seen the store say so on two separate launches, so a temporary sign-in glitch does not lock you out by mistake.

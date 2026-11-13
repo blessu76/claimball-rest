@@ -1,6 +1,7 @@
 ---
 title: Começando a fazer Claimball
 description: A primeira publicação do diário. O que é Claimball e por que este diário existe.
+summary: Claimball é um jogo casual de duelos contra um rival de IA em uma grade de caderno de 6 por 10 quadrados, que chega em breve para iOS e Android. Uma partida dura cerca de 90 segundos, e o quadrado onde a bola quica vira território do jogador que a acertou.
 slug: starting-claimball
 lang: pt-BR
 category: devlog
@@ -25,3 +26,17 @@ Vamos usar este diário para compartilhar notas da criação do jogo. Por enquan
 Claimball é grátis para experimentar, uma única compra libera o jogo completo e não há anúncios nem assinatura. O preço será divulgado perto do lançamento. Ainda não há data de lançamento.
 
 *Atualizado em 2026-10-31: detalhes sobre a duração das partidas, os rivais e o preço foram atualizados.*
+
+## Perguntas frequentes
+
+### O que é Claimball?
+Claimball é um jogo casual de duelos em que você joga contra um rival de IA, e chega em breve para iOS e Android.
+
+### Como se conquista território no Claimball?
+O quadrado onde a bola quica vira território do jogador que a acertou, e se você errar, perde território. Acerte a bola com o centro da sua raquete e você faz uma cortada, que conquista 3 quadrados de uma vez.
+
+### Quanto dura uma partida e quantos rivais existem?
+Uma partida dura cerca de 90 segundos. No lançamento você enfrenta 6 rivais de IA em 2 ligas, com mais previstos nas atualizações.
+
+### Quanto custa o Claimball?
+O Claimball é grátis para experimentar, uma única compra libera o jogo completo e não há anúncios nem assinatura. O preço será anunciado mais perto do lançamento, e ainda não há data de lançamento.

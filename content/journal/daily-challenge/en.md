@@ -1,6 +1,7 @@
 ---
 title: The Daily Challenge: one match a day with a twist
 description: One match a day with a twist, a fairer rematch balance, and what happens if the app closes mid-match.
+summary: The Claimball Daily Challenge is one match a day with a twist that changes from a set of variants. If the app closes in the middle of a Daily Challenge, you get that day's one attempt back, but leaving to the menu on purpose still uses it up. It is still in testing and coming soon to iOS and Android.
 slug: daily-challenge
 lang: en
 category: devlog
@@ -24,3 +25,17 @@ Build 7 handles the awkward cases. If the app closes in the middle of a Daily Ch
 ## What is next
 
 Claimball is still in testing and coming soon to iOS and Android. There is no release date yet.
+
+## FAQ
+
+### How many Daily Challenge attempts do I get?
+Each day you get a single attempt. The twist changes from a set of variants, so the match is never quite the same twice in a row.
+
+### What if the app closes during a Daily Challenge?
+You get that day's one attempt back. Leaving to the menu on purpose still uses it up.
+
+### What does the Back gesture or button do?
+During a Daily Challenge it pauses and resumes the match, and from other screens it takes you back to the menu instead of closing the app.
+
+### Is Claimball released yet?
+Not yet. It is still in testing and coming soon to iOS and Android, and there is no release date yet.

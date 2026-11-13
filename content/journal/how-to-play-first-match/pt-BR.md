@@ -1,6 +1,7 @@
 ---
 title: Sua primeira partida de Claimball agora começa com um guia rápido
 description: Um guia Como jogar de três cartões recebe você na primeira partida nas versões de teste mais recentes.
+summary: Desde a versão 14, uma versão de teste interno do TestFlight, o Claimball abre a sua primeira partida com um guia de Como jogar de três cartões, que dá para ler em poucos segundos. Ele ainda não foi lançado ao público.
 slug: how-to-play-first-match
 lang: pt-BR
 category: devlog
@@ -21,3 +22,14 @@ Um jogo de sessões curtas precisa se explicar rápido. Preferimos que você gas
 ## O que vem a seguir
 
 Claimball ainda está em testes e chega em breve para iOS e Android. Ainda não há data de lançamento.
+
+## Perguntas frequentes
+
+### O que há no guia Como jogar do Claimball?
+O guia tem três cartões, e o básico cabe em um cartão: o quadrado onde a bola quica vira território do jogador que a acertou, e acertar com o centro da raquete faz uma cortada que conquista 3 quadrados de uma vez.
+
+### Quanto tempo leva para ler o guia?
+Dá para ler em poucos segundos e entrar na partida.
+
+### Por que o Claimball adicionou o guia?
+Um jogo de sessões curtas precisa se explicar rápido. Preferimos que você gaste o primeiro minuto jogando, e não procurando as regras.

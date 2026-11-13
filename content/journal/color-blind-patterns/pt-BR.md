@@ -1,6 +1,7 @@
 ---
 title: Padrões para daltonismo, distinguindo os quadrados sem depender da cor
 description: Uma opção adiciona pontos nos seus quadrados e listras nos do rival, e o contraste do texto foi melhorado nos dois visuais.
+summary: A opção Padrões para daltonismo do Claimball, que chegou na versão 5, coloca pontos nos seus quadrados e listras nos do rival, para você ler o tabuleiro sem depender da cor. A versão 9 também melhorou o contraste do texto nos visuais Clássico e Caderno. Essas mudanças estão em versões de teste ainda não lançadas ao público.
 slug: color-blind-patterns
 lang: pt-BR
 category: devlog
@@ -25,3 +26,14 @@ Você pode ativar e desativar a opção de padrões a qualquer momento, então �
 ## O que vem a seguir
 
 Claimball ainda está em testes e chega em breve para iOS e Android. Ainda não há data de lançamento.
+
+## Perguntas frequentes
+
+### O que a opção Padrões para daltonismo faz?
+Ela coloca pontos nos seus quadrados e listras nos do rival. Você consegue ler o tabuleiro pelo padrão mesmo que as duas cores pareçam parecidas. Ela chegou na versão 5.
+
+### Posso desativar a opção de padrões?
+Sim. Você pode ativar e desativar a opção de padrões a qualquer momento, então é fácil comparar.
+
+### O que mudou na versão 9?
+Melhoramos um pouco o contraste do texto nos visuais Clássico e Caderno, para que o texto pequeno fique mais fácil de ler.

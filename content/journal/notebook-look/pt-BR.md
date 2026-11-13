@@ -1,6 +1,7 @@
 ---
 title: Dois visuais para Claimball, Clássico e Caderno
 description: Caderno é um estilo de papel e caderno quadriculado que combina com o site do Claimball, e você pode alternar quando quiser nos Ajustes.
+summary: O Claimball tem dois visuais, Clássico e Caderno. Caderno é um estilo de papel e caderno quadriculado que combina com o site do Claimball, e você pode alternar nos Ajustes a qualquer momento, sem reiniciar. O Clássico continua como padrão. Ainda está em testes e chega em breve para iOS e Android.
 slug: notebook-look
 lang: pt-BR
 category: devlog
@@ -25,3 +26,17 @@ A escolha do tema é salva em cada dispositivo e não é compartilhada pelo iClo
 ## O que vem a seguir
 
 Claimball ainda está em testes e chega em breve para iOS e Android. Ainda não há data de lançamento.
+
+## Perguntas frequentes
+
+### Como alterno entre Clássico e Caderno?
+Escolha Clássico ou Caderno nos Ajustes, na parte de baixo do cartão de ajustes. Você pode alternar a qualquer momento, até no meio de uma sessão, e nada é reiniciado.
+
+### Qual visual é o padrão?
+O Clássico continua como padrão, então o jogo tem a mesma aparência até você mudar.
+
+### A escolha do tema é compartilhada entre dispositivos?
+Não. A escolha do tema é salva em cada dispositivo e não é compartilhada pelo iCloud, então um celular e um tablet podem usar visuais diferentes.
+
+### O Claimball já foi lançado?
+Ainda não. Ele está em testes e chega em breve para iOS e Android. Ainda não há data de lançamento.

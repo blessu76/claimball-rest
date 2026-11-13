@@ -1,6 +1,7 @@
 ---
 title: Họa tiết cho người mù màu, phân biệt các ô mà không cần dựa vào màu
 description: Một tùy chọn thêm chấm lên ô của bạn và sọc lên ô của đối thủ, đồng thời độ tương phản của chữ đã được cải thiện ở cả hai giao diện.
+summary: Tùy chọn Họa tiết cho người mù màu của Claimball, xuất hiện ở bản dựng 5, thêm chấm lên ô của bạn và sọc lên ô của đối thủ để bạn đọc bàn chơi mà không phải dựa vào màu sắc. Bản dựng 9 cũng cải thiện độ tương phản của chữ ở giao diện Cổ điển và Vở ghi. Các thay đổi này nằm trong bản dựng thử nghiệm chưa phát hành cho công chúng.
 slug: color-blind-patterns
 lang: vi
 category: devlog
@@ -25,3 +26,14 @@ Bạn có thể bật hoặc tắt tùy chọn họa tiết bất cứ lúc nào
 ## Tiếp theo là gì
 
 Claimball vẫn đang thử nghiệm và sắp ra mắt trên iOS và Android. Hiện chưa có ngày phát hành.
+
+## Câu hỏi thường gặp
+
+### Tùy chọn Họa tiết cho người mù màu làm gì?
+Tùy chọn thêm chấm lên ô của bạn và sọc lên ô của đối thủ. Bạn có thể đọc bàn chơi qua họa tiết ngay cả khi hai màu trông giống nhau. Tùy chọn này xuất hiện ở bản dựng 5.
+
+### Tôi có thể tắt tùy chọn họa tiết không?
+Có. Bạn có thể bật hoặc tắt tùy chọn họa tiết bất cứ lúc nào, nên rất dễ so sánh.
+
+### Bản dựng 9 thay đổi gì?
+Chúng tôi cải thiện nhẹ độ tương phản của chữ ở cả giao diện Cổ điển và giao diện Vở ghi, giúp chữ nhỏ dễ đọc hơn.

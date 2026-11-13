@@ -56,5 +56,8 @@
   "cat_art": "Art",
   "cat_design": "Design",
   "nf_h": "Page not found",
-  "nf_p": "We could not find that page. It may have moved, or the address may be mistyped."
+  "nf_p": "We could not find that page. It may have moved, or the address may be mistyped.",
+  "summary_label": "In short:",
+  "faq_h": "FAQ",
+  "about_game": "About the game: Claimball is a casual duel game on a notebook grid for iOS and Android (coming soon, not yet released)."
 }

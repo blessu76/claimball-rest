@@ -1,6 +1,7 @@
 ---
 title: Ván hòa kết thúc thế nào trong Claimball
 description: Trước đây ván hòa kết thúc bằng một kết quả gây khó hiểu. Đây là cách quyết đấu hoạt động hiện nay, và những gì đã thay đổi trong các bản dựng thử nghiệm mới nhất.
+summary: Trong Claimball, ván hòa sẽ chuyển sang quyết đấu và điểm tiếp theo quyết định ván. Người ghi điểm quyết định lấy một ô của đối thủ nếu cần, nên bảng hiện 30 so với 28 thay vì 29 so với 29 và màn hình kết quả luôn khớp với số cuối cùng.
 slug: sudden-death-and-draws
 lang: vi
 category: devlog
@@ -27,3 +28,17 @@ Logo và con số Combo tối đa giờ giữ đúng thứ tự trong các ngôn
 ## Tiếp theo là gì
 
 Claimball vẫn đang thử nghiệm và sắp ra mắt trên iOS và Android. Hiện chưa có ngày phát hành.
+
+## Câu hỏi thường gặp
+
+### Điều gì xảy ra khi một ván Claimball kết thúc hòa?
+Khi hết giờ mà số ô bằng nhau, ván chuyển sang quyết đấu. Đồng hồ dừng lại và điểm tiếp theo quyết định ván.
+
+### Nếu bóng vẫn còn trên không ở giây thứ 90 thì sao?
+Ván chờ bóng rơi xuống rồi mới tính.
+
+### Quyết đấu có thể kết thúc mà trông như hòa không?
+Không. Giờ đây người ghi điểm quyết định lấy một ô của đối thủ nếu cần, nên bảng hiện 30 so với 28 thay vì 29 so với 29.
+
+### Claimball đã phát hành chưa?
+Chưa. Claimball vẫn đang thử nghiệm và sắp ra mắt trên iOS và Android, chưa có ngày phát hành.

@@ -1,6 +1,7 @@
 ---
 title: Claimball'a İstatistiklerim ve fon müziği geliyor
 description: Son test derlemesi; galibiyet, beraberlik ve yenilgilerini gösteren bir İstatistiklerim ekranı ve açılıp kapatılabilen üç özgün müzik parçası ekliyor.
+summary: Claimball'un TestFlight dahili test derlemesi olan 15. derleme, galibiyet, beraberlik ve yenilgilerini gösteren bir İstatistiklerim ekranı ve Ayarlar'dan açılıp kapatılabilen üç özgün müzik parçası ekliyor. Henüz herkese açık değil.
 slug: my-stats-and-music
 lang: tr
 category: devlog
@@ -21,3 +22,14 @@ Claimball artık üç özgün parçaya sahip: biri menü, biri maçlar, biri de 
 ## Sırada ne var
 
 Claimball hâlâ test aşamasında ve iOS ile Android için çok yakında geliyor. Henüz bir çıkış tarihi yok.
+
+## Sık sorulan sorular
+
+### Claimball'daki İstatistiklerim ekranı neyi gösteriyor?
+Galibiyet, beraberlik ve yenilgilerini, her rakibe karşı rekorunu ve en uzun karşılıklı vuruş serini gösteriyor.
+
+### Kayıtlarım nerede tutuluyor?
+Bu kayıtlar yalnızca cihazında tutulur.
+
+### Claimball'da kaç müzik parçası var ve kapatabilir miyim?
+Claimball'da üç özgün parça var: biri menü, biri maçlar, biri de daha hızlı bir coşku temposu için. Müziği Ayarlar'daki bir düğmeyle açıp kapatabilirsin.

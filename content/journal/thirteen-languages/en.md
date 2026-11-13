@@ -1,6 +1,7 @@
 ---
 title: Claimball speaks 13 languages in the test builds
 description: From nine languages to thirteen, plus an automatic check that keeps every translation complete.
+summary: Claimball supports 13 languages in the test builds, nine from build 3 and four more from build 10. Build 14 added an automatic check that keeps every translation complete. These builds are not released to the public yet.
 slug: thirteen-languages
 lang: en
 category: devlog
@@ -24,3 +25,14 @@ Build 14 added an automatic check that keeps the translations safe and complete 
 ## What is next
 
 Claimball is still in testing and coming soon to iOS and Android. There is no release date yet.
+
+## FAQ
+
+### Which languages does Claimball support?
+Build 3 brought the game to nine languages: English, Korean, Japanese, Simplified and Traditional Chinese, Spanish, Brazilian Portuguese, German and French. Build 10 added four more: Indonesian, Russian, Arabic and Hindi.
+
+### Does Claimball handle right-to-left text and long words?
+Yes. Longer words no longer spill out of their boxes, and Arabic keeps its correct order in a right-to-left layout.
+
+### How are translations kept complete?
+Build 14 added an automatic check that keeps the translations safe and complete in all 13 languages, so a missing line is caught before a build goes out.

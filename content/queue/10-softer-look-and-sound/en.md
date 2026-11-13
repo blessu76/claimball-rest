@@ -1,6 +1,7 @@
 ---
 title: A softer, toy-like look, with a little vibration and sound
 description: Builds 3 and 4 gave Claimball rounded glossy tiles, a hit vibration, a new intro with a short pop sound, and a Sound On/Off setting.
+summary: Builds 3 and 4 gave Claimball a toy-like look with rounded glossy tiles, a small vibration when your paddle hits the ball, a new intro with a short pop sound and a Sound On/Off setting that is on by default. It is still in testing and coming soon to iOS and Android.
 slug: softer-look-and-sound
 lang: en
 category: devlog
@@ -27,3 +28,17 @@ A new Sound On/Off setting is on by default, so you can play quietly whenever yo
 ## What is next
 
 Claimball is still in testing and coming soon to iOS and Android. There is no release date yet.
+
+## FAQ
+
+### What changed in how Claimball looks?
+Build 3 brought rounded, glossy tiles, a new ball and paddle and a fresh court, with a matching scoreboard and overlays. Build 4 added a redesigned menu and results screen.
+
+### Does the game vibrate?
+Your paddle hit gives a small vibration, lighter for a normal hit and firmer for a smash. You can turn it off in Settings.
+
+### Can I turn the sound off?
+Yes. The Sound On/Off setting is on by default, so you can play quietly whenever you like.
+
+### Is Claimball released yet?
+Not yet. It is still in testing and coming soon to iOS and Android, and there is no release date yet.

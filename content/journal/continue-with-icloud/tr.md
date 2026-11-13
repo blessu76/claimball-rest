@@ -1,6 +1,7 @@
 ---
 title: iCloud ile başka bir cihazda devam et
 description: İlerlemen, yıldızların, başarıların ve erişilebilirlik ayarların iPhone ve iPad'de iCloud hesabını izler. Nelerin paylaşıldığı ve nelerin paylaşılmadığı burada.
+summary: Claimball başka bir cihazda kaldığın yerden devam etmeni sağlar. iPhone ve iPad'de ilerlemen, yıldızların, başarıların, ücretsiz deneme durumun ve erişilebilirlik ayarların iCloud hesabını izler; Tam Kilit Açma satın alımı, Günlük Meydan Okuma hakkı ile titreşim ve ses ayarları ise cihazda kalır. Hâlâ test aşamasında ve iOS ile Android için çok yakında geliyor.
 slug: continue-with-icloud
 lang: tr
 category: devlog
@@ -25,3 +26,17 @@ Bir satın alım iade edilirse ya da Aile Paylaşımı üzerinden geri alınırs
 ## Sırada ne var
 
 Claimball hâlâ test aşamasında ve iOS ile Android için çok yakında geliyor. Henüz bir çıkış tarihi yok.
+
+## Sık sorulan sorular
+
+### Claimball'da iCloud hesabımı neler izler?
+iPhone ve iPad'de ilerlemen, yıldızların, başarıların, ücretsiz deneme durumun ve erişilebilirlik ayarların iCloud hesabını izler. Arka planda sessizce çalışır.
+
+### iCloud ile nelerin paylaşılmadığı?
+Tam Kilit Açma satın alımı (bunu App Store takip eder), Günlük Meydan Okuma hakkı, titreşim ve ses ayarları cihazda kalır.
+
+### iCloud kapalıysa ya da çevrimdışıysa ne olur?
+Oyun kopyasını cihazda tutmaya devam eder.
+
+### Claimball çıktı mı?
+Henüz çıkmadı. Hâlâ test aşamasında ve iOS ile Android için çok yakında geliyor. Henüz bir çıkış tarihi yok.

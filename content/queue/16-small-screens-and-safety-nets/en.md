@@ -1,6 +1,7 @@
 ---
 title: Small phones, big text and a safety net
 description: Before going further, we checked Claimball's screens on a narrow phone with large text, and added a safety net so one bad file cannot stop the app.
+summary: Before going further, we checked Claimball's menu, stats and ranking screens on a narrow phone with text scaled up by 50 percent, in English, Arabic and Korean. We also added a global error guard and a safe fallback so the app still opens if one saved item cannot be read. It is still in testing and coming soon to iOS and Android.
 slug: small-screens-and-safety-nets
 lang: en
 category: devlog
@@ -27,3 +28,17 @@ A translation check runs on every build and flags missing or broken text. The tr
 ## What is next
 
 Claimball is still in testing and coming soon to iOS and Android. There is no release date yet.
+
+## FAQ
+
+### How do you check small screens and large text?
+We test the menu, the stats screen and the ranking screen on a narrow phone width with text scaled up by 50 percent, in English, Arabic and Korean, and make sure nothing overflows or overlaps.
+
+### What if something goes wrong in the app?
+If something unexpected goes wrong, a global error guard catches it instead of letting the app fall over. If one saved item cannot be read at startup, the game falls back to a safe default for that item and still opens.
+
+### Have the translations been reviewed?
+A translation check runs on every build and flags missing or broken text. The translations themselves were made with AI and have not yet been reviewed by native speakers.
+
+### Is Claimball released yet?
+Not yet. It is still in testing and coming soon to iOS and Android, and there is no release date yet.

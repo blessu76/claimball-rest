@@ -1,6 +1,7 @@
 ---
 title: Claimball'da berabere biten bir maç nasıl sona erer
 description: Beraberlik eskiden kafa karıştıran bir sonuçla bitiyordu. Ani ölüm şimdi nasıl işliyor ve son test derlemelerinde ne değişti.
+summary: Claimball'da berabere biten bir maç ani ölüme gider ve bir sonraki sayı maçı belirler. Belirleyici sayıyı atan oyuncu gerekirse rakipten bir karo alır; böylece tahta 29-29 yerine 30-28 gösterir ve sonuç ekranı her zaman son sayılarla uyumlu olur.
 slug: sudden-death-and-draws
 lang: tr
 category: devlog
@@ -27,3 +28,17 @@ Logo ve Maks kombo sayısı, Arapça gibi sağdan sola yazılan dillerde artık 
 ## Sırada ne var
 
 Claimball hâlâ test aşamasında ve iOS ile Android için çok yakında geliyor. Henüz bir çıkış tarihi yok.
+
+## Sık sorulan sorular
+
+### Bir Claimball maçı berabere bitince ne olur?
+Süre dolduğunda karo sayıları eşitse maç ani ölüme gider. Saat durur ve bir sonraki sayı maçı belirler.
+
+### 90. saniyede top hâlâ havadaysa ne olur?
+Maç, sayılmadan önce topun yere inmesini bekler.
+
+### Ani ölüm berabere gibi görünerek bitebilir mi?
+Hayır. Belirleyici sayıyı atan oyuncu artık gerekirse rakipten bir karo alır; böylece tahta 29-29 yerine 30-28 gösterir.
+
+### Claimball çıktı mı?
+Henüz değil. Claimball hâlâ test aşamasında ve iOS ile Android için çok yakında geliyor; henüz bir çıkış tarihi yok.
