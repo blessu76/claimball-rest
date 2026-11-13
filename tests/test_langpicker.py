@@ -27,6 +27,14 @@ def pages():
     return out
 
 
+def switch(h):
+    return re.search(r'<select id="langsel" class="langsel">(.*?)</select>', h, re.S).group(1)
+
+
+def switch_options(h):
+    return re.findall(r'<option value="([^"]*)" lang="([\w-]+)"( selected)?>', switch(h))
+
+
 class Picker(unittest.TestCase):
     def test_every_language_folder_has_pages(self):
         self.assertEqual({l for l, _, _ in pages()}, set(bs.LANGS))
@@ -35,39 +43,37 @@ class Picker(unittest.TestCase):
         for lang, f, h in pages():
             name = bs.LANGS[lang][0]
             self.assertEqual(re.search(r'<html lang="([\w-]+)"', h).group(1), lang, f)
-            menu = re.search(r'<span class="langsw".*?</span>', h, re.S).group(0)
-            cur = re.findall(r'<a href="[^"]*" hreflang="([\w-]+)"[^>]*aria-current', menu)
-            self.assertEqual(cur, [lang] if lang in bs.LISTED else [], f)
-            self.assertEqual(len(re.findall(r'<a ', menu)), len(bs.LISTED), f)
+            opts = switch_options(h)
+            self.assertEqual([l for _, l, _ in opts], list(bs.LISTED), f)
+            self.assertEqual([l for _, l, sel in opts if sel], [lang] if lang in bs.LISTED else [], f)
 
     def test_picker_links_stay_on_the_same_page(self):
         for lang, f, h in pages():
-            menu = re.search(r'<span class="langsw".*?</span>', h, re.S).group(0)
-            for href, l in re.findall(r'<a href="([^"]*)" hreflang="(\w+)"', menu):
+            for href, l, _ in switch_options(h):
                 self.assertEqual(href.startswith("/" + l + "/") or (l == "en" and not href.startswith(tuple("/" + x + "/" for x in LANG_DIRS))), True, (f, href))
 
     @unittest.skipUnless(shutil.which("node"), "node required")
     def test_choice_is_remembered_for_each_language(self):
-        """click a language -> claimball.js stores it -> langpick.js on '/' goes to it (en + ko)."""
+        """pick a language in the switch -> claimball.js stores it -> langpick.js on '/' goes to it (en + ko)."""
         js = (REPO / "assets" / "claimball.js").read_text(encoding="utf-8")
         pick = (REPO / "assets" / "langpick.js").read_text(encoding="utf-8").replace("/*SUPPORTED*/[]", json.dumps(list(bs.LISTED))).replace("/*AVAILABLE*/[]", json.dumps(AVAILABLE))
         prog = r"""
-const store={};let hrefs=[];
+const store={};
 function run(src,pathname,navLangs){
-  let listener=null,to=null;
+  const listeners={};let to=null;
   const ctx={localStorage:{getItem:k=>store[k]===undefined?null:store[k],setItem:(k,v)=>{store[k]=String(v)}},
     navigator:{languages:navLangs,language:navLangs[0]},
     location:{pathname,search:'',hash:'',replace:u=>{to=u}},
-    document:{querySelector:()=>null,addEventListener:(t,f)=>{if(t==='click'&&!listener)listener=f}},window:{}};
+    document:{querySelector:()=>null,addEventListener:(t,f)=>{if(!listeners[t])listeners[t]=f}},window:{}};
   new Function('localStorage','navigator','location','document','window',src)(ctx.localStorage,ctx.navigator,ctx.location,ctx.document,ctx.window);
-  return {listener,to};
+  return {listeners,to};
 }
 const out=[];
 for(const l of %s){
   for(const k in store)delete store[k];
-  const a={getAttribute:n=>n==='hreflang'?l:null};
-  const {listener}=run(%s,'/%s/',['en-US']);
-  listener({target:{closest:()=>a}});
+  const sel={classList:{contains:c=>c==='langsel'},value:'/'+l+'/',options:[{getAttribute:n=>n==='lang'?l:null}],selectedIndex:0};
+  const {listeners}=run(%s,'/%s/',['en-US']);
+  listeners.change({target:sel});
   const r=run(%s,'/',['en-US']);
   out.push([l,store['cb-lang'],r.to]);
 }
@@ -87,17 +93,17 @@ console.log(JSON.stringify(out));
         for lang, f, h in pages():
             head = re.search(r"<head>.*?</head>", h, re.S).group(0)
             self.assertNotIn("?lang=", head, f)
-            menu = re.search(r'<span class="langsw".*?</span>', h, re.S).group(0)
-            fm = re.search(r'<p class="foot-langs".*?</p>', h, re.S)
             others = re.search(r'<aside class="langs">.*?</aside>', h, re.S)
-            for block in (menu, fm.group(0) if fm else "", others.group(0) if others else ""):
-                for href, l in re.findall(r'<a href="([^"]*)" hreflang="(\w+)"', block):
-                    if l == "en" and lang != "en":
-                        seen += 1
-                        self.assertTrue(href.endswith("?lang=en"), (f, href))
-                        self.assertEqual(href.count("?"), 1, (f, href))
-                    else:
-                        self.assertNotIn("?lang=", href, (f, href))
+            links = [(href, l) for href, l, _ in switch_options(h)]
+            links += re.findall(r'<a href="([^"]*)" hreflang="(\w+)"', re.search(r'<header.*?</header>', h, re.S).group(0))
+            links += re.findall(r'<a href="([^"]*)" hreflang="(\w+)"', others.group(0) if others else "")
+            for href, l in links:
+                if l == "en" and lang != "en":
+                    seen += 1
+                    self.assertTrue(href.endswith("?lang=en"), (f, href))
+                    self.assertEqual(href.count("?"), 1, (f, href))
+                else:
+                    self.assertNotIn("?lang=", href, (f, href))
             # AI-translation "read the original" link: only the English original needs the pin
             note = re.search(r'<p class="ai-note">.*?<a href="([^"]*)"', h, re.S)
             if note:
@@ -115,7 +121,7 @@ console.log(JSON.stringify(out));
     def test_en_link_from_ja_stays_english_without_storage(self):
         """/ja/about/ -> EN link -> langpick.js on /about/?lang=en with navigator.languages=['ja'] and localStorage throwing: no redirect."""
         h = (REPO / "ja/about/index.html").read_text(encoding="utf-8")
-        href = re.search(r'<a href="([^"]*)" hreflang="en"', h).group(1)
+        href = re.search(r'<a href="([^"]*)" hreflang="en"', re.search(r'<header.*?</header>', h, re.S).group(0)).group(1)
         self.assertEqual(href, "/about/?lang=en")
         pick = (REPO / "assets" / "langpick.js").read_text(encoding="utf-8").replace("/*SUPPORTED*/[]", json.dumps(list(bs.LISTED))).replace("/*AVAILABLE*/[]", json.dumps(AVAILABLE))
         prog = r"""
