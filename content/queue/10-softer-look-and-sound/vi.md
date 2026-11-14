@@ -7,6 +7,7 @@ lang: vi
 translation_of: en
 category: devlog
 keywords: Claimball, diện mạo như đồ chơi, rung, âm thanh, phần mở đầu, nhật ký
+copy_review: iris 2026-11-14
 ---
 Bản dựng 3 và 4, các bản dựng thử nghiệm nội bộ TestFlight, đã thay đổi diện mạo, cảm giác và âm thanh của Claimball. Chúng chưa được phát hành cho công chúng.
 

@@ -7,6 +7,7 @@ lang: zh-Hant
 category: devlog
 translation_of: en
 keywords: Claimball, build 22, 震動, 拉力派對, 每日挑戰, 日誌
+copy_review: iris 2026-11-14
 ---
 Build 22 是 TestFlight 內部測試版，專注在手感。目前尚未對外發布。
 

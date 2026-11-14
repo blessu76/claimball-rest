@@ -7,6 +7,7 @@ lang: tr
 category: devlog
 translation_of: en
 keywords: Claimball, erişilebilirlik, küçük ekranlar, güvenilirlik, günlük
+copy_review: iris 2026-11-14
 ---
 Kötü açılan ya da yazısı kesilen bir oyun, kuralları ne kadar iyi olursa olsun eğlenceli değildir. Bu, henüz herkese açık olmayan TestFlight iç test sürümlerindeki bir denetim turu.
 
@@ -30,7 +31,7 @@ Her sürümde bir çeviri denetimi çalışır ve eksik ya da bozuk metinleri i�
 
 Claimball hâlâ test aşamasında ve yakında iOS ve Android'de. Henüz bir çıkış tarihi yok.
 
-## SSS
+## Sık sorulan sorular
 
 ### Küçük ekranları ve büyük yazıyı nasıl denetliyorsunuz?
 Menüyü, rekorlar ekranını ve sıralama ekranını dar bir telefon genişliğinde, yazı yüzde 50 büyütülmüş hâlde İngilizce, Arapça ve Korece olarak test ediyor ve hiçbir şeyin taşmadığından ya da üst üste binmediğinden emin oluyoruz.

@@ -7,6 +7,7 @@ lang: vi
 translation_of: en
 category: devlog
 keywords: Claimball, dấu điểm rơi, kiểm thử, chơi công bằng, nhật ký
+copy_review: iris 2026-11-14
 ---
 Dấu điểm rơi cho biết bóng sẽ rơi ở đâu, nên nó phải đúng mọi lúc. Đây là cách nó được kiểm tra trong các bản dựng thử nghiệm nội bộ TestFlight, chưa được phát hành cho công chúng.
 

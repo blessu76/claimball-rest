@@ -7,8 +7,9 @@ lang: tr
 category: devlog
 translation_of: en
 keywords: Claimball, yapay zekâ rakipler, ligler, zorluk, günlük
+copy_review: iris 2026-11-14
 ---
-TestFlight iç test sürümü olan Build 5, Claimball'a karşı oynayacak birini kazandırdı. Henüz herkese açık değil.
+TestFlight iç test sürümü olan Build 5, Claimball'a seninle oynayacak rakipler kazandırdı. Henüz herkese açık değil.
 
 ## Altı rakip, iki lig
 
@@ -30,7 +31,7 @@ Bu sonuçlar insanlardan değil, botlardan geliyor. Sıralamanın gerçek ellerd
 
 Claimball hâlâ test aşamasında ve yakında iOS ve Android'de. Henüz bir çıkış tarihi yok.
 
-## SSS
+## Sık sorulan sorular
 
 ### Kaç rakip var?
 İki lige ayrılmış altı yapay zekâ rakip var. Her biri biraz farklı oynar; nazik bir ilk rakipten keskin bir son rakibe uzanır.

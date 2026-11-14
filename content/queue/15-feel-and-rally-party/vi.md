@@ -1,18 +1,19 @@
 ---
-title: Bản dựng 22: rung khi trượt, lấp lánh khi cú đập sẵn sàng, và Rally Party
+title: Bản dựng 22: lắc khi trượt, lấp lánh khi cú đập sẵn sàng, và Rally Party
 description: Bản dựng 22 thêm ba nâng cấp cảm giác nhỏ và một biến tấu mới của Thử thách hằng ngày với bóng chậm hơn.
-summary: Claimball bản dựng 22 tập trung vào cảm giác chơi. Màn hình rung nhẹ kèm rung khi bạn trượt bóng, vợt lấp lánh khi thanh cú đập đầy, và thắng hay thua đều có kiểu rung riêng. Bản dựng cũng thêm một biến tấu của Thử thách hằng ngày tên Rally Party với bóng chậm hơn. Trò chơi vẫn đang thử nghiệm và sắp ra mắt trên iOS và Android.
+summary: Claimball bản dựng 22 tập trung vào cảm giác chơi. Màn hình lắc nhẹ kèm rung khi bạn trượt bóng, vợt lấp lánh khi thanh cú đập đầy, và thắng hay thua đều có kiểu rung riêng. Bản dựng cũng thêm một biến tấu của Thử thách hằng ngày tên Rally Party với bóng chậm hơn. Trò chơi vẫn đang thử nghiệm và sắp ra mắt trên iOS và Android.
 slug: feel-and-rally-party
 lang: vi
 translation_of: en
 category: devlog
 keywords: Claimball, bản dựng 22, rung, Rally Party, thử thách hằng ngày, nhật ký
+copy_review: iris 2026-11-14
 ---
 Bản dựng 22, một bản dựng thử nghiệm nội bộ TestFlight, tập trung vào cảm giác chơi. Nó chưa được phát hành cho công chúng.
 
 ## Rung khi trượt bóng
 
-Khi bạn để mất bóng, màn hình rung nhẹ kèm một cú rung, để bạn nhận ra ngay mình đã trượt.
+Khi bạn để mất bóng, màn hình lắc nhẹ kèm một cú rung, để bạn nhận ra ngay mình đã trượt.
 
 ## Lấp lánh khi cú đập sẵn sàng
 
@@ -37,7 +38,7 @@ Claimball vẫn đang thử nghiệm và sắp ra mắt trên iOS và Android. H
 ## Câu hỏi thường gặp
 
 ### Điều gì xảy ra khi tôi trượt bóng ở bản dựng 22?
-Màn hình rung nhẹ kèm một cú rung, để bạn nhận ra ngay mình đã trượt.
+Màn hình lắc nhẹ kèm một cú rung, để bạn nhận ra ngay mình đã trượt.
 
 ### Làm sao biết cú đập đã sẵn sàng?
 Khi thanh cú đập đầy, vợt của bạn lấp lánh. Chỉ cần liếc qua là biết cú đánh bằng tâm vợt tiếp theo sẽ là cú đập.

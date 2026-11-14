@@ -7,6 +7,7 @@ lang: zh-Hant
 category: devlog
 translation_of: en
 keywords: Claimball, AI 對手, 聯賽, 難度, 日誌
+copy_review: iris 2026-11-14
 ---
 Build 5 是 TestFlight 內部測試版，讓 Claimball 有了可以對戰的對象。目前尚未對外發布。
 

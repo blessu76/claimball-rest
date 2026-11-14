@@ -7,6 +7,7 @@ lang: th
 translation_of: en
 category: devlog
 keywords: Claimball, เครื่องหมายจุดตก, สแมช, แมตช์ 90 วินาที, การควบคุม, บันทึก
+copy_review: iris 2026-11-14
 ---
 บิลด์ 1 ซึ่งเป็นบิลด์ทดสอบภายในแรกของ TestFlight มีแกนหลักของ Claimball อยู่แล้ว ตอนนี้ยังไม่เปิดให้สาธารณชนใช้
 

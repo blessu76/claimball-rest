@@ -7,6 +7,7 @@ lang: vi
 translation_of: en
 category: devlog
 keywords: Claimball, trợ năng, màn hình nhỏ, độ tin cậy, nhật ký
+copy_review: iris 2026-11-14
 ---
 Một trò chơi mở lên không ổn hoặc bị cắt chữ thì không vui, dù luật chơi có hay đến đâu. Đây là một đợt kiểm tra trong các bản dựng thử nghiệm nội bộ TestFlight, chưa được phát hành cho công chúng.
 

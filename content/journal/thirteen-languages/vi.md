@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 published: 2026-11-08T18:00+09:00
 keywords: Claimball, ngôn ngữ, bản địa hóa, trò chơi giải trí, nhật ký
+copy_review: iris 2026-11-14
 ---
 Claimball là trò chơi bạn có thể chơi mà gần như không cần đọc, nhưng menu, gợi ý và luật chơi vẫn cần chữ. Bài viết này kể về cách danh sách ngôn ngữ mở rộng trong các bản dựng thử nghiệm. Chúng chưa được phát hành cho công chúng.
 

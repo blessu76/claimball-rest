@@ -7,6 +7,7 @@ lang: zh-Hant
 category: devlog
 translation_of: en
 keywords: Claimball, 落點標記, 測試, 公平遊戲, 日誌
+copy_review: iris 2026-11-14
 ---
 落點標記顯示球將落在哪裡，所以每一次都必須正確。以下是它在 TestFlight 內部測試版中的測試方式，這些版本目前尚未對外發布。
 

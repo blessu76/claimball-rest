@@ -7,6 +7,7 @@ lang: tr
 category: devlog
 translation_of: en
 keywords: Claimball, build 22, titreşim, Rali partisi, günlük meydan okuma, günlük
+copy_review: iris 2026-11-14
 ---
 TestFlight iç test sürümü olan Build 22 his üzerine. Henüz herkese açık değil.
 
@@ -34,7 +35,7 @@ Titreşimin ne kadar güçlü hissettirdiği ve Rali partisinin gerçekten eğle
 
 Claimball hâlâ test aşamasında ve yakında iOS ve Android'de. Henüz bir çıkış tarihi yok.
 
-## SSS
+## Sık sorulan sorular
 
 ### Build 22'de topu kaçırınca ne olur?
 Ekran hafifçe sarsılır ve titreşim gelir; böylece kaçırdığın hemen fark edilir.

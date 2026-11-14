@@ -7,6 +7,7 @@ lang: tr
 category: devlog
 translation_of: en
 keywords: Claimball, takma ad, skor, sıralama, günlük
+copy_review: iris 2026-11-14
 ---
 TestFlight iç test sürümü olan Build 12, biraz kimlik ve övünme hakkı ekledi. Henüz herkese açık değil.
 
@@ -34,7 +35,7 @@ Bu ekranların gerçek telefonlarda nasıl davrandığını hâlâ denetliyoruz.
 
 Claimball hâlâ test aşamasında ve yakında iOS ve Android'de. Henüz bir çıkış tarihi yok.
 
-## SSS
+## Sık sorulan sorular
 
 ### Takma adı nasıl belirlerim?
 Menüden kendi takma adını belirleyebilirsin. Sıralama satırında görünecek bir addan ibaret.

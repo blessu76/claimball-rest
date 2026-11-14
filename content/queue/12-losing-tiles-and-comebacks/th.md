@@ -7,6 +7,7 @@ lang: th
 translation_of: en
 category: devlog
 keywords: Claimball, บทลงโทษ, การพลิกกลับ, กติกา, บันทึก
+copy_review: iris 2026-11-14
 ---
 Claimball ไม่ได้มีแค่การยึดช่อง แต่ยังรวมถึงสิ่งที่คุณเสียเมื่อพลาดด้วย กติกาเหล่านี้อยู่ในบิลด์ทดสอบภายในของ TestFlight ซึ่งยังไม่เปิดให้สาธารณชนใช้
 

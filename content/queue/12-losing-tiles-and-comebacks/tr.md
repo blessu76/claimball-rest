@@ -7,6 +7,7 @@ lang: tr
 category: devlog
 translation_of: en
 keywords: Claimball, ceza, geri dönüş, kurallar, günlük
+copy_review: iris 2026-11-14
 ---
 Claimball yalnızca kare ele geçirmekle ilgili değil; kaçırdığında neyi kaybettiğinle de ilgili. Bu kurallar TestFlight iç test sürümlerinde var ve henüz herkese açık değil.
 
@@ -30,7 +31,7 @@ Kareler kazanılabildiği gibi kaybedilebildiği için maç tek yönde büyümek
 
 Claimball hâlâ test aşamasında ve yakında iOS ve Android'de. Henüz bir çıkış tarihi yok.
 
-## SSS
+## Sık sorulan sorular
 
 ### Topu kaçırınca kaç kare kaybederim?
 Bir top yanından geçip gittiğinde 2 kare kaybedersin. Bu olurken 10 veya daha fazla kareyle öndeysen bunun yerine 3 kare kaybedersin.

@@ -7,6 +7,7 @@ lang: zh-Hant
 category: devlog
 translation_of: en
 keywords: Claimball, 玩具風外觀, 震動, 聲音, 開場, 日誌
+copy_review: iris 2026-11-14
 ---
 Build 3 和 4 是 TestFlight 內部測試版，改變了 Claimball 的外觀、手感與聲音。目前尚未對外發布。
 

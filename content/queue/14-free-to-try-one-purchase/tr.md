@@ -7,6 +7,7 @@ lang: tr
 category: devlog
 translation_of: en
 keywords: Claimball, ücretsiz deneme, tek satın alım, reklamsız, abonelik yok, günlük
+copy_review: iris 2026-11-14
 ---
 TestFlight iç test sürümü olan Build 6, Claimball için planlanan ödeme modelini ekledi. Henüz herkese açık değil ve fiyat açıklanmadı.
 
@@ -34,7 +35,7 @@ Daha önce satın aldıysan Ayarlar'daki Satın alımları geri yükle düğmesi
 
 Claimball hâlâ test aşamasında ve yakında iOS ve Android'de. Henüz bir çıkış tarihi yok.
 
-## SSS
+## Sık sorulan sorular
 
 ### Claimball'ı ücretsiz deneyebilir miyim?
 Evet. Claimball ücretsiz denenebilir. Bir şeye karar vermeden önce oynayabilir ve rakiplerin tadına bakabilirsin.

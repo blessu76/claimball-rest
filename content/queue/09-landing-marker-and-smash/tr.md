@@ -7,6 +7,7 @@ lang: tr
 category: devlog
 translation_of: en
 keywords: Claimball, düşüş işaretçisi, smaç, 90 saniyelik maç, kontroller, günlük
+copy_review: iris 2026-11-14
 ---
 İlk TestFlight iç test sürümü olan Build 1'de Claimball'ın çekirdeği zaten vardı. Henüz herkese açık değil.
 
@@ -34,7 +35,7 @@ Sürükleyerek, klavyeyle ya da dokunarak oynayabilirsin. Uygulamadan çıktığ
 
 Claimball hâlâ test aşamasında ve yakında iOS ve Android'de. Henüz bir çıkış tarihi yok.
 
-## SSS
+## Sık sorulan sorular
 
 ### Bir Claimball maçı nasıl kazanılır?
 Bir maç yaklaşık 90 saniye sürer. İlk 30 kareyi ele geçir ya da süre dolduğunda daha çok kareye sahip ol. Beraberlik, bir sonraki sayının kazandığı ani ölüme gider.

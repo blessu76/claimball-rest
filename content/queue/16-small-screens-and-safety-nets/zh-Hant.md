@@ -7,6 +7,7 @@ lang: zh-Hant
 category: devlog
 translation_of: en
 keywords: Claimball, 無障礙, 小螢幕, 可靠性, 日誌
+copy_review: iris 2026-11-14
 ---
 一款遊戲如果開啟得不順，或文字被截斷，規則再好也不好玩。這是 TestFlight 內部測試版中的一輪檢查，這些版本目前尚未對外發布。
 

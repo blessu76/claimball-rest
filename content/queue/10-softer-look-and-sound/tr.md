@@ -7,6 +7,7 @@ lang: tr
 category: devlog
 translation_of: en
 keywords: Claimball, oyuncak görünümü, titreşim, ses, giriş, günlük
+copy_review: iris 2026-11-14
 ---
 TestFlight iç test sürümleri olan Build 3 ve 4, Claimball'ın görünümünü, hissini ve sesini değiştirdi. Henüz herkese açık değiller.
 
@@ -30,7 +31,7 @@ Yeni Ses Açık/Kapalı ayarı varsayılan olarak açık; istediğin zaman sessi
 
 Claimball hâlâ test aşamasında ve yakında iOS ve Android'de. Henüz bir çıkış tarihi yok.
 
-## SSS
+## Sık sorulan sorular
 
 ### Claimball'ın görünümünde ne değişti?
 Build 3 yuvarlak, parlak kareler, yeni bir top ve raket ile yepyeni bir kort getirdi; skor tablosu ve ekran katmanları da buna uyuyor. Build 4 yeniden tasarlanmış bir menü ve sonuç ekranı ekledi.

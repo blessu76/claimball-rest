@@ -7,6 +7,7 @@ lang: tr
 category: devlog
 translation_of: en
 keywords: Claimball, düşüş işaretçisi, test, adil oyun, günlük
+copy_review: iris 2026-11-14
 ---
 Düşüş işaretçisi topun nereye ineceğini gösterir; bu yüzden her seferinde doğru olmak zorundadır. Bu, henüz herkese açık olmayan TestFlight iç test sürümlerinde şöyle test ediliyor.
 
@@ -34,7 +35,7 @@ Bu denetimler simüle maçlarda çalışıyor. Gerçek telefonlarda oynamak ayr�
 
 Claimball hâlâ test aşamasında ve yakında iOS ve Android'de. Henüz bir çıkış tarihi yok.
 
-## SSS
+## Sık sorulan sorular
 
 ### Düşüş işaretçisi neden doğru olmak zorunda?
 İşaretçi bir kareyi gösterip oyun başka bir kareyi boyasaydı ona güvenmeyi bırakırdın ve oyun haksız hissettirirdi.

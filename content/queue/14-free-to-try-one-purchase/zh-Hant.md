@@ -1,12 +1,13 @@
 ---
-title: 免費試玩，一次購買解鎖全部
-description: Build 6 新增了規劃中的付費方式：免費試玩 Claimball，之後一次解鎖全部。沒有廣告、沒有訂閱，還有「恢復購買」按鈕。
+title: 免費試玩，一次購買，全部解鎖
+description: Build 6 新增了規劃中的付費方式：免費試玩 Claimball，之後一次購買，全部解鎖。沒有廣告、沒有訂閱，還有「恢復購買」按鈕。
 summary: Claimball 規劃為免費試玩，只要一次購買就能解鎖全部內容。沒有廣告，也沒有訂閱，「恢復購買」按鈕可以找回解鎖狀態。目前仍在測試中，即將登陸 iOS 與 Android。價格尚未公布。
 slug: free-to-try-one-purchase
 lang: zh-Hant
 category: devlog
 translation_of: en
 keywords: Claimball, 免費試玩, 一次購買, 無廣告, 無訂閱, 日誌
+copy_review: iris 2026-11-14
 ---
 Build 6 是 TestFlight 內部測試版，加入了 Claimball 規劃中的付費方式。目前尚未對外發布，價格也尚未公布。
 

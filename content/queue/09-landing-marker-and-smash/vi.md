@@ -7,6 +7,7 @@ lang: vi
 translation_of: en
 category: devlog
 keywords: Claimball, dấu điểm rơi, cú đập, ván 90 giây, điều khiển, nhật ký
+copy_review: iris 2026-11-14
 ---
 Bản dựng 1, bản dựng thử nghiệm nội bộ TestFlight đầu tiên, đã có phần cốt lõi của Claimball. Nó chưa được phát hành cho công chúng.
 
