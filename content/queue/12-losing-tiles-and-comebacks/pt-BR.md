@@ -3,7 +3,7 @@ title: Errar uma bola custa casas, e uma vantagem nunca está garantida
 description: Nas versões de teste, errar uma bola faz você perder casas, e a penalidade aumenta quando você está bem na frente. É isso que mantém as partidas abertas.
 summary: No Claimball, errar uma bola custa 2 casas, ou 3 casas se você estiver na frente por 10 ou mais, então uma vantagem nunca está garantida e um começo desequilibrado ainda pode virar. Você vence ao conquistar 30 casas primeiro ou ao ter mais casas quando os 90 segundos acabam. Essas regras estão nas versões de teste. O jogo ainda está em teste e chega em breve ao iOS e ao Android.
 slug: losing-tiles-and-comebacks
-lang: pt
+lang: pt-BR
 category: devlog
 keywords: Claimball, penalidade, virada, regras, diário
 ---
