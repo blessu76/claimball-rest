@@ -10,7 +10,7 @@ from helpers import REPO, bs
 
 LANG_DIRS = [l for l in bs.LANGS if l != "en"]
 AVAILABLE = [l for l in bs.LISTED if l != "en"]
-SKIP_DIRS = ("tests", "scripts", "docs", "ops", "content", "assets") + tuple(bs.LEGACY_REDIRECTS)
+SKIP_DIRS = ("tests", "scripts", "docs", "ops", "content", "assets") + tuple(bs.LEGACY_REDIRECTS) + tuple(bs.ENDED)  # ended-language folders are kept frozen, not rendered
 
 
 def pages():

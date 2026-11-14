@@ -6,7 +6,7 @@ import unittest
 
 from helpers import REPO, bs
 
-SKIP_DIRS = ("tests", "scripts", "docs", "ops", "content", "assets", "vendor", ".github")
+SKIP_DIRS = ("tests", "scripts", "docs", "ops", "content", "assets", "vendor", ".github") + tuple(bs.ENDED)  # ended-language folders are kept frozen, not rendered
 LANG_DIRS = [l for l in bs.LANGS if l != "en"]
 
 

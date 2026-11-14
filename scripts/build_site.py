@@ -15,7 +15,7 @@ Output (generated — never edit by hand)
 
 Languages: the 12 listed in ipe_web_kit languages.SUPPORTED (en root, others under /<lang>/). Every listed language needs
 content/i18n/<lang>.json. Ended languages (ENDED: zh ru ar hi) are not built at all:
-their i18n/pages/journal/queue files are ignored and their generated folders are removed by the next build. A translation needs content/i18n/<lang>.json + content/pages/<lang>/*.md
+their i18n/pages/journal/queue files are ignored; their existing generated folders (zh/ ru/ ar/ hi/) are kept untouched (neither rendered nor removed). A translation needs content/i18n/<lang>.json + content/pages/<lang>/*.md
 (front matter `translation_of: en`) and optionally posts with `translation_of:`.
 
 Usage
@@ -976,7 +976,7 @@ def build_all(ctx):
 
 def clean(root):
     root = Path(root)
-    for name in ["journal"] + list(PAGE_SLUGS) + [l for l in LANGS if l != "en"] + list(ENDED) + list(LEGACY_REDIRECTS):
+    for name in ["journal"] + list(PAGE_SLUGS) + [l for l in LANGS if l != "en"] + list(LEGACY_REDIRECTS):  # ENDED folders are kept as-is (policy 769ad15)
         d = root / name
         if d.is_dir():
             shutil.rmtree(d)
