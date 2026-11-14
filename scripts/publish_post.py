@@ -13,9 +13,10 @@ What it does
   2. stamps `published: YYYY-MM-DDTHH:MM+09:00` into every language file (the time is the real publish time; future times are refused)
   3. python3 scripts/build_site.py, then python3 scripts/check_sitemap.py
   4. prints the new URLs for IndexNow. It never commits, pushes or deploys — that is the caller's job (see ops/publish_daily.sh).
-Missing translations only warn: a post is published with the languages it has; add the rest later and rebuild.
-A queued post publishes only when every language file has `copy_review: iris YYYY-MM-DD` in its front matter (Iris copy review).
-Without a SLUG, unreviewed posts are skipped; with a SLUG, an unreviewed post is refused.
+A queued post publishes only when all 12 language files (REQUIRED_LANGS) exist and each has
+`copy_review: iris YYYY-MM-DD` in its front matter (Iris copy review). Extra site languages (th, tr, vi, pt-BR, zh-Hant)
+are optional and published only once their file exists.
+Without a SLUG, incomplete or unreviewed posts are skipped with a warning; with a SLUG, they are refused.
 """
 import argparse
 import datetime as dt
@@ -30,6 +31,7 @@ import build_site as bs  # noqa: E402
 
 DEFAULT_ROOT = Path(__file__).resolve().parent.parent
 COPY_REVIEW_RE = re.compile(r"^copy_review:\s*iris\s+\d{4}-\d{2}-\d{2}\s*$", re.M)
+REQUIRED_LANGS = ("en", "ko", "ja", "zh", "es", "fr", "de", "pt-BR", "ru", "ar", "hi", "id")
 NOTHING_REVIEWED = "no reviewed post in the queue — nothing to publish"
 
 
@@ -42,12 +44,27 @@ def queue_items(root):
     return out
 
 
-def unreviewed_files(src):
-    """Language files of a queued post whose front matter lacks `copy_review: iris YYYY-MM-DD`."""
-    files = sorted(src.glob("*.md"))
-    if not files:
-        return ["*.md"]
-    return [f.name for f in files if not COPY_REVIEW_RE.search(f.read_text(encoding="utf-8").partition("\n---\n")[0])]
+def queue_gap(src):
+    """-> (absent, unreviewed): required language files missing, and present ones whose front matter lacks copy_review."""
+    have = {f.stem: f for f in src.glob("*.md")}
+    absent = [l for l in REQUIRED_LANGS if l not in have]
+    unreviewed = [l for l in REQUIRED_LANGS
+                  if l in have and not COPY_REVIEW_RE.search(have[l].read_text(encoding="utf-8").partition("\n---\n")[0])]
+    return absent, unreviewed
+
+
+def gap_text(absent, unreviewed):
+    parts = []
+    if absent:
+        parts.append("missing %s" % ", ".join(l + ".md" for l in absent))
+    if unreviewed:
+        parts.append("copy_review missing in %s" % ", ".join(l + ".md" for l in unreviewed))
+    return "; ".join(parts)
+
+
+def ready(src):
+    absent, unreviewed = queue_gap(src)
+    return not absent and not unreviewed
 
 
 def stamp(text, when):
@@ -80,16 +97,15 @@ def publish(root, slug=None, at=None, dry=False, now=None):
         if not match:
             raise SystemExit("not in the queue: %s (queued: %s)" % (slug, ", ".join(s for s, _ in items)))
         slug, src = match[0]
-        gap = unreviewed_files(src)
-        if gap:
-            raise SystemExit("%s: copy_review missing in %s — get the Iris copy review first" % (slug, ", ".join(gap)))
+        if not ready(src):
+            raise SystemExit("%s: %s — needs all %d language files with the Iris copy review first"
+                             % (slug, gap_text(*queue_gap(src)), len(REQUIRED_LANGS)))
     else:
         for s, d in items:
-            gap = unreviewed_files(d)
-            if not gap:
+            if ready(d):
                 slug, src = s, d
                 break
-            print("skip %s: copy_review missing in %s" % (s, ", ".join(gap)), file=sys.stderr)
+            print("skip %s: %s" % (s, gap_text(*queue_gap(d))), file=sys.stderr)
         else:
             raise SystemExit(NOTHING_REVIEWED)
     when_dt = bs.parse_published(at) if at else now.replace(second=0, microsecond=0)
@@ -103,13 +119,6 @@ def publish(root, slug=None, at=None, dry=False, now=None):
     if dest.exists():
         raise SystemExit("already published: %s" % slug)
     files = sorted(src.glob("*.md"))
-    langs = {f.stem for f in files}
-    for need in bs.MAIN_LANGS:
-        if need not in langs:
-            raise SystemExit("%s: %s original missing — refusing to publish" % (slug, need))
-    missing = [l for l in bs.LANGS if l not in langs]
-    if missing:
-        print("warning: translations missing for %s: %s (published without them)" % (slug, ", ".join(missing)), file=sys.stderr)
     stamped = {f.name: stamp(f.read_text(encoding="utf-8"), when) for f in files}
     if dry:
         return slug, when, ["content/journal/%s/%s" % (slug, n) for n in stamped]
@@ -139,7 +148,7 @@ def main(argv=None):
         if not queue_items(root):
             print("publish_post: queue is empty — nothing to do")
             return 0
-        if not any(not unreviewed_files(d) for _, d in queue_items(root)):
+        if not any(ready(d) for _, d in queue_items(root)):
             print("publish_post: %s" % NOTHING_REVIEWED)
             return 0
     slug, when, files = publish(root, a.slug, a.at, a.dry_run, now)

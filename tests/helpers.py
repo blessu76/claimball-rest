@@ -9,6 +9,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO / "scripts"))
 import build_site as bs  # noqa: E402
+from publish_post import REQUIRED_LANGS  # noqa: E402
 
 NOW = dt.datetime(2026, 11, 12, 20, 0, tzinfo=bs.KST)
 
@@ -43,7 +44,7 @@ def make_site(langs=("en", "ko"), posts=(("alpha-post", "2026-11-01T18:00+09:00"
         d = root / "content" / "queue" / ("%02d-%s" % (i, slug))
         d.mkdir(parents=True)
         review = "" if slug in unreviewed else "copy_review: iris 2026-11-13\n"
-        for l in ("en", "ko"):
+        for l in REQUIRED_LANGS:
             (d / (l + ".md")).write_text(post_text(slug, l, "Queued %s %s" % (slug, l), extra=review), encoding="utf-8")
     shutil.copytree(REPO / "assets", root / "assets")
     shutil.copytree(REPO / "vendor" / "ipe_web_kit", root / "vendor" / "ipe_web_kit")

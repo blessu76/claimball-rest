@@ -68,9 +68,9 @@ class Built(unittest.TestCase):
 
     def test_language_picker_on_every_prefixless_page_but_not_under_a_language_or_404(self):
         for rel in ("index.html", "about/index.html", "journal/index.html"):
-            self.assertIn("cb-lang", self.read(rel), rel)
+            self.assertIn("ipe_lang", self.read(rel), rel)
         for rel in ("ko/index.html", "ko/about/index.html", "404.html"):
-            self.assertNotIn("cb-lang", self.read(rel), rel)
+            self.assertNotIn("ipe_lang", self.read(rel), rel)
 
     def test_store_badges_are_not_links(self):
         for lang_dir in ("", "ko/"):
