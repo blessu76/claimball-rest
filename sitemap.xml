@@ -950,6 +950,8 @@
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/"/>
 </url>
+<url><loc>https://claimball.ipe.rest/ja/journal/page/2/</loc><lastmod>2026-11-13</lastmod>
+</url>
 <url><loc>https://claimball.ipe.rest/zh-Hant/journal/</loc><lastmod>2026-11-13</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/"/>
@@ -964,6 +966,8 @@
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/zh-Hant/journal/page/2/</loc><lastmod>2026-11-13</lastmod>
 </url>
 <url><loc>https://claimball.ipe.rest/es/journal/</loc><lastmod>2026-11-13</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/"/>
@@ -980,6 +984,8 @@
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/"/>
 </url>
+<url><loc>https://claimball.ipe.rest/es/journal/page/2/</loc><lastmod>2026-11-13</lastmod>
+</url>
 <url><loc>https://claimball.ipe.rest/pt-BR/journal/</loc><lastmod>2026-11-13</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/"/>
@@ -994,6 +1000,8 @@
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/pt-BR/journal/page/2/</loc><lastmod>2026-11-13</lastmod>
 </url>
 <url><loc>https://claimball.ipe.rest/fr/journal/</loc><lastmod>2026-11-13</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/"/>
@@ -1010,6 +1018,8 @@
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/"/>
 </url>
+<url><loc>https://claimball.ipe.rest/fr/journal/page/2/</loc><lastmod>2026-11-13</lastmod>
+</url>
 <url><loc>https://claimball.ipe.rest/de/journal/</loc><lastmod>2026-11-13</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/"/>
@@ -1024,6 +1034,8 @@
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/de/journal/page/2/</loc><lastmod>2026-11-13</lastmod>
 </url>
 <url><loc>https://claimball.ipe.rest/id/journal/</loc><lastmod>2026-11-13</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/"/>
@@ -1040,6 +1052,8 @@
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/"/>
 </url>
+<url><loc>https://claimball.ipe.rest/id/journal/page/2/</loc><lastmod>2026-11-13</lastmod>
+</url>
 <url><loc>https://claimball.ipe.rest/th/journal/</loc><lastmod>2026-11-13</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/"/>
@@ -1054,6 +1068,8 @@
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/th/journal/page/2/</loc><lastmod>2026-11-13</lastmod>
 </url>
 <url><loc>https://claimball.ipe.rest/vi/journal/</loc><lastmod>2026-11-13</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/"/>
@@ -1085,21 +1101,198 @@
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/"/>
 </url>
+<url><loc>https://claimball.ipe.rest/tr/journal/page/2/</loc><lastmod>2026-11-13</lastmod>
+</url>
 <url><loc>https://claimball.ipe.rest/journal/combos-and-fever/</loc><lastmod>2026-11-13</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/combos-and-fever/"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
 </url>
 <url><loc>https://claimball.ipe.rest/ko/journal/combos-and-fever/</loc><lastmod>2026-11-13</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/ja/journal/combos-and-fever/</loc><lastmod>2026-11-13</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/zh-Hant/journal/combos-and-fever/</loc><lastmod>2026-11-13</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/es/journal/combos-and-fever/</loc><lastmod>2026-11-13</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/pt-BR/journal/combos-and-fever/</loc><lastmod>2026-11-13</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/fr/journal/combos-and-fever/</loc><lastmod>2026-11-13</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/de/journal/combos-and-fever/</loc><lastmod>2026-11-13</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/id/journal/combos-and-fever/</loc><lastmod>2026-11-13</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/th/journal/combos-and-fever/</loc><lastmod>2026-11-13</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/vi/journal/combos-and-fever/</loc><lastmod>2026-11-13</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/tr/journal/combos-and-fever/</loc><lastmod>2026-11-13</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/combos-and-fever/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/combos-and-fever/"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/combos-and-fever/"/>
 </url>
 <url><loc>https://claimball.ipe.rest/journal/notebook-look/</loc><lastmod>2026-11-11</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/notebook-look/"/>
@@ -1108,8 +1301,28 @@
 <url><loc>https://claimball.ipe.rest/ko/journal/notebook-look/</loc><lastmod>2026-11-11</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/notebook-look/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/ja/journal/notebook-look/</loc><lastmod>2026-11-11</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/notebook-look/"/>
@@ -1118,8 +1331,28 @@
 <url><loc>https://claimball.ipe.rest/zh-Hant/journal/notebook-look/</loc><lastmod>2026-11-11</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/notebook-look/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/es/journal/notebook-look/</loc><lastmod>2026-11-11</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/notebook-look/"/>
@@ -1128,8 +1361,58 @@
 <url><loc>https://claimball.ipe.rest/pt-BR/journal/notebook-look/</loc><lastmod>2026-11-11</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/notebook-look/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/fr/journal/notebook-look/</loc><lastmod>2026-11-11</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/notebook-look/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/de/journal/notebook-look/</loc><lastmod>2026-11-11</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/notebook-look/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/id/journal/notebook-look/</loc><lastmod>2026-11-11</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/notebook-look/"/>
@@ -1138,8 +1421,13 @@
 <url><loc>https://claimball.ipe.rest/th/journal/notebook-look/</loc><lastmod>2026-11-11</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/notebook-look/"/>
@@ -1148,8 +1436,13 @@
 <url><loc>https://claimball.ipe.rest/vi/journal/notebook-look/</loc><lastmod>2026-11-11</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/notebook-look/"/>
@@ -1158,8 +1451,13 @@
 <url><loc>https://claimball.ipe.rest/tr/journal/notebook-look/</loc><lastmod>2026-11-11</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/notebook-look/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/notebook-look/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/notebook-look/"/>
@@ -1168,8 +1466,13 @@
 <url><loc>https://claimball.ipe.rest/journal/daily-challenge/</loc><lastmod>2026-11-10</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/daily-challenge/"/>
@@ -1178,8 +1481,28 @@
 <url><loc>https://claimball.ipe.rest/ko/journal/daily-challenge/</loc><lastmod>2026-11-10</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/daily-challenge/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/ja/journal/daily-challenge/</loc><lastmod>2026-11-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/daily-challenge/"/>
@@ -1188,8 +1511,28 @@
 <url><loc>https://claimball.ipe.rest/zh-Hant/journal/daily-challenge/</loc><lastmod>2026-11-10</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/daily-challenge/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/es/journal/daily-challenge/</loc><lastmod>2026-11-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/daily-challenge/"/>
@@ -1198,8 +1541,58 @@
 <url><loc>https://claimball.ipe.rest/pt-BR/journal/daily-challenge/</loc><lastmod>2026-11-10</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/daily-challenge/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/fr/journal/daily-challenge/</loc><lastmod>2026-11-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/daily-challenge/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/de/journal/daily-challenge/</loc><lastmod>2026-11-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/daily-challenge/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/id/journal/daily-challenge/</loc><lastmod>2026-11-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/daily-challenge/"/>
@@ -1208,8 +1601,13 @@
 <url><loc>https://claimball.ipe.rest/th/journal/daily-challenge/</loc><lastmod>2026-11-10</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/daily-challenge/"/>
@@ -1218,8 +1616,13 @@
 <url><loc>https://claimball.ipe.rest/vi/journal/daily-challenge/</loc><lastmod>2026-11-10</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/daily-challenge/"/>
@@ -1228,8 +1631,13 @@
 <url><loc>https://claimball.ipe.rest/tr/journal/daily-challenge/</loc><lastmod>2026-11-10</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/daily-challenge/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/daily-challenge/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/daily-challenge/"/>
@@ -1238,8 +1646,13 @@
 <url><loc>https://claimball.ipe.rest/journal/continue-with-icloud/</loc><lastmod>2026-11-09</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/continue-with-icloud/"/>
@@ -1248,8 +1661,28 @@
 <url><loc>https://claimball.ipe.rest/ko/journal/continue-with-icloud/</loc><lastmod>2026-11-09</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/continue-with-icloud/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/ja/journal/continue-with-icloud/</loc><lastmod>2026-11-09</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/continue-with-icloud/"/>
@@ -1258,8 +1691,28 @@
 <url><loc>https://claimball.ipe.rest/zh-Hant/journal/continue-with-icloud/</loc><lastmod>2026-11-09</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/continue-with-icloud/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/es/journal/continue-with-icloud/</loc><lastmod>2026-11-09</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/continue-with-icloud/"/>
@@ -1268,8 +1721,58 @@
 <url><loc>https://claimball.ipe.rest/pt-BR/journal/continue-with-icloud/</loc><lastmod>2026-11-09</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/continue-with-icloud/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/fr/journal/continue-with-icloud/</loc><lastmod>2026-11-09</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/continue-with-icloud/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/de/journal/continue-with-icloud/</loc><lastmod>2026-11-09</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/continue-with-icloud/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/id/journal/continue-with-icloud/</loc><lastmod>2026-11-09</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/continue-with-icloud/"/>
@@ -1278,8 +1781,13 @@
 <url><loc>https://claimball.ipe.rest/th/journal/continue-with-icloud/</loc><lastmod>2026-11-09</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/continue-with-icloud/"/>
@@ -1288,8 +1796,13 @@
 <url><loc>https://claimball.ipe.rest/vi/journal/continue-with-icloud/</loc><lastmod>2026-11-09</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/continue-with-icloud/"/>
@@ -1298,8 +1811,13 @@
 <url><loc>https://claimball.ipe.rest/tr/journal/continue-with-icloud/</loc><lastmod>2026-11-09</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/continue-with-icloud/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/continue-with-icloud/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/continue-with-icloud/"/>
@@ -1308,7 +1826,13 @@
 <url><loc>https://claimball.ipe.rest/journal/thirteen-languages/</loc><lastmod>2026-11-08</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/thirteen-languages/"/>
@@ -1316,7 +1840,27 @@
 <url><loc>https://claimball.ipe.rest/ko/journal/thirteen-languages/</loc><lastmod>2026-11-08</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/thirteen-languages/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/ja/journal/thirteen-languages/</loc><lastmod>2026-11-08</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/thirteen-languages/"/>
@@ -1324,7 +1868,83 @@
 <url><loc>https://claimball.ipe.rest/zh-Hant/journal/thirteen-languages/</loc><lastmod>2026-11-08</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/thirteen-languages/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/es/journal/thirteen-languages/</loc><lastmod>2026-11-08</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/thirteen-languages/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/pt-BR/journal/thirteen-languages/</loc><lastmod>2026-11-08</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/thirteen-languages/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/fr/journal/thirteen-languages/</loc><lastmod>2026-11-08</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/thirteen-languages/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/de/journal/thirteen-languages/</loc><lastmod>2026-11-08</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/thirteen-languages/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/id/journal/thirteen-languages/</loc><lastmod>2026-11-08</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/thirteen-languages/"/>
@@ -1332,7 +1952,13 @@
 <url><loc>https://claimball.ipe.rest/th/journal/thirteen-languages/</loc><lastmod>2026-11-08</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/thirteen-languages/"/>
@@ -1340,7 +1966,13 @@
 <url><loc>https://claimball.ipe.rest/tr/journal/thirteen-languages/</loc><lastmod>2026-11-08</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/thirteen-languages/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/thirteen-languages/"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/thirteen-languages/"/>
@@ -1348,8 +1980,13 @@
 <url><loc>https://claimball.ipe.rest/journal/color-blind-patterns/</loc><lastmod>2026-11-07</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/color-blind-patterns/"/>
@@ -1358,8 +1995,28 @@
 <url><loc>https://claimball.ipe.rest/ko/journal/color-blind-patterns/</loc><lastmod>2026-11-07</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/color-blind-patterns/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/ja/journal/color-blind-patterns/</loc><lastmod>2026-11-07</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/color-blind-patterns/"/>
@@ -1368,8 +2025,28 @@
 <url><loc>https://claimball.ipe.rest/zh-Hant/journal/color-blind-patterns/</loc><lastmod>2026-11-07</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/color-blind-patterns/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/es/journal/color-blind-patterns/</loc><lastmod>2026-11-07</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/color-blind-patterns/"/>
@@ -1378,8 +2055,58 @@
 <url><loc>https://claimball.ipe.rest/pt-BR/journal/color-blind-patterns/</loc><lastmod>2026-11-07</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/color-blind-patterns/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/fr/journal/color-blind-patterns/</loc><lastmod>2026-11-07</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/color-blind-patterns/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/de/journal/color-blind-patterns/</loc><lastmod>2026-11-07</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/color-blind-patterns/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/id/journal/color-blind-patterns/</loc><lastmod>2026-11-07</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/color-blind-patterns/"/>
@@ -1388,8 +2115,13 @@
 <url><loc>https://claimball.ipe.rest/th/journal/color-blind-patterns/</loc><lastmod>2026-11-07</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/color-blind-patterns/"/>
@@ -1398,8 +2130,13 @@
 <url><loc>https://claimball.ipe.rest/vi/journal/color-blind-patterns/</loc><lastmod>2026-11-07</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/color-blind-patterns/"/>
@@ -1408,8 +2145,13 @@
 <url><loc>https://claimball.ipe.rest/tr/journal/color-blind-patterns/</loc><lastmod>2026-11-07</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/color-blind-patterns/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/color-blind-patterns/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/color-blind-patterns/"/>
@@ -1418,8 +2160,13 @@
 <url><loc>https://claimball.ipe.rest/journal/voiceover-and-large-text/</loc><lastmod>2026-11-06</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/voiceover-and-large-text/"/>
@@ -1428,8 +2175,28 @@
 <url><loc>https://claimball.ipe.rest/ko/journal/voiceover-and-large-text/</loc><lastmod>2026-11-06</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/voiceover-and-large-text/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/ja/journal/voiceover-and-large-text/</loc><lastmod>2026-11-06</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/voiceover-and-large-text/"/>
@@ -1438,8 +2205,28 @@
 <url><loc>https://claimball.ipe.rest/zh-Hant/journal/voiceover-and-large-text/</loc><lastmod>2026-11-06</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/voiceover-and-large-text/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/es/journal/voiceover-and-large-text/</loc><lastmod>2026-11-06</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/voiceover-and-large-text/"/>
@@ -1448,8 +2235,58 @@
 <url><loc>https://claimball.ipe.rest/pt-BR/journal/voiceover-and-large-text/</loc><lastmod>2026-11-06</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/voiceover-and-large-text/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/fr/journal/voiceover-and-large-text/</loc><lastmod>2026-11-06</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/voiceover-and-large-text/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/de/journal/voiceover-and-large-text/</loc><lastmod>2026-11-06</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/voiceover-and-large-text/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/id/journal/voiceover-and-large-text/</loc><lastmod>2026-11-06</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/voiceover-and-large-text/"/>
@@ -1458,8 +2295,13 @@
 <url><loc>https://claimball.ipe.rest/th/journal/voiceover-and-large-text/</loc><lastmod>2026-11-06</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/voiceover-and-large-text/"/>
@@ -1468,8 +2310,13 @@
 <url><loc>https://claimball.ipe.rest/vi/journal/voiceover-and-large-text/</loc><lastmod>2026-11-06</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/voiceover-and-large-text/"/>
@@ -1478,8 +2325,13 @@
 <url><loc>https://claimball.ipe.rest/tr/journal/voiceover-and-large-text/</loc><lastmod>2026-11-06</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/voiceover-and-large-text/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/voiceover-and-large-text/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/voiceover-and-large-text/"/>
@@ -1488,8 +2340,13 @@
 <url><loc>https://claimball.ipe.rest/journal/how-to-play-first-match/</loc><lastmod>2026-11-05</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/how-to-play-first-match/"/>
@@ -1498,8 +2355,28 @@
 <url><loc>https://claimball.ipe.rest/ko/journal/how-to-play-first-match/</loc><lastmod>2026-11-05</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/how-to-play-first-match/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/ja/journal/how-to-play-first-match/</loc><lastmod>2026-11-05</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/how-to-play-first-match/"/>
@@ -1508,8 +2385,28 @@
 <url><loc>https://claimball.ipe.rest/zh-Hant/journal/how-to-play-first-match/</loc><lastmod>2026-11-05</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/how-to-play-first-match/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/es/journal/how-to-play-first-match/</loc><lastmod>2026-11-05</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/how-to-play-first-match/"/>
@@ -1518,8 +2415,58 @@
 <url><loc>https://claimball.ipe.rest/pt-BR/journal/how-to-play-first-match/</loc><lastmod>2026-11-05</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/how-to-play-first-match/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/fr/journal/how-to-play-first-match/</loc><lastmod>2026-11-05</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/how-to-play-first-match/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/de/journal/how-to-play-first-match/</loc><lastmod>2026-11-05</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/how-to-play-first-match/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/id/journal/how-to-play-first-match/</loc><lastmod>2026-11-05</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/how-to-play-first-match/"/>
@@ -1528,8 +2475,13 @@
 <url><loc>https://claimball.ipe.rest/th/journal/how-to-play-first-match/</loc><lastmod>2026-11-05</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/how-to-play-first-match/"/>
@@ -1538,8 +2490,13 @@
 <url><loc>https://claimball.ipe.rest/vi/journal/how-to-play-first-match/</loc><lastmod>2026-11-05</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/how-to-play-first-match/"/>
@@ -1548,8 +2505,13 @@
 <url><loc>https://claimball.ipe.rest/tr/journal/how-to-play-first-match/</loc><lastmod>2026-11-05</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/how-to-play-first-match/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/how-to-play-first-match/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/how-to-play-first-match/"/>
@@ -1558,8 +2520,13 @@
 <url><loc>https://claimball.ipe.rest/journal/my-stats-and-music/</loc><lastmod>2026-11-04</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/my-stats-and-music/"/>
@@ -1568,8 +2535,28 @@
 <url><loc>https://claimball.ipe.rest/ko/journal/my-stats-and-music/</loc><lastmod>2026-11-04</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/my-stats-and-music/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/ja/journal/my-stats-and-music/</loc><lastmod>2026-11-04</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/my-stats-and-music/"/>
@@ -1578,8 +2565,28 @@
 <url><loc>https://claimball.ipe.rest/zh-Hant/journal/my-stats-and-music/</loc><lastmod>2026-11-04</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/my-stats-and-music/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/es/journal/my-stats-and-music/</loc><lastmod>2026-11-04</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/my-stats-and-music/"/>
@@ -1588,8 +2595,58 @@
 <url><loc>https://claimball.ipe.rest/pt-BR/journal/my-stats-and-music/</loc><lastmod>2026-11-04</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/my-stats-and-music/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/fr/journal/my-stats-and-music/</loc><lastmod>2026-11-04</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/my-stats-and-music/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/de/journal/my-stats-and-music/</loc><lastmod>2026-11-04</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/my-stats-and-music/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/id/journal/my-stats-and-music/</loc><lastmod>2026-11-04</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/my-stats-and-music/"/>
@@ -1598,8 +2655,13 @@
 <url><loc>https://claimball.ipe.rest/th/journal/my-stats-and-music/</loc><lastmod>2026-11-04</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/my-stats-and-music/"/>
@@ -1608,8 +2670,13 @@
 <url><loc>https://claimball.ipe.rest/vi/journal/my-stats-and-music/</loc><lastmod>2026-11-04</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/my-stats-and-music/"/>
@@ -1618,8 +2685,13 @@
 <url><loc>https://claimball.ipe.rest/tr/journal/my-stats-and-music/</loc><lastmod>2026-11-04</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/my-stats-and-music/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/my-stats-and-music/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/my-stats-and-music/"/>
@@ -1628,8 +2700,13 @@
 <url><loc>https://claimball.ipe.rest/journal/sudden-death-and-draws/</loc><lastmod>2026-11-03</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/sudden-death-and-draws/"/>
@@ -1638,8 +2715,28 @@
 <url><loc>https://claimball.ipe.rest/ko/journal/sudden-death-and-draws/</loc><lastmod>2026-11-03</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/sudden-death-and-draws/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/ja/journal/sudden-death-and-draws/</loc><lastmod>2026-11-03</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/sudden-death-and-draws/"/>
@@ -1648,8 +2745,28 @@
 <url><loc>https://claimball.ipe.rest/zh-Hant/journal/sudden-death-and-draws/</loc><lastmod>2026-11-03</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/sudden-death-and-draws/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/es/journal/sudden-death-and-draws/</loc><lastmod>2026-11-03</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/sudden-death-and-draws/"/>
@@ -1658,8 +2775,58 @@
 <url><loc>https://claimball.ipe.rest/pt-BR/journal/sudden-death-and-draws/</loc><lastmod>2026-11-03</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/sudden-death-and-draws/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/fr/journal/sudden-death-and-draws/</loc><lastmod>2026-11-03</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/sudden-death-and-draws/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/de/journal/sudden-death-and-draws/</loc><lastmod>2026-11-03</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://claimball.ipe.rest/journal/sudden-death-and-draws/"/>
+</url>
+<url><loc>https://claimball.ipe.rest/id/journal/sudden-death-and-draws/</loc><lastmod>2026-11-03</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/sudden-death-and-draws/"/>
@@ -1668,8 +2835,13 @@
 <url><loc>https://claimball.ipe.rest/th/journal/sudden-death-and-draws/</loc><lastmod>2026-11-03</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/sudden-death-and-draws/"/>
@@ -1678,8 +2850,13 @@
 <url><loc>https://claimball.ipe.rest/vi/journal/sudden-death-and-draws/</loc><lastmod>2026-11-03</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/sudden-death-and-draws/"/>
@@ -1688,8 +2865,13 @@
 <url><loc>https://claimball.ipe.rest/tr/journal/sudden-death-and-draws/</loc><lastmod>2026-11-03</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://claimball.ipe.rest/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="ko" href="https://claimball.ipe.rest/ko/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="ja" href="https://claimball.ipe.rest/ja/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://claimball.ipe.rest/zh-Hant/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://claimball.ipe.rest/es/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://claimball.ipe.rest/pt-BR/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://claimball.ipe.rest/fr/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://claimball.ipe.rest/de/journal/sudden-death-and-draws/"/>
+<xhtml:link rel="alternate" hreflang="id" href="https://claimball.ipe.rest/id/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="th" href="https://claimball.ipe.rest/th/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="vi" href="https://claimball.ipe.rest/vi/journal/sudden-death-and-draws/"/>
 <xhtml:link rel="alternate" hreflang="tr" href="https://claimball.ipe.rest/tr/journal/sudden-death-and-draws/"/>

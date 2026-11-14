@@ -14,8 +14,8 @@ Output (generated — never edit by hand)
   sitemap.xml  robots.txt  llms.txt  404.html
 
 Languages: the 12 listed in ipe_web_kit languages.SUPPORTED (en root, others under /<lang>/). Every listed language needs
-content/i18n/<lang>.json. Ended languages (zh ru ar hi) keep their pages at their paths
-but are left out of the switcher, hreflang and sitemap. A translation needs content/i18n/<lang>.json + content/pages/<lang>/*.md
+content/i18n/<lang>.json. Ended languages (ENDED: zh ru ar hi) are not built at all:
+their i18n/pages/journal/queue files are ignored and their generated folders are removed by the next build. A translation needs content/i18n/<lang>.json + content/pages/<lang>/*.md
 (front matter `translation_of: en`) and optionally posts with `translation_of:`.
 
 Usage
@@ -70,12 +70,10 @@ OG_LOCALE = {"en": "en_US", "ko": "ko_KR", "ja": "ja_JP", "zh-Hant": "zh_TW", "e
              "de": "de_DE", "id": "id_ID", "th": "th_TH", "vi": "vi_VN", "tr": "tr_TR"}
 SHORT = {"en": "EN", "ko": "KO", "ja": "JA", "zh-Hant": "繁", "es": "ES", "pt-BR": "PT", "fr": "FR", "de": "DE", "id": "ID",
          "th": "TH", "vi": "VI", "tr": "TR"}
-# (name, og locale, direction, short code) for every language that has pages on disk
+# (name, og locale, direction, short code) for the 12 languages
 LANGS = {l: (kit_languages.NAMES[l], OG_LOCALE[l], "ltr", SHORT[l]) for l in LISTED}
-LANGS.update({
-    "zh": ("简体中文", "zh_CN", "ltr", "ZH"), "ru": ("Русский", "ru_RU", "ltr", "RU"),
-    "ar": ("العربية", "ar_AR", "rtl", "AR"), "hi": ("हिन्दी", "hi_IN", "ltr", "HI"),
-})
+# Ended languages: source files may still exist (to be removed later) but are ignored; their generated folders are cleaned.
+ENDED = ("zh", "ru", "ar", "hi")
 MAIN_LANGS = ("en", "ko")
 PAGE_SLUGS = ("about", "privacy", "support", "terms")
 CATEGORIES = ("devlog", "art", "design")
@@ -292,6 +290,8 @@ def load_i18n(root):
     d, errs = {}, []
     for f in sorted((Path(root) / "content" / "i18n").glob("*.json")):
         lang = f.stem
+        if lang in ENDED:
+            continue
         if lang not in LANGS:
             errs.append("i18n/%s.json: unknown language" % lang); continue
         try:
@@ -398,6 +398,8 @@ def load_posts(root, now=None, include_dir="journal"):
         for f in sorted(d.glob("*.md")):
             lang = f.stem
             tag = "%s/%s" % (slug, f.name)
+            if lang in ENDED:
+                continue
             if lang not in LANGS:
                 errs.append("%s: unknown language" % tag); continue
             try:
@@ -460,6 +462,8 @@ def queue_errors(root):
         seen.add(slug)
         langs = set()
         for f in sorted(d.glob("*.md")):
+            if f.stem in ENDED:
+                continue
             tag = "queue/%s/%s" % (d.name, f.name)
             try:
                 meta, body = parse_front(f.read_text(encoding="utf-8"))
@@ -914,7 +918,7 @@ def make_ctx(root, now=None, require_all=False):
                 if l not in p["langs"]:
                     errs.append("%s: translation %s missing (--require-all)" % (p["slug"], l))
     langs = [l for l in LISTED if l in complete]
-    built = langs + [l for l in LANGS if l not in LISTED and l in complete]
+    built = langs
     for p in posts:
         p["langs"] = {l: v for l, v in p["langs"].items() if l in built}
     posts = [p for p in posts if p["langs"]]
@@ -972,7 +976,7 @@ def build_all(ctx):
 
 def clean(root):
     root = Path(root)
-    for name in ["journal"] + list(PAGE_SLUGS) + [l for l in LANGS if l != "en"] + list(LEGACY_REDIRECTS):
+    for name in ["journal"] + list(PAGE_SLUGS) + [l for l in LANGS if l != "en"] + list(ENDED) + list(LEGACY_REDIRECTS):
         d = root / name
         if d.is_dir():
             shutil.rmtree(d)

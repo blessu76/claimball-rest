@@ -13,9 +13,9 @@ What it does
   2. stamps `published: YYYY-MM-DDTHH:MM+09:00` into every language file (the time is the real publish time; future times are refused)
   3. python3 scripts/build_site.py, then python3 scripts/check_sitemap.py
   4. prints the new URLs for IndexNow. It never commits, pushes or deploys — that is the caller's job (see ops/publish_daily.sh).
-A queued post publishes only when all 12 language files (REQUIRED_LANGS) exist and each has
-`copy_review: iris YYYY-MM-DD` in its front matter (Iris copy review). Extra site languages (th, tr, vi, pt-BR, zh-Hant)
-are optional and published only once their file exists.
+A queued post publishes only when all 12 site language files (REQUIRED_LANGS = the ipe_web_kit SUPPORTED list: en ko ja zh-Hant es
+pt-BR fr de id th vi tr) exist and each has `copy_review: iris YYYY-MM-DD` in its front matter (Iris copy review).
+Ended languages (zh ru ar hi) are ignored. The gate applies to NEW publishes only: posts already in content/journal/ are never re-checked.
 Without a SLUG, incomplete or unreviewed posts are skipped with a warning; with a SLUG, they are refused.
 """
 import argparse
@@ -31,7 +31,7 @@ import build_site as bs  # noqa: E402
 
 DEFAULT_ROOT = Path(__file__).resolve().parent.parent
 COPY_REVIEW_RE = re.compile(r"^copy_review:\s*iris\s+\d{4}-\d{2}-\d{2}\s*$", re.M)
-REQUIRED_LANGS = ("en", "ko", "ja", "zh", "es", "fr", "de", "pt-BR", "ru", "ar", "hi", "id")
+REQUIRED_LANGS = ("en", "ko", "ja", "zh-Hant", "es", "pt-BR", "fr", "de", "id", "th", "vi", "tr")
 NOTHING_REVIEWED = "no reviewed post in the queue — nothing to publish"
 
 
@@ -118,7 +118,7 @@ def publish(root, slug=None, at=None, dry=False, now=None):
     dest = root / "content" / "journal" / slug
     if dest.exists():
         raise SystemExit("already published: %s" % slug)
-    files = sorted(src.glob("*.md"))
+    files = sorted(f for f in src.glob("*.md") if f.stem not in bs.ENDED)  # ended languages (zh ru ar hi) are not carried over
     stamped = {f.name: stamp(f.read_text(encoding="utf-8"), when) for f in files}
     if dry:
         return slug, when, ["content/journal/%s/%s" % (slug, n) for n in stamped]
