@@ -8,8 +8,9 @@ category: devlog
 translation_of: en
 keywords: Claimball, Sudden Death, Gleichstand, Casual-Spiel, Journal
 published: 2026-11-03T21:05+09:00
+copy_review: iris 2026-11-14
 ---
-Ein Claimball-Match dauert 90 Sekunden auf einem Heftraster, und meistens hat eine Seite einfach mehr Land, wenn die Uhr stehen bleibt. In diesem Beitrag geht es um den anderen Fall: Das Match endet gleichauf.
+Ein Claimball-Match dauert 90 Sekunden auf einem Heftraster, und meistens hat eine Seite einfach mehr Gebiet, wenn die Uhr stehen bleibt. In diesem Beitrag geht es um den anderen Fall: Das Match endet gleichauf.
 
 ## Was bei einem Gleichstand passiert
 
@@ -23,13 +24,13 @@ Zuerst haben wir ein solches Ergebnis als Unentschieden anzeigen lassen. Dann ha
 
 ## Außerdem in den neuesten Testversionen
 
-Das Logo und die Zahl für die maximale Kombo behalten jetzt in Sprachen, die von rechts nach links geschrieben werden, wie Arabisch, ihre richtige Reihenfolge, und die Seite mit den Versionshinweisen der Website listet auf, was sich in jedem Build geändert hat.
+Das Logo und die Zahl bei „Max. Combo“ behalten jetzt in Sprachen, die von rechts nach links geschrieben werden, wie Arabisch, ihre richtige Reihenfolge, und die Seite mit den Versionshinweisen der Website listet auf, was sich in jedem Build geändert hat.
 
 ## Wie es weitergeht
 
-Claimball befindet sich weiterhin im Test und erscheint bald für iOS und Android. Ein Veröffentlichungsdatum gibt es noch nicht.
+Claimball befindet sich weiterhin im Test und erscheint bald für iOS und Android. Ein Erscheinungsdatum gibt es noch nicht.
 
-## FAQ
+## Häufige Fragen
 
 ### Was passiert, wenn ein Claimball-Match unentschieden endet?
 Läuft die Zeit bei gleicher Feldanzahl ab, geht das Match in Sudden Death. Die Uhr bleibt stehen, und der nächste Punkt entscheidet das Match.
@@ -41,4 +42,4 @@ Das Match wartet, bis der Ball gelandet ist, bevor es zählt.
 Nein. Wer den entscheidenden Punkt holt, nimmt dem Rivalen jetzt bei Bedarf ein Feld ab, sodass das Brett 30 zu 28 statt 29 zu 29 zeigt.
 
 ### Ist Claimball schon erschienen?
-Noch nicht. Es ist weiterhin im Test und erscheint bald für iOS und Android, ein Veröffentlichungsdatum gibt es noch nicht.
+Noch nicht. Es ist weiterhin im Test und erscheint bald für iOS und Android, ein Erscheinungsdatum gibt es noch nicht.

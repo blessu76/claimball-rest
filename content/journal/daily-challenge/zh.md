@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, 每日挑战, 休闲游戏, 日志
 published: 2026-11-10T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 每日挑战是一天一场、带有变化的对战,它在多个测试版中不断成长。这些测试版尚未公开发布。
 

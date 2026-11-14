@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, défi du jour, jeu casual, journal
 published: 2026-11-10T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 Le Défi du jour, c'est une partie par jour avec une variante, et il s'est enrichi au fil de plusieurs versions de test. Elles ne sont pas encore disponibles au public.
 
@@ -27,7 +28,7 @@ La version 7 gère les cas délicats. Si l'application se ferme au milieu d'un D
 
 Claimball est toujours en phase de test et arrive bientôt sur iOS et Android. Il n'y a pas encore de date de sortie.
 
-## FAQ
+## Questions fréquentes
 
 ### Combien de tentatives ai-je au Défi du jour ?
 Chaque jour, vous avez une seule tentative. La variante change parmi un ensemble de possibilités, si bien que la partie n'est jamais tout à fait la même deux fois de suite.

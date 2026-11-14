@@ -1,13 +1,14 @@
 ---
 title: 通过 iCloud 在其他设备上继续游戏
 description: 你的进度、星星、成就和无障碍设置会在 iPhone 和 iPad 上跟随你的 iCloud 账号。这里说明哪些会同步,哪些不会。
-summary: Claimball 让你可以在另一台设备上接着上次的进度玩。在 iPhone 和 iPad 上,你的进度、星星、成就、免费试玩状态和无障碍设置会跟随你的 iCloud 账号,而"完整解锁"购买、每日挑战的尝试次数以及震动和声音设置则保留在设备本地。游戏仍在测试中,即将登陆 iOS 和 Android。
+summary: Claimball 让你可以在另一台设备上接着上次的进度玩。在 iPhone 和 iPad 上,你的进度、星星、成就、免费试玩状态和无障碍设置会跟随你的 iCloud 账号,而Full Unlock 购买、每日挑战的尝试次数以及震动和声音设置则保留在设备本地。游戏仍在测试中,即将登陆 iOS 和 Android。
 slug: continue-with-icloud
 lang: zh
 category: devlog
 translation_of: en
 keywords: Claimball, iCloud, 在其他设备上继续, 休闲游戏, 日志
 published: 2026-11-09T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 第 7 版是 TestFlight 内部测试版,让你可以在另一台设备上接着上次的进度玩。它尚未公开发布。
 
@@ -17,7 +18,7 @@ published: 2026-11-09T18:00+09:00
 
 ## 只保留在设备上的内容
 
-有些内容是有意不通过 iCloud 同步的:"完整解锁"购买(由 App Store 负责记录)、每日挑战的尝试次数,以及震动和声音设置。
+有些内容是有意不通过 iCloud 同步的:Full Unlock 购买(由 App Store 负责记录)、每日挑战的尝试次数,以及震动和声音设置。
 
 ## 购买要格外谨慎
 
@@ -33,7 +34,7 @@ Claimball 仍在测试中,即将登陆 iOS 和 Android。目前还没有发布�
 在 iPhone 和 iPad 上,你的进度、星星、成就、免费试玩状态和无障碍设置会跟随你的 iCloud 账号,在后台悄悄完成。
 
 ### 哪些内容不会通过 iCloud 同步?
-"完整解锁"购买(由 App Store 负责记录)、每日挑战的尝试次数,以及震动和声音设置会保留在设备本地。
+Full Unlock 购买(由 App Store 负责记录)、每日挑战的尝试次数,以及震动和声音设置会保留在设备本地。
 
 ### 如果 iCloud 关闭或处于离线状态会怎样?
 游戏就只在设备上保留自己的一份副本。

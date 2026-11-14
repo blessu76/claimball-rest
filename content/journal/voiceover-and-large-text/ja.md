@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, アクセシビリティ, VoiceOver, 大きな文字, カジュアルゲーム, ジャーナル
 published: 2026-11-06T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 テンポの速いボールゲームは、スクリーンリーダーでは遊びにくそうに聞こえます。そこで、TestFlight の内部テストビルドであるビルド14をまるごとアクセシビリティに充てました。一般公開はまだです。
 

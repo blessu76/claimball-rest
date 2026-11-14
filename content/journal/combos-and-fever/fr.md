@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, combo, mode Fever, étoiles, succès, journal
 published: 2026-11-13T21:14+09:00
+copy_review: iris 2026-11-14
 ---
 La version 5, une version de test interne TestFlight, a donné plus de rythme à une partie de Claimball. Elle n'est pas encore disponible au public.
 
@@ -31,7 +32,7 @@ Les six rivaux IA réagissent désormais par des visages et de petits mouvements
 
 Claimball est toujours en phase de test et arrive bientôt sur iOS et Android. Il n'y a pas encore de date de sortie.
 
-## FAQ
+## Questions fréquentes
 
 ### Quand les effets de combo montent-ils d'un cran ?
 Le son et la vibration montent d'un cran à 3, 5, 8 et 12 coups d'affilée.

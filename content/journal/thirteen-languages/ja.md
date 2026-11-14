@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, 言語, ローカライズ, カジュアルゲーム, ジャーナル
 published: 2026-11-08T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 Claimball はほとんど文字を読まなくても遊べるゲームですが、メニューやヒント、ルールにはやはり言葉が必要です。この記事では、テストビルドで対応言語がどう増えてきたかをご紹介します。これらのビルドは一般公開されていません。
 

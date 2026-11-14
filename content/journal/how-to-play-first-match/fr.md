@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, comment jouer, tutoriel, jeu casual, journal
 published: 2026-11-05T18:41+09:00
+copy_review: iris 2026-11-14
 ---
 Depuis la version 14, une version de test interne TestFlight, Claimball ouvre votre toute première partie avec un court guide Comment jouer. Il n'est pas encore disponible au public.
 
@@ -23,7 +24,7 @@ Un jeu auquel on joue par courtes sessions doit s'expliquer vite. Nous préféro
 
 Claimball est toujours en phase de test et arrive bientôt sur iOS et Android. Il n'y a pas encore de date de sortie.
 
-## FAQ
+## Questions fréquentes
 
 ### Que contient le guide Comment jouer de Claimball ?
 Le guide tient en trois cartes. L'essentiel tient sur une carte : la case où la balle rebondit devient le terrain du joueur qui l'a frappée, et frapper avec le centre de votre raquette donne un smash qui prend 3 cases d'un coup.

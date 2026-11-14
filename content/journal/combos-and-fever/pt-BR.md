@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, combo, modo Fever, estrelas, conquistas, diário
 published: 2026-11-13T21:14+09:00
+copy_review: iris 2026-11-14
 ---
 A versão 5, uma versão de teste interna do TestFlight, deu mais ritmo a uma partida de Claimball. Ela ainda não foi lançada para o público.
 
@@ -17,7 +18,7 @@ Mantenha a troca de bolas e o jogo responde. O som e a vibração sobem de níve
 
 ## Fever
 
-Nos últimos 20 segundos, um modo Fever liga: um tom de tela mais quente, ladrilhos que pulam e um bipe rápido. As regras continuam exatamente as mesmas, então o Fever muda a sensação do fim da partida, não a forma como ela é decidida.
+Nos últimos 20 segundos, um modo Fever liga: um tom de tela mais quente, casas que pulam e um bipe rápido. As regras continuam exatamente as mesmas, então o Fever muda a sensação do fim da partida, não a forma como ela é decidida.
 
 ## Estrelas e conquistas
 
@@ -37,7 +38,7 @@ O Claimball ainda está em testes e chega em breve ao iOS e ao Android. Ainda n�
 O som e a vibração sobem de nível aos 3, 5, 8 e 12 acertos seguidos.
 
 ### O que é o Fever?
-Nos últimos 20 segundos, um modo Fever liga, com um tom de tela mais quente, ladrilhos que pulam e um bipe rápido. As regras continuam exatamente as mesmas, então ele muda a sensação do fim da partida, não a forma como ela é decidida.
+Nos últimos 20 segundos, um modo Fever liga, com um tom de tela mais quente, casas que pulam e um bipe rápido. As regras continuam exatamente as mesmas, então ele muda a sensação do fim da partida, não a forma como ela é decidida.
 
 ### Quantas estrelas uma partida pode render?
 Cada partida rende de 1 a 3 estrelas. Suas melhores estrelas aparecem no cartão de cada rival, e uma lista de conquistas acompanha o resto.

@@ -1,12 +1,13 @@
 ---
 title: Um apelido, uma linha de pontuação e uma tela de ranking
 description: A versão 12 adicionou um apelido, uma linha de pontuação na tela de resultados e uma tela de ranking dentro do app.
-summary: A versão 12 do Claimball adicionou um apelido que você pode definir no menu, uma linha de pontuação na tela de resultados e uma tela de ranking dentro do app. A pontuação é calculada com base em como a partida foi, e a sua primeira tentativa do Desafio Diário de cada dia é a que vale. Ainda está em testes e chega em breve ao iOS e ao Android.
+summary: A versão 12 do Claimball adicionou um apelido que você pode definir no menu, uma linha de pontuação na tela de resultados e uma tela de ranking dentro do app. A pontuação é calculada com base em como a partida foi, e a sua primeira tentativa do Desafio diário de cada dia é a que vale. Ainda está em testes e chega em breve ao iOS e ao Android.
 slug: nickname-and-ranking
 lang: pt-BR
 category: devlog
 translation_of: en
 keywords: Claimball, apelido, pontuação, ranking, diário
+copy_review: iris 2026-11-14
 ---
 A versão 12, uma build de teste interno do TestFlight, adicionou um pouco de identidade e motivos para se gabar. Ela ainda não foi lançada ao público.
 
@@ -24,7 +25,7 @@ O menu tem uma tela de ranking dentro do app, para você ver como suas pontuaç�
 
 ## Justo por design
 
-A pontuação é calculada com base em como a partida foi, e a sua primeira tentativa do Desafio Diário de cada dia é a que vale, o que combina com a regra de uma tentativa por dia.
+A pontuação é calculada com base em como a partida foi, e a sua primeira tentativa do Desafio diário de cada dia é a que vale, o que combina com a regra de uma tentativa por dia.
 
 ## Ainda em testes
 
@@ -34,7 +35,7 @@ Ainda estamos verificando como essas telas se comportam em celulares de verdade.
 
 O Claimball ainda está em testes e chega em breve ao iOS e ao Android. Ainda não há data de lançamento.
 
-## FAQ
+## Perguntas frequentes
 
 ### Como defino um apelido?
 Você pode definir o seu próprio apelido no menu. É só um nome para aparecer na sua linha do ranking.
@@ -43,7 +44,7 @@ Você pode definir o seu próprio apelido no menu. É só um nome para aparecer 
 A tela de resultados agora tem uma linha de pontuação, então uma partida termina com um número, além de uma vitória ou uma derrota.
 
 ### Por que o ranking é justo?
-A pontuação é calculada com base em como a partida foi, e a sua primeira tentativa do Desafio Diário de cada dia é a que vale, o que combina com a regra de uma tentativa por dia. Ainda estamos verificando como essas telas se comportam em celulares de verdade.
+A pontuação é calculada com base em como a partida foi, e a sua primeira tentativa do Desafio diário de cada dia é a que vale, o que combina com a regra de uma tentativa por dia. Ainda estamos verificando como essas telas se comportam em celulares de verdade.
 
 ### O Claimball já foi lançado?
 Ainda não. Ele continua em testes e chega em breve ao iOS e ao Android, e ainda não há data de lançamento.

@@ -1,13 +1,14 @@
 ---
 title: Mit iCloud auf einem anderen Gerät weiterspielen
 description: Dein Fortschritt, deine Sterne, Erfolge und Bedienungshilfen-Einstellungen folgen deinem iCloud-Account auf iPhone und iPad. Hier steht, was geteilt wird und was nicht.
-summary: Mit Claimball kannst du auf einem anderen Gerät dort weitermachen, wo du aufgehört hast. Auf iPhone und iPad folgen dein Fortschritt, deine Sterne, Erfolge, der Status der kostenlosen Testphase und deine Bedienungshilfen-Einstellungen deinem iCloud-Account, während der Kauf der Vollversion, der Versuch der Tagesherausforderung sowie die Einstellungen für Vibration und Ton auf dem Gerät bleiben. Das Spiel ist noch in der Testphase und kommt bald für iOS und Android.
+summary: Mit Claimball kannst du auf einem anderen Gerät dort weitermachen, wo du aufgehört hast. Auf iPhone und iPad folgen dein Fortschritt, deine Sterne, Erfolge, der Status der kostenlosen Testphase und deine Bedienungshilfen-Einstellungen deinem iCloud-Account, während der Kauf von Full Unlock, der Versuch der Tagesaufgabe sowie die Einstellungen für Vibration und Ton auf dem Gerät bleiben. Das Spiel ist noch in der Testphase und kommt bald für iOS und Android.
 slug: continue-with-icloud
 lang: de
 category: devlog
 translation_of: en
 published: 2026-11-09T18:00+09:00
 keywords: Claimball, iCloud, auf einem anderen Gerät weiterspielen, Casual-Spiel, Journal
+copy_review: iris 2026-11-14
 ---
 Build 7, ein interner TestFlight-Testbuild, lässt dich auf einem anderen Gerät dort weitermachen, wo du aufgehört hast. Er ist noch nicht für die Öffentlichkeit veröffentlicht.
 
@@ -17,7 +18,7 @@ Auf iPhone und iPad folgen dein Fortschritt, deine Sterne, Erfolge, der Status d
 
 ## Was auf dem Gerät bleibt
 
-Manches wird bewusst nicht über iCloud geteilt: der Kauf der Vollversion (den verwaltet der App Store), der Versuch der Tagesherausforderung sowie die Einstellungen für Vibration und Ton.
+Manches wird bewusst nicht über iCloud geteilt: der Kauf von Full Unlock (den verwaltet der App Store), der Versuch der Tagesaufgabe sowie die Einstellungen für Vibration und Ton.
 
 ## Vorsicht bei Käufen
 
@@ -25,18 +26,18 @@ Wird ein Kauf erstattet oder über die Familienfreigabe zurückgenommen, sperrt 
 
 ## Wie es weitergeht
 
-Claimball ist noch in der Testphase und kommt bald für iOS und Android. Ein Veröffentlichungsdatum gibt es noch nicht.
+Claimball ist noch in der Testphase und kommt bald für iOS und Android. Ein Erscheinungsdatum gibt es noch nicht.
 
-## FAQ
+## Häufige Fragen
 
 ### Was folgt in Claimball meinem iCloud-Account?
 Auf iPhone und iPad folgen dein Fortschritt, deine Sterne, Erfolge, der Status der kostenlosen Testphase und deine Bedienungshilfen-Einstellungen deinem iCloud-Account. Das läuft unauffällig im Hintergrund.
 
 ### Was wird nicht über iCloud geteilt?
-Der Kauf der Vollversion (den verwaltet der App Store), der Versuch der Tagesherausforderung sowie die Einstellungen für Vibration und Ton bleiben auf dem Gerät.
+Der Kauf von Full Unlock (den verwaltet der App Store), der Versuch der Tagesaufgabe sowie die Einstellungen für Vibration und Ton bleiben auf dem Gerät.
 
 ### Was passiert, wenn iCloud ausgeschaltet oder offline ist?
 Das Spiel behält einfach seine eigene Kopie auf dem Gerät.
 
 ### Ist Claimball schon veröffentlicht?
-Noch nicht. Es ist noch in der Testphase und kommt bald für iOS und Android, ein Veröffentlichungsdatum gibt es noch nicht.
+Noch nicht. Es ist noch in der Testphase und kommt bald für iOS und Android, ein Erscheinungsdatum gibt es noch nicht.

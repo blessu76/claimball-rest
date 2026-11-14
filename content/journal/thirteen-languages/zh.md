@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, 语言, 本地化, 休闲游戏, 日志
 published: 2026-11-08T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 Claimball 是一款几乎不用阅读也能玩的游戏,但菜单、提示和规则仍然需要文字。这篇文章讲的是测试版中语言列表是如何增加的。这些测试版尚未公开发布。
 

@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, 玩法说明, 新手教程, 休闲游戏, 日志
 published: 2026-11-05T18:41+09:00
+copy_review: iris 2026-11-14
 ---
 从第 14 版(TestFlight 内部测试版)起,Claimball 会在你的第一场对战开始时展示一份简短的"玩法说明"。它尚未公开发布。
 

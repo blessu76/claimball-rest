@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, muerte súbita, empate, juego casual, diario
 published: 2026-11-03T21:05+09:00
+copy_review: iris 2026-11-14
 ---
 Una partida de Claimball dura 90 segundos sobre una cuadrícula de cuaderno, y casi siempre un bando simplemente tiene más terreno cuando se para el reloj. Esta entrada trata del otro caso: la partida termina igualada.
 
@@ -23,7 +24,7 @@ Primero hicimos que ese resultado se mostrara como un empate. Después decidimos
 
 ## También en las últimas versiones de prueba
 
-El logotipo y el número del Combo máx. ahora mantienen el orden correcto en idiomas que se escriben de derecha a izquierda, como el árabe, y la página de Notas de la versión del sitio web enumera lo que cambió en cada versión.
+El logotipo y el número del Combo máximo ahora mantienen el orden correcto en idiomas que se escriben de derecha a izquierda, como el árabe, y la página de Notas de la versión del sitio web enumera lo que cambió en cada versión.
 
 ## Lo que viene
 

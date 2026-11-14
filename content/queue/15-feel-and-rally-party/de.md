@@ -1,12 +1,13 @@
 ---
 title: "Build 22: Ein Wackeln beim Verfehlen, ein Funkeln, wenn der Smash bereit ist, und Rally Party"
-description: Build 22 bringt drei kleine Verbesserungen am Spielgefühl und eine neue Variante der Tagesherausforderung mit einem langsameren Ball.
-summary: Bei Claimball Build 22 geht es ums Spielgefühl. Der Bildschirm wackelt leicht mit einer Vibration, wenn du einen Ball verfehlst, dein Schläger funkelt, wenn die Smash-Anzeige voll ist, und Sieg und Niederlage haben jeweils eine eigene Vibration. Außerdem gibt es eine neue Variante der Tagesherausforderung namens Rally Party mit einem langsameren Ball. Das Spiel ist weiterhin in der Testphase und erscheint bald für iOS und Android.
+description: Build 22 bringt drei kleine Verbesserungen am Spielgefühl und eine neue Variante der Tagesaufgabe mit einem langsameren Ball.
+summary: Bei Claimball Build 22 geht es ums Spielgefühl. Der Bildschirm wackelt leicht mit einer Vibration, wenn du einen Ball verfehlst, dein Schläger funkelt, wenn die Smash-Anzeige voll ist, und Sieg und Niederlage haben jeweils eine eigene Vibration. Außerdem gibt es eine neue Variante der Tagesaufgabe namens Rally Party mit einem langsameren Ball. Das Spiel ist weiterhin in der Testphase und erscheint bald für iOS und Android.
 slug: feel-and-rally-party
 lang: de
 category: devlog
 translation_of: en
-keywords: Claimball, Build 22, Haptik, Rally Party, Tagesherausforderung, Journal
+keywords: Claimball, Build 22, Vibration, Rally Party, Tagesaufgabe, Journal
+copy_review: iris 2026-11-14
 ---
 Build 22, ein interner TestFlight-Testbuild, dreht sich ums Spielgefühl. Er ist noch nicht öffentlich veröffentlicht.
 
@@ -24,7 +25,7 @@ Wenn ein Match endet, haben Sieg und Niederlage jeweils eine eigene Vibration.
 
 ## Rally Party
 
-Die Tagesherausforderung hat eine neue Variante namens Rally Party. Der Ball ist langsamer und wird sanft schneller, sodass sich lange Ballwechsel leichter durchhalten lassen. Wir haben das mit simulierten Matches geprüft, und die Landemarkierung stimmte jedes Mal.
+Die Tagesaufgabe hat eine neue Variante namens Rally Party. Der Ball ist langsamer und wird sanft schneller, sodass sich lange Ballwechsel leichter durchhalten lassen. Wir haben das mit simulierten Matches geprüft, und die Landemarkierung stimmte jedes Mal.
 
 ## Noch zu prüfen
 
@@ -34,7 +35,7 @@ Wie stark sich die Vibration anfühlt und ob Rally Party wirklich Spaß macht, l
 
 Claimball ist weiterhin in der Testphase und erscheint bald für iOS und Android. Ein Erscheinungsdatum gibt es noch nicht.
 
-## FAQ
+## Häufige Fragen
 
 ### Was passiert, wenn ich in Build 22 einen Ball verfehle?
 Der Bildschirm wackelt leicht und vibriert, sodass du den Fehler sofort spürst.
@@ -43,7 +44,7 @@ Der Bildschirm wackelt leicht und vibriert, sodass du den Fehler sofort spürst.
 Wenn sich die Smash-Anzeige füllt, funkelt dein Schläger. Du siehst auf einen Blick, dass der nächste Treffer in der Mitte ein Smash wird.
 
 ### Was ist Rally Party?
-Es ist eine neue Variante der Tagesherausforderung. Der Ball ist langsamer und wird sanft schneller, sodass sich lange Ballwechsel leichter durchhalten lassen. Wir haben das mit simulierten Matches geprüft, und die Landemarkierung stimmte jedes Mal.
+Es ist eine neue Variante der Tagesaufgabe. Der Ball ist langsamer und wird sanft schneller, sodass sich lange Ballwechsel leichter durchhalten lassen. Wir haben das mit simulierten Matches geprüft, und die Landemarkierung stimmte jedes Mal.
 
 ### Kann ich die Vibration ausschalten?
 Ja. Die Vibration lässt sich in den Einstellungen ausschalten. Wie stark sie sich anfühlt und ob Rally Party wirklich Spaß macht, lässt sich nur auf einem echten Handy beurteilen, und das wird noch getestet.

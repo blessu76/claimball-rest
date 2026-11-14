@@ -8,8 +8,9 @@ category: devlog
 translation_of: en
 published: 2026-11-11T18:00+09:00
 keywords: Claimball, tema cuaderno, ajustes, juego casual, diario
+copy_review: iris 2026-11-14
 ---
-La compilación 9, una versión de prueba interna de TestFlight, dio al juego un segundo aspecto. Todavía no se ha lanzado al público.
+La versión 9, una versión de prueba interna de TestFlight, dio al juego un segundo aspecto. Todavía no se ha lanzado al público.
 
 ## Cuaderno
 

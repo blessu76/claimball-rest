@@ -7,6 +7,7 @@ lang: fr
 category: devlog
 translation_of: en
 keywords: Claimball, repère d'atterrissage, tests, fair-play, journal
+copy_review: iris 2026-11-14
 ---
 Le repère d'atterrissage montre où la balle va tomber, il doit donc être juste à chaque fois. Voici comment il est testé dans les versions de test internes TestFlight, qui ne sont pas encore publiées.
 
@@ -24,17 +25,17 @@ Un test qui n'échoue jamais prouve peu de choses. Nous brisons donc aussi la r�
 
 ## Aussi avec les rivaux et les règles spéciales
 
-La même comparaison tourne avec chaque rival IA et avec les variantes du Défi quotidien, puisqu'ils changent la vitesse et le comportement.
+La même comparaison tourne avec chaque rival IA et avec les variantes du Défi du jour, puisqu'ils changent la vitesse et le comportement.
 
 ## Honnêtes sur les limites
 
 Ces vérifications portent sur des parties simulées. Jouer sur de vrais téléphones est une autre série de tests.
 
-## Et ensuite
+## La suite
 
 Claimball est encore en test et arrive bientôt sur iOS et Android. Il n'y a pas encore de date de sortie.
 
-## FAQ
+## Questions fréquentes
 
 ### Pourquoi le repère d'atterrissage doit-il être exact ?
 Si le repère indiquait une case et que le jeu en peignait une autre, vous cesseriez de vous y fier et le jeu paraîtrait injuste.
@@ -42,8 +43,8 @@ Si le repère indiquait une case et que le jeu en peignait une autre, vous cesse
 ### Comment testez-vous le repère ?
 Nous jouons un grand nombre de parties complètes simulées avec différentes graines aléatoires et comparons chaque repère aux cases réellement peintes. Ils doivent concorder à chaque fois.
 
-### Le test couvre-t-il les rivaux et le Défi quotidien ?
-Oui. La même comparaison tourne avec chaque rival IA et avec les variantes du Défi quotidien, puisqu'ils changent la vitesse et le comportement. Ces vérifications portent sur des parties simulées, et jouer sur de vrais téléphones est une autre série de tests.
+### Le test couvre-t-il les rivaux et le Défi du jour ?
+Oui. La même comparaison tourne avec chaque rival IA et avec les variantes du Défi du jour, puisqu'ils changent la vitesse et le comportement. Ces vérifications portent sur des parties simulées, et jouer sur de vrais téléphones est une autre série de tests.
 
 ### Claimball est-il déjà sorti ?
 Pas encore. Le jeu est encore en test et arrive bientôt sur iOS et Android, et il n'y a pas encore de date de sortie.

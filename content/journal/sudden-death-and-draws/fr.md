@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, mort subite, égalité, jeu casual, journal
 published: 2026-11-03T21:05+09:00
+copy_review: iris 2026-11-14
 ---
 Un match de Claimball dure 90 secondes sur une grille de cahier, et la plupart du temps un camp détient simplement plus de terrain quand le chrono s'arrête. Cet article parle de l'autre cas : le match se termine à égalité.
 
@@ -29,7 +30,7 @@ Le logo et le nombre du Combo max conservent désormais leur ordre correct dans 
 
 Claimball est toujours en phase de test et arrive bientôt sur iOS et Android. Il n'y a pas encore de date de sortie.
 
-## FAQ
+## Questions fréquentes
 
 ### Que se passe-t-il quand un match de Claimball se termine à égalité ?
 Quand le temps est écoulé avec le même nombre de cases, le match passe en mort subite. Le chrono s'arrête et le point suivant décide du match.

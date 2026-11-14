@@ -7,6 +7,7 @@ lang: de
 category: devlog
 translation_of: en
 keywords: Claimball, Strafe, Comeback, Regeln, Journal
+copy_review: iris 2026-11-14
 ---
 Bei Claimball geht es nicht nur ums Erobern von Feldern. Es geht auch darum, was du verlierst, wenn du danebenliegst. Diese Regeln stecken in den internen TestFlight-Testversionen, die noch nicht öffentlich veröffentlicht sind.
 
@@ -28,9 +29,9 @@ Weil Felder nicht nur gewonnen, sondern auch verloren werden können, schwankt e
 
 ## Wie es weitergeht
 
-Claimball ist noch in der Testphase und kommt bald für iOS und Android. Ein Veröffentlichungsdatum gibt es noch nicht.
+Claimball ist noch in der Testphase und kommt bald für iOS und Android. Ein Erscheinungsdatum gibt es noch nicht.
 
-## FAQ
+## Häufige Fragen
 
 ### Wie viele Felder verliere ich, wenn ich einen Ball verpasse?
 Wenn ein Ball an dir vorbeigeht, verlierst du 2 Felder. Liegst du in diesem Moment mit 10 oder mehr Feldern vorn, verlierst du stattdessen 3.
@@ -42,4 +43,4 @@ Ein großer Vorsprung kann den Rest einer Partie schon entschieden wirken lassen
 Erobere als Erster 30 Felder, oder halte mehr Felder, wenn die 90 Sekunden enden. Bei Gleichstand geht es in den Sudden Death, in dem der nächste Punkt gewinnt. Ein Ball, der bei 90 Sekunden noch in der Luft ist, darf noch landen, bevor die Partie entschieden wird.
 
 ### Ist Claimball schon erschienen?
-Noch nicht. Es ist noch in der Testphase und kommt bald für iOS und Android, ein Veröffentlichungsdatum gibt es noch nicht.
+Noch nicht. Es ist noch in der Testphase und kommt bald für iOS und Android, ein Erscheinungsdatum gibt es noch nicht.

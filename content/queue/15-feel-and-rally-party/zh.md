@@ -1,14 +1,15 @@
 ---
-title: 构建 22:漏球会晃,扣杀就绪会闪,还有 Rally Party
-description: 构建 22 带来三处手感升级,以及一个球速更慢的每日挑战新玩法「Rally Party」。
-summary: Claimball 构建 22 聚焦手感。漏掉一球时屏幕会轻轻晃动并伴有震动,扣杀槽充满时球拍会闪烁,胜利和失败也各有不同的震动。此外还新增了每日挑战的新玩法「Rally Party」,球速更慢。目前仍在测试中,即将登陆 iOS 和 Android。
+title: 第 22 版:漏球会晃,扣杀就绪会闪,还有 Rally Party
+description: 第 22 版 带来三处手感升级,以及一个球速更慢的每日挑战新玩法"Rally Party"。
+summary: Claimball 第 22 版 聚焦手感。漏掉一球时屏幕会轻轻晃动并伴有震动,扣杀槽充满时球拍会闪烁,胜利和失败也各有不同的震动。此外还新增了每日挑战的新玩法"Rally Party",球速更慢。目前仍在测试中,即将登陆 iOS 和 Android。
 slug: feel-and-rally-party
 lang: zh
 category: devlog
 translation_of: en
-keywords: Claimball, 构建 22, 震动反馈, Rally Party, 每日挑战, 日志
+keywords: Claimball, 第 22 版, 震动反馈, Rally Party, 每日挑战, 日志
+copy_review: iris 2026-11-14
 ---
-构建 22 是一个 TestFlight 内部测试版本,主题是手感。目前尚未向公众发布。
+第 22 版 是一个 TestFlight 内部测试版本,主题是手感。目前尚未向公众发布。
 
 ## 漏球时晃一下
 
@@ -34,9 +35,9 @@ keywords: Claimball, 构建 22, 震动反馈, Rally Party, 每日挑战, 日志
 
 Claimball 仍在测试中,即将登陆 iOS 和 Android。目前还没有发布日期。
 
-## FAQ
+## 常见问题
 
-### 在构建 22 中漏球会怎样?
+### 在第 22 版 中漏球会怎样?
 屏幕会轻轻晃动并伴有震动,让你立刻感觉到这一球没接住。
 
 ### 怎么知道扣杀已经就绪?

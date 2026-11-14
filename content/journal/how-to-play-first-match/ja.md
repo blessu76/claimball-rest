@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, 遊び方, チュートリアル, カジュアルゲーム, ジャーナル
 published: 2026-11-05T18:41+09:00
+copy_review: iris 2026-11-14
 ---
 TestFlight の内部テストビルドであるビルド14から、Claimball は最初の一戦を短い「遊び方」ガイドで始めます。一般公開はまだです。
 

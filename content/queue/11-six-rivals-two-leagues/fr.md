@@ -7,8 +7,9 @@ lang: fr
 category: devlog
 translation_of: en
 keywords: Claimball, rivaux IA, ligues, difficulté, journal
+copy_review: iris 2026-11-14
 ---
-La version 5, un build de test interne sur TestFlight, a donné à Claimball des adversaires à affronter. Elle n'est pas encore ouverte au public.
+La version 5, une version de test interne sur TestFlight, a donné à Claimball des adversaires à affronter. Elle n'est pas encore ouverte au public.
 
 ## Six rivaux, deux ligues
 
@@ -26,7 +27,7 @@ Pour que l'échelle reste équitable, nous simulons de nombreuses parties entre 
 
 Ces résultats viennent de bots, pas de personnes. Ce que l'échelle donne en vrai, entre des mains humaines, nous continuons de l'apprendre auprès des testeurs.
 
-## Et ensuite
+## La suite
 
 Claimball est encore en test, et bientôt sur iOS et Android. Il n'y a pas encore de date de sortie.
 

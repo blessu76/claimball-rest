@@ -7,6 +7,7 @@ lang: es
 category: devlog
 translation_of: en
 keywords: Claimball, aspecto de juguete, vibración, sonido, intro, diario
+copy_review: iris 2026-11-14
 ---
 Las versiones 3 y 4, de pruebas internas en TestFlight, cambiaron el aspecto, el tacto y el sonido de Claimball. Todavía no están disponibles para el público.
 
@@ -30,7 +31,7 @@ Hay un nuevo ajuste de sonido, activado por defecto, para que puedas jugar en si
 
 Claimball sigue en pruebas y llegará pronto a iOS y Android. Aún no hay fecha de lanzamiento.
 
-## Preguntas frequentes
+## Preguntas frecuentes
 
 ### ¿Qué cambió en el aspecto de Claimball?
 La versión 3 trajo casillas redondeadas y brillantes, una pelota y una pala nuevas y una cancha renovada, con un marcador y capas superpuestas a juego. La versión 4 añadió un menú y una pantalla de resultados rediseñados.

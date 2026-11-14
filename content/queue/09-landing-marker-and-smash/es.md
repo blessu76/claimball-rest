@@ -7,6 +7,7 @@ lang: es
 category: devlog
 translation_of: en
 keywords: Claimball, marcador de aterrizaje, smash, partida de 90 segundos, controles, diario
+copy_review: iris 2026-11-14
 ---
 La versión 1, la primera de pruebas internas en TestFlight, ya tenía el núcleo de Claimball. Todavía no está disponible para el público.
 
@@ -28,13 +29,13 @@ Un empate se resuelve con muerte súbita: gana quien consiga el siguiente punto.
 
 ## Controles y pausa
 
-Puedes jugar arrastrando, con el teclado o con el tacto. El juego se pausa automáticamente al salir de la app y, desde la versión 2, un botón de pausa durante la partida (Esc o P en el teclado) ofrece Reanudar, Reiniciar y Salir.
+Puedes jugar arrastrando, con el teclado o con la pantalla táctil. El juego se pausa automáticamente al salir de la app y, desde la versión 2, un botón de pausa durante la partida (Esc o P en el teclado) ofrece Reanudar, Reiniciar y Salir.
 
 ## Lo que viene
 
 Claimball sigue en pruebas y llegará pronto a iOS y Android. Aún no hay fecha de lanzamiento.
 
-## Preguntas frequentes
+## Preguntas frecuentes
 
 ### ¿Cómo se gana una partida de Claimball?
 Una partida dura unos 90 segundos. Sé el primero en conquistar 30 casillas, o ten más casillas cuando se acabe el tiempo. Un empate se resuelve con muerte súbita: gana quien consiga el siguiente punto.
@@ -46,4 +47,4 @@ Muestra dónde caerá la pelota, así puedes llegar con tu pala a tiempo en luga
 Mantén el peloteo para llenar el medidor de smash y luego golpea la pelota con el centro de tu pala para hacer un smash, que conquista 3 casillas de golpe.
 
 ### ¿Cómo se juega y cómo se pausa?
-Puedes jugar arrastrando, con el teclado o con el tacto. El juego se pausa automáticamente al salir de la app y, desde la versión 2, un botón de pausa (Esc o P en el teclado) ofrece Reanudar, Reiniciar y Salir.
+Puedes jugar arrastrando, con el teclado o con la pantalla táctil. El juego se pausa automáticamente al salir de la app y, desde la versión 2, un botón de pausa (Esc o P en el teclado) ofrece Reanudar, Reiniciar y Salir.

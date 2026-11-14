@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, daltonisme, accessibilité, contraste, jeu casual, journal
 published: 2026-11-07T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 Claimball est un jeu de deux couleurs sur une grille, si bien que la couleur seule est un signal fragile pour certains joueurs. Cet article présente deux petits changements issus des versions de test. Elles ne sont pas encore disponibles au public.
 
@@ -27,7 +28,7 @@ Vous pouvez activer et désactiver le réglage des motifs à tout moment, ce qui
 
 Claimball est toujours en phase de test et arrive bientôt sur iOS et Android. Il n'y a pas encore de date de sortie.
 
-## FAQ
+## Questions fréquentes
 
 ### Que fait le réglage Motifs pour daltoniens ?
 Il place des points sur vos cases et des rayures sur celles de l'adversaire. Vous pouvez lire le plateau grâce au motif, même si les deux couleurs se ressemblent. Il est arrivé dans la version 5.

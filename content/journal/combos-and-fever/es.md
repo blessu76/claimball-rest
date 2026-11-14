@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, combo, modo Fever, estrellas, logros, diario
 published: 2026-11-13T21:14+09:00
+copy_review: iris 2026-11-14
 ---
 La versión 5, una versión de prueba interna de TestFlight, dio más ritmo a una partida de Claimball. Todavía no está disponible para el público.
 

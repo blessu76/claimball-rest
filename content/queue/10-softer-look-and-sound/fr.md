@@ -7,8 +7,9 @@ lang: fr
 category: devlog
 translation_of: en
 keywords: Claimball, look de jouet, vibration, son, intro, journal
+copy_review: iris 2026-11-14
 ---
-Les versions 3 et 4, des builds de test interne sur TestFlight, ont changé l'apparence, les sensations et le son de Claimball. Elles ne sont pas encore ouvertes au public.
+Les versions 3 et 4, des versions de test interne sur TestFlight, ont changé l'apparence, les sensations et le son de Claimball. Elles ne sont pas encore ouvertes au public.
 
 ## Un look plus doux
 
@@ -26,7 +27,7 @@ La version 4 a ajouté un écran d'intro avec un petit son de pop, un menu repen
 
 Un nouveau réglage Son activé/désactivé, activé par défaut, vous permet de jouer en silence quand vous le voulez.
 
-## Et ensuite
+## La suite
 
 Claimball est encore en test, et bientôt sur iOS et Android. Il n'y a pas encore de date de sortie.
 

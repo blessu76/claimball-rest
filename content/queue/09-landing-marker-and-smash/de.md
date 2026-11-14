@@ -7,6 +7,7 @@ lang: de
 category: devlog
 translation_of: en
 keywords: Claimball, Landemarkierung, Smash, 90-Sekunden-Match, Steuerung, Journal
+copy_review: iris 2026-11-14
 ---
 Build 1, der erste interne TestFlight-Testbuild, hatte schon den Kern von Claimball. Er ist noch nicht für die Öffentlichkeit freigegeben.
 
@@ -32,7 +33,7 @@ Du kannst per Ziehen, Tastatur oder Touch spielen. Das Spiel pausiert automatisc
 
 ## Wie es weitergeht
 
-Claimball ist noch in der Testphase und kommt bald für iOS und Android. Ein Veröffentlichungsdatum gibt es noch nicht.
+Claimball ist noch in der Testphase und kommt bald für iOS und Android. Ein Erscheinungsdatum gibt es noch nicht.
 
 ## Häufige Fragen
 

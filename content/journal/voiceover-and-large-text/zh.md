@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, 无障碍, VoiceOver, 大字体, 休闲游戏, 日志
 published: 2026-11-06T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 节奏很快的球类游戏,听起来并不容易配合读屏器来玩,所以我们把第 14 版(TestFlight 内部测试版)用在了无障碍上。它尚未公开发布。
 

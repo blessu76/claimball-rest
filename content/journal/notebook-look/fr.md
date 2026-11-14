@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 published: 2026-11-11T18:00+09:00
 keywords: Claimball, thème cahier, réglages, jeu casual, journal
+copy_review: iris 2026-11-14
 ---
 La version 9, une version de test interne TestFlight, a donné au jeu une seconde apparence. Elle n'est pas encore publiée pour le grand public.
 
@@ -27,7 +28,7 @@ Votre choix de thème est enregistré sur chaque appareil et n'est pas partagé 
 
 Claimball est toujours en phase de test et arrive bientôt sur iOS et Android. Il n'y a pas encore de date de sortie.
 
-## FAQ
+## Questions fréquentes
 
 ### Comment passer de Classique à Cahier ?
 Choisissez Classique ou Cahier dans les Réglages, en bas de la carte des réglages. Vous pouvez changer à tout moment, même en pleine session, et rien ne redémarre.

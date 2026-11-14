@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, cómo jugar, tutorial, juego casual, diario
 published: 2026-11-05T18:41+09:00
+copy_review: iris 2026-11-14
 ---
 Desde la versión 14, una versión de prueba interna de TestFlight, Claimball abre tu primerísima partida con una guía corta de Cómo jugar. Todavía no está disponible para el público.
 

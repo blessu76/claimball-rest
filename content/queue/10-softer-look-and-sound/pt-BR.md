@@ -7,6 +7,7 @@ lang: pt-BR
 category: devlog
 translation_of: en
 keywords: Claimball, visual de brinquedo, vibração, som, abertura, diário
+copy_review: iris 2026-11-14
 ---
 As versões 3 e 4, builds de testes internos no TestFlight, mudaram o visual, a sensação e o som do Claimball. Elas ainda não foram lançadas ao público.
 
@@ -16,7 +17,7 @@ A versão 3 trouxe um visual de brinquedo: casas arredondadas e brilhantes, uma 
 
 ## Um pouco de vibração
 
-Agora, cada acerto da raquete dá uma pequena vibração, mais leve em um acerto normal e mais firme em um smash. Você pode desligá-la nos Ajustes.
+Agora, cada acerto da raquete dá uma pequena vibração, mais leve em um acerto normal e mais firme em um smash. Você pode desligá-la nas Configurações.
 
 ## Uma nova abertura
 
@@ -36,7 +37,7 @@ O Claimball ainda está em testes e chega em breve ao iOS e ao Android. Ainda n�
 A versão 3 trouxe casas arredondadas e brilhantes, uma bola e uma raquete novas e uma quadra renovada, com placar e sobreposições combinando. A versão 4 trouxe um menu e uma tela de resultados redesenhados.
 
 ### O jogo vibra?
-Cada acerto da raquete dá uma pequena vibração, mais leve em um acerto normal e mais firme em um smash. Você pode desligá-la nos Ajustes.
+Cada acerto da raquete dá uma pequena vibração, mais leve em um acerto normal e mais firme em um smash. Você pode desligá-la nas Configurações.
 
 ### Posso desligar o som?
 Sim. A opção de som ligado/desligado vem ligada por padrão, para você jogar em silêncio quando quiser.

@@ -7,6 +7,7 @@ lang: de
 category: devlog
 translation_of: en
 keywords: Claimball, Spielzeug-Look, Vibration, Sound, Intro, Journal
+copy_review: iris 2026-11-14
 ---
 Die Builds 3 und 4, interne TestFlight-Testbuilds, haben verändert, wie Claimball aussieht, sich anfühlt und klingt. Sie sind noch nicht für die Öffentlichkeit freigegeben.
 
@@ -28,7 +29,7 @@ Eine neue Einstellung für Ton an/aus ist standardmäßig eingeschaltet, sodass 
 
 ## Wie es weitergeht
 
-Claimball ist noch in der Testphase und kommt bald für iOS und Android. Ein Veröffentlichungsdatum gibt es noch nicht.
+Claimball ist noch in der Testphase und kommt bald für iOS und Android. Ein Erscheinungsdatum gibt es noch nicht.
 
 ## Häufige Fragen
 
@@ -42,4 +43,4 @@ Dein Treffer mit dem Schläger löst eine kleine Vibration aus, leichter bei ein
 Ja. Die Einstellung für Ton an/aus ist standardmäßig eingeschaltet, sodass du jederzeit leise spielen kannst.
 
 ### Ist Claimball schon veröffentlicht?
-Noch nicht. Es ist noch in der Testphase und kommt bald für iOS und Android. Ein Veröffentlichungsdatum gibt es noch nicht.
+Noch nicht. Es ist noch in der Testphase und kommt bald für iOS und Android. Ein Erscheinungsdatum gibt es noch nicht.

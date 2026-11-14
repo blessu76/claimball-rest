@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, idiomas, localización, juego casual, diario
 published: 2026-11-08T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 Claimball es un juego que se puede jugar casi sin leer, pero los menús, las pistas y las reglas siguen necesitando palabras. Esta entrada cuenta cómo creció la lista de idiomas en las versiones de prueba. Todavía no están disponibles para el público.
 

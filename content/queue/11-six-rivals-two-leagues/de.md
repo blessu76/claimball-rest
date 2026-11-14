@@ -7,6 +7,7 @@ lang: de
 category: devlog
 translation_of: en
 keywords: Claimball, KI-Rivalen, Ligen, Schwierigkeit, Journal
+copy_review: iris 2026-11-14
 ---
 Build 5, ein interner TestFlight-Testbuild, gab Claimball Gegner zum Spielen. Er ist noch nicht für die Öffentlichkeit freigegeben.
 
@@ -20,15 +21,15 @@ Du wählst selbst, gegen wen du antrittst. Besiege einen Rivalen, um den nächst
 
 ## Mit simulierten Matches geprüft
 
-Damit die Rangleiter fair bleibt, lassen wir viele simulierte Matches zwischen einem einfachen Test-Bot und jedem Rivalen laufen und vergleichen, wie oft der Rivale gewinnt. Ein Rivale stellte sich als deutlich größerer Sprung heraus als die anderen, also haben wir ihn entschärft. Dieselben Simulationen bestätigen außerdem, dass die Landemarkierung zu der Stelle passt, an der der Ball wirklich landet.
+Damit die Abfolge der Rivalen fair bleibt, lassen wir viele simulierte Matches zwischen einem einfachen Test-Bot und jedem Rivalen laufen und vergleichen, wie oft der Rivale gewinnt. Ein Rivale stellte sich als deutlich größerer Sprung heraus als die anderen, also haben wir ihn entschärft. Dieselben Simulationen bestätigen außerdem, dass die Landemarkierung zu der Stelle passt, an der der Ball wirklich landet.
 
 ## Noch in der Abstimmung
 
-Diese Ergebnisse stammen von Bots, nicht von Menschen. Wie sich die Rangleiter in echten Händen anfühlt, lernen wir noch von den Testern.
+Diese Ergebnisse stammen von Bots, nicht von Menschen. Wie sich die Abfolge der Rivalen in echten Händen anfühlt, lernen wir noch von den Testern.
 
 ## Wie es weitergeht
 
-Claimball ist noch in der Testphase und kommt bald für iOS und Android. Ein Veröffentlichungsdatum gibt es noch nicht.
+Claimball ist noch in der Testphase und kommt bald für iOS und Android. Ein Erscheinungsdatum gibt es noch nicht.
 
 ## Häufige Fragen
 
@@ -42,4 +43,4 @@ Du wählst selbst, gegen wen du antrittst. Besiege einen Rivalen, um den nächst
 Wir lassen viele simulierte Matches zwischen einem einfachen Test-Bot und jedem Rivalen laufen und vergleichen, wie oft der Rivale gewinnt. Ein Rivale war ein deutlich größerer Sprung als die anderen, also haben wir ihn entschärft. Diese Ergebnisse stammen von Bots, nicht von Menschen, deshalb lernen wir weiter von den Testern.
 
 ### Ist Claimball schon veröffentlicht?
-Noch nicht. Es ist noch in der Testphase und kommt bald für iOS und Android. Ein Veröffentlichungsdatum gibt es noch nicht.
+Noch nicht. Es ist noch in der Testphase und kommt bald für iOS und Android. Ein Erscheinungsdatum gibt es noch nicht.

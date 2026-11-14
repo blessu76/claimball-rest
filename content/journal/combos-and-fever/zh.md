@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, 连击, 狂热模式, 星星, 成就, 日志
 published: 2026-11-13T21:14+09:00
+copy_review: iris 2026-11-14
 ---
 第 5 版是 TestFlight 内部测试版,让 Claimball 的一局多了几分节奏感。它尚未公开发布。
 

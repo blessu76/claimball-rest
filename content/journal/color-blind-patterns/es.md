@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, daltonismo, accesibilidad, contraste, juego casual, diario
 published: 2026-11-07T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 Claimball es un juego de dos colores sobre una cuadrícula, así que el color por sí solo es una señal débil para algunos jugadores. Esta entrada cuenta dos pequeños cambios de las versiones de prueba. Todavía no están disponibles para el público.
 

@@ -7,6 +7,7 @@ lang: fr
 category: devlog
 translation_of: en
 keywords: Claimball, pénalité, remontada, règles, journal
+copy_review: iris 2026-11-14
 ---
 Claimball, ce n'est pas seulement prendre des cases. C'est aussi ce que l'on perd quand on rate. Ces règles sont dans les versions de test internes TestFlight, qui ne sont pas encore publiées.
 
@@ -26,11 +27,11 @@ Soyez le premier à prendre 30 cases, ou détenez davantage de cases à la fin d
 
 Comme on peut perdre des cases autant qu'en gagner, une partie oscille d'un camp à l'autre au lieu de grandir dans un seul sens. C'est pourquoi même un départ à sens unique peut encore se retourner.
 
-## Et ensuite
+## La suite
 
 Claimball est encore en test et arrive bientôt sur iOS et Android. Il n'y a pas encore de date de sortie.
 
-## FAQ
+## Questions fréquentes
 
 ### Combien de cases perds-je si je rate une balle ?
 Quand une balle vous échappe, vous perdez 2 cases. Si vous meniez de 10 cases ou plus à ce moment-là, vous en perdez 3.

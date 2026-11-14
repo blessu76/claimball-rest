@@ -1,12 +1,13 @@
 ---
 title: 我们如何确认落点标记说的是实话
-description: 落点标记只有准确才有用。这里介绍我们如何测试它显示的格子,就是实际被涂上的格子。
+description: 落点标记只有准确才有用。这里介绍我们如何测试,确保它显示的格子就是实际被涂上的格子。
 summary: Claimball 的落点标记只有准确才有帮助,所以我们测试它是否与实际被涂上的格子一致。我们用不同的随机种子完整模拟许多场比赛,并把每个标记与结果逐一比对,还会故意破坏规则,确认测试确实会失败。游戏仍在测试中,即将登陆 iOS 和 Android。
 slug: marker-keeps-its-word
 lang: zh
 category: devlog
 translation_of: en
 keywords: Claimball, 落点标记, 测试, 公平游戏, 日志
+copy_review: iris 2026-11-14
 ---
 落点标记显示球将落在哪里,所以每一次都必须准确。下面介绍它在尚未向公众发布的 TestFlight 内部测试版本中是如何测试的。
 

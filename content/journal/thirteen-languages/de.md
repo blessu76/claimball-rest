@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, Sprachen, Lokalisierung, Casual-Spiel, Journal
 published: 2026-11-08T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 Claimball ist ein Spiel, das man fast ohne Lesen spielen kann, aber Menüs, Hinweise und Regeln brauchen trotzdem Worte. In diesem Beitrag geht es darum, wie die Sprachliste in den Testversionen gewachsen ist. Sie sind noch nicht öffentlich veröffentlicht.
 
@@ -25,9 +26,9 @@ Build 14 hat eine automatische Prüfung ergänzt, die die Übersetzungen in alle
 
 ## Wie es weitergeht
 
-Claimball befindet sich weiterhin im Test und erscheint bald für iOS und Android. Ein Veröffentlichungsdatum gibt es noch nicht.
+Claimball befindet sich weiterhin im Test und erscheint bald für iOS und Android. Ein Erscheinungsdatum gibt es noch nicht.
 
-## FAQ
+## Häufige Fragen
 
 ### Welche Sprachen unterstützt Claimball?
 Build 3 brachte das Spiel in neun Sprachen: Englisch, Koreanisch, Japanisch, vereinfachtes und traditionelles Chinesisch, Spanisch, brasilianisches Portugiesisch, Deutsch und Französisch. Build 10 ergänzte vier weitere: Indonesisch, Russisch, Arabisch und Hindi.

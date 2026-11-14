@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, デイリーチャレンジ, カジュアルゲーム, ジャーナル
 published: 2026-11-10T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 デイリーチャレンジは1日1試合にひとひねりが加わるモードで、いくつかのテストビルドを経て育ってきました。どれも一般公開はまだです。
 

@@ -7,6 +7,7 @@ lang: de
 category: devlog
 translation_of: en
 keywords: Claimball, Landemarkierung, Tests, Fairplay, Journal
+copy_review: iris 2026-11-14
 ---
 Die Landemarkierung zeigt, wo der Ball landen wird, also muss sie jedes Mal stimmen. So wird sie in den internen TestFlight-Testversionen getestet, die noch nicht öffentlich veröffentlicht sind.
 
@@ -24,7 +25,7 @@ Ein Test, der nie fehlschlägt, beweist wenig. Deshalb brechen wir die Regel auc
 
 ## Auch bei Rivalen und Sonderregeln
 
-Derselbe Vergleich läuft mit jedem KI-Rivalen und mit den Varianten der Tagesherausforderung, da sie Tempo und Verhalten verändern.
+Derselbe Vergleich läuft mit jedem KI-Rivalen und mit den Varianten der Tagesaufgabe, da sie Tempo und Verhalten verändern.
 
 ## Ehrlich bei den Grenzen
 
@@ -32,9 +33,9 @@ Diese Prüfungen laufen auf simulierten Partien. Das Spielen auf echten Handys i
 
 ## Wie es weitergeht
 
-Claimball ist noch in der Testphase und kommt bald für iOS und Android. Ein Veröffentlichungsdatum gibt es noch nicht.
+Claimball ist noch in der Testphase und kommt bald für iOS und Android. Ein Erscheinungsdatum gibt es noch nicht.
 
-## FAQ
+## Häufige Fragen
 
 ### Warum muss die Landemarkierung genau sein?
 Würde die Markierung ein Feld anzeigen und das Spiel ein anderes färben, würdest du ihr nicht mehr trauen, und das Spiel würde sich unfair anfühlen.
@@ -42,8 +43,8 @@ Würde die Markierung ein Feld anzeigen und das Spiel ein anderes färben, würd
 ### Wie testet ihr die Markierung?
 Wir spielen sehr oft vollständige simulierte Partien mit verschiedenen Zufallswerten und vergleichen jede Markierung mit den tatsächlich gefärbten Feldern. Sie müssen jedes Mal übereinstimmen.
 
-### Deckt der Test Rivalen und die Tagesherausforderung ab?
-Ja. Derselbe Vergleich läuft mit jedem KI-Rivalen und mit den Varianten der Tagesherausforderung, da sie Tempo und Verhalten verändern. Diese Prüfungen laufen auf simulierten Partien, das Spielen auf echten Handys ist eine eigene Testrunde.
+### Deckt der Test Rivalen und die Tagesaufgabe ab?
+Ja. Derselbe Vergleich läuft mit jedem KI-Rivalen und mit den Varianten der Tagesaufgabe, da sie Tempo und Verhalten verändern. Diese Prüfungen laufen auf simulierten Partien, das Spielen auf echten Handys ist eine eigene Testrunde.
 
 ### Ist Claimball schon erschienen?
-Noch nicht. Es ist noch in der Testphase und kommt bald für iOS und Android, ein Veröffentlichungsdatum gibt es noch nicht.
+Noch nicht. Es ist noch in der Testphase und kommt bald für iOS und Android, ein Erscheinungsdatum gibt es noch nicht.

@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, Barrierefreiheit, VoiceOver, große Schrift, Casual-Spiel, Journal
 published: 2026-11-06T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 Ein schnelles Ballspiel klingt nicht danach, dass es sich leicht mit einem Screenreader spielen lässt, deshalb haben wir Build 14, eine interne TestFlight-Testversion, der Barrierefreiheit gewidmet. Sie ist noch nicht öffentlich veröffentlicht.
 
@@ -25,9 +26,9 @@ Barrierefreiheit ist keine einmalige Aufgabe. Wir werden weiter mit diesen aktiv
 
 ## Wie es weitergeht
 
-Claimball befindet sich weiterhin im Test und erscheint bald für iOS und Android. Ein Veröffentlichungsdatum gibt es noch nicht.
+Claimball befindet sich weiterhin im Test und erscheint bald für iOS und Android. Ein Erscheinungsdatum gibt es noch nicht.
 
-## FAQ
+## Häufige Fragen
 
 ### Lässt sich Claimball mit VoiceOver spielen?
 Der Spielbildschirm lässt sich jetzt mit VoiceOver vorlesen, sodass jeder Teil eines Matches angesagt wird.

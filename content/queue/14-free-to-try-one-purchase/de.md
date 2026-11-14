@@ -7,6 +7,7 @@ lang: de
 category: devlog
 translation_of: en
 keywords: Claimball, kostenlos testen, ein Kauf, keine Werbung, kein Abo, Journal
+copy_review: iris 2026-11-14
 ---
 Build 6, eine interne TestFlight-Testversion, hat ergänzt, wie Claimball bezahlt werden soll. Es ist noch nicht öffentlich veröffentlicht, und der Preis wurde noch nicht bekannt gegeben.
 
@@ -20,11 +21,11 @@ Ein einziger Kauf schaltet alles frei. Es gibt keine Werbung und kein Abo. Der B
 
 ## Ruhig, nicht aufdringlich
 
-Gesperrte Rivalenkarten sehen einfach gesperrt aus, und das Kaufblatt erscheint nur bei einigen natürlichen Gelegenheiten, etwa nach einer gewonnenen Partie, höchstens einmal pro Start. Es gibt keine drängenden Formulierungen.
+Gesperrte Rivalenkarten sehen einfach gesperrt aus, und das Kauffenster erscheint nur bei einigen natürlichen Gelegenheiten, etwa nach einer gewonnenen Partie, höchstens einmal pro Start. Es gibt keine drängenden Formulierungen.
 
 ## Wiederherstellen und Warten
 
-Hast du schon einmal gekauft, bringt eine Schaltfläche zum Wiederherstellen in den Einstellungen die Freischaltung zurück. Wartet ein Kauf auf Genehmigung, zum Beispiel bei „Fragen, ob ich etwas kaufen darf“, wartet das Spiel, statt zu raten.
+Hast du schon einmal gekauft, bringt eine Schaltfläche zum Wiederherstellen in den Einstellungen die Freischaltung zurück. Wartet ein Kauf auf Genehmigung, zum Beispiel bei „Kaufanfrage“, wartet das Spiel, statt zu raten.
 
 ## Wenn ein Kauf erstattet wird
 
@@ -32,9 +33,9 @@ Eine Erstattung hebt die Freischaltung auf, aber erst, nachdem das Spiel bei zwe
 
 ## Wie es weitergeht
 
-Claimball ist noch in der Testphase und kommt bald für iOS und Android. Ein Veröffentlichungsdatum gibt es noch nicht.
+Claimball ist noch in der Testphase und kommt bald für iOS und Android. Ein Erscheinungsdatum gibt es noch nicht.
 
-## FAQ
+## Häufige Fragen
 
 ### Kann ich Claimball kostenlos testen?
 Ja. Claimball ist kostenlos zu testen. Du kannst spielen und die Rivalen kennenlernen, bevor du dich für irgendetwas entscheidest.
@@ -43,7 +44,7 @@ Ja. Claimball ist kostenlos zu testen. Du kannst spielen und die Rivalen kennenl
 Ein einziger Kauf schaltet alles frei. Es gibt keine Werbung und kein Abo. Der Betrag wird vom Store in deiner eigenen Währung angezeigt, sobald er verfügbar ist, und der Preis wurde noch nicht bekannt gegeben.
 
 ### Was ist, wenn ich schon gekauft habe oder mein Kauf aussteht?
-Eine Schaltfläche zum Wiederherstellen in den Einstellungen bringt die Freischaltung zurück. Wartet ein Kauf auf Genehmigung, zum Beispiel bei „Fragen, ob ich etwas kaufen darf“, wartet das Spiel, statt zu raten.
+Eine Schaltfläche zum Wiederherstellen in den Einstellungen bringt die Freischaltung zurück. Wartet ein Kauf auf Genehmigung, zum Beispiel bei „Kaufanfrage“, wartet das Spiel, statt zu raten.
 
 ### Was passiert, wenn ein Kauf erstattet wird?
 Eine Erstattung hebt die Freischaltung auf, aber erst, nachdem das Spiel bei zwei getrennten Starts gesehen hat, dass der Store das meldet. So sperrt dich eine vorübergehende Anmeldestörung nicht versehentlich aus.

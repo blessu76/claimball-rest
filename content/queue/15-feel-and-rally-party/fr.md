@@ -1,12 +1,13 @@
 ---
 title: "Version 22 : une secousse quand on rate, un scintillement quand le smash est prêt, et Rally Party"
-description: La version 22 apporte trois petites améliorations de sensation et une nouvelle variante du Défi quotidien avec une balle plus lente.
-summary: La version 22 de Claimball est consacrée aux sensations. L'écran tremble légèrement avec une vibration quand vous ratez une balle, votre raquette scintille quand la jauge de smash est pleine, et la victoire comme la défaite ont chacune leur propre vibration. Elle ajoute aussi une variante du Défi quotidien appelée Rally Party, avec une balle plus lente. Le jeu est toujours en test et arrive bientôt sur iOS et Android.
+description: La version 22 apporte trois petites améliorations de sensation et une nouvelle variante du Défi du jour avec une balle plus lente.
+summary: La version 22 de Claimball est consacrée aux sensations. L'écran tremble légèrement avec une vibration quand vous ratez une balle, votre raquette scintille quand la jauge de smash est pleine, et la victoire comme la défaite ont chacune leur propre vibration. Elle ajoute aussi une variante du Défi du jour appelée Rally Party, avec une balle plus lente. Le jeu est toujours en test et arrive bientôt sur iOS et Android.
 slug: feel-and-rally-party
 lang: fr
 category: devlog
 translation_of: en
-keywords: Claimball, version 22, retour haptique, Rally Party, défi quotidien, journal
+keywords: Claimball, version 22, retour haptique, Rally Party, défi du jour, journal
+copy_review: iris 2026-11-14
 ---
 La version 22, une version de test interne TestFlight, est consacrée aux sensations. Elle n'est pas encore publique.
 
@@ -24,17 +25,17 @@ Quand un match se termine, la victoire et la défaite ont chacune leur propre vi
 
 ## Rally Party
 
-Le Défi quotidien a une nouvelle variante appelée Rally Party. La balle est plus lente et accélère doucement, ce qui facilite les longs échanges. Nous l'avons vérifié avec des matchs simulés, et le marqueur d'atterrissage correspondait à chaque fois.
+Le Défi du jour a une nouvelle variante appelée Rally Party. La balle est plus lente et accélère doucement, ce qui facilite les longs échanges. Nous l'avons vérifié avec des matchs simulés, et le repère d'atterrissage correspondait à chaque fois.
 
 ## Encore à vérifier
 
 L'intensité de la vibration et le fait que Rally Party soit vraiment amusant ne se jugent que sur un vrai téléphone, et cela reste en test. La vibration peut être désactivée dans les Réglages.
 
-## Et ensuite
+## La suite
 
 Claimball est toujours en test et arrive bientôt sur iOS et Android. Il n'y a pas encore de date de sortie.
 
-## FAQ
+## Questions fréquentes
 
 ### Que se passe-t-il quand je rate une balle dans la version 22 ?
 L'écran tremble légèrement et vibre, si bien que l'échec se ressent tout de suite.
@@ -43,7 +44,7 @@ L'écran tremble légèrement et vibre, si bien que l'échec se ressent tout de 
 Quand la jauge de smash se remplit, votre raquette scintille. On voit d'un coup d'œil que le prochain coup au centre sera un smash.
 
 ### Qu'est-ce que Rally Party ?
-C'est une nouvelle variante du Défi quotidien. La balle est plus lente et accélère doucement, ce qui facilite les longs échanges. Nous l'avons vérifié avec des matchs simulés, et le marqueur d'atterrissage correspondait à chaque fois.
+C'est une nouvelle variante du Défi du jour. La balle est plus lente et accélère doucement, ce qui facilite les longs échanges. Nous l'avons vérifié avec des matchs simulés, et le repère d'atterrissage correspondait à chaque fois.
 
 ### Puis-je désactiver la vibration ?
 Oui. La vibration peut être désactivée dans les Réglages. L'intensité de la vibration et le fait que Rally Party soit vraiment amusant ne se jugent que sur un vrai téléphone, et cela reste en test.

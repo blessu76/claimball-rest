@@ -1,17 +1,18 @@
 ---
-title: Kombos, Fever und Sterne: So wird ein Claimball-Match immer heißer
-description: Build 5 brachte Kombo-Ketten, einen Fever-Modus in den letzten 20 Sekunden, ein bis drei Sterne pro Match und eine Liste von Erfolgen.
-summary: In Claimball steigern Kombo-Ketten Ton und Vibration bei 3, 5, 8 und 12 Treffern in Folge, und in den letzten 20 Sekunden schaltet sich ein Fever-Modus ein, ohne die Regeln zu ändern. Jedes Match bringt 1 bis 3 Sterne, und sechs KI-Rivalen reagieren mit Gesichtern und Bewegungen. Es ist noch im Test und erscheint bald für iOS und Android.
+title: Combos, Fever und Sterne: So wird ein Claimball-Match immer heißer
+description: Build 5 brachte Combo-Ketten, einen Fever-Modus in den letzten 20 Sekunden, ein bis drei Sterne pro Match und eine Liste von Erfolgen.
+summary: In Claimball steigern Combo-Ketten Ton und Vibration bei 3, 5, 8 und 12 Treffern in Folge, und in den letzten 20 Sekunden schaltet sich ein Fever-Modus ein, ohne die Regeln zu ändern. Jedes Match bringt 1 bis 3 Sterne, und sechs KI-Rivalen reagieren mit Gesichtern und Bewegungen. Es ist noch im Test und erscheint bald für iOS und Android.
 slug: combos-and-fever
 lang: de
 category: devlog
 translation_of: en
-keywords: Claimball, Kombo, Fever-Modus, Sterne, Erfolge, Journal
+keywords: Claimball, Combo, Fever-Modus, Sterne, Erfolge, Journal
 published: 2026-11-13T21:14+09:00
+copy_review: iris 2026-11-14
 ---
 Build 5, eine interne TestFlight-Testversion, hat einem Claimball-Match mehr Rhythmus gegeben. Sie ist noch nicht öffentlich veröffentlicht.
 
-## Kombo-Ketten
+## Combo-Ketten
 
 Halte den Ballwechsel am Laufen, und das Spiel antwortet dir. Ton und Vibration steigern sich bei 3, 5, 8 und 12 Treffern in Folge.
 
@@ -29,11 +30,11 @@ Die sechs KI-Rivalen reagieren jetzt mit Gesichtern und kleinen Bewegungen, wenn
 
 ## Wie es weitergeht
 
-Claimball befindet sich weiterhin im Test und erscheint bald für iOS und Android. Ein Veröffentlichungsdatum gibt es noch nicht.
+Claimball befindet sich weiterhin im Test und erscheint bald für iOS und Android. Ein Erscheinungsdatum gibt es noch nicht.
 
-## FAQ
+## Häufige Fragen
 
-### Wann steigern sich die Kombo-Effekte?
+### Wann steigern sich die Combo-Effekte?
 Ton und Vibration steigern sich bei 3, 5, 8 und 12 Treffern in Folge.
 
 ### Was ist Fever?
@@ -43,4 +44,4 @@ In den letzten 20 Sekunden schaltet sich ein Fever-Modus ein, mit wärmerem Bild
 Jedes Match bringt 1 bis 3 Sterne. Deine besten Sterne erscheinen auf der Karte jedes Rivalen, und eine Liste von Erfolgen hält den Rest fest.
 
 ### Ist Claimball schon erschienen?
-Noch nicht. Es ist weiterhin im Test und erscheint bald für iOS und Android, ein Veröffentlichungsdatum gibt es noch nicht.
+Noch nicht. Es ist weiterhin im Test und erscheint bald für iOS und Android, ein Erscheinungsdatum gibt es noch nicht.

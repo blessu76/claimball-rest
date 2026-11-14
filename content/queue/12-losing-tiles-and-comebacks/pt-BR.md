@@ -7,6 +7,7 @@ lang: pt-BR
 category: devlog
 translation_of: en
 keywords: Claimball, penalidade, virada, regras, diário
+copy_review: iris 2026-11-14
 ---
 O Claimball não é só conquistar casas. Também importa o que você perde quando erra. Essas regras estão nas versões de teste internas do TestFlight, que ainda não foram lançadas ao público.
 

@@ -7,8 +7,9 @@ lang: es
 category: devlog
 translation_of: en
 keywords: Claimball, marcador de aterrizaje, pruebas, juego limpio, diario
+copy_review: iris 2026-11-14
 ---
-El marcador de aterrizaje muestra dónde caerá la bola, así que tiene que acertar siempre. Así se prueba en las versiones de prueba internas de TestFlight, que todavía no se han publicado.
+El marcador de aterrizaje muestra dónde caerá la pelota, así que tiene que acertar siempre. Así se prueba en las versiones de prueba internas de TestFlight, que todavía no se han publicado.
 
 ## Una promesa en pantalla
 
@@ -24,13 +25,13 @@ Una prueba que nunca falla demuestra poco. Por eso también rompemos la regla a 
 
 ## También con rivales y reglas especiales
 
-La misma comparación se ejecuta con cada rival de IA y con las variantes del Desafío diario, ya que cambian la velocidad y el comportamiento.
+La misma comparación se ejecuta con cada rival de IA y con las variantes del Reto diario, ya que cambian la velocidad y el comportamiento.
 
 ## Sinceros sobre los límites
 
 Estas comprobaciones se hacen con partidas simuladas. Jugar en teléfonos reales es otra ronda de pruebas distinta.
 
-## Qué viene ahora
+## Lo que viene
 
 Claimball sigue en pruebas y llegará pronto a iOS y Android. Todavía no hay fecha de lanzamiento.
 
@@ -42,8 +43,8 @@ Si el marcador indicara una casilla y el juego pintara otra, dejarías de fiarte
 ### ¿Cómo prueban el marcador?
 Jugamos partidas completas simuladas muchísimas veces con distintas semillas aleatorias y comparamos cada marcador con las casillas que realmente se pintaron. Tienen que coincidir siempre.
 
-### ¿La prueba incluye a los rivales y el Desafío diario?
-Sí. La misma comparación se ejecuta con cada rival de IA y con las variantes del Desafío diario, ya que cambian la velocidad y el comportamiento. Estas comprobaciones se hacen con partidas simuladas, y jugar en teléfonos reales es otra ronda de pruebas distinta.
+### ¿La prueba incluye a los rivales y el Reto diario?
+Sí. La misma comparación se ejecuta con cada rival de IA y con las variantes del Reto diario, ya que cambian la velocidad y el comportamiento. Estas comprobaciones se hacen con partidas simuladas, y jugar en teléfonos reales es otra ronda de pruebas distinta.
 
 ### ¿Ya se ha lanzado Claimball?
 Todavía no. Sigue en pruebas y llegará pronto a iOS y Android, y aún no hay fecha de lanzamiento.

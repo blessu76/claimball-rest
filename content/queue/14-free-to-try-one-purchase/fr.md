@@ -1,14 +1,15 @@
 ---
 title: Gratuit à essayer, un seul achat pour tout débloquer
 description: La version 6 a ajouté l'achat prévu : essayez Claimball gratuitement, puis débloquez tout en une seule fois. Sans publicité, sans abonnement, avec un bouton Restaurer.
-summary: Claimball est prévu gratuit à essayer, avec un seul achat qui débloque tout. Il n'y a ni publicité ni abonnement, et un bouton Restaurer ramène le déblocage. Le jeu est encore en test et arrive bientôt sur iOS et Android. Le prix n'a pas été annoncé.
+summary: Claimball doit être gratuit à essayer, avec un seul achat qui débloque tout. Il n'y a ni publicité ni abonnement, et un bouton Restaurer ramène le déblocage. Le jeu est encore en test et arrive bientôt sur iOS et Android. Le prix n'a pas été annoncé.
 slug: free-to-try-one-purchase
 lang: fr
 category: devlog
 translation_of: en
 keywords: Claimball, gratuit à essayer, achat unique, sans publicité, sans abonnement, journal
+copy_review: iris 2026-11-14
 ---
-La version 6, une version de test interne TestFlight, a ajouté la façon dont Claimball est prévu d'être payant. Il n'est pas encore publié et le prix n'a pas été annoncé.
+La version 6, une version de test interne TestFlight, a présenté le modèle d'achat prévu pour Claimball. Il n'est pas encore publié et le prix n'a pas été annoncé.
 
 ## D'abord essayer
 
@@ -30,11 +31,11 @@ Si vous avez déjà acheté, un bouton Restaurer dans les Réglages ramène le d
 
 Un remboursement retire le déblocage, mais seulement après que le jeu a vu la boutique l'indiquer lors de deux lancements distincts, pour qu'un problème de connexion temporaire ne vous bloque pas par erreur.
 
-## Et ensuite
+## La suite
 
 Claimball est encore en test et arrive bientôt sur iOS et Android. Il n'y a pas encore de date de sortie.
 
-## FAQ
+## Questions fréquentes
 
 ### Puis-je essayer Claimball gratuitement ?
 Oui. Claimball est gratuit à essayer. Vous pouvez jouer et goûter aux rivaux avant de décider quoi que ce soit.

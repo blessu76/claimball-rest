@@ -7,6 +7,7 @@ lang: es
 category: devlog
 translation_of: en
 keywords: Claimball, gratis para probar, una sola compra, sin anuncios, sin suscripción, diario
+copy_review: iris 2026-11-14
 ---
 La versión 6, una versión de prueba interna de TestFlight, añadió la forma en que está previsto cobrar Claimball. Todavía no se ha publicado y el precio no se ha anunciado.
 
@@ -30,7 +31,7 @@ Si ya compraste antes, un botón de Restaurar en Ajustes recupera el desbloqueo.
 
 Un reembolso quita el desbloqueo, pero solo después de que el juego haya visto que la tienda lo indica en dos inicios distintos, para que un fallo temporal de inicio de sesión no te deje fuera por error.
 
-## Qué viene ahora
+## Lo que viene
 
 Claimball sigue en pruebas y llegará pronto a iOS y Android. Todavía no hay fecha de lanzamiento.
 

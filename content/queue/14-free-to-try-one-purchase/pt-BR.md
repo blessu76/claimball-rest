@@ -7,6 +7,7 @@ lang: pt-BR
 category: devlog
 translation_of: en
 keywords: Claimball, grátis para experimentar, compra única, sem anúncios, sem assinatura, diário
+copy_review: iris 2026-11-14
 ---
 A versão 6, uma versão de teste interna do TestFlight, incluiu a forma como o Claimball está planejado para ser pago. Ele ainda não foi lançado ao público, e o preço não foi anunciado.
 
@@ -24,7 +25,7 @@ Os cartões de rivais bloqueados simplesmente aparecem bloqueados, e a tela de c
 
 ## Restaurar e espera
 
-Se você já comprou antes, um botão Restaurar em Ajustes traz a liberação de volta. Se uma compra estiver aguardando aprovação, por exemplo em Solicitar Compra, o jogo espera em vez de adivinhar.
+Se você já comprou antes, um botão Restaurar em Configurações traz a liberação de volta. Se uma compra estiver aguardando aprovação, por exemplo em Pedir para Comprar, o jogo espera em vez de adivinhar.
 
 ## Se uma compra for reembolsada
 
@@ -43,7 +44,7 @@ Sim. O Claimball é grátis para experimentar. Você pode jogar e conhecer os ri
 Uma única compra libera tudo. Não há anúncios nem assinatura. O valor é mostrado pela loja na sua própria moeda, quando estiver disponível, e o preço ainda não foi anunciado.
 
 ### E se eu já comprei antes ou minha compra estiver pendente?
-Um botão Restaurar em Ajustes traz a liberação de volta. Se uma compra estiver aguardando aprovação, por exemplo em Solicitar Compra, o jogo espera em vez de adivinhar.
+Um botão Restaurar em Configurações traz a liberação de volta. Se uma compra estiver aguardando aprovação, por exemplo em Pedir para Comprar, o jogo espera em vez de adivinhar.
 
 ### O que acontece se uma compra for reembolsada?
 Um reembolso remove a liberação, mas só depois que o jogo vir a loja informar isso em duas aberturas separadas, para que uma falha temporária de login não bloqueie você por engano.

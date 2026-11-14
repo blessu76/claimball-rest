@@ -8,12 +8,13 @@ category: devlog
 translation_of: en
 keywords: Claimball, Spielanleitung, Tutorial, Casual Game, Journal
 published: 2026-11-05T18:41+09:00
+copy_review: iris 2026-11-14
 ---
 Seit Build 14, einer internen TestFlight-Testversion, startet Claimball dein allererstes Match mit einer kurzen Spielanleitung. Sie ist noch nicht öffentlich veröffentlicht.
 
 ## Drei Karten, dann geht es los
 
-Die Anleitung besteht aus drei Karten, sodass du sie in wenigen Sekunden liest und ins Match einsteigst. Claimball ist ein 90-Sekunden-Duell auf einem 6×10-Karogitter, und das Wichtigste passt auf eine Karte: Das Feld, auf dem der Ball aufspringt, wird zum Land des Spielers, der ihn geschlagen hat, und ein Schlag mit der Mitte deines Schlägers ergibt einen Smash, der 3 Felder auf einmal erobert.
+Die Anleitung besteht aus drei Karten, sodass du sie in wenigen Sekunden liest und ins Match einsteigst. Claimball ist ein 90-Sekunden-Duell auf einem 6×10-Heftraster, und das Wichtigste passt auf eine Karte: Das Feld, auf dem der Ball aufspringt, wird zum Gebiet des Spielers, der ihn geschlagen hat, und ein Schlag mit der Mitte deines Schlägers ergibt einen Smash, der 3 Felder auf einmal erobert.
 
 ## Warum wir sie eingebaut haben
 
@@ -21,12 +22,12 @@ Ein Spiel für kurze Runden muss sich schnell selbst erklären. Wir möchten, da
 
 ## Wie es weitergeht
 
-Claimball befindet sich weiterhin im Test und erscheint bald für iOS und Android. Ein Veröffentlichungsdatum gibt es noch nicht.
+Claimball befindet sich weiterhin im Test und erscheint bald für iOS und Android. Ein Erscheinungsdatum gibt es noch nicht.
 
-## FAQ
+## Häufige Fragen
 
 ### Was steht in der Claimball-Spielanleitung?
-Die Anleitung besteht aus drei Karten. Das Wichtigste passt auf eine Karte: Das Feld, auf dem der Ball aufspringt, wird zum Land des Spielers, der ihn geschlagen hat, und ein Schlag mit der Mitte deines Schlägers ergibt einen Smash, der 3 Felder auf einmal erobert.
+Die Anleitung besteht aus drei Karten. Das Wichtigste passt auf eine Karte: Das Feld, auf dem der Ball aufspringt, wird zum Gebiet des Spielers, der ihn geschlagen hat, und ein Schlag mit der Mitte deines Schlägers ergibt einen Smash, der 3 Felder auf einmal erobert.
 
 ### Wie lange dauert es, die Anleitung zu lesen?
 Du liest sie in wenigen Sekunden und steigst ins Match ein.

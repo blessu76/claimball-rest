@@ -7,6 +7,7 @@ lang: es
 category: devlog
 translation_of: en
 keywords: Claimball, rivales de IA, ligas, dificultad, diario
+copy_review: iris 2026-11-14
 ---
 La versión 5, de pruebas internas en TestFlight, dio a Claimball alguien contra quien jugar. Todavía no está disponible para el público.
 
@@ -30,7 +31,7 @@ Estos resultados vienen de bots, no de personas. Cómo se siente la escalera en 
 
 Claimball sigue en pruebas y llegará pronto a iOS y Android. Aún no hay fecha de lanzamiento.
 
-## Preguntas frequentes
+## Preguntas frecuentes
 
 ### ¿Cuántos rivales hay?
 Hay seis rivales de IA, repartidos en dos ligas. Cada uno juega un poco distinto, desde un primer oponente amable hasta un último oponente afilado.

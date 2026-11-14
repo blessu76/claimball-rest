@@ -7,6 +7,7 @@ lang: ja
 category: devlog
 translation_of: en
 keywords: Claimball, AIライバル, リーグ, 難易度, ジャーナル
+copy_review: iris 2026-11-14
 ---
 TestFlight内部テストビルドであるビルド5で、Claimballに対戦相手ができました。一般公開はまだです。
 
