@@ -95,11 +95,11 @@ class TwelveLanguages(unittest.TestCase):
         self.assertTrue(self.q1.exists())
 
     def test_missing_copy_review_refused_when_named(self):
-        f = self.q2 / "ar.md"
+        f = self.q2 / "th.md"
         f.write_text(f.read_text(encoding="utf-8").replace("copy_review: iris 2026-11-13\n", ""), encoding="utf-8")
         with self.assertRaises(SystemExit) as cm:
             pp.publish(self.root, "second-up", now=NOW)
-        self.assertIn("ar.md", str(cm.exception))
+        self.assertIn("th.md", str(cm.exception))
         self.assertTrue(self.q2.exists())
 
     def test_no_complete_post_is_a_noop_for_daily(self):
