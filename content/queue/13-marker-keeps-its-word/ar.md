@@ -5,6 +5,7 @@ summary: مؤشر الهبوط في Claimball لا يفيد إلا إذا كان
 slug: marker-keeps-its-word
 lang: ar
 category: devlog
+translation_of: en
 keywords: Claimball, مؤشر الهبوط, اختبار, لعب نزيه, يوميات
 ---
 يُظهر مؤشر الهبوط مكان سقوط الكرة، لذا يجب أن يكون صحيحًا في كل مرة. هكذا يُختبر في نسخ TestFlight التجريبية الداخلية، التي لم تصدر للجمهور بعد.

@@ -5,6 +5,7 @@ summary: Claimball 的落点标记只有准确才有帮助,所以我们测试它
 slug: marker-keeps-its-word
 lang: zh
 category: devlog
+translation_of: en
 keywords: Claimball, 落点标记, 测试, 公平游戏, 日志
 ---
 落点标记显示球将落在哪里,所以每一次都必须准确。下面介绍它在尚未向公众发布的 TestFlight 内部测试版本中是如何测试的。

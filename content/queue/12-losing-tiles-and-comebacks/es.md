@@ -5,6 +5,7 @@ summary: En Claimball, fallar una bola te cuesta 2 casillas, o 3 si vas ganando 
 slug: losing-tiles-and-comebacks
 lang: es
 category: devlog
+translation_of: en
 keywords: Claimball, penalización, remontada, reglas, diario
 ---
 Claimball no consiste solo en reclamar casillas. También importa lo que pierdes cuando fallas. Estas reglas están en las versiones de prueba internas de TestFlight, que todavía no se han publicado.

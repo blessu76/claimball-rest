@@ -5,6 +5,7 @@ summary: Claimball में गेंद चूकने पर 2 टाइल�
 slug: losing-tiles-and-comebacks
 lang: hi
 category: devlog
+translation_of: en
 keywords: Claimball, सज़ा, वापसी, नियम, जर्नल
 ---
 Claimball सिर्फ़ टाइल्स पर कब्ज़ा करने का खेल नहीं है। चूकने पर आप क्या खोते हैं, यह भी उतना ही मायने रखता है। ये नियम TestFlight के आंतरिक टेस्ट बिल्ड में हैं, जो अभी आम लोगों के लिए जारी नहीं हुए हैं।

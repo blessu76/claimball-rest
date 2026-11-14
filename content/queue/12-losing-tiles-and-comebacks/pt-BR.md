@@ -5,6 +5,7 @@ summary: No Claimball, errar uma bola custa 2 casas, ou 3 casas se você estiver
 slug: losing-tiles-and-comebacks
 lang: pt-BR
 category: devlog
+translation_of: en
 keywords: Claimball, penalidade, virada, regras, diário
 ---
 O Claimball não é só conquistar casas. Também importa o que você perde quando erra. Essas regras estão nas versões de teste internas do TestFlight, que ainda não foram lançadas ao público.

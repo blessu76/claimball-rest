@@ -5,6 +5,7 @@ summary: O Claimball está planejado para ser grátis para experimentar, com uma
 slug: free-to-try-one-purchase
 lang: pt-BR
 category: devlog
+translation_of: en
 keywords: Claimball, grátis para experimentar, compra única, sem anúncios, sem assinatura, diário
 ---
 A versão 6, uma versão de teste interna do TestFlight, incluiu a forma como o Claimball está planejado para ser pago. Ele ainda não foi lançado ao público, e o preço não foi anunciado.

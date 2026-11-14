@@ -5,6 +5,7 @@ summary: El marcador de aterrizaje de Claimball solo ayuda si acierta, así que 
 slug: marker-keeps-its-word
 lang: es
 category: devlog
+translation_of: en
 keywords: Claimball, marcador de aterrizaje, pruebas, juego limpio, diario
 ---
 El marcador de aterrizaje muestra dónde caerá la bola, así que tiene que acertar siempre. Así se prueba en las versiones de prueba internas de TestFlight, que todavía no se han publicado.

@@ -5,6 +5,7 @@ summary: Claimball direncanakan gratis untuk dicoba, dengan satu kali pembelian 
 slug: free-to-try-one-purchase
 lang: id
 category: devlog
+translation_of: en
 keywords: Claimball, gratis dicoba, satu kali beli, tanpa iklan, tanpa langganan, jurnal
 ---
 Build 6, build uji coba internal TestFlight, menambahkan cara pembayaran yang direncanakan untuk Claimball. Game ini belum dirilis untuk umum, dan harganya belum diumumkan.

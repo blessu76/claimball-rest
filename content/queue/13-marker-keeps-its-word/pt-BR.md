@@ -5,6 +5,7 @@ summary: O marcador de pouso do Claimball só ajuda se estiver certo, então tes
 slug: marker-keeps-its-word
 lang: pt-BR
 category: devlog
+translation_of: en
 keywords: Claimball, marcador de pouso, testes, jogo justo, diário
 ---
 O marcador de pouso mostra onde a bola vai cair, então precisa estar certo todas as vezes. É assim que ele é testado nas versões de teste internas do TestFlight, que ainda não foram lançadas ao público.

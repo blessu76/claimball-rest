@@ -5,6 +5,7 @@ summary: Claimball soll sich kostenlos testen lassen, mit einem einzigen Kauf, d
 slug: free-to-try-one-purchase
 lang: de
 category: devlog
+translation_of: en
 keywords: Claimball, kostenlos testen, ein Kauf, keine Werbung, kein Abo, Journal
 ---
 Build 6, eine interne TestFlight-Testversion, hat ergänzt, wie Claimball bezahlt werden soll. Es ist noch nicht öffentlich veröffentlicht, und der Preis wurde noch nicht bekannt gegeben.

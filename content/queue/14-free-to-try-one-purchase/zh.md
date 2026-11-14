@@ -5,6 +5,7 @@ summary: Claimball 计划做到免费试玩,只需一次购买即可解锁全部
 slug: free-to-try-one-purchase
 lang: zh
 category: devlog
+translation_of: en
 keywords: Claimball, 免费试玩, 一次购买, 无广告, 无订阅, 日志
 ---
 TestFlight 内部测试版本第 6 版加入了 Claimball 计划采用的付费方式。游戏尚未向公众发布,价格也尚未公布。

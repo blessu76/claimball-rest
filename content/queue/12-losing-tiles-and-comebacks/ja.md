@@ -5,6 +5,7 @@ summary: Claimballでは、ボールを逃すと2タイルを失い、10タイ�
 slug: losing-tiles-and-comebacks
 lang: ja
 category: devlog
+translation_of: en
 keywords: Claimball, ペナルティ, 逆転, ルール, ジャーナル
 ---
 Claimballはタイルを取るだけのゲームではありません。逃したときに何を失うかも大事です。以下のルールは、まだ一般公開されていないTestFlight内部テストビルドに入っています。

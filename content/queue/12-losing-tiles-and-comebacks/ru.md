@@ -5,6 +5,7 @@ summary: В Claimball пропущенный мяч стоит 2 клетки, �
 slug: losing-tiles-and-comebacks
 lang: ru
 category: devlog
+translation_of: en
 keywords: Claimball, штраф, камбэк, правила, журнал
 ---
 Claimball — это не только захват клеток. Важно и то, что вы теряете, когда промахиваетесь. Эти правила есть во внутренних тестовых сборках TestFlight, которые пока не выпущены для всех.

@@ -5,6 +5,7 @@ summary: Die Landemarkierung in Claimball hilft nur, wenn sie stimmt, deshalb te
 slug: marker-keeps-its-word
 lang: de
 category: devlog
+translation_of: en
 keywords: Claimball, Landemarkierung, Tests, Fairplay, Journal
 ---
 Die Landemarkierung zeigt, wo der Ball landen wird, also muss sie jedes Mal stimmen. So wird sie in den internen TestFlight-Testversionen getestet, die noch nicht öffentlich veröffentlicht sind.

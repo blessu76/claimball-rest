@@ -5,6 +5,7 @@ summary: Le repère d'atterrissage de Claimball n'aide que s'il est juste, alors
 slug: marker-keeps-its-word
 lang: fr
 category: devlog
+translation_of: en
 keywords: Claimball, repère d'atterrissage, tests, fair-play, journal
 ---
 Le repère d'atterrissage montre où la balle va tomber, il doit donc être juste à chaque fois. Voici comment il est testé dans les versions de test internes TestFlight, qui ne sont pas encore publiées.

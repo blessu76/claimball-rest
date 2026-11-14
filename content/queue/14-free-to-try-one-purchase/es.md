@@ -5,6 +5,7 @@ summary: Está previsto que Claimball sea gratis para probar, con una única com
 slug: free-to-try-one-purchase
 lang: es
 category: devlog
+translation_of: en
 keywords: Claimball, gratis para probar, una sola compra, sin anuncios, sin suscripción, diario
 ---
 La versión 6, una versión de prueba interna de TestFlight, añadió la forma en que está previsto cobrar Claimball. Todavía no se ha publicado y el precio no se ha anunciado.

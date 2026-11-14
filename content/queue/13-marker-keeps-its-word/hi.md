@@ -5,6 +5,7 @@ summary: Claimball का लैंडिंग मार्कर तभी म
 slug: marker-keeps-its-word
 lang: hi
 category: devlog
+translation_of: en
 keywords: Claimball, लैंडिंग मार्कर, टेस्टिंग, निष्पक्ष खेल, जर्नल
 ---
 लैंडिंग मार्कर दिखाता है कि गेंद कहाँ उतरेगी, इसलिए उसे हर बार सही होना चाहिए। TestFlight के आंतरिक टेस्ट बिल्ड में, जो अभी आम लोगों के लिए जारी नहीं हुए हैं, उसे इस तरह परखा जाता है।

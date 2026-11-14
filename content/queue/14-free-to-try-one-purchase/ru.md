@@ -5,6 +5,7 @@ summary: Claimball планируется сделать бесплатным д
 slug: free-to-try-one-purchase
 lang: ru
 category: devlog
+translation_of: en
 keywords: Claimball, бесплатная проба, одна покупка, без рекламы, без подписки, журнал
 ---
 В сборке 6, внутренней тестовой сборке TestFlight, появился запланированный способ оплаты Claimball. Игра пока не выпущена для всех, а цена не объявлена.

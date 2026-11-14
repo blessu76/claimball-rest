@@ -5,6 +5,7 @@ summary: Dans Claimball, rater une balle vous coûte 2 cases, ou 3 cases si vous
 slug: losing-tiles-and-comebacks
 lang: fr
 category: devlog
+translation_of: en
 keywords: Claimball, pénalité, remontada, règles, journal
 ---
 Claimball, ce n'est pas seulement prendre des cases. C'est aussi ce que l'on perd quand on rate. Ces règles sont dans les versions de test internes TestFlight, qui ne sont pas encore publiées.

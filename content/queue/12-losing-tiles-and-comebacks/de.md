@@ -5,6 +5,7 @@ summary: In Claimball kostet ein verpasster Ball 2 Felder, bei einem Vorsprung v
 slug: losing-tiles-and-comebacks
 lang: de
 category: devlog
+translation_of: en
 keywords: Claimball, Strafe, Comeback, Regeln, Journal
 ---
 Bei Claimball geht es nicht nur ums Erobern von Feldern. Es geht auch darum, was du verlierst, wenn du danebenliegst. Diese Regeln stecken in den internen TestFlight-Testversionen, die noch nicht öffentlich veröffentlicht sind.

@@ -5,6 +5,7 @@ summary: Claimballの着地マーカーは、正確でなければ役に立ち�
 slug: marker-keeps-its-word
 lang: ja
 category: devlog
+translation_of: en
 keywords: Claimball, 着地マーカー, テスト, フェアプレー, ジャーナル
 ---
 着地マーカーはボールが落ちる場所を示すので、毎回正確でなければなりません。ここでは、まだ一般公開されていないTestFlight内部テストビルドでのテスト方法を紹介します。

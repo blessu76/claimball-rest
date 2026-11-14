@@ -5,6 +5,7 @@ summary: Claimball को आज़माने के लिए मुफ़्
 slug: free-to-try-one-purchase
 lang: hi
 category: devlog
+translation_of: en
 keywords: Claimball, मुफ़्त आज़माएँ, एक ख़रीद, विज्ञापन नहीं, सब्सक्रिप्शन नहीं, जर्नल
 ---
 बिल्ड 6, जो TestFlight का एक आंतरिक टेस्ट बिल्ड है, में Claimball के लिए भुगतान का वह तरीक़ा जोड़ा गया जिसकी योजना है। यह अभी आम लोगों के लिए जारी नहीं हुआ है, और क़ीमत की घोषणा नहीं हुई है।

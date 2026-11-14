@@ -5,6 +5,7 @@ summary: من المخطط أن تكون Claimball مجانية للتجربة،
 slug: free-to-try-one-purchase
 lang: ar
 category: devlog
+translation_of: en
 keywords: Claimball, مجانية للتجربة, شراء واحد, بلا إعلانات, بلا اشتراك, يوميات
 ---
 أضافت النسخة 6، وهي نسخة اختبار داخلية من TestFlight، طريقة الدفع المخطط لها في Claimball. لم تصدر للجمهور بعد، ولم يُعلن السعر.

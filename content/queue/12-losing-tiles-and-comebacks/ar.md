@@ -5,6 +5,7 @@ summary: في Claimball يكلّفك تفويت الكرة مربعين، أو 3
 slug: losing-tiles-and-comebacks
 lang: ar
 category: devlog
+translation_of: en
 keywords: Claimball, عقوبة, عودة, قواعد, يوميات
 ---
 Claimball ليست مجرد الاستيلاء على المربعات، بل تهمّ أيضًا خسارتك عند التفويت. هذه القواعد موجودة في نسخ TestFlight التجريبية الداخلية، التي لم تصدر للجمهور بعد.

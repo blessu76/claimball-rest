@@ -5,6 +5,7 @@ summary: Claimballは無料で試せて、1回の購入ですべてを解放で�
 slug: free-to-try-one-purchase
 lang: ja
 category: devlog
+translation_of: en
 keywords: Claimball, 無料で試せる, 1回の購入, 広告なし, サブスクリプションなし, ジャーナル
 ---
 TestFlight内部テストビルドのビルド6で、Claimballの支払い方法として予定しているものが加わりました。一般にはまだ公開されておらず、価格も発表されていません。

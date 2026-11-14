@@ -5,6 +5,7 @@ summary: 在 Claimball 中,漏掉一球会失去 2 个格子;如果你领先 10 
 slug: losing-tiles-and-comebacks
 lang: zh
 category: devlog
+translation_of: en
 keywords: Claimball, 惩罚, 逆转, 规则, 日志
 ---
 Claimball 不只是占领格子,漏球时失去什么同样重要。以下规则已包含在尚未向公众发布的 TestFlight 内部测试版本中。
