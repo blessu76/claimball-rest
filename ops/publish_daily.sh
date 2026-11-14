@@ -85,6 +85,10 @@ on_exit() { local rc=$?; rm -rf "$lock"; if [ "$rc" -ne 0 ] && [ "$stage" = prep
 trap on_exit EXIT
 trap 'log "signal received"; exit 143' INT TERM
 
+# vendor/ is git-ignored: after a kit bump the local copy can lag the lock (2026-11-14: v0.5.1 vs v0.7.2 made every tick FAIL). Re-sync when the check fails.
+if ! python3 scripts/kit_lock.py check >/dev/null 2>&1 && [ -d "${IPE_WEB_KIT_DIR:-$HOME/Developer/ipe_web_kit}" ]; then
+  python3 scripts/kit_lock.py sync --kit "${IPE_WEB_KIT_DIR:-$HOME/Developer/ipe_web_kit}" >/dev/null 2>&1 && log "kit re-synced to lock"
+fi
 if ! out="$(python3 scripts/publish_post.py --daily 2>&1)"; then
   echo "$out"; rollback; log "FAIL — publish_post"; exit 1
 fi
