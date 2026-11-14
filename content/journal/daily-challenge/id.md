@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, tantangan harian, game kasual, jurnal
 published: 2026-11-10T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 Tantangan Harian adalah satu pertandingan sehari dengan kejutan, dan fitur ini berkembang lewat beberapa build uji. Build tersebut belum dirilis untuk umum.
 

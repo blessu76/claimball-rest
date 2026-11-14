@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, buta warna, aksesibilitas, kontras, game kasual, jurnal
 published: 2026-11-07T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 Claimball adalah game dua warna di atas kisi, jadi warna saja merupakan isyarat yang lemah bagi sebagian pemain. Tulisan ini membahas dua perubahan kecil dari build uji. Build tersebut belum dirilis untuk umum.
 

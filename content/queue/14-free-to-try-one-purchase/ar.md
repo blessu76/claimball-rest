@@ -7,6 +7,7 @@ lang: ar
 category: devlog
 translation_of: en
 keywords: Claimball, مجانية للتجربة, شراء واحد, بلا إعلانات, بلا اشتراك, يوميات
+copy_review: iris 2026-11-14
 ---
 أضافت النسخة 6، وهي نسخة اختبار داخلية من TestFlight، طريقة الدفع المخطط لها في Claimball. لم تصدر للجمهور بعد، ولم يُعلن السعر.
 

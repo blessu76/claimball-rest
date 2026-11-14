@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, कॉम्बो, फीवर मोड, सितारे, उपलब्धियाँ, जर्नल
 published: 2026-11-13T21:14+09:00
+copy_review: iris 2026-11-14
 ---
 बिल्ड 5, जो TestFlight का आंतरिक टेस्ट बिल्ड है, ने Claimball के मैच में थोड़ी और लय जोड़ दी। यह अभी सबके लिए जारी नहीं हुआ है।
 

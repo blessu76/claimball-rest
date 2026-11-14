@@ -7,6 +7,7 @@ lang: id
 category: devlog
 translation_of: en
 keywords: Claimball, penanda pendaratan, smash, pertandingan 90 detik, kontrol, jurnal
+copy_review: iris 2026-11-14
 ---
 Build 1, build uji coba internal TestFlight yang pertama, sudah memiliki inti dari Claimball. Build ini belum dirilis untuk publik.
 

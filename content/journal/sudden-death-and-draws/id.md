@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, sudden death, seri, game kasual, jurnal
 published: 2026-11-03T21:05+09:00
+copy_review: iris 2026-11-14
 ---
 Satu pertandingan Claimball berlangsung 90 detik di atas kisi buku catatan, dan biasanya satu pihak sudah menguasai lebih banyak wilayah saat waktu habis. Tulisan ini membahas kasus lainnya: pertandingan berakhir imbang.
 

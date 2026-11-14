@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 published: 2026-11-11T18:00+09:00
 keywords: Claimball, tema buku catatan, pengaturan, game kasual, jurnal
+copy_review: iris 2026-11-14
 ---
 Build 9, build uji internal TestFlight, memberi game ini tampilan kedua. Build ini belum dirilis untuk umum.
 

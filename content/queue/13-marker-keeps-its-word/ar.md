@@ -7,6 +7,7 @@ lang: ar
 category: devlog
 translation_of: en
 keywords: Claimball, مؤشر الهبوط, اختبار, لعب نزيه, يوميات
+copy_review: iris 2026-11-14
 ---
 يُظهر مؤشر الهبوط مكان سقوط الكرة، لذا يجب أن يكون صحيحًا في كل مرة. هكذا يُختبر في نسخ TestFlight التجريبية الداخلية، التي لم تصدر للجمهور بعد.
 

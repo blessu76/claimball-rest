@@ -7,6 +7,7 @@ lang: ar
 category: devlog
 translation_of: en
 keywords: Claimball, منافسون بالذكاء الاصطناعي, دوريات, الصعوبة, اليوميات
+copy_review: iris 2026-11-14
 ---
 منح الإصدار 5، وهو إصدار اختبار داخلي على TestFlight، لعبة Claimball من تلعب ضده. وهو غير متاح للجمهور بعد.
 

@@ -8,12 +8,13 @@ category: devlog
 translation_of: en
 keywords: Claimball, cara bermain, tutorial, game kasual, jurnal
 published: 2026-11-05T18:41+09:00
+copy_review: iris 2026-11-14
 ---
 Sejak build 14, build uji internal TestFlight, Claimball membuka pertandingan pertamamu dengan panduan Cara bermain yang singkat. Panduan ini belum dirilis untuk umum.
 
 ## Tiga kartu, lalu langsung main
 
-Panduannya hanya tiga kartu, jadi kamu bisa membacanya dalam beberapa detik lalu masuk ke pertandingan. Claimball adalah duel 90 detik di kisi buku catatan 6 kali 10, dan dasar-dasarnya muat dalam satu kartu: petak tempat bola memantul menjadi wilayah pemain yang memukulnya, dan memukul dengan bagian tengah padel menghasilkan smash yang merebut 3 petak sekaligus.
+Panduannya hanya tiga kartu, jadi kamu bisa membacanya dalam beberapa detik lalu masuk ke pertandingan. Claimball adalah duel 90 detik di kisi buku catatan 6 kali 10, dan dasar-dasarnya muat dalam satu kartu: petak tempat bola memantul menjadi wilayah pemain yang memukulnya, dan memukul dengan bagian tengah pemukul menghasilkan smash yang merebut 3 petak sekaligus.
 
 ## Mengapa kami menambahkannya
 
@@ -26,7 +27,7 @@ Claimball masih dalam tahap uji dan segera hadir di iOS dan Android. Belum ada t
 ## FAQ
 
 ### Apa isi panduan Cara bermain Claimball?
-Panduannya terdiri dari tiga kartu. Dasar-dasarnya muat dalam satu kartu: petak tempat bola memantul menjadi wilayah pemain yang memukulnya, dan memukul dengan bagian tengah padel menghasilkan smash yang merebut 3 petak sekaligus.
+Panduannya terdiri dari tiga kartu. Dasar-dasarnya muat dalam satu kartu: petak tempat bola memantul menjadi wilayah pemain yang memukulnya, dan memukul dengan bagian tengah pemukul menghasilkan smash yang merebut 3 petak sekaligus.
 
 ### Berapa lama membaca panduan ini?
 Kamu bisa membacanya dalam beberapa detik lalu masuk ke pertandingan.

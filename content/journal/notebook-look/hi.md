@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, नोटबुक थीम, सेटिंग, कैज़ुअल गेम, जर्नल
 published: 2026-11-11T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 बिल्ड 9, जो TestFlight का आंतरिक टेस्ट बिल्ड है, ने गेम को दूसरा लुक दिया। यह अभी सबके लिए जारी नहीं हुआ है।
 

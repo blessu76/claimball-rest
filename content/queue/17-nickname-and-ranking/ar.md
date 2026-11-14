@@ -7,6 +7,7 @@ lang: ar
 category: devlog
 translation_of: en
 keywords: Claimball, اسم مستعار, نقاط, ترتيب, يوميات
+copy_review: iris 2026-11-14
 ---
 الإصدار 12 نسخة اختبار داخلي عبر TestFlight، وقد أضاف قدرًا من الهوية الشخصية وحق المفاخرة. لم يُطلق للجمهور بعد.
 

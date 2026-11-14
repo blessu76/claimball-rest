@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, कैसे खेलें, ट्यूटोरियल, कैज़ुअल गेम, जर्नल
 published: 2026-11-05T18:41+09:00
+copy_review: iris 2026-11-14
 ---
 बिल्ड 14 (TestFlight का आंतरिक टेस्ट बिल्ड) से Claimball आपका बिल्कुल पहला मैच एक छोटी "कैसे खेलें" गाइड के साथ शुरू करता है। यह अभी सबके लिए जारी नहीं हुआ है।
 

@@ -7,6 +7,7 @@ lang: hi
 category: devlog
 translation_of: en
 keywords: Claimball, खिलौने जैसा लुक, वाइब्रेशन, साउंड, इंट्रो, जर्नल
+copy_review: iris 2026-11-14
 ---
 बिल्ड 3 और 4, यानी TestFlight इंटरनल टेस्ट बिल्ड, ने Claimball का रूप, एहसास और आवाज़ बदल दी। ये अभी आम लोगों के लिए जारी नहीं हुए हैं।
 

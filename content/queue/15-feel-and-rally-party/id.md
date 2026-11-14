@@ -1,12 +1,13 @@
 ---
 title: "Build 22: getaran saat meleset, kilau saat smash siap, dan Rally Party"
 description: Build 22 menambahkan tiga peningkatan kecil pada rasa bermain dan variasi baru Tantangan Harian dengan bola yang lebih lambat.
-summary: Claimball build 22 berfokus pada rasa bermain. Layar bergetar ringan disertai getaran saat kamu meleset menangkap bola, raketmu berkilau saat meteran smash penuh, dan menang serta kalah masing-masing punya getaran sendiri. Build ini juga menambahkan variasi Tantangan Harian bernama Rally Party dengan bola yang lebih lambat. Masih dalam tahap pengujian dan segera hadir di iOS dan Android.
+summary: Claimball build 22 berfokus pada rasa bermain. Layar bergetar ringan disertai getaran saat kamu meleset menangkap bola, pemukulmu berkilau saat meteran smash penuh, dan menang serta kalah masing-masing punya getaran sendiri. Build ini juga menambahkan variasi Tantangan Harian bernama Rally Party dengan bola yang lebih lambat. Masih dalam tahap pengujian dan segera hadir di iOS dan Android.
 slug: feel-and-rally-party
 lang: id
 category: devlog
 translation_of: en
 keywords: Claimball, build 22, haptik, Rally Party, tantangan harian, jurnal
+copy_review: iris 2026-11-14
 ---
 Build 22, sebuah build uji internal TestFlight, berfokus pada rasa bermain. Build ini belum dirilis ke publik.
 
@@ -16,7 +17,7 @@ Saat kamu kehilangan bola, layar bergetar ringan disertai getaran, sehingga kesa
 
 ## Kilau saat smash siap
 
-Saat meteran smash terisi penuh, raketmu berkilau. Sekali lihat kamu tahu bahwa pukulan berikutnya di bagian tengah akan menjadi smash.
+Saat meteran smash terisi penuh, pemukulmu berkilau. Sekali lihat kamu tahu bahwa pukulan berikutnya di bagian tengah akan menjadi smash.
 
 ## Akhir yang berbeda
 
@@ -40,7 +41,7 @@ Claimball masih dalam tahap pengujian dan segera hadir di iOS dan Android. Belum
 Layar bergetar ringan disertai getaran, sehingga kesalahan langsung terasa.
 
 ### Bagaimana aku tahu smash sudah siap?
-Saat meteran smash terisi penuh, raketmu berkilau. Sekali lihat kamu tahu bahwa pukulan berikutnya di bagian tengah akan menjadi smash.
+Saat meteran smash terisi penuh, pemukulmu berkilau. Sekali lihat kamu tahu bahwa pukulan berikutnya di bagian tengah akan menjadi smash.
 
 ### Apa itu Rally Party?
 Ini variasi baru Tantangan Harian. Bolanya lebih lambat dan menambah kecepatan secara perlahan, sehingga reli panjang lebih mudah dipertahankan. Kami memeriksanya dengan pertandingan simulasi, dan penanda pendaratan selalu cocok setiap kali.

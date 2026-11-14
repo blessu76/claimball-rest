@@ -8,8 +8,9 @@ category: devlog
 translation_of: en
 keywords: Claimball, aksesibilitas, VoiceOver, teks besar, game kasual, jurnal
 published: 2026-11-06T18:00+09:00
+copy_review: iris 2026-11-14
 ---
-Game bola yang cepat tidak terdengar mudah dimainkan dengan pembaca layar, jadi kami mencurahkan build 14, build uji internal TestFlight, untuk aksesibilitas. Build ini belum dirilis untuk umum.
+Game bola yang cepat tidak terdengar mudah dimainkan dengan pembaca layar, jadi kami mengerahkan build 14, build uji internal TestFlight, untuk aksesibilitas. Build ini belum dirilis untuk umum.
 
 ## VoiceOver
 

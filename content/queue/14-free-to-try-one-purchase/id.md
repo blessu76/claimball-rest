@@ -7,6 +7,7 @@ lang: id
 category: devlog
 translation_of: en
 keywords: Claimball, gratis dicoba, satu kali beli, tanpa iklan, tanpa langganan, jurnal
+copy_review: iris 2026-11-14
 ---
 Build 6, build uji coba internal TestFlight, menambahkan cara pembayaran yang direncanakan untuk Claimball. Game ini belum dirilis untuk umum, dan harganya belum diumumkan.
 

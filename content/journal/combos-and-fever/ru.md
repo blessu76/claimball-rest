@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, комбо, режим Fever, звёзды, достижения, журнал
 published: 2026-11-13T21:14+09:00
+copy_review: iris 2026-11-14
 ---
 Сборка 5, внутренняя тестовая сборка TestFlight, добавила матчам Claimball больше ритма. Она пока не выпущена для всех.
 

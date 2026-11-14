@@ -7,6 +7,7 @@ lang: id
 category: devlog
 translation_of: en
 keywords: Claimball, hukuman, comeback, aturan, jurnal
+copy_review: iris 2026-11-14
 ---
 Claimball bukan hanya soal merebut petak. Yang hilang saat kamu meleset juga penting. Aturan ini ada di build uji coba internal TestFlight, yang belum dirilis untuk umum.
 

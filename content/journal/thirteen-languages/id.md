@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, bahasa, lokalisasi, game kasual, jurnal
 published: 2026-11-08T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 Claimball adalah game yang bisa dimainkan hampir tanpa membaca, tetapi menu, petunjuk, dan aturan tetap membutuhkan kata-kata. Tulisan ini membahas bagaimana daftar bahasa bertambah di build uji. Build ini belum dirilis untuk umum.
 

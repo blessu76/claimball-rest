@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, kombo, mode Fever, bintang, pencapaian, jurnal
 published: 2026-11-13T21:14+09:00
+copy_review: iris 2026-11-14
 ---
 Build 5, build uji internal TestFlight, membuat pertandingan Claimball lebih berirama. Build ini belum dirilis untuk umum.
 

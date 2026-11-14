@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, مظهر الدفتر, الإعدادات, لعبة خفيفة, مدوّنة
 published: 2026-11-11T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 منح الإصدار 9، وهو إصدار اختبار داخلي على TestFlight، اللعبةَ مظهرًا ثانيًا. لم يُطلق للجميع بعد.
 

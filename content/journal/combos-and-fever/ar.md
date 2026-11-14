@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, كومبو, وضع Fever, نجوم, إنجازات, مدوّنة
 published: 2026-11-13T21:14+09:00
+copy_review: iris 2026-11-14
 ---
 منح الإصدار 5، وهو إصدار اختبار داخلي على TestFlight، مباراة Claimball إيقاعًا أكبر. لم يُطلق للجميع بعد.
 

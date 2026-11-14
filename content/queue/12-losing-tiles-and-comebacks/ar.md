@@ -7,6 +7,7 @@ lang: ar
 category: devlog
 translation_of: en
 keywords: Claimball, عقوبة, عودة, قواعد, يوميات
+copy_review: iris 2026-11-14
 ---
 Claimball ليست مجرد الاستيلاء على المربعات، بل تهمّ أيضًا خسارتك عند التفويت. هذه القواعد موجودة في نسخ TestFlight التجريبية الداخلية، التي لم تصدر للجمهور بعد.
 

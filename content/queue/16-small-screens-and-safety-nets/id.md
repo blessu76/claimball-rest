@@ -7,12 +7,13 @@ lang: id
 category: devlog
 translation_of: en
 keywords: Claimball, aksesibilitas, layar kecil, keandalan, jurnal
+copy_review: iris 2026-11-14
 ---
 Game yang terbuka dengan buruk atau teksnya terpotong tidak menyenangkan, sebagus apa pun aturannya. Ini adalah satu putaran pemeriksaan pada build uji internal TestFlight, yang belum dirilis ke publik.
 
 ## Layar sempit, teks besar
 
-Kami menguji menu, layar statistik, dan layar peringkat pada lebar ponsel yang sempit dengan teks diperbesar 50 persen, dalam bahasa Inggris, Arab, dan Korea, dan memastikan tidak ada yang meluap atau bertumpuk.
+Kami menguji menu, layar Rekorku, dan layar peringkat pada lebar ponsel yang sempit dengan teks diperbesar 50 persen, dalam bahasa Inggris, Arab, dan Korea, dan memastikan tidak ada yang meluap atau bertumpuk.
 
 ## Jaring pengaman untuk kesalahan
 
@@ -33,7 +34,7 @@ Claimball masih dalam tahap pengujian dan segera hadir di iOS dan Android. Belum
 ## FAQ
 
 ### Bagaimana kalian memeriksa layar kecil dan teks besar?
-Kami menguji menu, layar statistik, dan layar peringkat pada lebar ponsel yang sempit dengan teks diperbesar 50 persen, dalam bahasa Inggris, Arab, dan Korea, dan memastikan tidak ada yang meluap atau bertumpuk.
+Kami menguji menu, layar Rekorku, dan layar peringkat pada lebar ponsel yang sempit dengan teks diperbesar 50 persen, dalam bahasa Inggris, Arab, dan Korea, dan memastikan tidak ada yang meluap atau bertumpuk.
 
 ### Bagaimana jika ada yang salah di aplikasi?
 Jika ada hal tak terduga yang salah, penjaga kesalahan global menangkapnya alih-alih membiarkan aplikasi jatuh. Jika satu item tersimpan tidak bisa dibaca saat dimulai, game beralih ke nilai bawaan yang aman untuk item itu dan tetap terbuka.

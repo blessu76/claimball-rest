@@ -7,6 +7,7 @@ lang: hi
 category: devlog
 translation_of: en
 keywords: Claimball, AI प्रतिद्वंद्वी, लीग, कठिनाई, जर्नल
+copy_review: iris 2026-11-14
 ---
 बिल्ड 5, यानी एक TestFlight इंटरनल टेस्ट बिल्ड, ने Claimball को खेलने के लिए विरोधी दिए। यह अभी आम लोगों के लिए जारी नहीं हुआ है।
 
