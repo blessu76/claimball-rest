@@ -3,7 +3,7 @@ title: Como verificamos que o marcador de pouso diz a verdade
 description: O marcador de pouso só é útil se estiver certo. Veja como testamos que ele mostra as casas que realmente são pintadas.
 summary: O marcador de pouso do Claimball só ajuda se estiver certo, então testamos se ele coincide com as casas que realmente são pintadas. Jogamos muitas partidas completas simuladas com diferentes sementes aleatórias e comparamos cada marcador com o resultado, e também quebramos a regra de propósito para confirmar que o teste falha. O jogo ainda está em teste e chega em breve ao iOS e ao Android.
 slug: marker-keeps-its-word
-lang: pt
+lang: pt-BR
 category: devlog
 keywords: Claimball, marcador de pouso, testes, jogo justo, diário
 ---

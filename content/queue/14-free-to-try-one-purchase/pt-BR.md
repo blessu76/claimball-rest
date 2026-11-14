@@ -3,7 +3,7 @@ title: Grátis para experimentar, uma única compra para liberar tudo
 description: A versão 6 incluiu a compra planejada: experimente o Claimball de graça e depois libere tudo de uma vez. Sem anúncios, sem assinatura e com um botão Restaurar.
 summary: O Claimball está planejado para ser grátis para experimentar, com uma única compra que libera tudo. Não há anúncios nem assinatura, e um botão Restaurar traz a liberação de volta. O jogo ainda está em teste e chega em breve ao iOS e ao Android. O preço ainda não foi anunciado.
 slug: free-to-try-one-purchase
-lang: pt
+lang: pt-BR
 category: devlog
 keywords: Claimball, grátis para experimentar, compra única, sem anúncios, sem assinatura, diário
 ---
