@@ -1,5 +1,5 @@
 """Language picker: on every built page of every language the picker shows that page's own language
-(aria-current, <html lang>), and a saved choice ("cb-lang") sends "/" to that language."""
+(aria-current, <html lang>), and a saved choice ("ipe_lang") sends "/" to that language."""
 import json
 import re
 import shutil
@@ -75,7 +75,7 @@ for(const l of %s){
   const {listeners}=run(%s,'/%s/',['en-US']);
   listeners.change({target:sel});
   const r=run(%s,'/',['en-US']);
-  out.push([l,store['cb-lang'],r.to]);
+  out.push([l,store['ipe_lang'],r.to]);
 }
 console.log(JSON.stringify(out));
 """ % (json.dumps(list(bs.LISTED)), json.dumps(js), "x", json.dumps(pick))
@@ -141,9 +141,9 @@ console.log(JSON.stringify({to,hist}));
 
 @unittest.skipUnless(shutil.which("node"), "node required")
 class RootLangParam(unittest.TestCase):
-    """The company-wide order on "/": ?lang=xx > saved choice ("cb-lang") > browser language > English root."""
+    """The company-wide order on "/": ?lang=xx > saved choice ("ipe_lang") > browser language > English root."""
 
-    KEY = "cb-lang"
+    KEY = "ipe_lang"
 
     @classmethod
     def run_root(cls, search="", saved=None, nav=("en-US",), hash_="", pathname="/", langs=None, available=None, script=None):
@@ -241,7 +241,7 @@ console.log(JSON.stringify({to,replaced,store}));
     def test_never_runs_under_a_language_prefix(self):
         for path in ("/ko/", "/ko/about/", "/en/", "/KO/journal/", "/zh-Hant/", "/pt-BR/about/"):
             r = self.run_root("?lang=de", saved="ja", nav=("fr-FR",), pathname=path)
-            self.assertEqual((r["to"], r["store"], r["replaced"]), (None, {"cb-lang": "ja"}, None), path)
+            self.assertEqual((r["to"], r["store"], r["replaced"]), (None, {"ipe_lang": "ja"}, None), path)
 
     def test_stays_when_the_page_has_no_counterpart(self):
         # /journal/post/ has only ko and ja: de is a supported language but the visitor stays (no fallback to the next browser language)

@@ -50,7 +50,7 @@ class Publish(unittest.TestCase):
     def test_missing_original_refused_and_empty_queue(self):
         (self.root / "content/queue/01-first-up/ko.md").unlink()
         with self.assertRaises(SystemExit):
-            pp.publish(self.root, now=NOW)
+            pp.publish(self.root, "first-up", now=NOW)
         shutil.rmtree(self.root / "content/queue")
         with self.assertRaises(SystemExit):
             pp.publish(self.root, now=NOW)
@@ -67,6 +67,49 @@ class Publish(unittest.TestCase):
             p.write_text(p.read_text().replace("2026-11-02T19:00+09:00", today.strftime("%Y-%m-%dT00:00+09:00")))
         self.assertEqual(pp.main(["--daily", "--root", str(self.root), "--no-build"]), 0)
         self.assertTrue((self.root / "content/queue/01-first-up").exists())
+
+
+class TwelveLanguages(unittest.TestCase):
+    def setUp(self):
+        self.root = make_site(posts=(("old-post", "2026-11-02T19:00+09:00"),), queue=("first-up", "second-up"))
+        self.addCleanup(shutil.rmtree, self.root, True)
+        self.q1 = self.root / "content/queue/01-first-up"
+        self.q2 = self.root / "content/queue/02-second-up"
+
+    def test_all_twelve_reviewed_publishes(self):
+        self.assertEqual(sorted(p.stem for p in self.q1.glob("*.md")), sorted(pp.REQUIRED_LANGS))
+        self.assertEqual(pp.publish(self.root, "first-up", now=NOW)[0], "first-up")
+        self.assertTrue((self.root / "content/journal/first-up/pt-BR.md").is_file())
+
+    def test_missing_language_refused_when_named_and_skipped_without_name(self):
+        (self.q1 / "pt-BR.md").unlink()
+        with self.assertRaises(SystemExit) as cm:
+            pp.publish(self.root, "first-up", now=NOW)
+        self.assertIn("pt-BR.md", str(cm.exception))
+        self.assertTrue(self.q1.exists())
+        err = io.StringIO()
+        with contextlib.redirect_stderr(err):
+            slug, _, _ = pp.publish(self.root, now=NOW)
+        self.assertEqual(slug, "second-up")
+        self.assertIn("skip first-up: missing pt-BR.md", err.getvalue())
+        self.assertTrue(self.q1.exists())
+
+    def test_missing_copy_review_refused_when_named(self):
+        f = self.q2 / "ar.md"
+        f.write_text(f.read_text(encoding="utf-8").replace("copy_review: iris 2026-11-13\n", ""), encoding="utf-8")
+        with self.assertRaises(SystemExit) as cm:
+            pp.publish(self.root, "second-up", now=NOW)
+        self.assertIn("ar.md", str(cm.exception))
+        self.assertTrue(self.q2.exists())
+
+    def test_no_complete_post_is_a_noop_for_daily(self):
+        (self.q1 / "id.md").unlink()
+        (self.q2 / "id.md").unlink()
+        out = io.StringIO()
+        with contextlib.redirect_stdout(out):
+            self.assertEqual(pp.main(["--daily", "--root", str(self.root), "--no-build"]), 0)
+        self.assertIn("no reviewed post in the queue", out.getvalue())
+        self.assertTrue(self.q1.exists() and self.q2.exists())
 
 
 class CopyReview(unittest.TestCase):

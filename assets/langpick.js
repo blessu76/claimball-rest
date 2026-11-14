@@ -1,11 +1,12 @@
 /* Claimball: language of every page without a language prefix ("/", /about/, /journal/..., never /xx/ and never 404.html).
    Inlined by build_site, which fills in S (all site languages) and A (the languages that really have THIS page).
-   Order: ?lang=xx in the URL > the language the visitor picked on the site (localStorage "cb-lang") > first match in
+   Order: ?lang=xx in the URL > the language the visitor picked on the site (localStorage "ipe_lang") > first match in
    navigator.languages (same rules as the kit's languages.resolve: zh-TW/HK/MO/Hant -> zh-Hant, zh-CN/Hans -> none,
    pt* -> pt-BR, in -> id, en* -> en, other tags by their first part) > stay on the English root.
    Redirect only when the language is not English and A has it; otherwise the page stays (no fallback to the next browser language).
    ?lang=xx (the company-wide hand-off from play.ipe.rest): a supported language is saved and the page moves to "/xx/<same path>"
    (en stays on the page, the query is cleaned); an unsupported one is ignored and the later steps decide. Other query params and #hash are kept.
+   Bots (bot/crawl/spider/slurp/lighthouse user agents) are never redirected.
    No server redirect: crawlers see "/" as English. */
 (function(){
   var S=/*SUPPORTED*/[],A=/*AVAILABLE*/[];
@@ -25,6 +26,7 @@
     for(var i=0;i<S.length;i++)if(S[i].toLowerCase()===code)return S[i];
     return '';
   }
+  if(/bot|crawl|spider|slurp|lighthouse/i.test(navigator.userAgent||''))return;
   try{
     var seg=location.pathname.split('/')[1];
     for(var k=0;seg&&k<S.length;k++)if(S[k].toLowerCase()===seg.toLowerCase())return;
@@ -37,14 +39,14 @@
     }
     keep=rest.length?'?'+rest.join('&'):'';
     if(want){
-      try{localStorage.setItem('cb-lang',want)}catch(e){}
+      try{localStorage.setItem('ipe_lang',want)}catch(e){}
       if(want==='en'){
         if(hasLang&&history.replaceState)history.replaceState(null,'',location.pathname+keep+location.hash);
         return;
       }
       to=want;
     }else{
-      try{saved=localStorage.getItem('cb-lang')||''}catch(e){}
+      try{saved=localStorage.getItem('ipe_lang')||''}catch(e){}
       if(S.indexOf(saved)>=0)to=saved;
       else{
         var L=(navigator.languages&&navigator.languages.length)?navigator.languages:[navigator.language||''];
