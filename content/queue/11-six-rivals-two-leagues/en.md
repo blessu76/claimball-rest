@@ -6,6 +6,7 @@ slug: six-rivals-two-leagues
 lang: en
 category: devlog
 keywords: Claimball, AI rivals, leagues, difficulty, journal
+copy_review: iris 2026-11-14
 ---
 Build 5, a TestFlight internal test build, gave Claimball someone to play against. It is not released to the public yet.
 
@@ -23,7 +24,7 @@ To keep the ladder fair, we run many simulated matches between a plain test bot 
 
 ## Still in tuning
 
-These numbers come from bots, not from people. How the ladder feels in real hands is something we are still learning from testers.
+These results come from bots, not from people. How the ladder feels in real hands is something we are still learning from testers.
 
 ## What is next
 
@@ -38,7 +39,7 @@ There are six AI rivals, split into two leagues. Each one plays a little differe
 You choose who to face. Beat a rival to unlock the next, and your progress is saved. Each rival's card shows your best stars against them.
 
 ### How is the difficulty checked?
-We run many simulated matches between a plain test bot and each rival and compare how often the rival wins. One rival was a much bigger jump than the others, so we eased it. These numbers come from bots, not people, so we are still learning from testers.
+We run many simulated matches between a plain test bot and each rival and compare how often the rival wins. One rival was a much bigger jump than the others, so we eased it. These results come from bots, not people, so we are still learning from testers.
 
 ### Is Claimball released yet?
 Not yet. It is still in testing and coming soon to iOS and Android, and there is no release date yet.

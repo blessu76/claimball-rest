@@ -1,4 +1,6 @@
+import contextlib
 import datetime as dt
+import io
 import shutil
 import unittest
 from pathlib import Path
@@ -65,6 +67,65 @@ class Publish(unittest.TestCase):
             p.write_text(p.read_text().replace("2026-11-02T19:00+09:00", today.strftime("%Y-%m-%dT00:00+09:00")))
         self.assertEqual(pp.main(["--daily", "--root", str(self.root), "--no-build"]), 0)
         self.assertTrue((self.root / "content/queue/01-first-up").exists())
+
+
+class CopyReview(unittest.TestCase):
+    def setUp(self):
+        self.root = make_site(posts=(("old-post", "2026-11-02T19:00+09:00"),), queue=("first-up", "second-up"), unreviewed=("first-up",))
+        self.addCleanup(shutil.rmtree, self.root, True)
+
+    def unstamp_review(self, slug, lang):
+        f = self.root / "content/queue" / ("01-" + slug if slug == "first-up" else "02-" + slug) / ("%s.md" % lang)
+        f.write_text(f.read_text(encoding="utf-8").replace("copy_review: iris 2026-11-13\n", ""), encoding="utf-8")
+
+    def test_named_unreviewed_slug_refused_and_names_the_file(self):
+        with self.assertRaises(SystemExit) as cm:
+            pp.publish(self.root, "first-up", now=NOW)
+        self.assertIn("copy_review", str(cm.exception))
+        self.assertIn("en.md", str(cm.exception))
+        self.assertIn("ko.md", str(cm.exception))
+        self.assertTrue((self.root / "content/queue/01-first-up").exists())
+
+    def test_named_slug_with_one_language_unreviewed_refused(self):
+        self.unstamp_review("second-up", "ko")
+        with self.assertRaises(SystemExit) as cm:
+            pp.publish(self.root, "second-up", now=NOW)
+        self.assertIn("ko.md", str(cm.exception))
+        self.assertNotIn("en.md", str(cm.exception))
+
+    def test_unnamed_publish_skips_unreviewed_head(self):
+        err = io.StringIO()
+        with contextlib.redirect_stderr(err):
+            slug, when, _ = pp.publish(self.root, now=NOW)
+        self.assertEqual(slug, "second-up")
+        self.assertIn("skip first-up", err.getvalue())
+        self.assertTrue((self.root / "content/queue/01-first-up").exists())
+
+    def test_no_reviewed_post_is_a_clean_noop_for_daily(self):
+        self.unstamp_review("second-up", "en")
+        self.unstamp_review("second-up", "ko")
+        out = io.StringIO()
+        with contextlib.redirect_stdout(out):
+            self.assertEqual(pp.main(["--daily", "--root", str(self.root), "--no-build"]), 0)
+        self.assertIn("no reviewed post in the queue — nothing to publish", out.getvalue())
+        self.assertTrue((self.root / "content/queue/01-first-up").exists())
+        self.assertTrue((self.root / "content/queue/02-second-up").exists())
+        self.assertFalse((self.root / "content/journal/second-up").exists())
+
+    def test_no_reviewed_post_refused_for_manual_publish(self):
+        self.unstamp_review("second-up", "en")
+        with self.assertRaises(SystemExit) as cm:
+            pp.publish(self.root, now=NOW)
+        self.assertIn("no reviewed post in the queue — nothing to publish", str(cm.exception))
+
+    def test_copy_review_line_is_carried_into_journal_and_builds_clean(self):
+        slug, when, _ = pp.publish(self.root, "second-up", now=NOW)
+        for l in ("en", "ko"):
+            t = (self.root / ("content/journal/second-up/%s.md" % l)).read_text(encoding="utf-8")
+            self.assertIn("copy_review: iris 2026-11-13\n", t)
+            self.assertIn("published: 2026-11-12T20:00+09:00", t)
+        _, errs = bs.load_posts(self.root, NOW)
+        self.assertEqual(errs, [])
 
 
 if __name__ == "__main__":

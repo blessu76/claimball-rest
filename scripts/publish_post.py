@@ -14,6 +14,8 @@ What it does
   3. python3 scripts/build_site.py, then python3 scripts/check_sitemap.py
   4. prints the new URLs for IndexNow. It never commits, pushes or deploys — that is the caller's job (see ops/publish_daily.sh).
 Missing translations only warn: a post is published with the languages it has; add the rest later and rebuild.
+A queued post publishes only when every language file has `copy_review: iris YYYY-MM-DD` in its front matter (Iris copy review).
+Without a SLUG, unreviewed posts are skipped; with a SLUG, an unreviewed post is refused.
 """
 import argparse
 import datetime as dt
@@ -27,6 +29,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import build_site as bs  # noqa: E402
 
 DEFAULT_ROOT = Path(__file__).resolve().parent.parent
+COPY_REVIEW_RE = re.compile(r"^copy_review:\s*iris\s+\d{4}-\d{2}-\d{2}\s*$", re.M)
+NOTHING_REVIEWED = "no reviewed post in the queue — nothing to publish"
 
 
 def queue_items(root):
@@ -36,6 +40,14 @@ def queue_items(root):
         m = re.match(r"^(\d+)-(.+)$", d.name)
         out.append((m.group(2) if m else d.name, d))
     return out
+
+
+def unreviewed_files(src):
+    """Language files of a queued post whose front matter lacks `copy_review: iris YYYY-MM-DD`."""
+    files = sorted(src.glob("*.md"))
+    if not files:
+        return ["*.md"]
+    return [f.name for f in files if not COPY_REVIEW_RE.search(f.read_text(encoding="utf-8").partition("\n---\n")[0])]
 
 
 def stamp(text, when):
@@ -68,8 +80,18 @@ def publish(root, slug=None, at=None, dry=False, now=None):
         if not match:
             raise SystemExit("not in the queue: %s (queued: %s)" % (slug, ", ".join(s for s, _ in items)))
         slug, src = match[0]
+        gap = unreviewed_files(src)
+        if gap:
+            raise SystemExit("%s: copy_review missing in %s — get the Iris copy review first" % (slug, ", ".join(gap)))
     else:
-        slug, src = items[0]
+        for s, d in items:
+            gap = unreviewed_files(d)
+            if not gap:
+                slug, src = s, d
+                break
+            print("skip %s: copy_review missing in %s" % (s, ", ".join(gap)), file=sys.stderr)
+        else:
+            raise SystemExit(NOTHING_REVIEWED)
     when_dt = bs.parse_published(at) if at else now.replace(second=0, microsecond=0)
     if when_dt > now:
         raise SystemExit("refusing a future publish time: %s (now %s KST)" % (when_dt.strftime("%Y-%m-%dT%H:%M"), now.strftime("%H:%M")))
@@ -116,6 +138,9 @@ def main(argv=None):
             return 0
         if not queue_items(root):
             print("publish_post: queue is empty — nothing to do")
+            return 0
+        if not any(not unreviewed_files(d) for _, d in queue_items(root)):
+            print("publish_post: %s" % NOTHING_REVIEWED)
             return 0
     slug, when, files = publish(root, a.slug, a.at, a.dry_run, now)
     print("publish_post: %s%s at %s KST" % ("(dry run) " if a.dry_run else "", slug, when[:16].replace("T", " ")))

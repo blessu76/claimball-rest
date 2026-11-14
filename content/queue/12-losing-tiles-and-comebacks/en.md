@@ -6,6 +6,7 @@ slug: losing-tiles-and-comebacks
 lang: en
 category: devlog
 keywords: Claimball, penalty, comeback, rules, journal
+copy_review: iris 2026-11-14
 ---
 Claimball is not only about claiming tiles. It is also about what you lose when you miss. These rules are in the TestFlight internal test builds, which are not released to the public yet.
 

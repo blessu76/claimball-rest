@@ -6,6 +6,7 @@ slug: losing-tiles-and-comebacks
 lang: ko
 category: devlog
 keywords: Claimball, 실점, 역전, 규칙, 저널
+copy_review: iris 2026-11-14
 ---
 Claimball은 칸을 차지하는 게임이지만, 놓쳤을 때 잃는 것도 중요해요. 아래 규칙은 아직 일반 공개 전인 TestFlight 내부 테스트 빌드에 들어 있어요.
 

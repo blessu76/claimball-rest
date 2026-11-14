@@ -22,7 +22,7 @@ def post_text(slug, lang, title, published=None, extra=""):
         title, slug, lang, slug, lang, slug, lang, tr, pub, extra, slug, faq_h)
 
 
-def make_site(langs=("en", "ko"), posts=(("alpha-post", "2026-11-01T18:00+09:00"), ("beta-post", "2026-11-02T18:00+09:00")), queue=()):
+def make_site(langs=("en", "ko"), posts=(("alpha-post", "2026-11-01T18:00+09:00"), ("beta-post", "2026-11-02T18:00+09:00")), queue=(), unreviewed=()):
     root = Path(tempfile.mkdtemp(prefix="claimball-test-"))
     for l in langs:
         (root / "content" / "i18n").mkdir(parents=True, exist_ok=True)
@@ -42,8 +42,9 @@ def make_site(langs=("en", "ko"), posts=(("alpha-post", "2026-11-01T18:00+09:00"
     for i, slug in enumerate(queue, start=1):
         d = root / "content" / "queue" / ("%02d-%s" % (i, slug))
         d.mkdir(parents=True)
+        review = "" if slug in unreviewed else "copy_review: iris 2026-11-13\n"
         for l in ("en", "ko"):
-            (d / (l + ".md")).write_text(post_text(slug, l, "Queued %s %s" % (slug, l)), encoding="utf-8")
+            (d / (l + ".md")).write_text(post_text(slug, l, "Queued %s %s" % (slug, l), extra=review), encoding="utf-8")
     shutil.copytree(REPO / "assets", root / "assets")
     shutil.copytree(REPO / "vendor" / "ipe_web_kit", root / "vendor" / "ipe_web_kit")
     return root

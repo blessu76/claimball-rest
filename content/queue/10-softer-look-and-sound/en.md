@@ -6,6 +6,7 @@ slug: softer-look-and-sound
 lang: en
 category: devlog
 keywords: Claimball, toy-like look, haptics, sound, intro, journal
+copy_review: iris 2026-11-14
 ---
 Builds 3 and 4, TestFlight internal test builds, changed how Claimball looks, feels and sounds. They are not released to the public yet.
 
