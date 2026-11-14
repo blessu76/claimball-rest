@@ -46,7 +46,7 @@ class HeaderFooterLangSelect(unittest.TestCase):
         for f, h in pages():
             nav = re.search(r'<nav class="nav".*?</nav>', h, re.S)
             self.assertIsNotNone(nav, f)
-            page_links = re.sub(r'<span class="langsw">.*?</span>', "", nav.group(0), flags=re.S)
+            page_links = re.sub(r'<div class="ipe-lang">.*', "", nav.group(0), flags=re.S)
             self.assertIsNone(re.search(r'href="[^"]*/(privacy|terms)/"', page_links), f)
             foot = re.search(r'<nav class="foot-links".*?</nav>', h, re.S)
             self.assertIsNotNone(foot, f)
@@ -58,7 +58,7 @@ class HeaderFooterLangSelect(unittest.TestCase):
     def test_select_has_twelve_options_one_selected_and_real_targets(self):
         for f, h in pages():
             lang = lang_of(f)
-            sels = re.findall(r'<select id="langsel" class="langsel">(.*?)</select>', h, re.S)
+            sels = re.findall(r'<select class="ipe-lang__select" id="ipe-lang-select"[^>]*>(.*?)</select>', h, re.S)
             self.assertEqual(len(sels), 1, f)
             opts = re.findall(r'<option value="([^"]*)" lang="([\w-]+)"( selected)?>([^<]*)</option>', sels[0])
             self.assertEqual([o[1] for o in opts], list(bs.LISTED), f)
@@ -71,10 +71,10 @@ class HeaderFooterLangSelect(unittest.TestCase):
     def test_select_options_match_the_same_page_links_for_crawlers(self):
         for f, h in pages():
             header = re.search(r'<header.*?</header>', h, re.S).group(0)
-            noscript = re.search(r'<noscript><style>\.langsel\{display:none\}</style>(.*?)</noscript>', header, re.S)
+            noscript = re.search(r'<noscript>(.*?)</noscript>', header, re.S)
             self.assertIsNotNone(noscript, f)
             links = re.findall(r'<a href="([^"]*)" hreflang="([\w-]+)"', noscript.group(1))
-            sel = re.search(r'<select id="langsel".*?</select>', header, re.S).group(0)
+            sel = re.search(r'<select class="ipe-lang__select".*?</select>', header, re.S).group(0)
             options = re.findall(r'<option value="([^"]*)" lang="([\w-]+)"', sel)
             self.assertEqual([(v, l) for v, l in options], [(h_, l) for h_, l in links], f)
 

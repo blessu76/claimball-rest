@@ -28,7 +28,7 @@ def pages():
 
 
 def switch(h):
-    return re.search(r'<select id="langsel" class="langsel">(.*?)</select>', h, re.S).group(1)
+    return re.search(r'<select class="ipe-lang__select" id="ipe-lang-select"[^>]*>(.*?)</select>', h, re.S).group(1)
 
 
 def switch_options(h):
@@ -54,31 +54,31 @@ class Picker(unittest.TestCase):
 
     @unittest.skipUnless(shutil.which("node"), "node required")
     def test_choice_is_remembered_for_each_language(self):
-        """pick a language in the switch -> claimball.js stores it -> langpick.js on '/' goes to it (en + ko)."""
-        js = (REPO / "assets" / "claimball.js").read_text(encoding="utf-8")
+        """pick a language in the switch -> the kit select's onchange stores it -> langpick.js on '/' goes to it (en + ko)."""
+        import html as _h
+        page = (REPO / "journal" / "index.html").read_text(encoding="utf-8")
+        onchange = _h.unescape(re.search(r'<select class="ipe-lang__select"[^>]*onchange="([^"]*)"', page).group(1))
         pick = (REPO / "assets" / "langpick.js").read_text(encoding="utf-8").replace("/*SUPPORTED*/[]", json.dumps(list(bs.LISTED))).replace("/*AVAILABLE*/[]", json.dumps(AVAILABLE))
         prog = r"""
 const store={};
-function run(src,pathname,navLangs){
-  const listeners={};let to=null;
-  const ctx={localStorage:{getItem:k=>store[k]===undefined?null:store[k],setItem:(k,v)=>{store[k]=String(v)}},
-    navigator:{languages:navLangs,language:navLangs[0]},
-    location:{pathname,search:'',hash:'',replace:u=>{to=u}},
-    document:{querySelector:()=>null,addEventListener:(t,f)=>{if(!listeners[t])listeners[t]=f}},window:{}};
-  new Function('localStorage','navigator','location','document','window',src)(ctx.localStorage,ctx.navigator,ctx.location,ctx.document,ctx.window);
-  return {listeners,to};
+const ls={getItem:k=>store[k]===undefined?null:store[k],setItem:(k,v)=>{store[k]=String(v)}};
+function pickRun(src,pathname,navLangs){
+  let to=null;
+  const ctx={navigator:{languages:navLangs,language:navLangs[0]},location:{pathname,search:'',hash:'',replace:u=>{to=u}},document:{},window:{}};
+  new Function('localStorage','navigator','location','document','window',src)(ls,ctx.navigator,ctx.location,ctx.document,ctx.window);
+  return {to};
 }
 const out=[];
 for(const l of %s){
   for(const k in store)delete store[k];
-  const sel={classList:{contains:c=>c==='langsel'},value:'/'+l+'/',options:[{getAttribute:n=>n==='lang'?l:null}],selectedIndex:0};
-  const {listeners}=run(%s,'/%s/',['en-US']);
-  listeners.change({target:sel});
-  const r=run(%s,'/',['en-US']);
+  const loc={href:''};
+  const sel={options:[{lang:l,value:'/'+l+'/'}],selectedIndex:0};
+  (new Function('localStorage','location','return function(){'+%s+'}'))(ls,loc).call(sel);
+  const r=pickRun(%s,'/',['en-US']);
   out.push([l,store['ipe_lang'],r.to]);
 }
 console.log(JSON.stringify(out));
-""" % (json.dumps(list(bs.LISTED)), json.dumps(js), "x", json.dumps(pick))
+""" % (json.dumps(list(bs.LISTED)), json.dumps(onchange), json.dumps(pick))
         res = subprocess.run(["node", "-e", prog], capture_output=True, text=True, timeout=30)
         self.assertEqual(res.returncode, 0, res.stderr)
         for l, saved, to in json.loads(res.stdout):
