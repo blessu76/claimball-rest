@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, Landemarkierung, Smash, 90-Sekunden-Match, Steuerung, Journal
 copy_review: iris 2026-11-14
+published: 2026-11-14T20:14+09:00
 ---
 Build 1, der erste interne TestFlight-Testbuild, hatte schon den Kern von Claimball. Er ist noch nicht für die Öffentlichkeit freigegeben.
 

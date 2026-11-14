@@ -25,6 +25,7 @@ Claimball is a casual player-versus-AI mobile game by ipe() (https://ipe.rest/).
 
 ## Journal posts (English)
 
+- [Where the ball will land, and how a smash works](https://claimball.ipe.rest/journal/landing-marker-and-smash/) — 2026-11-14 — The first playable build already had a landing marker, a smash gauge, sudden death and a 90-second match. Here is how those parts fit together.
 - [Combos, Fever and stars: how a Claimball match builds up](https://claimball.ipe.rest/journal/combos-and-fever/) — 2026-11-13 — Build 5 added combo chains, a Fever mode in the last 20 seconds, one to three stars per match and a list of achievements.
 - [Two looks for Claimball: Classic and Notebook](https://claimball.ipe.rest/journal/notebook-look/) — 2026-11-11 — Notebook is a paper-and-grid-notebook style that matches the Claimball website, and you can switch any time in Settings.
 - [The Daily Challenge: one match a day with a twist](https://claimball.ipe.rest/journal/daily-challenge/) — 2026-11-10 — One match a day with a twist, a fairer rematch balance, and what happens if the app closes mid-match.

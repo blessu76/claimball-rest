@@ -7,6 +7,7 @@ lang: ko
 category: devlog
 keywords: Claimball, 착지 표시, 스매시, 90초 경기, 조작, 저널
 copy_review: iris 2026-11-14
+published: 2026-11-14T20:14+09:00
 ---
 첫 TestFlight 내부 테스트 빌드인 빌드 1에 이미 Claimball의 핵심이 들어 있었어요. 아직 일반 공개 전이에요.
 

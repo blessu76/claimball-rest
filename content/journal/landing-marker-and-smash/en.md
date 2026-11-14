@@ -7,6 +7,7 @@ lang: en
 category: devlog
 keywords: Claimball, landing marker, smash, 90 second match, controls, journal
 copy_review: iris 2026-11-14
+published: 2026-11-14T20:14+09:00
 ---
 Build 1, the first TestFlight internal test build, already had the core of Claimball. It is not released to the public yet.
 

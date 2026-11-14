@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, 落點標記, 扣殺, 90 秒比賽, 操作, 日誌
 copy_review: iris 2026-11-14
+published: 2026-11-14T20:14+09:00
 ---
 第一個 TestFlight 內部測試版 Build 1，就已經具備 Claimball 的核心玩法。目前尚未對外發布。
 

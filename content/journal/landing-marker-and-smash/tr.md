@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, düşüş işaretçisi, smaç, 90 saniyelik maç, kontroller, günlük
 copy_review: iris 2026-11-14
+published: 2026-11-14T20:14+09:00
 ---
 İlk TestFlight iç test sürümü olan Build 1'de Claimball'ın çekirdeği zaten vardı. Henüz herkese açık değil.
 

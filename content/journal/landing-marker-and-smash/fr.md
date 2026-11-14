@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, repère d'atterrissage, smash, partie de 90 secondes, commandes, journal
 copy_review: iris 2026-11-14
+published: 2026-11-14T20:14+09:00
 ---
 La version 1, première version de test interne sur TestFlight, contenait déjà le cœur de Claimball. Elle n'est pas encore ouverte au public.
 

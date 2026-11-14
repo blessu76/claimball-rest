@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, marcador de queda, smash, partida de 90 segundos, controles, diário
 copy_review: iris 2026-11-14
+published: 2026-11-14T20:14+09:00
 ---
 A versão 1, o primeiro build de testes internos no TestFlight, já tinha o núcleo do Claimball. Ela ainda não foi lançada ao público.
 

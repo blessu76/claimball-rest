@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, 着地マーカー, スマッシュ, 90秒の試合, 操作, ジャーナル
 copy_review: iris 2026-11-14
+published: 2026-11-14T20:14+09:00
 ---
 最初のTestFlight内部テストビルドであるビルド1に、すでにClaimballの核となる部分が入っていました。一般公開はまだです。
 
