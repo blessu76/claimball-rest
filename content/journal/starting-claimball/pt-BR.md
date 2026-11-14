@@ -1,19 +1,20 @@
 ---
 title: Começando a fazer Claimball
 description: A primeira publicação do diário. O que é Claimball e por que este diário existe.
-summary: Claimball é um jogo casual de duelos contra um rival de IA em uma grade de caderno de 6 por 10 quadrados, que chega em breve para iOS e Android. Uma partida dura cerca de 90 segundos, e o quadrado onde a bola quica vira território do jogador que a acertou.
+summary: Claimball é um jogo casual de duelos contra um rival de IA em uma grade de caderno de 6 por 10 casas, que chega em breve para iOS e Android. Uma partida dura cerca de 90 segundos, e a casa onde a bola quica vira território do jogador que a acertou.
 slug: starting-claimball
 lang: pt-BR
 category: devlog
 translation_of: en
 published: 2026-10-31T07:40+09:00
 keywords: Claimball, jogo casual, jogo para celular, diário
+copy_review: iris 2026-11-14
 ---
 Esta é a primeira publicação do diário de Claimball. Claimball é um jogo casual de duelos em que você joga contra um rival de IA, e chega em breve para iOS e Android.
 
 ## O que é o jogo
 
-O tabuleiro é uma grade de caderno com 6 por 10 quadrados. O quadrado onde a bola quica vira território do jogador que a acertou, e se você errar, perde território. Acerte a bola com o centro da sua raquete e você faz uma cortada, que conquista 3 quadrados de uma vez.
+O tabuleiro é uma grade de caderno com 6 por 10 casas. A casa onde a bola quica vira território do jogador que a acertou, e se você errar, perde território. Acerte a bola com o centro da sua raquete e você faz um smash, que conquista 3 casas de uma vez.
 
 Uma partida dura cerca de 90 segundos, e os segundos finais são um confronto decisivo. No lançamento, você enfrenta 6 rivais de IA distribuídos em 2 ligas, com mais planejados em atualizações.
 
@@ -33,7 +34,7 @@ Claimball é grátis para experimentar, uma única compra libera o jogo completo
 Claimball é um jogo casual de duelos em que você joga contra um rival de IA, e chega em breve para iOS e Android.
 
 ### Como se conquista território no Claimball?
-O quadrado onde a bola quica vira território do jogador que a acertou, e se você errar, perde território. Acerte a bola com o centro da sua raquete e você faz uma cortada, que conquista 3 quadrados de uma vez.
+A casa onde a bola quica vira território do jogador que a acertou, e se você errar, perde território. Acerte a bola com o centro da sua raquete e você faz um smash, que conquista 3 casas de uma vez.
 
 ### Quanto dura uma partida e quantos rivais existem?
 Uma partida dura cerca de 90 segundos. No lançamento você enfrenta 6 rivais de IA em 2 ligas, com mais previstos nas atualizações.

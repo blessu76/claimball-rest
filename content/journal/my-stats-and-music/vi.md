@@ -8,12 +8,13 @@ category: devlog
 translation_of: en
 published: 2026-11-04T09:06+09:00
 keywords: Claimball, thống kê của tôi, nhạc nền, trò chơi giải trí, nhật ký
+copy_review: iris 2026-11-14
 ---
 Bản dựng 15, một bản thử nghiệm nội bộ trên TestFlight, thêm hai thứ bạn có thể thấy và nghe. Bản này chưa được phát hành cho công chúng.
 
 ## Thống kê của tôi
 
-Màn hình Thống kê của tôi mới hiển thị số trận thắng, hòa và thua, thành tích của bạn với từng đối thủ, và pha trao đổi bóng dài nhất. Những số liệu này chỉ được lưu trên thiết bị của bạn.
+Màn hình Thống kê của tôi mới hiển thị số trận thắng, hòa và thua, thành tích của bạn với từng đối thủ, và pha bóng dài nhất. Những số liệu này chỉ được lưu trên thiết bị của bạn.
 
 ## Nhạc nền
 
@@ -26,7 +27,7 @@ Claimball vẫn đang thử nghiệm và sắp ra mắt trên iOS và Android. H
 ## Câu hỏi thường gặp
 
 ### Màn hình Thống kê của tôi trong Claimball hiển thị gì?
-Màn hình hiển thị số trận thắng, hòa và thua, thành tích của bạn với từng đối thủ, và pha trao đổi bóng dài nhất.
+Màn hình hiển thị số trận thắng, hòa và thua, thành tích của bạn với từng đối thủ, và pha bóng dài nhất.
 
 ### Số liệu của tôi được lưu ở đâu?
 Những số liệu này chỉ được lưu trên thiết bị của bạn.

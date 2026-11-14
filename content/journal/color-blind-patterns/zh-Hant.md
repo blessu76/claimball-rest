@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, 色盲, 無障礙, 對比度, 休閒遊戲, 日誌
 published: 2026-11-07T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 Claimball 是一款在方格上用兩種顏色對戰的遊戲，對部分玩家來說，單靠顏色是很不可靠的訊號。這篇文章介紹測試版中的兩項小改動，目前尚未對外正式發布。
 

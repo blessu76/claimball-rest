@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 published: 2026-11-10T18:00+09:00
 keywords: Claimball, thử thách hằng ngày, trò chơi giải trí, nhật ký
+copy_review: iris 2026-11-14
 ---
 Thử thách hằng ngày là mỗi ngày một ván với một biến tấu, và nó đã phát triển qua nhiều bản dựng thử nghiệm. Chúng chưa được phát hành cho công chúng.
 

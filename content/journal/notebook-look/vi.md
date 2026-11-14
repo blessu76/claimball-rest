@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 published: 2026-11-11T18:00+09:00
 keywords: Claimball, giao diện vở ghi, cài đặt, trò chơi giải trí, nhật ký
+copy_review: iris 2026-11-14
 ---
 Bản dựng 9, một bản thử nghiệm nội bộ trên TestFlight, đã mang đến cho trò chơi một giao diện thứ hai. Bản này chưa được phát hành cho công chúng.
 

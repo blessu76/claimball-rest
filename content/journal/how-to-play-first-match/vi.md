@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 published: 2026-11-05T18:41+09:00
 keywords: Claimball, cách chơi, hướng dẫn, trò chơi giải trí, nhật ký
+copy_review: iris 2026-11-14
 ---
 Từ bản dựng 14, một bản thử nghiệm nội bộ trên TestFlight, Claimball mở ván đầu tiên của bạn bằng một hướng dẫn Cách chơi ngắn. Bản này chưa được phát hành cho công chúng.
 

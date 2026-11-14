@@ -8,6 +8,7 @@ translation_of: en
 category: devlog
 keywords: Claimball, ธีมสมุดโน้ต, การตั้งค่า, เกมสบายๆ, บันทึก
 published: 2026-11-11T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 บิลด์ 9 ซึ่งเป็นบิลด์ทดสอบภายในของ TestFlight มอบลุคที่สองให้เกม ยังไม่เปิดให้สาธารณชนใช้
 

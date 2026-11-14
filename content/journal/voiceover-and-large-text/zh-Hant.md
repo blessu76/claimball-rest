@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, 無障礙, VoiceOver, 大字體, 休閒遊戲, 日誌
 published: 2026-11-06T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 節奏快速的球類遊戲，聽起來不太容易搭配螢幕閱讀器來玩，所以我們把 TestFlight 內部測試版的第 14 版花在無障礙上。目前尚未對外正式發布。
 

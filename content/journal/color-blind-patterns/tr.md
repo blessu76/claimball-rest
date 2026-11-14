@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, renk körlüğü, erişilebilirlik, kontrast, rahat oyun, günlük
 published: 2026-11-07T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 Claimball, ızgara üzerinde iki renk arasındaki bir oyun; bu yüzden bazı oyuncular için yalnızca renk zayıf bir işaret. Bu yazı test derlemelerinden iki küçük değişikliği anlatıyor. Henüz herkese açık değil.
 

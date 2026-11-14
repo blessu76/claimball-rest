@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, istatistiklerim, fon müziği, rahat oyun, günlük
 published: 2026-11-04T09:06+09:00
+copy_review: iris 2026-11-14
 ---
 TestFlight dahili test derlemesi olan 15. derleme, görebileceğin ve duyabileceğin iki şey ekliyor. Henüz herkese açık değil.
 

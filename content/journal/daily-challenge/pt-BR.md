@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 published: 2026-11-10T18:00+09:00
 keywords: Claimball, desafio diário, jogo casual, diário
+copy_review: iris 2026-11-14
 ---
 O Desafio diário é uma partida por dia com uma reviravolta, e ele cresceu ao longo de várias versões de teste. Elas ainda não foram lançadas ao público.
 

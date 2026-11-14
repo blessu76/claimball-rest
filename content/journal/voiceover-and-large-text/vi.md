@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 published: 2026-11-06T18:00+09:00
 keywords: Claimball, trợ năng, VoiceOver, chữ lớn, trò chơi giải trí, nhật ký
+copy_review: iris 2026-11-14
 ---
 Một trò chơi bóng nhanh nghe có vẻ khó chơi với trình đọc màn hình, nên chúng tôi dành bản dựng 14, một bản thử nghiệm nội bộ trên TestFlight, cho trợ năng. Bản này chưa được phát hành cho công chúng.
 

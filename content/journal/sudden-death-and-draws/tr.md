@@ -8,8 +8,9 @@ category: devlog
 translation_of: en
 keywords: Claimball, ani ölüm, beraberlik, rahat oyun, günlük
 published: 2026-11-03T21:05+09:00
+copy_review: iris 2026-11-14
 ---
-Bir Claimball maçı defter ızgarasında 90 saniyedir ve çoğu zaman süre dolduğunda bir taraf daha fazla araziye sahip olur. Bu yazı diğer durumla ilgili: maç berabere bitiyor.
+Bir Claimball maçı defter ızgarasında 90 saniye sürer ve çoğu zaman süre dolduğunda bir taraf daha fazla araziye sahip olur. Bu yazı diğer durumla ilgili: maç berabere bitiyor.
 
 ## Beraberlikte ne olur
 
@@ -32,7 +33,7 @@ Claimball hâlâ test aşamasında ve iOS ile Android için çok yakında geliyo
 ## Sık sorulan sorular
 
 ### Bir Claimball maçı berabere bitince ne olur?
-Süre dolduğunda karo sayıları eşitse maç ani ölüme gider. Saat durur ve bir sonraki sayı maçı belirler.
+Süre dolduğunda karo sayıları eşitse maç ani ölüme gider. Süre durur ve bir sonraki sayı maçı belirler.
 
 ### 90. saniyede top hâlâ havadaysa ne olur?
 Maç, sayılmadan önce topun yere inmesini bekler.

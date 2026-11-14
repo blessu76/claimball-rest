@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 published: 2026-11-09T18:00+09:00
 keywords: Claimball, iCloud, tiếp tục trên thiết bị khác, trò chơi giải trí, nhật ký
+copy_review: iris 2026-11-14
 ---
 Bản dựng 7, một bản thử nghiệm nội bộ trên TestFlight, cho phép bạn tiếp tục từ chỗ đã dừng trên một thiết bị khác. Bản này chưa được phát hành cho công chúng.
 

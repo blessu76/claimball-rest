@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, rahat oyun, mobil oyun, günlük
 published: 2026-10-31T07:40+09:00
+copy_review: iris 2026-11-14
 ---
 Bu, Claimball günlüğünün ilk yazısı. Claimball, yapay zekâ rakibe karşı oynadığın rahat bir düello oyunu ve iOS ile Android için çok yakında geliyor.
 

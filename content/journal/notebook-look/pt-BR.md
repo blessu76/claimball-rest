@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 published: 2026-11-11T18:00+09:00
 keywords: Claimball, tema caderno, ajustes, jogo casual, diário
+copy_review: iris 2026-11-14
 ---
 A versão 9, uma versão de teste interno do TestFlight, deu ao jogo um segundo visual. Ela ainda não foi lançada ao público.
 

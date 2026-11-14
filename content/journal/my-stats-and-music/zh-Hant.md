@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, 我的戰績, 背景音樂, 休閒遊戲, 日誌
 published: 2026-11-04T09:06+09:00
+copy_review: iris 2026-11-14
 ---
 TestFlight 內部測試版的第 15 版新增了兩樣看得到、也聽得到的內容。目前尚未對外正式發布。
 

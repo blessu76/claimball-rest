@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, 筆記本主題, 設定, 休閒遊戲, 日誌
 published: 2026-11-11T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 TestFlight 內部測試版的第 9 版，為遊戲帶來了第二種外觀。目前尚未對外正式發布。
 

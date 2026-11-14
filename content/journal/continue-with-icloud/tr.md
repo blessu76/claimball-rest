@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, iCloud, başka cihazda devam, rahat oyun, günlük
 published: 2026-11-09T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 TestFlight dahili test derlemesi olan 7. derleme, başka bir cihazda kaldığın yerden devam etmeni sağlıyor. Henüz herkese açık değil.
 

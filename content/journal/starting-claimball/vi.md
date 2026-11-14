@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 published: 2026-10-31T07:40+09:00
 keywords: Claimball, trò chơi giải trí, trò chơi di động, nhật ký
+copy_review: iris 2026-11-14
 ---
 Đây là bài viết đầu tiên trong nhật ký Claimball. Claimball là trò chơi đối kháng giải trí, trong đó bạn đấu với một đối thủ AI, và sắp ra mắt trên iOS và Android.
 

@@ -8,6 +8,7 @@ category: design
 translation_of: en
 keywords: Claimball, defter teması, ayarlar, rahat oyun, günlük
 published: 2026-11-11T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 TestFlight dahili test derlemesi olan 9. derleme oyuna ikinci bir görünüm kazandırdı. Henüz herkese açık değil.
 

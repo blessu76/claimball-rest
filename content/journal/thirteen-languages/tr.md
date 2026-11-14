@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, diller, yerelleştirme, rahat oyun, günlük
 published: 2026-11-08T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 Claimball neredeyse hiç okumadan oynanabilen bir oyun, ama menüler, ipuçları ve kurallar için yine de kelimeler gerekiyor. Bu yazı, dil listesinin test derlemelerinde nasıl büyüdüğüyle ilgili. Henüz herkese açık değiller.
 

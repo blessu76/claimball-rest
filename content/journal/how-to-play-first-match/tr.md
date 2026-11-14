@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, nasıl oynanır, öğretici, rahat oyun, günlük
 published: 2026-11-05T18:41+09:00
+copy_review: iris 2026-11-14
 ---
 TestFlight dahili test derlemesi olan 14. derlemeden beri Claimball, ilk maçını kısa bir Nasıl oynanır rehberiyle açıyor. Henüz herkese açık değil.
 

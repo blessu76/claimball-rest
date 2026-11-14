@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 published: 2026-11-07T18:00+09:00
 keywords: Claimball, mù màu, trợ năng, độ tương phản, trò chơi giải trí, nhật ký
+copy_review: iris 2026-11-14
 ---
 Claimball là trò chơi về hai màu trên một lưới ô, nên chỉ dựa vào màu sắc là tín hiệu yếu với một số người chơi. Bài viết này nói về hai thay đổi nhỏ trong các bản dựng thử nghiệm. Chúng chưa được phát hành cho công chúng.
 

@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 published: 2026-11-06T18:00+09:00
 keywords: Claimball, acessibilidade, VoiceOver, texto grande, jogo casual, diário
+copy_review: iris 2026-11-14
 ---
 Um jogo de bola rápido não parece fácil de jogar com um leitor de tela, então dedicamos a versão 14, uma versão de teste interno do TestFlight, à acessibilidade. Ela ainda não foi lançada ao público.
 

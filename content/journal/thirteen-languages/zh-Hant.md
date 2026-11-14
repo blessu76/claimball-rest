@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, 語言, 在地化, 休閒遊戲, 日誌
 published: 2026-11-08T18:00+09:00
+copy_review: iris 2026-11-14
 ---
 Claimball 幾乎不用閱讀文字就能玩，但選單、提示與規則還是需要文字說明。這篇文章要談的是測試版中語言清單如何擴充。這些版本目前尚未對外正式發布。
 
