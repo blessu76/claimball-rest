@@ -14,8 +14,8 @@ Output (generated — never edit by hand)
   sitemap.xml  robots.txt  llms.txt  404.html
 
 Languages: the 12 listed in ipe_web_kit languages.SUPPORTED (en root, others under /<lang>/). Every listed language needs
-content/i18n/<lang>.json. Ended languages (ENDED: zh ru ar hi) are not built at all:
-their i18n/pages/journal/queue files are ignored; their existing generated folders (zh/ ru/ ar/ hi/) are kept untouched (neither rendered nor removed). A translation needs content/i18n/<lang>.json + content/pages/<lang>/*.md
+content/i18n/<lang>.json. Ended languages (ENDED: zh ru) are not built at all:
+their i18n/pages/journal/queue files are ignored; their existing generated folders (zh/ ru/) are kept untouched (neither rendered nor removed). A translation needs content/i18n/<lang>.json + content/pages/<lang>/*.md
 (front matter `translation_of: en`) and optionally posts with `translation_of:`.
 
 Usage
@@ -74,7 +74,7 @@ SHORT = {"en": "EN", "ko": "KO", "ja": "JA", "zh-Hant": "繁", "es": "ES", "pt-B
 # (name, og locale, direction, short code) for the 12 languages
 LANGS = {l: (kit_languages.NAMES[l], OG_LOCALE[l], "ltr", SHORT[l]) for l in LISTED}
 # Ended languages: source files may still exist (to be removed later) but are ignored; their generated folders are cleaned.
-ENDED = ("zh", "ru", "ar", "hi")
+ENDED = ("zh", "ru")
 MAIN_LANGS = ("en", "ko")
 PAGE_SLUGS = ("about", "privacy", "support", "terms")
 CATEGORIES = ("devlog", "art", "design")
