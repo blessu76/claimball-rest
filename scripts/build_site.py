@@ -926,15 +926,17 @@ def make_ctx(root, now=None, require_all=False):
 LEGACY_REDIRECTS = {"pt": ("pt-BR", ("", "about/", "privacy/", "support/", "terms/", "journal/", "journal/starting-claimball/"))}
 
 
-def build_redirect(old, new, path):
-    target = url("/%s/%s" % (new, path))
+def redirect_html(lang, target):
     head = ['<meta charset="utf-8">', '<meta name="viewport" content="width=device-width,initial-scale=1">',
             '<meta name="robots" content="noindex">', '<title>Claimball</title>',
             '<link rel="canonical" href="%s">' % esc(target),
             '<meta http-equiv="refresh" content="0; url=%s">' % esc(target)]
     body = '<p><a href="%s">Claimball</a></p>' % esc(target)
-    return ("/%s/%sindex.html" % (old, path),
-            "<!doctype html>\n<html lang=\"%s\">\n<head>\n%s\n</head>\n<body>\n%s\n</body>\n</html>\n" % (new, "\n".join(head), body))
+    return "<!doctype html>\n<html lang=\"%s\">\n<head>\n%s\n</head>\n<body>\n%s\n</body>\n</html>\n" % (lang, "\n".join(head), body)
+
+
+def build_redirect(old, new, path):
+    return ("/%s/%sindex.html" % (old, path), redirect_html(new, url("/%s/%s" % (new, path))))
 
 
 def build_all(ctx):
@@ -946,6 +948,7 @@ def build_all(ctx):
 
     for l in ctx.built:
         put(*build_home(ctx, l))
+        put(path_page(l, "releases"), redirect_html(l, url(path_home(l))))  # 릴리즈 노트는 앱 안에만 — 옛 주소는 홈으로
         for slug in PAGE_SLUGS:
             put(*build_page(ctx, l, slug))
         for pg in range(1, pages_count(len(posts_in(ctx, l))) + 1):

@@ -51,6 +51,13 @@ class Built(unittest.TestCase):
             self.assertIn('hreflang="%s" href="https://claimball.ipe.rest%s"' % (l, pth), h)
         self.assertIn('<html lang="ko"', self.read("ko/index.html"))
 
+    def test_retired_releases_page_redirects_to_home_and_is_not_listed(self):
+        for lang_dir, home in (("", "https://claimball.ipe.rest/"), ("ko/", "https://claimball.ipe.rest/ko/")):
+            h = self.read(lang_dir + "releases/index.html")
+            self.assertIn('<meta http-equiv="refresh" content="0; url=%s">' % home, h)
+            self.assertIn("noindex", h)
+        self.assertNotIn("/releases/", self.read("sitemap.xml"))
+
     def test_404_is_noindex_without_canonical(self):
         h = self.read("404.html")
         self.assertIn("noindex", h)

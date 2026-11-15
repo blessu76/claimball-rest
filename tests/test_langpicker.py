@@ -263,7 +263,7 @@ console.log(JSON.stringify({to,replaced,store}));
     def test_inlined_on_every_prefixless_page_and_nowhere_else(self):
         for f in REPO.rglob("*.html"):
             rel = f.relative_to(REPO).parts
-            if rel[0] in SKIP_DIRS:
+            if rel[0] in SKIP_DIRS or 'http-equiv="refresh"' in f.read_text(encoding="utf-8"):
                 continue
             has = self.built_script(f) is not None
             self.assertEqual(has, rel[0] not in LANG_DIRS and rel[0] != "404.html", str(f.relative_to(REPO)))
@@ -275,7 +275,7 @@ console.log(JSON.stringify({to,replaced,store}));
     def test_each_page_lists_exactly_the_languages_that_have_it(self):
         for f in REPO.rglob("index.html"):
             rel = f.relative_to(REPO)
-            if rel.parts[0] in LANG_DIRS + list(SKIP_DIRS):
+            if rel.parts[0] in LANG_DIRS + list(SKIP_DIRS) or 'http-equiv="refresh"' in f.read_text(encoding="utf-8"):
                 continue
             have = [l for l in AVAILABLE if (REPO / l / rel).exists()]
             a = json.loads(re.search(r"A=(\[[^\]]*\])", self.built_script(f)).group(1))
