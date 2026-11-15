@@ -8,6 +8,7 @@ translation_of: en
 category: devlog
 keywords: Claimball, ลุคแบบของเล่น, การสั่น, เสียง, อินโทร, บันทึก
 copy_review: iris 2026-11-14
+published: 2026-11-15T12:01+09:00
 ---
 บิลด์ 3 และ 4 ซึ่งเป็นบิลด์ทดสอบภายในของ TestFlight เปลี่ยนทั้งหน้าตา สัมผัส และเสียงของ Claimball ตอนนี้ยังไม่เปิดให้สาธารณชนใช้
 

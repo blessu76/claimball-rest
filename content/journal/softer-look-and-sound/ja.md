@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, おもちゃのような見た目, 振動, サウンド, イントロ, ジャーナル
 copy_review: iris 2026-11-14
+published: 2026-11-15T12:01+09:00
 ---
 TestFlight内部テストビルドであるビルド3と4で、Claimballの見た目、手ざわり、音が変わりました。一般公開はまだです。
 

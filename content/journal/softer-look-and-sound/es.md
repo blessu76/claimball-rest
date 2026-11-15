@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, aspecto de juguete, vibración, sonido, intro, diario
 copy_review: iris 2026-11-14
+published: 2026-11-15T12:01+09:00
 ---
 Las versiones 3 y 4, de pruebas internas en TestFlight, cambiaron el aspecto, el tacto y el sonido de Claimball. Todavía no están disponibles para el público.
 

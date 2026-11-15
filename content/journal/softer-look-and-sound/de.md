@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, Spielzeug-Look, Vibration, Sound, Intro, Journal
 copy_review: iris 2026-11-14
+published: 2026-11-15T12:01+09:00
 ---
 Die Builds 3 und 4, interne TestFlight-Testbuilds, haben verändert, wie Claimball aussieht, sich anfühlt und klingt. Sie sind noch nicht für die Öffentlichkeit freigegeben.
 

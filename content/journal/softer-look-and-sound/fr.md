@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, look de jouet, vibration, son, intro, journal
 copy_review: iris 2026-11-14
+published: 2026-11-15T12:01+09:00
 ---
 Les versions 3 et 4, des versions de test interne sur TestFlight, ont changé l'apparence, les sensations et le son de Claimball. Elles ne sont pas encore ouvertes au public.
 

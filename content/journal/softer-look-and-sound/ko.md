@@ -7,6 +7,7 @@ lang: ko
 category: devlog
 keywords: Claimball, 장난감 같은 모습, 진동, 소리, 인트로, 저널
 copy_review: iris 2026-11-14
+published: 2026-11-15T12:01+09:00
 ---
 TestFlight 내부 테스트 빌드인 빌드 3과 4에서 Claimball의 모습과 손맛, 소리가 달라졌어요. 아직 일반 공개 전이에요.
 

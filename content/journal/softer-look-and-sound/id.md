@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, tampilan ala mainan, getaran, suara, intro, jurnal
 copy_review: iris 2026-11-14
+published: 2026-11-15T12:01+09:00
 ---
 Build 3 dan 4, build uji coba internal TestFlight, mengubah tampilan, rasa, dan suara Claimball. Keduanya belum dirilis untuk publik.
 

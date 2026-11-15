@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, visual de brinquedo, vibração, som, abertura, diário
 copy_review: iris 2026-11-14
+published: 2026-11-15T12:01+09:00
 ---
 As versões 3 e 4, builds de testes internos no TestFlight, mudaram o visual, a sensação e o som do Claimball. Elas ainda não foram lançadas ao público.
 

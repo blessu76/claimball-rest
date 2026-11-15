@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, oyuncak görünümü, titreşim, ses, giriş, günlük
 copy_review: iris 2026-11-14
+published: 2026-11-15T12:01+09:00
 ---
 TestFlight iç test sürümleri olan Build 3 ve 4, Claimball'ın görünümünü, hissini ve sesini değiştirdi. Henüz herkese açık değiller.
 
