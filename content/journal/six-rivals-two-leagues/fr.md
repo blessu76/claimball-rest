@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, rivaux IA, ligues, difficulté, journal
 copy_review: iris 2026-11-14
+published: 2026-11-16T16:15+09:00
 ---
 La version 5, une version de test interne sur TestFlight, a donné à Claimball des adversaires à affronter. Elle n'est pas encore ouverte au public.
 

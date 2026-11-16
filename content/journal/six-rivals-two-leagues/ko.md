@@ -7,6 +7,7 @@ lang: ko
 category: devlog
 keywords: Claimball, AI 라이벌, 리그, 난이도, 저널
 copy_review: iris 2026-11-14
+published: 2026-11-16T16:15+09:00
 ---
 TestFlight 내부 테스트 빌드인 빌드 5에서 Claimball에 같이 겨룰 상대가 생겼어요. 아직 일반 공개 전이에요.
 

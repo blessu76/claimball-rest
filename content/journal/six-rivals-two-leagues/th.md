@@ -8,6 +8,7 @@ translation_of: en
 category: devlog
 keywords: Claimball, คู่แข่ง AI, ลีก, ความยาก, บันทึก
 copy_review: iris 2026-11-14
+published: 2026-11-16T16:15+09:00
 ---
 บิลด์ 5 ซึ่งเป็นบิลด์ทดสอบภายในของ TestFlight ทำให้ Claimball มีคู่ต่อสู้ให้เล่นด้วย ตอนนี้ยังไม่เปิดให้สาธารณชนใช้
 

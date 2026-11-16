@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, KI-Rivalen, Ligen, Schwierigkeit, Journal
 copy_review: iris 2026-11-14
+published: 2026-11-16T16:15+09:00
 ---
 Build 5, ein interner TestFlight-Testbuild, gab Claimball Gegner zum Spielen. Er ist noch nicht für die Öffentlichkeit freigegeben.
 

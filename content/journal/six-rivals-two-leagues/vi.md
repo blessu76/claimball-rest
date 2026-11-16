@@ -8,6 +8,7 @@ translation_of: en
 category: devlog
 keywords: Claimball, đối thủ AI, giải đấu, độ khó, nhật ký
 copy_review: iris 2026-11-14
+published: 2026-11-16T16:15+09:00
 ---
 Bản dựng 5, một bản dựng thử nghiệm nội bộ TestFlight, mang đến cho Claimball người để đối đầu. Nó chưa được phát hành cho công chúng.
 

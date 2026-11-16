@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, yapay zekâ rakipler, ligler, zorluk, günlük
 copy_review: iris 2026-11-14
+published: 2026-11-16T16:15+09:00
 ---
 TestFlight iç test sürümü olan Build 5, Claimball'a seninle oynayacak rakipler kazandırdı. Henüz herkese açık değil.
 

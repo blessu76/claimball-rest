@@ -7,6 +7,7 @@ lang: en
 category: devlog
 keywords: Claimball, AI rivals, leagues, difficulty, journal
 copy_review: iris 2026-11-14
+published: 2026-11-16T16:15+09:00
 ---
 Build 5, a TestFlight internal test build, gave Claimball someone to play against. It is not released to the public yet.
 

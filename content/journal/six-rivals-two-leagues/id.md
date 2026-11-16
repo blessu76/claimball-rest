@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, rival AI, liga, tingkat kesulitan, jurnal
 copy_review: iris 2026-11-14
+published: 2026-11-16T16:15+09:00
 ---
 Build 5, build uji coba internal TestFlight, memberi Claimball lawan untuk dimainkan. Build ini belum dirilis untuk publik.
 
