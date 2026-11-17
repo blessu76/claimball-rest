@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, 懲罰, 逆轉, 規則, 日誌
 copy_review: iris 2026-11-14
+published: 2026-11-17T19:01+09:00
 ---
 Claimball 不只是搶佔格子，也在於漏球時你會失去什麼。這些規則已在 TestFlight 內部測試版中，目前尚未對外發布。
 

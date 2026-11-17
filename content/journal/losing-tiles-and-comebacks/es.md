@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, penalización, remontada, reglas, diario
 copy_review: iris 2026-11-14
+published: 2026-11-17T19:01+09:00
 ---
 Claimball no consiste solo en conquistar casillas. También importa lo que pierdes cuando fallas. Estas reglas están en las versiones de prueba internas de TestFlight, que todavía no se han publicado.
 

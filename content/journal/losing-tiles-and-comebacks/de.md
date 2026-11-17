@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, Strafe, Comeback, Regeln, Journal
 copy_review: iris 2026-11-14
+published: 2026-11-17T19:01+09:00
 ---
 Bei Claimball geht es nicht nur ums Erobern von Feldern. Es geht auch darum, was du verlierst, wenn du danebenliegst. Diese Regeln stecken in den internen TestFlight-Testversionen, die noch nicht öffentlich veröffentlicht sind.
 

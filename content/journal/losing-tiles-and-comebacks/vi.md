@@ -8,6 +8,7 @@ translation_of: en
 category: devlog
 keywords: Claimball, hình phạt, lội ngược dòng, quy tắc, nhật ký
 copy_review: iris 2026-11-14
+published: 2026-11-17T19:01+09:00
 ---
 Claimball không chỉ là chiếm ô. Nó còn là những gì bạn mất khi trượt. Các quy tắc này nằm trong các bản dựng thử nghiệm nội bộ TestFlight, chưa được phát hành cho công chúng.
 

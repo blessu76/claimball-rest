@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, pénalité, remontada, règles, journal
 copy_review: iris 2026-11-14
+published: 2026-11-17T19:01+09:00
 ---
 Claimball, ce n'est pas seulement prendre des cases. C'est aussi ce que l'on perd quand on rate. Ces règles sont dans les versions de test internes TestFlight, qui ne sont pas encore publiées.
 

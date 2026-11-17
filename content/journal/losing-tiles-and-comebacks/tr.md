@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, ceza, geri dönüş, kurallar, günlük
 copy_review: iris 2026-11-14
+published: 2026-11-17T19:01+09:00
 ---
 Claimball yalnızca kare ele geçirmekle ilgili değil; kaçırdığında neyi kaybettiğinle de ilgili. Bu kurallar TestFlight iç test sürümlerinde var ve henüz herkese açık değil.
 

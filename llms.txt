@@ -25,6 +25,7 @@ Claimball is a casual player-versus-AI mobile game by ipe() (https://ipe.rest/).
 
 ## Journal posts (English)
 
+- [Missing a ball costs tiles, and a lead is never safe](https://claimball.ipe.rest/journal/losing-tiles-and-comebacks/) — 2026-11-17 — In the test builds, a missed ball costs you tiles, and the penalty grows when you are far ahead. Here is why that keeps matches open.
 - [Six AI rivals in two leagues](https://claimball.ipe.rest/journal/six-rivals-two-leagues/) — 2026-11-16 — Build 5 added six AI rivals split into two leagues, a way to pick your opponent, and difficulty checked with simulated matches.
 - [A softer, toy-like look, with a little vibration and sound](https://claimball.ipe.rest/journal/softer-look-and-sound/) — 2026-11-15 — Builds 3 and 4 gave Claimball rounded glossy tiles, a hit vibration, a new intro with a short pop sound, and a Sound On/Off setting.
 - [Where the ball will land, and how a smash works](https://claimball.ipe.rest/journal/landing-marker-and-smash/) — 2026-11-14 — The first playable build already had a landing marker, a smash gauge, sudden death and a 90-second match. Here is how those parts fit together.

@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, ペナルティ, 逆転, ルール, ジャーナル
 copy_review: iris 2026-11-14
+published: 2026-11-17T19:01+09:00
 ---
 Claimballはマスを取るだけのゲームではありません。逃したときに何を失うかも大事です。以下のルールは、まだ一般公開されていないTestFlight内部テストビルドに入っています。
 
