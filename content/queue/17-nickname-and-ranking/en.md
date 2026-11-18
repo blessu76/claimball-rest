@@ -6,6 +6,7 @@ slug: nickname-and-ranking
 lang: en
 category: devlog
 keywords: Claimball, nickname, score, ranking, journal
+copy_review: iris 2026-11-18
 ---
 Build 12, a TestFlight internal test build, added a bit of identity and bragging rights. It is not released to the public yet.
 

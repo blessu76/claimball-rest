@@ -6,6 +6,7 @@ slug: small-screens-and-safety-nets
 lang: en
 category: devlog
 keywords: Claimball, accessibility, small screens, reliability, journal
+copy_review: iris 2026-11-18
 ---
 A game that opens badly or cuts off its text is not fun, however good the rules are. This is a round of checks in the TestFlight internal test builds, which are not released to the public yet.
 

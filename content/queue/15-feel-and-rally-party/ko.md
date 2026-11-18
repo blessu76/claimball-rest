@@ -6,6 +6,7 @@ slug: feel-and-rally-party
 lang: ko
 category: devlog
 keywords: Claimball, 빌드 22, 진동, 랠리 파티, 일일 도전, 저널
+copy_review: iris 2026-11-18
 ---
 TestFlight 내부 테스트 빌드인 빌드 22는 손맛에 관한 빌드예요. 아직 일반 공개 전이에요.
 

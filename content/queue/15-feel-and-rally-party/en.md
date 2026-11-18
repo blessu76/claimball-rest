@@ -6,6 +6,7 @@ slug: feel-and-rally-party
 lang: en
 category: devlog
 keywords: Claimball, build 22, haptics, Rally Party, daily challenge, journal
+copy_review: iris 2026-11-18
 ---
 Build 22, a TestFlight internal test build, is about feel. It is not released to the public yet.
 

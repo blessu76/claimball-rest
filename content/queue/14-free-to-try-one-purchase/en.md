@@ -6,6 +6,7 @@ slug: free-to-try-one-purchase
 lang: en
 category: devlog
 keywords: Claimball, free to try, one purchase, no ads, no subscription, journal
+copy_review: iris 2026-11-18
 ---
 Build 6, a TestFlight internal test build, added how Claimball is planned to be paid for. It is not released to the public yet, and the price has not been announced.
 

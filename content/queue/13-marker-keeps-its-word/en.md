@@ -6,6 +6,7 @@ slug: marker-keeps-its-word
 lang: en
 category: devlog
 keywords: Claimball, landing marker, testing, fair play, journal
+copy_review: iris 2026-11-18
 ---
 The landing marker shows where the ball will land, so it has to be right every time. This is how it is tested in the TestFlight internal test builds, which are not released to the public yet.
 
