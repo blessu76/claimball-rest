@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, Landemarkierung, Tests, Fairplay, Journal
 copy_review: iris 2026-11-14
+published: 2026-11-18T19:01+09:00
 ---
 Die Landemarkierung zeigt, wo der Ball landen wird, also muss sie jedes Mal stimmen. So wird sie in den internen TestFlight-Testversionen getestet, die noch nicht öffentlich veröffentlicht sind.
 

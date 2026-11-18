@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, 着地マーカー, テスト, フェアプレー, ジャーナル
 copy_review: iris 2026-11-14
+published: 2026-11-18T19:01+09:00
 ---
 着地マーカーはボールが落ちる場所を示すので、毎回正確でなければなりません。ここでは、まだ一般公開されていないTestFlight内部テストビルドでのテスト方法を紹介します。
 

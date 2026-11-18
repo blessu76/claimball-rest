@@ -7,6 +7,7 @@ lang: ko
 category: devlog
 keywords: Claimball, 착지 표시, 테스트, 공정함, 저널
 copy_review: iris 2026-11-18
+published: 2026-11-18T19:01+09:00
 ---
 착지 표시는 공이 떨어질 자리를 보여 주니까, 언제나 맞아야 해요. 아직 일반 공개 전인 TestFlight 내부 테스트 빌드에서 이걸 어떻게 확인하는지 소개해요.
 

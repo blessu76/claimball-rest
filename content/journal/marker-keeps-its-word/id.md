@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, penanda pendaratan, pengujian, permainan adil, jurnal
 copy_review: iris 2026-11-14
+published: 2026-11-18T19:01+09:00
 ---
 Penanda pendaratan menunjukkan di mana bola akan mendarat, jadi harus benar setiap kali. Begini cara mengujinya di build uji coba internal TestFlight, yang belum dirilis untuk umum.
 

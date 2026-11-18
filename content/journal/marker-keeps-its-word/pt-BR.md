@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, marcador de queda, testes, jogo justo, diário
 copy_review: iris 2026-11-14
+published: 2026-11-18T19:01+09:00
 ---
 O marcador de queda mostra onde a bola vai cair, então precisa estar certo todas as vezes. É assim que ele é testado nas versões de teste internas do TestFlight, que ainda não foram lançadas ao público.
 

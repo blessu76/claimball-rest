@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, düşüş işaretçisi, test, adil oyun, günlük
 copy_review: iris 2026-11-14
+published: 2026-11-18T19:01+09:00
 ---
 Düşüş işaretçisi topun nereye ineceğini gösterir; bu yüzden her seferinde doğru olmak zorundadır. Bu, henüz herkese açık olmayan TestFlight iç test sürümlerinde şöyle test ediliyor.
 

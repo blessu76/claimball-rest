@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, marcador de aterrizaje, pruebas, juego limpio, diario
 copy_review: iris 2026-11-14
+published: 2026-11-18T19:01+09:00
 ---
 El marcador de aterrizaje muestra dónde caerá la pelota, así que tiene que acertar siempre. Así se prueba en las versiones de prueba internas de TestFlight, que todavía no se han publicado.
 

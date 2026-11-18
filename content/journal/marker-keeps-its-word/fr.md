@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, repère d'atterrissage, tests, fair-play, journal
 copy_review: iris 2026-11-14
+published: 2026-11-18T19:01+09:00
 ---
 Le repère d'atterrissage montre où la balle va tomber, il doit donc être juste à chaque fois. Voici comment il est testé dans les versions de test internes TestFlight, qui ne sont pas encore publiées.
 
