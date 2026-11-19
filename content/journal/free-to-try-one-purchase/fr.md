@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, gratuit à essayer, achat unique, sans publicité, sans abonnement, journal
 copy_review: iris 2026-11-14
+published: 2026-11-19T17:45+09:00
 ---
 La version 6, une version de test interne TestFlight, a présenté le modèle d'achat prévu pour Claimball. Il n'est pas encore publié et le prix n'a pas été annoncé.
 

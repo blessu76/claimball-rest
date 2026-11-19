@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, 免費試玩, 一次購買, 無廣告, 無訂閱, 日誌
 copy_review: iris 2026-11-14
+published: 2026-11-19T17:45+09:00
 ---
 Build 6 是 TestFlight 內部測試版，加入了 Claimball 規劃中的付費方式。目前尚未對外發布，價格也尚未公布。
 

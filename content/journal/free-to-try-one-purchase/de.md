@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, kostenlos testen, ein Kauf, keine Werbung, kein Abo, Journal
 copy_review: iris 2026-11-14
+published: 2026-11-19T17:45+09:00
 ---
 Build 6, eine interne TestFlight-Testversion, hat ergänzt, wie Claimball bezahlt werden soll. Es ist noch nicht öffentlich veröffentlicht, und der Preis wurde noch nicht bekannt gegeben.
 

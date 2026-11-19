@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, ücretsiz deneme, tek satın alım, reklamsız, abonelik yok, günlük
 copy_review: iris 2026-11-14
+published: 2026-11-19T17:45+09:00
 ---
 TestFlight iç test sürümü olan Build 6, Claimball için planlanan ödeme modelini ekledi. Henüz herkese açık değil ve fiyat açıklanmadı.
 

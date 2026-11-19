@@ -25,6 +25,7 @@ Claimball is a casual player-versus-AI mobile game by ipe() (https://ipe.rest/).
 
 ## Journal posts (English)
 
+- [Free to try, one purchase to unlock everything](https://claimball.ipe.rest/journal/free-to-try-one-purchase/) — 2026-11-19 — Build 6 added the planned purchase: try Claimball free, then unlock everything once. No ads, no subscription, and a Restore button.
 - [How we check that the landing marker tells the truth](https://claimball.ipe.rest/journal/marker-keeps-its-word/) — 2026-11-18 — The landing marker is only useful if it is right. Here is how we test that it shows the tiles that really get painted.
 - [Missing a ball costs tiles, and a lead is never safe](https://claimball.ipe.rest/journal/losing-tiles-and-comebacks/) — 2026-11-17 — In the test builds, a missed ball costs you tiles, and the penalty grows when you are far ahead. Here is why that keeps matches open.
 - [Six AI rivals in two leagues](https://claimball.ipe.rest/journal/six-rivals-two-leagues/) — 2026-11-16 — Build 5 added six AI rivals split into two leagues, a way to pick your opponent, and difficulty checked with simulated matches.

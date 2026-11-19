@@ -7,6 +7,7 @@ lang: ko
 category: devlog
 keywords: Claimball, 무료 체험, 한 번 구매, 광고 없음, 구독 없음, 저널
 copy_review: iris 2026-11-18
+published: 2026-11-19T17:45+09:00
 ---
 TestFlight 내부 테스트 빌드인 빌드 6에서 Claimball의 구매 방식이 계획대로 들어왔어요. 아직 일반 공개 전이고 가격도 발표 전이에요.
 

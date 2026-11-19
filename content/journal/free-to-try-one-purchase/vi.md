@@ -8,6 +8,7 @@ translation_of: en
 category: devlog
 keywords: Claimball, chơi thử miễn phí, mua một lần, không quảng cáo, không đăng ký, nhật ký
 copy_review: iris 2026-11-14
+published: 2026-11-19T17:45+09:00
 ---
 Bản dựng 6, một bản dựng thử nghiệm nội bộ TestFlight, thêm cách Claimball dự kiến được thanh toán. Nó chưa được phát hành cho công chúng và giá chưa được công bố.
 

@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, 無料で試せる, 1回の購入, 広告なし, サブスクリプションなし, ジャーナル
 copy_review: iris 2026-11-14
+published: 2026-11-19T17:45+09:00
 ---
 TestFlight内部テストビルドのビルド6で、Claimballの支払い方法として予定しているものが加わりました。一般にはまだ公開されておらず、価格も発表されていません。
 

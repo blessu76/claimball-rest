@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, gratis para probar, una sola compra, sin anuncios, sin suscripción, diario
 copy_review: iris 2026-11-14
+published: 2026-11-19T17:45+09:00
 ---
 La versión 6, una versión de prueba interna de TestFlight, añadió la forma en que está previsto cobrar Claimball. Todavía no se ha publicado y el precio no se ha anunciado.
 
