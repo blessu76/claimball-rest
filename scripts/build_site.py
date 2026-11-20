@@ -49,7 +49,7 @@ EFFECTIVE = "2026-11-12"
 # and llms.txt say so -> change them together with this. The app itself has no analytics SDK.
 GA_MEASUREMENT_ID = "G-XG4BH800J0"
 GA_SNIPPET = (
-    "<script>(function(){var GA_ID='%s';"
+    "<script>(function(){var h=location.hostname;if(h===''||h==='localhost'||h==='127.0.0.1'||h==='[::1]')return;var GA_ID='%s';"
     "var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+GA_ID;document.head.appendChild(s);"
     "window.dataLayer=window.dataLayer||[];window.gtag=function(){window.dataLayer.push(arguments)};"
     "window.gtag('js',new Date());window.gtag('config',GA_ID);"

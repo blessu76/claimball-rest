@@ -34,6 +34,15 @@ class Ga4(unittest.TestCase):
                 self.assertEqual(text.count("window.gtag('config',GA_ID)"), 1)
                 self.assertNotIn("doubleclick", text)
 
+    def test_snippet_skips_local_hosts(self):
+        # local preview (localhost / 127.0.0.1 / [::1]) and a file:// open (empty hostname) must not load gtag or send events
+        for rel, text in self.pages.items():
+            if 'http-equiv="refresh"' in text:
+                continue
+            with self.subTest(rel):
+                self.assertIn("if(h===''||h==='localhost'||h==='127.0.0.1'||h==='[::1]')return;", text)
+                self.assertLess(text.index("if(h===''"), text.index(GA_ID))
+
     def test_no_snippet_outside_html(self):
         for rel in ("assets/claimball.js", "assets/claimball.css"):
             self.assertNotIn(GA_ID, (bs.Path(__file__).resolve().parent.parent / rel).read_text(encoding="utf-8"))
