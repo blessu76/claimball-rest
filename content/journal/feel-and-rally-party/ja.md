@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, ビルド22, 振動, Rally Party, デイリーチャレンジ, ジャーナル
 copy_review: iris 2026-11-14
+published: 2026-11-20T14:15+09:00
 ---
 TestFlight の内部テスト版であるビルド22は、手応えがテーマです。一般公開はまだです。
 

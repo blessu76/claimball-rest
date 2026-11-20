@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, versão 22, vibração, Rally Party, desafio diário, diário
 copy_review: iris 2026-11-14
+published: 2026-11-20T14:15+09:00
 ---
 A versão 22, uma build de teste interno do TestFlight, é sobre a sensação de jogar. Ela ainda não foi lançada ao público.
 

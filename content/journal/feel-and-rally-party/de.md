@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, Build 22, Vibration, Rally Party, Tagesaufgabe, Journal
 copy_review: iris 2026-11-14
+published: 2026-11-20T14:15+09:00
 ---
 Build 22, ein interner TestFlight-Testbuild, dreht sich ums Spielgefühl. Er ist noch nicht öffentlich veröffentlicht.
 

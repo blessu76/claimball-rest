@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, build 22, titreşim, Rali partisi, günlük meydan okuma, günlük
 copy_review: iris 2026-11-14
+published: 2026-11-20T14:15+09:00
 ---
 TestFlight iç test sürümü olan Build 22 his üzerine. Henüz herkese açık değil.
 

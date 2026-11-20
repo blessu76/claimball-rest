@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, versión 22, vibración háptica, Rally Party, Reto diario, diario
 copy_review: iris 2026-11-14
+published: 2026-11-20T14:15+09:00
 ---
 La versión 22, una versión de prueba interna de TestFlight, trata de la sensación al jugar. Todavía no se ha publicado.
 

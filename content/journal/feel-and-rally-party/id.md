@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, build 22, haptik, Rally Party, tantangan harian, jurnal
 copy_review: iris 2026-11-14
+published: 2026-11-20T14:15+09:00
 ---
 Build 22, sebuah build uji internal TestFlight, berfokus pada rasa bermain. Build ini belum dirilis ke publik.
 

@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, version 22, retour haptique, Rally Party, défi du jour, journal
 copy_review: iris 2026-11-14
+published: 2026-11-20T14:15+09:00
 ---
 La version 22, une version de test interne TestFlight, est consacrée aux sensations. Elle n'est pas encore publique.
 

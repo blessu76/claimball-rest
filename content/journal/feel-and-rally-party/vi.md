@@ -8,6 +8,7 @@ translation_of: en
 category: devlog
 keywords: Claimball, bản dựng 22, rung, Rally Party, thử thách hằng ngày, nhật ký
 copy_review: iris 2026-11-14
+published: 2026-11-20T14:15+09:00
 ---
 Bản dựng 22, một bản dựng thử nghiệm nội bộ TestFlight, tập trung vào cảm giác chơi. Nó chưa được phát hành cho công chúng.
 
