@@ -7,6 +7,7 @@ lang: de
 category: devlog
 translation_of: en
 keywords: Claimball, Puck Rush, Bonusstufe, Schwierigkeit, Journal
+copy_review: iris 2026-11-20
 ---
 Puck Rush ist die Bonusstufe von Claimball. Du ziehst einen Schläger, um dich zu bewegen und den Ball zu schlagen. Die Felder, die der Ball überquert, nehmen die Farbe von dem, der ihn zuletzt geschlagen hat, und ein Tor färbt den Bereich davor ein. Wenn die Zeit abläuft, gewinnt die Seite mit den meisten Feldern.
 
@@ -16,7 +17,7 @@ Die Startkarte zeigt Leicht, Normal und Schwer. Die zuletzt gewählte Stufe wird
 
 ## Drei verschiedene Gegner
 
-Schwer bewegt sich nicht einfach nur schneller. Es berechnet, wo der Ball nach den Abprallern an den Wänden ankommt, und kommt aus seiner Hälfte früh heraus, um ihn zu erwischen. Normal wartet nahe der Torlinie und erreicht den Ball später.
+Schwer bewegt sich nicht einfach nur schneller. Kommt ein langsamer Ball, berechnet es, wo er nach den Abprallern an den Wänden sein wird, und rückt innerhalb der eigenen Hälfte vor, um ihn früh zurückzuschlagen. Beim Schuss zielt es auf die Seite deines Tors, die weiter von deinem Schläger entfernt ist. Normal bleibt nahe der Torlinie, bis der Ball in seine Hälfte kommt.
 
 ## Vor der Version geprüft
 
@@ -36,7 +37,7 @@ Claimball ist noch in Tests und kommt bald für iOS und Android. Ein Veröffentl
 Wähle auf der Startkarte von Puck Rush Leicht, Normal oder Schwer. Deine letzte Wahl wird auf dem Gerät gemerkt.
 
 ### Ist Schwer nur ein schnelleres Normal?
-Nein. Schwer berechnet, wo der Ball ankommt, und kommt ihm entgegen, während Normal nahe der Torlinie wartet.
+Nein. Schwer rückt vor, um langsame Bälle früh zurückzuschlagen, und zielt weg von deinem Schläger, während Normal nahe der Torlinie bleibt.
 
 ### Ist Puck Rush schon erschienen?
 Noch nicht. Es ist in Tests und kommt bald für iOS und Android, ein Termin steht aber noch nicht fest.

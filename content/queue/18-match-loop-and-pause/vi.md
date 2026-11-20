@@ -7,6 +7,7 @@ lang: vi
 category: devlog
 translation_of: en
 keywords: Claimball, động cơ game, tạm dừng, trận đấu, nhật ký
+copy_review: iris 2026-11-20
 ---
 Người chơi không thấy luật mới ở đây. Đây là thay đổi bên trong giúp bảng đấu chạy ổn định.
 

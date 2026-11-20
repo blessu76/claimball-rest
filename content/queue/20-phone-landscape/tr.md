@@ -7,6 +7,7 @@ lang: tr
 category: devlog
 translation_of: en
 keywords: Claimball, yatay mod, ekran yönü, telefon, günlük
+copy_review: iris 2026-11-20
 ---
 Claimball telefonda şimdiye kadar hep dikey kalıyordu. Artık telefonu yan tutabilirsiniz ve ekran sizinle birlikte dönüyor.
 
@@ -16,7 +17,7 @@ Yan tutulan dar bir telefon ekranında oyun tahtası ekranın tüm yüksekliğin
 
 ## Maç sırasında döndürmek
 
-Telefonu çevirdiğinizde oyun tahtası korunuyor, maç baştan başlamıyor. Ancak maç sürerken çevirirseniz oyun duraklar. Devam etmek için Devam et düğmesine basın.
+Telefonu çevirdiğinizde oyun tahtası korunuyor, maç baştan başlamıyor. Ancak maç sürerken çevirirseniz oyun duraklar. Devam etmek için Devam düğmesine basın.
 
 ## Ayarlarda ekran yönü
 
@@ -39,7 +40,7 @@ Claimball hâlâ test aşamasında ve yakında iOS ve Android için gelecek. Hen
 ## Sık sorulan sorular
 
 ### Telefonu çevirince oyun devam eder mi?
-Telefonu çevirdiğinizde oyun tahtası olduğu gibi kalır. Bir maç sürüyorsa duraklar; devam etmek için Devam et düğmesine basın.
+Telefonu çevirdiğinizde oyun tahtası olduğu gibi kalır. Bir maç sürüyorsa duraklar; devam etmek için Devam düğmesine basın.
 
 ### Ekranı tek bir yönde kilitleyebilir miyim?
 Evet. Ayarlarda Otomatik döndür yerine Dikey ya da Yatay seçin.

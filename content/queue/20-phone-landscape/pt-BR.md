@@ -1,12 +1,13 @@
 ---
 title: O Claimball agora também gira para o modo paisagem no celular
-description: No celular, o Claimball agora também funciona na horizontal, e os ajustes ganharam uma opção de orientação da tela.
-summary: O Claimball agora gira para o modo paisagem no celular, além do retrato. Na horizontal, o tabuleiro ocupa toda a altura da tela e um painel compacto fica ao lado. Girar o celular durante uma partida pausa o jogo, e os ajustes oferecem automático, só retrato ou só paisagem. A escolha fica salva no aparelho. Ainda está em testes e chega em breve para iOS e Android.
+description: No celular, o Claimball agora também funciona na horizontal, e as configurações ganharam uma opção de orientação da tela.
+summary: O Claimball agora gira para o modo paisagem no celular, além do retrato. Na horizontal, o tabuleiro ocupa toda a altura da tela e um painel compacto fica ao lado. Girar o celular durante uma partida pausa o jogo, e as configurações oferecem automático, só retrato ou só paisagem. A escolha fica salva no aparelho. Ainda está em testes e chega em breve para iOS e Android.
 slug: phone-landscape
 lang: pt-BR
 category: devlog
 translation_of: en
 keywords: Claimball, paisagem, orientação da tela, celular, diário
+copy_review: iris 2026-11-20
 ---
 O Claimball ficava sempre em retrato no celular. Agora o celular também pode ser segurado de lado, e a tela gira com você.
 
@@ -16,13 +17,13 @@ Em uma tela de celular estreita posta de lado, o tabuleiro ocupa toda a altura d
 
 ## Girando durante a partida
 
-O tabuleiro é mantido quando você gira o celular, então a partida não recomeça. Se você girar com uma partida em andamento, o jogo pausa. Toque em Retomar para continuar.
+O tabuleiro é mantido quando você gira o celular, então a partida não recomeça. Se você girar com uma partida em andamento, o jogo pausa. Toque em Continuar para continuar.
 
-## Orientação da tela nos ajustes
+## Orientação da tela nas configurações
 
-Os ajustes têm uma linha de Orientação da tela com três opções:
+As configurações têm uma linha de Orientação da tela com três opções:
 
-- Giro automático: segue a forma como você segura o celular.
+- Girar automaticamente: segue a forma como você segura o celular.
 - Retrato: mantém a tela em pé.
 - Paisagem: mantém a tela deitada.
 
@@ -39,10 +40,10 @@ O Claimball ainda está em testes e chega em breve para iOS e Android. Ainda nã
 ## Perguntas frequentes
 
 ### O jogo continua quando eu giro o celular?
-O tabuleiro fica como está ao girar. Se havia uma partida em andamento, ela pausa; toque em Retomar para continuar.
+O tabuleiro fica como está ao girar. Se havia uma partida em andamento, ela pausa; toque em Continuar para continuar.
 
 ### Posso travar a tela em uma direção?
-Pode. Nos ajustes, escolha Retrato ou Paisagem em vez de Giro automático.
+Pode. Nas configurações, escolha Retrato ou Paisagem em vez de Girar automaticamente.
 
 ### A paisagem já foi lançada?
 Ainda não. Está em testes e chega em breve para iOS e Android, sem data de lançamento por enquanto.

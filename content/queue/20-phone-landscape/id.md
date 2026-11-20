@@ -7,6 +7,7 @@ lang: id
 category: devlog
 translation_of: en
 keywords: Claimball, mendatar, orientasi layar, ponsel, jurnal
+copy_review: iris 2026-11-20
 ---
 Claimball dulu selalu tegak di ponsel. Sekarang ponsel juga bisa dipegang menyamping, dan layarnya ikut berputar.
 
@@ -23,8 +24,8 @@ Papan tetap dipertahankan saat kamu memutar ponsel, jadi pertandingan tidak mula
 Pengaturan punya baris Orientasi layar dengan tiga pilihan:
 
 - Putar otomatis: mengikuti cara kamu memegang ponsel.
-- Tegak: layar tetap tegak.
-- Mendatar: layar tetap mendatar.
+- Potret: layar tetap tegak.
+- Lanskap: layar tetap mendatar.
 
 Pilihan disimpan di perangkat, jadi tetap sama saat kamu membuka aplikasi lagi.
 
@@ -42,7 +43,7 @@ Claimball masih dalam pengujian dan segera hadir untuk iOS dan Android. Belum ad
 Papan tetap seperti semula saat diputar. Kalau pertandingan sedang berjalan, game dijeda. Tekan Lanjutkan untuk meneruskan.
 
 ### Bisakah saya mengunci layar ke satu arah?
-Bisa. Di pengaturan, pilih Tegak atau Mendatar, bukan Putar otomatis.
+Bisa. Di pengaturan, pilih Potret atau Lanskap, bukan Putar otomatis.
 
 ### Apakah mode mendatar sudah dirilis?
 Belum. Fitur ini masih dalam pengujian dan segera hadir untuk iOS dan Android, dan belum ada tanggal rilis.

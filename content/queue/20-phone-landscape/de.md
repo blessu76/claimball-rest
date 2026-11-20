@@ -7,6 +7,7 @@ lang: de
 category: devlog
 translation_of: en
 keywords: Claimball, Querformat, Bildschirmausrichtung, Handy, Journal
+copy_review: iris 2026-11-20
 ---
 Claimball blieb auf dem Handy bisher immer im Hochformat. Jetzt kannst du das Handy auch zur Seite halten, und der Bildschirm dreht sich mit.
 
@@ -16,7 +17,7 @@ Auf einem schmalen Handy, das quer gehalten wird, füllt das Spielfeld die Bilds
 
 ## Drehen während einer Partie
 
-Das Spielfeld bleibt beim Drehen erhalten, die Partie fängt also nicht neu an. Wenn du während einer laufenden Partie drehst, pausiert das Spiel. Tippe auf Fortsetzen, um weiterzuspielen.
+Das Spielfeld bleibt beim Drehen erhalten, die Partie fängt also nicht neu an. Wenn du während einer laufenden Partie drehst, pausiert das Spiel. Tippe auf Weiter, um weiterzuspielen.
 
 ## Bildschirmausrichtung in den Einstellungen
 
@@ -39,7 +40,7 @@ Claimball ist noch in Tests und kommt bald für iOS und Android. Ein Veröffentl
 ## Häufige Fragen
 
 ### Läuft das Spiel weiter, wenn ich das Handy drehe?
-Das Spielfeld bleibt beim Drehen so, wie es ist. Läuft gerade eine Partie, pausiert sie. Tippe auf Fortsetzen, um weiterzumachen.
+Das Spielfeld bleibt beim Drehen so, wie es ist. Läuft gerade eine Partie, pausiert sie. Tippe auf Weiter, um weiterzumachen.
 
 ### Kann ich die Ausrichtung auf eine Richtung festlegen?
 Ja. Wähle in den Einstellungen Hochformat oder Querformat statt Automatisch drehen.

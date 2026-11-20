@@ -7,6 +7,7 @@ lang: pt-BR
 category: devlog
 translation_of: en
 keywords: Claimball, motor de jogo, pausa, partida, diário
+copy_review: iris 2026-11-20
 ---
 Os jogadores não veem uma regra nova aqui. É uma mudança interna que mantém o tabuleiro da partida estável.
 

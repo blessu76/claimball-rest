@@ -7,6 +7,7 @@ lang: fr
 category: devlog
 translation_of: en
 keywords: Claimball, Puck Rush, phase bonus, difficulté, journal
+copy_review: iris 2026-11-20
 ---
 Puck Rush est la phase bonus de Claimball. Vous faites glisser une raquette pour vous déplacer et renvoyer la balle. Les cases que traverse la balle prennent la couleur de celui qui l'a frappée en dernier, et un but peint la zone devant lui. Quand le temps est écoulé, le camp qui a le plus de cases gagne.
 
@@ -16,7 +17,7 @@ La carte de départ affiche Facile, Normal et Difficile. Le dernier niveau chois
 
 ## Trois adversaires différents
 
-Difficile ne se contente pas d'aller plus vite. Il calcule où la balle arrivera après ses rebonds sur les murs, et sort de sa moitié à sa rencontre, en avance. Normal attend près de la ligne de but et rejoint la balle plus tard.
+Difficile ne se contente pas d'aller plus vite. Quand une balle lente arrive vers lui, il calcule où elle sera après ses rebonds sur les murs et avance dans sa propre moitié pour la renvoyer plus tôt. Quand il tire, il vise le côté de votre but le plus éloigné de votre raquette. Normal reste près de sa ligne de but jusqu'à ce que la balle arrive dans sa moitié.
 
 ## Vérifié avant la version
 
@@ -36,7 +37,7 @@ Claimball est toujours en test et arrive bientôt sur iOS et Android. Il n'y a p
 Sur la carte de départ de Puck Rush, choisissez Facile, Normal ou Difficile. Votre dernier choix est mémorisé sur l'appareil.
 
 ### Difficile est-il simplement un Normal plus rapide ?
-Non. Difficile calcule où la balle arrivera et sort à sa rencontre, alors que Normal attend près de la ligne de but.
+Non. Difficile avance pour renvoyer plus tôt les balles lentes et vise loin de votre raquette, alors que Normal reste près de sa ligne de but.
 
 ### Puck Rush est-il déjà sorti ?
 Pas encore. Il est en test et arrive bientôt sur iOS et Android, sans date de sortie pour le moment.

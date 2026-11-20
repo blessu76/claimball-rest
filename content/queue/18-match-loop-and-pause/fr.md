@@ -7,6 +7,7 @@ lang: fr
 category: devlog
 translation_of: en
 keywords: Claimball, moteur de jeu, pause, partie, journal
+copy_review: iris 2026-11-20
 ---
 Les joueurs ne voient aucune nouvelle règle ici. C'est un changement interne qui garde le plateau de la partie stable.
 

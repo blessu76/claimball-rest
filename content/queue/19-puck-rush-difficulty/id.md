@@ -7,6 +7,7 @@ lang: id
 category: devlog
 translation_of: en
 keywords: Claimball, Puck Rush, tahap bonus, kesulitan, jurnal
+copy_review: iris 2026-11-20
 ---
 Puck Rush adalah tahap bonus Claimball. Kamu menyeret dayung untuk bergerak dan memukul bola. Sel yang dilewati bola mengambil warna pemukul terakhirnya, dan gol mewarnai area di depannya. Saat waktu habis, sisi dengan sel terbanyak menang.
 
@@ -16,7 +17,7 @@ Kartu awal menampilkan Mudah, Normal, dan Sulit. Tingkat terakhir yang kamu pili
 
 ## Tiga lawan yang berbeda
 
-Sulit tidak hanya bergerak lebih cepat. Ia membaca di mana bola akan tiba setelah memantul dari dinding, lalu keluar dari separuh arenanya untuk menjemput bola lebih awal. Normal menunggu di dekat garis gawang dan bertemu bola lebih lambat.
+Sulit tidak hanya bergerak lebih cepat. Saat bola pelan datang, ia menghitung di mana bola akan berada setelah memantul dari dinding, lalu maju di dalam separuh arenanya sendiri untuk memukulnya balik lebih awal. Saat menembak, ia membidik sisi gawangmu yang jauh dari dayungmu. Normal tetap di dekat garis gawangnya sampai bola masuk ke separuh arenanya.
 
 ## Diperiksa sebelum rilis versi
 
@@ -36,7 +37,7 @@ Claimball masih dalam pengujian dan segera hadir untuk iOS dan Android. Belum ad
 Di kartu awal Puck Rush, pilih Mudah, Normal, atau Sulit. Pilihan terakhirmu diingat di perangkat.
 
 ### Apakah Sulit hanya Normal yang lebih cepat?
-Tidak. Sulit membaca di mana bola akan tiba dan keluar menjemputnya, sedangkan Normal menunggu di dekat garis gawang.
+Tidak. Sulit maju untuk memukul balik bola pelan lebih awal dan membidik jauh dari dayungmu, sedangkan Normal tetap di dekat garis gawangnya.
 
 ### Apakah Puck Rush sudah dirilis?
 Belum. Game ini masih dalam pengujian dan segera hadir untuk iOS dan Android, dan belum ada tanggal rilis.

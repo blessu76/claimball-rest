@@ -7,6 +7,7 @@ lang: es
 category: devlog
 translation_of: en
 keywords: Claimball, Puck Rush, fase de bonificación, dificultad, diario
+copy_review: iris 2026-11-20
 ---
 Puck Rush es la fase de bonificación de Claimball. Arrastras una pala para moverte y golpear la pelota. Las celdas que cruza la pelota toman el color del último que golpeó, y un gol pinta la zona frente a la portería. Cuando se acaba el tiempo, gana el lado con más celdas.
 
@@ -16,7 +17,7 @@ La tarjeta de inicio muestra Fácil, Normal y Difícil. El último nivel que ele
 
 ## Tres rivales distintos
 
-Difícil no se limita a moverse más rápido. Calcula dónde llegará la pelota tras rebotar en las paredes y sale de su mitad a su encuentro con antelación. Normal espera cerca de la línea de gol y llega a la pelota más tarde.
+Difícil no se limita a moverse más rápido. Cuando le llega una pelota lenta, calcula dónde estará tras rebotar en las paredes y avanza dentro de su propia mitad para devolverla antes. Al tirar, apunta al lado de tu portería más alejado de tu pala. Normal se queda cerca de su línea de gol hasta que la pelota llega a su mitad.
 
 ## Comprobado antes de la versión
 
@@ -36,7 +37,7 @@ Claimball sigue en pruebas y llegará pronto a iOS y Android. Todavía no hay fe
 En la tarjeta de inicio de Puck Rush, elige Fácil, Normal o Difícil. La última elección se recuerda en el dispositivo.
 
 ### ¿Difícil es un Normal más rápido?
-No. Difícil calcula dónde llegará la pelota y sale a su encuentro, mientras que Normal espera cerca de la línea de gol.
+No. Difícil avanza para devolver antes las pelotas lentas y apunta lejos de tu pala, mientras que Normal se queda cerca de su línea de gol.
 
 ### ¿Puck Rush ya está disponible?
 Todavía no. Sigue en pruebas y llegará pronto a iOS y Android, y aún no hay fecha de lanzamiento.

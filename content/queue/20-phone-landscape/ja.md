@@ -1,5 +1,5 @@
 ---
-title: Claimball を スマホの横向きでも遊べるようになりました
+title: Claimball をスマホの横向きでも遊べるようになりました
 description: スマホでも Claimball を横向きにして遊べるようになり、設定に画面の向きの選択が加わりました。
 summary: Claimball はスマホで縦向きだけでなく横向きにもなります。横向きでは盤面が画面の高さいっぱいに広がり、横に小さなパネルが付きます。プレイ中に回転するとゲームは一時停止し、設定では自動、縦固定、横固定から選べます。選択は端末に保存されます。まだテスト中で、iOS と Android 向けに近日公開予定です。
 slug: phone-landscape
@@ -7,6 +7,7 @@ lang: ja
 category: devlog
 translation_of: en
 keywords: Claimball, 横向き, 画面の向き, スマホ, ジャーナル
+copy_review: iris 2026-11-20
 ---
 Claimball は、スマホでは縦向きでしか遊べませんでした。これからはスマホを横に倒しても、画面がいっしょに回ります。
 

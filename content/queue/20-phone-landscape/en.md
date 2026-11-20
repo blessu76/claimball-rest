@@ -6,6 +6,7 @@ slug: phone-landscape
 lang: en
 category: devlog
 keywords: Claimball, landscape, screen orientation, phone, journal
+copy_review: iris 2026-11-20
 ---
 Claimball used to stay upright on a phone. Now a phone can also hold the game sideways, and the screen turns with you.
 

@@ -6,6 +6,7 @@ slug: match-loop-and-pause
 lang: en
 category: devlog
 keywords: Claimball, game engine, pause, match, journal
+copy_review: iris 2026-11-20
 ---
 Players do not see a new rule here. This is a change under the hood that keeps the match board steady.
 

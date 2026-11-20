@@ -7,6 +7,7 @@ lang: fr
 category: devlog
 translation_of: en
 keywords: Claimball, paysage, orientation de l'écran, téléphone, journal
+copy_review: iris 2026-11-20
 ---
 Claimball restait toujours en portrait sur téléphone. Désormais, le téléphone peut aussi être tenu de côté, et l'écran tourne avec vous.
 

@@ -7,6 +7,7 @@ lang: es
 category: devlog
 translation_of: en
 keywords: Claimball, horizontal, orientación de pantalla, teléfono, diario
+copy_review: iris 2026-11-20
 ---
 Claimball se quedaba siempre en vertical en el teléfono. Ahora el teléfono también puede sostenerse de lado, y la pantalla gira contigo.
 
@@ -16,7 +17,7 @@ En una pantalla de teléfono estrecha puesta de lado, el tablero ocupa toda la a
 
 ## Girar durante una partida
 
-El tablero se conserva al girar el teléfono, así que la partida no vuelve a empezar. Si giras mientras hay una partida en curso, el juego se pausa. Pulsa Reanudar para seguir.
+El tablero se conserva al girar el teléfono, así que la partida no vuelve a empezar. Si giras mientras hay una partida en curso, el juego se pausa. Pulsa Seguir para seguir.
 
 ## Orientación de pantalla en los ajustes
 
@@ -39,7 +40,7 @@ Claimball sigue en pruebas y llegará pronto a iOS y Android. Todavía no hay fe
 ## Preguntas frecuentes
 
 ### ¿La partida sigue si giro el teléfono?
-El tablero se mantiene tal como está al girar. Si había una partida en curso, se pausa; pulsa Reanudar para continuar.
+El tablero se mantiene tal como está al girar. Si había una partida en curso, se pausa; pulsa Seguir para continuar.
 
 ### ¿Puedo fijar la pantalla en una sola dirección?
 Sí. En los ajustes, elige Vertical u Horizontal en lugar de Giro automático.

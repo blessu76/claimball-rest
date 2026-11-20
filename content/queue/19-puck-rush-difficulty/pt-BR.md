@@ -7,6 +7,7 @@ lang: pt-BR
 category: devlog
 translation_of: en
 keywords: Claimball, Puck Rush, fase bônus, dificuldade, diário
+copy_review: iris 2026-11-20
 ---
 O Puck Rush é a fase bônus do Claimball. Você arrasta uma raquete para se mover e rebater a bola. As células que a bola atravessa ficam com a cor de quem a rebateu por último, e um gol pinta a área na frente dele. Quando o tempo acaba, vence o lado com mais células.
 
@@ -16,7 +17,7 @@ A tela inicial mostra Fácil, Normal e Difícil. O último nível escolhido fica
 
 ## Três adversários diferentes
 
-O Difícil não se limita a se mover mais rápido. Ele calcula onde a bola vai chegar depois de quicar nas paredes e sai da própria metade para encontrá-la cedo. O Normal fica perto da linha do gol e encontra a bola mais tarde.
+O Difícil não se limita a se mover mais rápido. Quando vem uma bola lenta, ele calcula onde ela vai estar depois de quicar nas paredes e avança dentro da própria metade para rebatê-la mais cedo. Na hora de chutar, ele mira o lado do seu gol mais longe da sua raquete. O Normal fica perto da linha do gol até a bola chegar à metade dele.
 
 ## Verificado antes da versão
 
@@ -36,7 +37,7 @@ O Claimball ainda está em testes e chega em breve para iOS e Android. Ainda nã
 Na tela inicial do Puck Rush, escolha Fácil, Normal ou Difícil. Sua última escolha fica lembrada no aparelho.
 
 ### O Difícil é só um Normal mais rápido?
-Não. O Difícil calcula onde a bola vai chegar e sai para encontrá-la, enquanto o Normal espera perto da linha do gol.
+Não. O Difícil avança para rebater cedo as bolas lentas e mira longe da sua raquete, enquanto o Normal fica perto da linha do gol.
 
 ### O Puck Rush já foi lançado?
 Ainda não. Ele está em testes e chega em breve para iOS e Android, e ainda não há data de lançamento.

@@ -7,6 +7,7 @@ lang: ja
 category: devlog
 translation_of: en
 keywords: Claimball, ゲームエンジン, 一時停止, 対戦, ジャーナル
+copy_review: iris 2026-11-20
 ---
 今回、プレイヤーに新しく見えるルールはありません。盤面を安定して動かすための内部の変更です。
 

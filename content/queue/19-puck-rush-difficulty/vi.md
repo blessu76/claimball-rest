@@ -1,22 +1,23 @@
 ---
 title: Puck Rush có ba mức độ khó
-description: Puck Rush, màn thưởng, giờ cho phép bạn chọn Dễ, Vừa hoặc Khó ngay trên thẻ bắt đầu.
-summary: Puck Rush, màn thưởng của Claimball, có lựa chọn độ khó trên thẻ bắt đầu: Dễ, Vừa hoặc Khó. Mức bạn chọn lần cuối được lưu trên thiết bị. Mức Khó không chỉ di chuyển nhanh hơn mà còn chơi khác với mức Vừa. Trò chơi vẫn đang thử nghiệm và sắp có trên iOS và Android.
+description: Puck Rush, màn thưởng, giờ cho phép bạn chọn Dễ, Thường hoặc Khó ngay trên thẻ bắt đầu.
+summary: Puck Rush, màn thưởng của Claimball, có lựa chọn độ khó trên thẻ bắt đầu: Dễ, Thường hoặc Khó. Mức bạn chọn lần cuối được lưu trên thiết bị. Mức Khó không chỉ di chuyển nhanh hơn mà còn chơi khác với mức Thường. Trò chơi vẫn đang thử nghiệm và sắp có trên iOS và Android.
 slug: puck-rush-difficulty
 lang: vi
 category: devlog
 translation_of: en
 keywords: Claimball, Puck Rush, màn thưởng, độ khó, nhật ký
+copy_review: iris 2026-11-20
 ---
 Puck Rush là màn thưởng của Claimball. Bạn kéo một cái vợt để di chuyển và đánh bóng. Các ô bóng đi qua sẽ mang màu của người đánh bóng cuối cùng, còn một bàn thắng sẽ tô màu khu vực phía trước nó. Khi hết giờ, bên nào có nhiều ô hơn sẽ thắng.
 
 ## Chọn độ khó
 
-Thẻ bắt đầu hiển thị Dễ, Vừa và Khó. Mức bạn chọn lần cuối được lưu trên thiết bị, nên sẽ sẵn sàng cho lần chơi tiếp theo.
+Thẻ bắt đầu hiển thị Dễ, Thường và Khó. Mức bạn chọn lần cuối được lưu trên thiết bị, nên sẽ sẵn sàng cho lần chơi tiếp theo.
 
 ## Ba đối thủ khác nhau
 
-Mức Khó không chỉ di chuyển nhanh hơn. Nó đoán bóng sẽ đến đâu sau khi nảy khỏi tường, rồi rời nửa sân của mình để ra đón bóng sớm. Mức Vừa thì đợi gần vạch gôn và gặp bóng muộn hơn.
+Mức Khó không chỉ di chuyển nhanh hơn. Khi có bóng chậm đến, nó tính xem bóng sẽ ở đâu sau khi nảy khỏi tường, rồi tiến lên trong nửa sân của mình để đánh trả sớm. Khi sút, nó nhắm vào phía khung thành của bạn xa vợt của bạn hơn. Mức Thường thì đứng gần vạch gôn cho đến khi bóng sang nửa sân của nó.
 
 ## Kiểm tra trước khi phát hành
 
@@ -33,10 +34,10 @@ Claimball vẫn đang thử nghiệm và sắp có trên iOS và Android. Chưa 
 ## Câu hỏi thường gặp
 
 ### Làm sao để chọn độ khó?
-Trên thẻ bắt đầu của Puck Rush, chọn Dễ, Vừa hoặc Khó. Lựa chọn cuối cùng của bạn được ghi nhớ trên thiết bị.
+Trên thẻ bắt đầu của Puck Rush, chọn Dễ, Thường hoặc Khó. Lựa chọn cuối cùng của bạn được ghi nhớ trên thiết bị.
 
-### Khó có phải là Vừa nhưng nhanh hơn không?
-Không. Mức Khó đoán bóng sẽ đến đâu và ra đón, còn mức Vừa đợi gần vạch gôn.
+### Khó có phải là Thường nhưng nhanh hơn không?
+Không. Mức Khó tiến lên đánh trả sớm những quả bóng chậm và nhắm xa vợt của bạn, còn mức Thường đứng gần vạch gôn.
 
 ### Puck Rush đã phát hành chưa?
 Chưa. Trò chơi vẫn đang thử nghiệm và sắp có trên iOS và Android, nhưng chưa có ngày phát hành.

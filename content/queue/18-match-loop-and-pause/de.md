@@ -7,6 +7,7 @@ lang: de
 category: devlog
 translation_of: en
 keywords: Claimball, Spiel-Engine, Pause, Partie, Journal
+copy_review: iris 2026-11-20
 ---
 Spielerinnen und Spieler sehen hier keine neue Regel. Es ist eine interne Änderung, die das Spielfeld stabil hält.
 
