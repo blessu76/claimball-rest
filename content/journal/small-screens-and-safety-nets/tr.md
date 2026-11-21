@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, erişilebilirlik, küçük ekranlar, güvenilirlik, günlük
 copy_review: iris 2026-11-14
+published: 2026-11-21T14:00+09:00
 ---
 Kötü açılan ya da yazısı kesilen bir oyun, kuralları ne kadar iyi olursa olsun eğlenceli değildir. Bu, henüz herkese açık olmayan TestFlight iç test sürümlerindeki bir denetim turu.
 

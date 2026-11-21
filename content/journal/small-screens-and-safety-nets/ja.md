@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, アクセシビリティ, 小さな画面, 信頼性, ジャーナル
 copy_review: iris 2026-11-14
+published: 2026-11-21T14:00+09:00
 ---
 どれだけルールが良くても、起動がおかしかったり文字が途中で切れたりするゲームは楽しくありません。これは TestFlight の内部テスト版で行っている確認の一回分で、一般公開はまだです。
 

@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, Barrierefreiheit, kleine Bildschirme, Zuverlässigkeit, Journal
 copy_review: iris 2026-11-14
+published: 2026-11-21T14:00+09:00
 ---
 Ein Spiel, das schlecht startet oder dessen Text abgeschnitten ist, macht keinen Spaß, so gut die Regeln auch sind. Das hier ist eine Prüfrunde in den internen TestFlight-Testbuilds, die noch nicht öffentlich veröffentlicht sind.
 

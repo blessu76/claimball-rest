@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, accessibilité, petits écrans, fiabilité, journal
 copy_review: iris 2026-11-14
+published: 2026-11-21T14:00+09:00
 ---
 Un jeu qui s'ouvre mal ou dont le texte est coupé n'est pas amusant, aussi bonnes que soient les règles. Voici une série de vérifications menées dans les versions de test interne TestFlight, qui ne sont pas encore publiques.
 

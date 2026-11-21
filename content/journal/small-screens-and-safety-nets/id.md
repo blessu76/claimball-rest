@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, aksesibilitas, layar kecil, keandalan, jurnal
 copy_review: iris 2026-11-14
+published: 2026-11-21T14:00+09:00
 ---
 Game yang terbuka dengan buruk atau teksnya terpotong tidak menyenangkan, sebagus apa pun aturannya. Ini adalah satu putaran pemeriksaan pada build uji internal TestFlight, yang belum dirilis ke publik.
 

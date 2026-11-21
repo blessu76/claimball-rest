@@ -7,6 +7,7 @@ lang: ko
 category: devlog
 keywords: Claimball, 접근성, 작은 화면, 안정성, 저널
 copy_review: iris 2026-11-18
+published: 2026-11-21T14:00+09:00
 ---
 규칙이 아무리 좋아도 앱이 제대로 열리지 않거나 글자가 잘리면 재미없어요. 아직 일반 공개 전인 TestFlight 내부 테스트 빌드에서 한 점검이에요.
 
