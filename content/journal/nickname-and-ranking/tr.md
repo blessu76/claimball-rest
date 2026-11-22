@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, takma ad, skor, sıralama, günlük
 copy_review: iris 2026-11-14
+published: 2026-11-22T17:15+09:00
 ---
 TestFlight iç test sürümü olan Build 12, biraz kimlik ve övünme hakkı ekledi. Henüz herkese açık değil.
 

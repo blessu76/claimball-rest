@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, apelido, pontuação, ranking, diário
 copy_review: iris 2026-11-14
+published: 2026-11-22T17:15+09:00
 ---
 A versão 12, uma build de teste interno do TestFlight, adicionou um pouco de identidade e motivos para se gabar. Ela ainda não foi lançada ao público.
 

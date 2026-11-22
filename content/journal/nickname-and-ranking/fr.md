@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, pseudo, score, classement, journal
 copy_review: iris 2026-11-14
+published: 2026-11-22T17:15+09:00
 ---
 La version 12, une version de test interne TestFlight, a ajouté un peu d'identité et de quoi se vanter. Elle n'est pas encore publique.
 

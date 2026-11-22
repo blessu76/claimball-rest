@@ -25,6 +25,7 @@ Claimball is a casual player-versus-AI mobile game by ipe() (https://ipe.rest/).
 
 ## Journal posts (English)
 
+- [A nickname, a score line and a ranking screen](https://claimball.ipe.rest/journal/nickname-and-ranking/) — 2026-11-22 — Build 12 added a nickname, a score line on the results screen and a ranking screen inside the app.
 - [Small phones, big text and a safety net](https://claimball.ipe.rest/journal/small-screens-and-safety-nets/) — 2026-11-21 — Before going further, we checked Claimball's screens on a narrow phone with large text, and added a safety net so one bad file cannot stop the app.
 - [Build 22: a shake when you miss, a sparkle when the smash is ready, and Rally Party](https://claimball.ipe.rest/journal/feel-and-rally-party/) — 2026-11-20 — Build 22 added three small feel upgrades and a new Daily Challenge twist with a slower ball.
 - [Free to try, one purchase to unlock everything](https://claimball.ipe.rest/journal/free-to-try-one-purchase/) — 2026-11-19 — Build 6 added the planned purchase: try Claimball free, then unlock everything once. No ads, no subscription, and a Restore button.

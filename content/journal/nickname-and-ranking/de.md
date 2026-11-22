@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, Spitzname, Punktzahl, Rangliste, Journal
 copy_review: iris 2026-11-14
+published: 2026-11-22T17:15+09:00
 ---
 Build 12, ein interner TestFlight-Testbuild, brachte ein Stück Identität und Angeberrechte. Er ist noch nicht öffentlich veröffentlicht.
 

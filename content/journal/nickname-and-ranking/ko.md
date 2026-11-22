@@ -7,6 +7,7 @@ lang: ko
 category: devlog
 keywords: Claimball, 닉네임, 점수, 순위, 저널
 copy_review: iris 2026-11-18
+published: 2026-11-22T17:15+09:00
 ---
 TestFlight 내부 테스트 빌드인 빌드 12에서 나만의 이름과 자랑할 거리가 조금 생겼어요. 아직 일반 공개 전이에요.
 

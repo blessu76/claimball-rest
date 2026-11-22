@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, nama panggilan, skor, peringkat, jurnal
 copy_review: iris 2026-11-14
+published: 2026-11-22T17:15+09:00
 ---
 Build 12, sebuah build uji internal TestFlight, menambahkan sedikit identitas dan bahan untuk pamer. Build ini belum dirilis ke publik.
 

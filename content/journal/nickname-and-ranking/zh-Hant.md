@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, 暱稱, 分數, 排行榜, 日誌
 copy_review: iris 2026-11-14
+published: 2026-11-22T17:15+09:00
 ---
 Build 12 是 TestFlight 內部測試版，加入了一點身分認同與炫耀的資本。目前尚未對外發布。
 

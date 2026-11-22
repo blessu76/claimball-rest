@@ -8,6 +8,7 @@ translation_of: en
 category: devlog
 keywords: Claimball, biệt danh, điểm số, xếp hạng, nhật ký
 copy_review: iris 2026-11-14
+published: 2026-11-22T17:15+09:00
 ---
 Bản dựng 12, một bản dựng thử nghiệm nội bộ TestFlight, thêm một chút bản sắc và quyền khoe thành tích. Nó chưa được phát hành cho công chúng.
 

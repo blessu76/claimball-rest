@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, ニックネーム, スコア, ランキング, ジャーナル
 copy_review: iris 2026-11-14
+published: 2026-11-22T17:15+09:00
 ---
 TestFlight の内部テスト版であるビルド12では、ちょっとした自分らしさと自慢のタネが加わりました。一般公開はまだです。
 

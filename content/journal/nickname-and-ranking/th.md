@@ -8,6 +8,7 @@ translation_of: en
 category: devlog
 keywords: Claimball, ชื่อเล่น, คะแนน, อันดับ, บันทึก
 copy_review: iris 2026-11-14
+published: 2026-11-22T17:15+09:00
 ---
 บิลด์ 12 ซึ่งเป็นบิลด์ทดสอบภายในของ TestFlight เพิ่มตัวตนและสิทธิ์โอ้อวดเล็กน้อย ตอนนี้ยังไม่เปิดให้สาธารณชนใช้
 
