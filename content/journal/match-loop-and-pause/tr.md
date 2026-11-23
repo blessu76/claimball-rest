@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, oyun motoru, duraklatma, maç, günlük
 copy_review: iris 2026-11-20
+published: 2026-11-23T15:30+09:00
 ---
 Oyuncular burada yeni bir kural görmeyecek. Bu, tahtanın istikrarlı kalmasını sağlayan içeride yapılmış bir değişiklik.
 

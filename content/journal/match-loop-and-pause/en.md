@@ -7,6 +7,7 @@ lang: en
 category: devlog
 keywords: Claimball, game engine, pause, match, journal
 copy_review: iris 2026-11-20
+published: 2026-11-23T15:30+09:00
 ---
 Players do not see a new rule here. This is a change under the hood that keeps the match board steady.
 

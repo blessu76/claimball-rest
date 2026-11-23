@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, 遊戲引擎, 暫停, 對戰, 日誌
 copy_review: iris 2026-11-20
+published: 2026-11-23T15:30+09:00
 ---
 這次玩家不會看到新規則。這是為了讓盤面運作更穩定而做的內部調整。
 

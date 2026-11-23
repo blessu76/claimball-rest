@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, mesin game, jeda, pertandingan, jurnal
 copy_review: iris 2026-11-20
+published: 2026-11-23T15:30+09:00
 ---
 Pemain tidak melihat aturan baru di sini. Ini perubahan di dalam yang membuat papan pertandingan tetap stabil.
 

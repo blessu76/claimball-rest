@@ -7,6 +7,7 @@ lang: ko
 category: devlog
 keywords: Claimball, 게임 엔진, 일시정지, 판, 저널
 copy_review: iris 2026-11-20
+published: 2026-11-23T15:30+09:00
 ---
 이번에는 플레이어가 새로 보는 규칙이 없어요. 판을 안정적으로 돌리기 위한 내부 변경이에요.
 
