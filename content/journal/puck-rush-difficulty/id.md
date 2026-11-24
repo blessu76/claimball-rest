@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, Puck Rush, tahap bonus, kesulitan, jurnal
 copy_review: iris 2026-11-20
+published: 2026-11-24T13:15+09:00
 ---
 Puck Rush adalah tahap bonus Claimball. Kamu menyeret dayung untuk bergerak dan memukul bola. Sel yang dilewati bola mengambil warna pemukul terakhirnya, dan gol mewarnai area di depannya. Saat waktu habis, sisi dengan sel terbanyak menang.
 

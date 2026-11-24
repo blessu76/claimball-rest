@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, Puck Rush, màn thưởng, độ khó, nhật ký
 copy_review: iris 2026-11-20
+published: 2026-11-24T13:15+09:00
 ---
 Puck Rush là màn thưởng của Claimball. Bạn kéo một cái vợt để di chuyển và đánh bóng. Các ô bóng đi qua sẽ mang màu của người đánh bóng cuối cùng, còn một bàn thắng sẽ tô màu khu vực phía trước nó. Khi hết giờ, bên nào có nhiều ô hơn sẽ thắng.
 

@@ -25,6 +25,7 @@ Claimball is a casual player-versus-AI mobile game by ipe() (https://ipe.rest/).
 
 ## Journal posts (English)
 
+- [Puck Rush gets three difficulty levels](https://claimball.ipe.rest/journal/puck-rush-difficulty/) — 2026-11-24 — Puck Rush, the bonus stage, now lets you pick Easy, Normal or Hard on its start card.
 - [The match loop moves to a game engine](https://claimball.ipe.rest/journal/match-loop-and-pause/) — 2026-11-23 — The match board now runs its animation on a game engine, and a match pauses when you leave the app.
 - [A nickname, a score line and a ranking screen](https://claimball.ipe.rest/journal/nickname-and-ranking/) — 2026-11-22 — Build 12 added a nickname, a score line on the results screen and a ranking screen inside the app.
 - [Small phones, big text and a safety net](https://claimball.ipe.rest/journal/small-screens-and-safety-nets/) — 2026-11-21 — Before going further, we checked Claimball's screens on a narrow phone with large text, and added a safety net so one bad file cannot stop the app.

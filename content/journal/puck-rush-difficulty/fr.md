@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, Puck Rush, phase bonus, difficulté, journal
 copy_review: iris 2026-11-20
+published: 2026-11-24T13:15+09:00
 ---
 Puck Rush est la phase bonus de Claimball. Vous faites glisser une raquette pour vous déplacer et renvoyer la balle. Les cases que traverse la balle prennent la couleur de celui qui l'a frappée en dernier, et un but peint la zone devant lui. Quand le temps est écoulé, le camp qui a le plus de cases gagne.
 

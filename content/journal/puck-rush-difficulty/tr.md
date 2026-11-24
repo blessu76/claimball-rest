@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, Puck Rush, bonus bölüm, zorluk, günlük
 copy_review: iris 2026-11-20
+published: 2026-11-24T13:15+09:00
 ---
 Puck Rush, Claimball'un bonus bölümü. Hareket etmek ve topa vurmak için bir raketi sürüklüyorsunuz. Topun geçtiği hücreler son vuran tarafın rengini alıyor, bir gol de önündeki alanı boyuyor. Süre dolduğunda en çok hücresi olan taraf kazanıyor.
 

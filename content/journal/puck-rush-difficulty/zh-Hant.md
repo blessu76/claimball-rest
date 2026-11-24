@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, 冰球衝刺, 獎勵關卡, 難度, 日誌
 copy_review: iris 2026-11-20
+published: 2026-11-24T13:15+09:00
 ---
 冰球衝刺是 Claimball 的獎勵關卡。你拖曳球拍移動，把球擊出去。球經過的格子會變成最後擊球那一方的顏色，進球時則會塗滿球門前的區域。時間結束時，格子較多的一方獲勝。
 

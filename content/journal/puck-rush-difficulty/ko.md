@@ -7,6 +7,7 @@ lang: ko
 category: devlog
 keywords: Claimball, 퍽 러시, 보너스 스테이지, 난이도, 저널
 copy_review: iris 2026-11-20
+published: 2026-11-24T13:15+09:00
 ---
 퍽 러시는 Claimball의 보너스 스테이지예요. 패들을 끌어서 움직이고 공을 쳐요. 공이 지나간 칸은 마지막으로 친 쪽의 색이 되고, 골이 들어가면 골 앞 구역이 칠해져요. 시간이 끝나면 칸이 더 많은 쪽이 이겨요.
 

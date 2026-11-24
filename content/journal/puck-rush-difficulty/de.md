@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, Puck Rush, Bonusstufe, Schwierigkeit, Journal
 copy_review: iris 2026-11-20
+published: 2026-11-24T13:15+09:00
 ---
 Puck Rush ist die Bonusstufe von Claimball. Du ziehst einen Schläger, um dich zu bewegen und den Ball zu schlagen. Die Felder, die der Ball überquert, nehmen die Farbe von dem, der ihn zuletzt geschlagen hat, und ein Tor färbt den Bereich davor ein. Wenn die Zeit abläuft, gewinnt die Seite mit den meisten Feldern.
 

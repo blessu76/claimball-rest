@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, Puck Rush, fase bônus, dificuldade, diário
 copy_review: iris 2026-11-20
+published: 2026-11-24T13:15+09:00
 ---
 O Puck Rush é a fase bônus do Claimball. Você arrasta uma raquete para se mover e rebater a bola. As células que a bola atravessa ficam com a cor de quem a rebateu por último, e um gol pinta a área na frente dele. Quando o tempo acaba, vence o lado com mais células.
 

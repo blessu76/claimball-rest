@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, Puck Rush, fase de bonificación, dificultad, diario
 copy_review: iris 2026-11-20
+published: 2026-11-24T13:15+09:00
 ---
 Puck Rush es la fase de bonificación de Claimball. Arrastras una pala para moverte y golpear la pelota. Las celdas que cruza la pelota toman el color del último que golpeó, y un gol pinta la zona frente a la portería. Cuando se acaba el tiempo, gana el lado con más celdas.
 

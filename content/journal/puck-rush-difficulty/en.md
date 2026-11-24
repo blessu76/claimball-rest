@@ -7,6 +7,7 @@ lang: en
 category: devlog
 keywords: Claimball, Puck Rush, bonus stage, difficulty, journal
 copy_review: iris 2026-11-20
+published: 2026-11-24T13:15+09:00
 ---
 Puck Rush is the bonus stage of Claimball. You drag a paddle to move and bat the ball. Cells the ball crosses take the color of the last hitter, and a goal paints the area in front of it. When time runs out, the side with the most cells wins.
 
