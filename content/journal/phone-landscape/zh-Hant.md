@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, 橫向, 螢幕方向, 手機, 日誌
 copy_review: iris 2026-11-20
+published: 2026-11-25T12:30+09:00
 ---
 過去 Claimball 在手機上只能直向玩。現在把手機橫放時，遊戲畫面也會跟著轉過來。
 

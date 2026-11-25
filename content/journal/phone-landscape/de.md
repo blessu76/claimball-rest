@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, Querformat, Bildschirmausrichtung, Handy, Journal
 copy_review: iris 2026-11-20
+published: 2026-11-25T12:30+09:00
 ---
 Claimball blieb auf dem Handy bisher immer im Hochformat. Jetzt kannst du das Handy auch zur Seite halten, und der Bildschirm dreht sich mit.
 

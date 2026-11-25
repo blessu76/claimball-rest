@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, horizontal, orientación de pantalla, teléfono, diario
 copy_review: iris 2026-11-20
+published: 2026-11-25T12:30+09:00
 ---
 Claimball se quedaba siempre en vertical en el teléfono. Ahora el teléfono también puede sostenerse de lado, y la pantalla gira contigo.
 

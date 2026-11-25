@@ -7,6 +7,7 @@ lang: ko
 category: devlog
 keywords: Claimball, 가로 화면, 화면 방향, 폰, 저널
 copy_review: iris 2026-11-20
+published: 2026-11-25T12:30+09:00
 ---
 Claimball은 폰에서 항상 세로로만 있었어요. 이제 폰을 옆으로 눕혀도 게임이 같이 돌아가요.
 

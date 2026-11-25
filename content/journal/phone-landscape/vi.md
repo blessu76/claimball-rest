@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, chế độ ngang, hướng màn hình, điện thoại, nhật ký
 copy_review: iris 2026-11-20
+published: 2026-11-25T12:30+09:00
 ---
 Trước đây Claimball luôn ở chế độ dọc trên điện thoại. Giờ điện thoại cũng có thể cầm ngang, và màn hình sẽ xoay theo bạn.
 

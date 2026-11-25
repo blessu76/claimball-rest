@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, yatay mod, ekran yönü, telefon, günlük
 copy_review: iris 2026-11-20
+published: 2026-11-25T12:30+09:00
 ---
 Claimball telefonda şimdiye kadar hep dikey kalıyordu. Artık telefonu yan tutabilirsiniz ve ekran sizinle birlikte dönüyor.
 

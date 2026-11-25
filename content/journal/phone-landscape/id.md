@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, mendatar, orientasi layar, ponsel, jurnal
 copy_review: iris 2026-11-20
+published: 2026-11-25T12:30+09:00
 ---
 Claimball dulu selalu tegak di ponsel. Sekarang ponsel juga bisa dipegang menyamping, dan layarnya ikut berputar.
 

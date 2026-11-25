@@ -8,6 +8,7 @@ category: devlog
 translation_of: en
 keywords: Claimball, paisagem, orientação da tela, celular, diário
 copy_review: iris 2026-11-20
+published: 2026-11-25T12:30+09:00
 ---
 O Claimball ficava sempre em retrato no celular. Agora o celular também pode ser segurado de lado, e a tela gira com você.
 
