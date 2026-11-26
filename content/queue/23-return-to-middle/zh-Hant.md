@@ -5,11 +5,22 @@ summary: 回擊後，球拍有時會留在棋盤邊緣。下一球來之前，�
 slug: return-to-middle
 lang: zh-Hant
 category: devlog
-keywords: Claimball, paddle
+keywords: Claimball, 球拍, 站位, 日誌
 translation_of: en
+copy_review: iris 2026-11-27
 ---
 回擊後，球拍有時會留在棋盤邊緣。下一球來之前，把球拍往中間移一點，兩邊都還有移動空間。
 
 ## 打一場試試看
 
 接完一顆偏外側的球後試試看。看清下一顆球的方向，再從新位置做最後一點調整。
+
+## 常見問題
+
+### 一定要回到正中間嗎？
+
+有多少時間就移多少，不用勉強。
+
+### 哪種回擊之後適合練習？
+
+從讓球拍停在邊緣附近的回擊開始。

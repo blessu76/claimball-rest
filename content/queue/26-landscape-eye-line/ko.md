@@ -5,7 +5,8 @@ summary: 폰을 가로로 들면 화면의 짧은 쪽을 높이로 써서 판을
 slug: landscape-eye-line
 lang: ko
 category: devlog
-keywords: Claimball, landscape
+keywords: Claimball, 가로 화면, 화면 방향, 저널
+copy_review: iris 2026-11-27
 ---
 폰을 가로로 들면 화면의 짧은 쪽을 높이로 써서 판을 놓고 옆에 패널을 배치해요. 잠깐 여유가 날 때 옆 패널이 어디 있는지 익혀 두면 편해요.
 

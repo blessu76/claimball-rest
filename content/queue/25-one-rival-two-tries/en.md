@@ -5,7 +5,8 @@ summary: You can choose which unlocked AI rival to face. Play the same rival aga
 slug: one-rival-two-tries
 lang: en
 category: devlog
-keywords: Claimball, league
+keywords: Claimball, AI rivals, leagues, journal
+copy_review: iris 2026-11-27
 ---
 You can choose which unlocked AI rival to face. Play the same rival again when you want to practice one thing under familiar conditions.
 

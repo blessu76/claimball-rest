@@ -5,7 +5,8 @@ summary: 공책 격자의 색은 차지한 칸이 어느 쪽 땅인지 보여 �
 slug: rally-board-glance
 lang: ko
 category: devlog
-keywords: Claimball, notebook grid
+keywords: Claimball, 공책 격자, 칸, 저널
+copy_review: iris 2026-11-27
 ---
 공책 격자의 색은 차지한 칸이 어느 쪽 땅인지 보여 줘요. 랠리 사이에 잠깐 여유가 나면 어느 구역의 색이 달라졌는지 봐요.
 

@@ -5,11 +5,22 @@ summary: Bir karşı vuruştan sonra raket kenara yakın kalabilir. Vuruş aras�
 slug: return-to-middle
 lang: tr
 category: devlog
-keywords: Claimball, paddle
+keywords: Claimball, raket, konumlanma, günlük
 translation_of: en
+copy_review: iris 2026-11-27
 ---
 Bir karşı vuruştan sonra raket kenara yakın kalabilir. Vuruş arasında raketi biraz ortaya çekerseniz iki yöne de hareket edebilirsiniz.
 
 ## Bir maçta deneyin
 
 Bunu kenardaki bir topu karşıladıktan sonra deneyin. Sonraki topun yönünü görünce son düzeltmeyi yeni konumunuzdan yapın.
+
+## Sık sorulan sorular
+
+### Tam ortaya dönmem gerekir mi?
+
+Zamanınız ne kadar yetiyorsa o kadar geri gelin.
+
+### Hangi vuruştan sonra çalışmak iyi olur?
+
+Raketi kenara yakın bırakan bir karşı vuruştan sonra başlayın.

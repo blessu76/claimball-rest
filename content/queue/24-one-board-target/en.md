@@ -5,7 +5,8 @@ summary: On the notebook grid, a bounce claims a tile. Pick one tile before the 
 slug: one-board-target
 lang: en
 category: devlog
-keywords: Claimball, notebook grid
+keywords: Claimball, notebook grid, aiming, journal
+copy_review: iris 2026-11-27
 ---
 On the notebook grid, a bounce claims a tile. Pick one tile before the exchange and use it as a reference when the ball lands.
 

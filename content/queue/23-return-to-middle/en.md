@@ -5,7 +5,8 @@ summary: A return can leave your paddle near one edge of the board. Between shot
 slug: return-to-middle
 lang: en
 category: devlog
-keywords: Claimball, paddle
+keywords: Claimball, paddle, positioning, journal
+copy_review: iris 2026-11-27
 ---
 A return can leave your paddle near one edge of the board. Between shots, move it partway back toward the middle so you have room to go either way.
 

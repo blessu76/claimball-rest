@@ -5,11 +5,22 @@ summary: 在筆記本方格上，球彈到哪格，那格就會被占領。擊�
 slug: one-board-target
 lang: zh-Hant
 category: devlog
-keywords: Claimball, notebook grid
+keywords: Claimball, 筆記本方格, 瞄準, 日誌
 translation_of: en
+copy_review: iris 2026-11-27
 ---
 在筆記本方格上，球彈到哪格，那格就會被占領。擊球前先選一格，等球落下時拿它來參照。
 
 ## 打一場試試看
 
 看看球落在所選格子的左邊還是右邊。換目標前，用同一格再試一次。
+
+## 常見問題
+
+### 遊戲會幫我指定目標嗎？
+
+這是練習用的提示，參照格由你自己選。
+
+### 為什麼下一回合還用同一格？
+
+用同一個參照，才好比較兩次落點。

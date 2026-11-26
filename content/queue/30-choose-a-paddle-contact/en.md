@@ -5,7 +5,8 @@ summary: In Claimball, a smash hit with the center of the paddle claims three ti
 slug: choose-a-paddle-contact
 lang: en
 category: devlog
-keywords: Claimball, paddle
+keywords: Claimball, paddle, smash, journal
+copy_review: iris 2026-11-27
 ---
 In Claimball, a smash hit with the center of the paddle claims three tiles. To get a feel for that position, pay attention to the point of contact when the ball comes straight toward you.
 

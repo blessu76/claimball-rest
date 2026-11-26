@@ -5,11 +5,22 @@ summary: 你可以從已解鎖的 AI 對手中挑一個交手。想練一項動�
 slug: one-rival-two-tries
 lang: zh-Hant
 category: devlog
-keywords: Claimball, league
+keywords: Claimball, AI 對手, 聯賽, 日誌
 translation_of: en
+copy_review: iris 2026-11-27
 ---
 你可以從已解鎖的 AI 對手中挑一個交手。想練一項動作時，找同一個對手再打一場，熟悉的情況下更好留意。
 
 ## 打一場試試看
 
 第二場只專注一個動作，例如接完偏外側的球後把球拍移回來。打完後想想，你在什麼時候有空做這個動作。
+
+## 常見問題
+
+### 練習一定要升級聯賽嗎？
+
+你可以選一個已解鎖、熟悉的對手。
+
+### 打完兩場後要比較什麼？
+
+比較你注意到自己選的動作有幾次。

@@ -5,7 +5,8 @@ summary: 클레임볼에서는 패들 한가운데로 친 스매시가 세 칸�
 slug: choose-a-paddle-contact
 lang: ko
 category: devlog
-keywords: Claimball, paddle
+keywords: Claimball, 패들, 스매시, 저널
+copy_review: iris 2026-11-27
 ---
 클레임볼에서는 패들 한가운데로 친 스매시가 세 칸을 차지해요. 가운데 위치를 익히려면 공이 내 쪽으로 곧게 올 때 패들의 어디에 닿는지 봐요.
 

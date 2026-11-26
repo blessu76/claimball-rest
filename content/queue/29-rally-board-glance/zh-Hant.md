@@ -5,11 +5,22 @@ summary: 筆記本方格的顏色代表已佔領的格子屬於哪一方。兩�
 slug: rally-board-glance
 lang: zh-Hant
 category: devlog
-keywords: Claimball, notebook grid
+keywords: Claimball, 筆記本方格, 格子, 日誌
 translation_of: en
+copy_review: iris 2026-11-27
 ---
 筆記本方格的顏色代表已佔領的格子屬於哪一方。兩球之間有空時，找找哪一小塊格子換了顏色。
 
 ## 打一場試試看
 
 下次掃視棋盤時，只看一個角落或一排。看完把視線移回球上，跟上下一次來回擊球。
+
+## 常見問題
+
+### 來回中要數格子嗎？
+
+有空檔時快速瞄一眼就好。
+
+### 可以從哪裡開始看？
+
+選一個角落或一列，要看的範圍就比較小。

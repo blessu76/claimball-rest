@@ -5,7 +5,8 @@ summary: The colors on the notebook grid show which side owns each claimed tile.
 slug: rally-board-glance
 lang: en
 category: devlog
-keywords: Claimball, notebook grid
+keywords: Claimball, notebook grid, tiles, journal
+copy_review: iris 2026-11-27
 ---
 The colors on the notebook grid show which side owns each claimed tile. When you have a moment between exchanges, look for a small cluster that has changed color.
 

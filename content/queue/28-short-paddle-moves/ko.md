@@ -5,7 +5,8 @@ summary: 공이 패들 가까이로 오면 짧은 움직임만으로 위치를 �
 slug: short-paddle-moves
 lang: ko
 category: devlog
-keywords: Claimball, paddle
+keywords: Claimball, 패들, 조작, 저널
+copy_review: iris 2026-11-27
 ---
 공이 패들 가까이로 오면 짧은 움직임만으로 위치를 맞출 수 있어요. 얼마나 움직여야 닿는지 작은 동작으로 확인해 봐요.
 

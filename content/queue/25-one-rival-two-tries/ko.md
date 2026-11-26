@@ -5,7 +5,8 @@ summary: 리그에서는 열린 AI 라이벌 중에서 상대를 고를 수 있�
 slug: one-rival-two-tries
 lang: ko
 category: devlog
-keywords: Claimball, league
+keywords: Claimball, AI 라이벌, 리그, 저널
+copy_review: iris 2026-11-27
 ---
 리그에서는 열린 AI 라이벌 중에서 상대를 고를 수 있어요. 한 가지를 익히고 싶다면 같은 상대와 한 번 더 해 보세요.
 

@@ -5,11 +5,22 @@ summary: 手機橫放時，棋盤的高度取自螢幕短邊，面板排在旁�
 slug: landscape-eye-line
 lang: zh-Hant
 category: devlog
-keywords: Claimball, landscape
+keywords: Claimball, 橫向, 螢幕方向, 日誌
 translation_of: en
+copy_review: iris 2026-11-27
 ---
 手機橫放時，棋盤的高度取自螢幕短邊，面板排在旁邊。找個空檔瞄一眼，先熟悉面板的位置。
 
 ## 打一場試試看
 
 來回擊球時盯著棋盤。遊戲暫停時看看旁邊，再把視線移回棋盤。下一場也可以試試直向，看看哪種比較好跟球。
+
+## 常見問題
+
+### 什麼時候看旁邊的面板？
+
+比賽暫停時再看，就不會跟丟來回。
+
+### 下一場可以改成直向嗎？
+
+可以。你可以在設定中選擇螢幕方向。

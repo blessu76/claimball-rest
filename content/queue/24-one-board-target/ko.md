@@ -5,7 +5,8 @@ summary: 공책 격자에서는 공이 튕긴 자리가 땅이 돼요. 공을 �
 slug: one-board-target
 lang: ko
 category: devlog
-keywords: Claimball, notebook grid
+keywords: Claimball, 공책 격자, 조준, 저널
+copy_review: iris 2026-11-27
 ---
 공책 격자에서는 공이 튕긴 자리가 땅이 돼요. 공을 받아치기 전에 칸 하나를 골라 두고, 공이 떨어졌을 때 기준으로 삼아요.
 

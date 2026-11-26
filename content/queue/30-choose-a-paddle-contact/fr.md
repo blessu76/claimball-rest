@@ -5,11 +5,22 @@ summary: Dans Claimball, un smash frappé au centre de la raquette permet de pre
 slug: choose-a-paddle-contact
 lang: fr
 category: devlog
-keywords: Claimball, paddle
+keywords: Claimball, raquette, smash, journal
 translation_of: en
+copy_review: iris 2026-11-27
 ---
 Dans Claimball, un smash frappé au centre de la raquette permet de prendre trois cases. Pour sentir cette position, repérez le point de contact quand la balle vient droit sur vous.
 
 ## À essayer en match
 
 Comparez ce point avec celui d’un renvoi où vous devez vous décaler. Réessayez au centre quand vous avez le temps de vous aligner.
+
+## Questions fréquentes
+
+### Quel contact travailler en premier ?
+
+Commencez par une balle qui vous laisse le temps d’aligner le centre de la raquette.
+
+### Quelle différence observer ?
+
+Comparez le temps dont vous disposez pour vous placer sur une balle droite et sur une balle écartée.

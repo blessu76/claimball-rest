@@ -5,7 +5,8 @@ summary: 판 가장자리에서 받아치면 패들이 한쪽에 남아요. 다�
 slug: return-to-middle
 lang: ko
 category: devlog
-keywords: Claimball, paddle
+keywords: Claimball, 패들, 위치 잡기, 저널
+copy_review: iris 2026-11-27
 ---
 판 가장자리에서 받아치면 패들이 한쪽에 남아요. 다음 공이 오기 전에 패들을 가운데 쪽으로 조금 옮겨 두면 양쪽으로 갈 수 있어요.
 

@@ -5,11 +5,22 @@ summary: Quand la balle vient près de la raquette, un petit ajustement peut suf
 slug: short-paddle-moves
 lang: fr
 category: devlog
-keywords: Claimball, paddle
+keywords: Claimball, raquette, commandes, journal
 translation_of: en
+copy_review: iris 2026-11-27
 ---
 Quand la balle vient près de la raquette, un petit ajustement peut suffire. Essayez un mouvement court pour voir de combien vous avez besoin de bouger.
 
 ## À essayer en match
 
 Choisissez un échange où la balle est déjà proche. Ajustez légèrement, voyez où elle touche la raquette, puis répétez le geste sur une balle semblable.
+
+## Questions fréquentes
+
+### Les petits mouvements conviennent-ils à toutes les balles ?
+
+Cet exercice concerne une balle déjà proche de la raquette.
+
+### Que regarder au contact ?
+
+Repérez quelle partie de la raquette touche la balle.

@@ -5,7 +5,8 @@ summary: A ball that comes close to your paddle can call for a small adjustment.
 slug: short-paddle-moves
 lang: en
 category: devlog
-keywords: Claimball, paddle
+keywords: Claimball, paddle, controls, journal
+copy_review: iris 2026-11-27
 ---
 A ball that comes close to your paddle can call for a small adjustment. Try a short move so you can see how much input you actually need.
 
