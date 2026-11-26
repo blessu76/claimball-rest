@@ -39,7 +39,7 @@ from ipe_web_kit import languages as kit_languages  # noqa: E402
 from ipe_web_kit import langswitch  # noqa: E402
 
 SITE = "https://claimball.ipe.rest"
-ASSET_V = "20261114b"  # keep in sync: bump when assets/claimball.css or claimball.js change
+ASSET_V = "20261126"  # keep in sync: bump when assets/claimball.css or claimball.js change
 KST = dt.timezone(dt.timedelta(hours=9))
 SITE_UPDATED = "2026-11-12"  # "Last updated" of home / 404 and sitemap lastmod — bump by hand when their text changes
 OPERATOR = "Davy Kim (ipe Studio)"
@@ -566,7 +566,7 @@ def render(ctx, lang, *, path, title, desc, body, graph, alt, updated, og_type="
                                                                             ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"))
     targets = [(l, user_href(l, alt.get(l) or path_home(l), lang)) for l in ctx.langs]
     hrefs = dict(targets)
-    langsw = langswitch.select_html(lang, lambda l: hrefs[l], langs=ctx.langs)  # shared kit component (v0.7.2): select + noscript links
+    langsw = langswitch.select_html(lang, lambda l: hrefs[l], langs=ctx.langs)  # shared kit component: select + noscript links
     navlinks = [(path_home(lang), t("nav_home"), "home"), (path_page(lang, "about"), t("nav_about"), "about"),
                 (path_journal(lang), t("nav_journal"), "journal"),
                 (path_page(lang, "support"), t("nav_support"), "support")]

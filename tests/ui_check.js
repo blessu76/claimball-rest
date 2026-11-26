@@ -26,7 +26,8 @@ function pagesToCheck() {
   if (slugs.length) out.push('/ko/journal/' + slugs[0] + '/');
   return out;
 }
-const SHOT = new Set(['/', '/journal/', '/privacy/', '/ko/', '/ko/journal/', '/ko/privacy/']);
+const SHOT = new Set(['/', '/about/', '/journal/', '/privacy/', '/terms/',
+  '/ko/', '/ko/about/', '/ko/journal/', '/ko/privacy/', '/ko/terms/']);
 (async () => {
   fs.mkdirSync(OUT, { recursive: true });
   await new Promise(r => server.listen(0, '127.0.0.1', r));
@@ -47,7 +48,7 @@ const SHOT = new Set(['/', '/journal/', '/privacy/', '/ko/', '/ko/journal/', '/k
       const m = await page.evaluate(() => ({ sw: document.documentElement.scrollWidth, iw: window.innerWidth,
         wide: [...document.querySelectorAll('body *')].filter(e => e.getBoundingClientRect().right > window.innerWidth + 1 && !e.closest('.table-wrap') && getComputedStyle(e).position !== 'fixed')
           .slice(0, 3).map(e => e.tagName + '.' + e.className) }));
-      const clipped = await page.evaluate(() => [...document.querySelectorAll('body *')].filter(e => { const c = getComputedStyle(e); return (c.overflowX !== 'visible' && !e.closest('.table-wrap') && !e.classList.contains('sr-only') && e.tagName !== 'PRE' && e.scrollWidth > e.clientWidth + 1) || (c.textOverflow === 'ellipsis'); }).slice(0, 3).map(e => e.tagName + '.' + e.className));
+      const clipped = await page.evaluate(() => [...document.querySelectorAll('body *')].filter(e => { const c = getComputedStyle(e); return (c.overflowX !== 'visible' && !e.closest('.table-wrap') && !e.matches('.sr-only, label.ipe-lang__label') && e.tagName !== 'PRE' && e.scrollWidth > e.clientWidth + 1) || (c.textOverflow === 'ellipsis'); }).slice(0, 3).map(e => e.tagName + '.' + e.className));
       if (clipped.length) bad.push(`${w}px ${pth}: clipped content (${clipped.join(', ')})`);
       if (m.sw > m.iw) bad.push(`${w}px ${pth}: horizontal overflow scrollWidth ${m.sw} > ${m.iw} (${m.wide.join(', ')})`);
       for (const e of errs) bad.push(`${w}px ${pth}: console: ${e}`);

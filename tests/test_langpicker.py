@@ -54,11 +54,12 @@ class Picker(unittest.TestCase):
 
     @unittest.skipUnless(shutil.which("node"), "node required")
     def test_choice_is_remembered_for_each_language(self):
-        """pick a language in the switch -> the kit select's onchange stores it -> langpick.js on '/' goes to it (en + ko)."""
+        """The switch keeps the query and anchor and saves the language for the next root visit."""
         import html as _h
         page = (REPO / "journal" / "index.html").read_text(encoding="utf-8")
         onchange = _h.unescape(re.search(r'<select class="ipe-lang__select"[^>]*onchange="([^"]*)"', page).group(1))
         pick = (REPO / "assets" / "langpick.js").read_text(encoding="utf-8").replace("/*SUPPORTED*/[]", json.dumps(list(bs.LISTED))).replace("/*AVAILABLE*/[]", json.dumps(AVAILABLE))
+        options = {lang: href for href, lang, _ in switch_options(page)}
         prog = r"""
 const store={};
 const ls={getItem:k=>store[k]===undefined?null:store[k],setItem:(k,v)=>{store[k]=String(v)}};
@@ -69,20 +70,21 @@ function pickRun(src,pathname,navLangs){
   return {to};
 }
 const out=[];
-for(const l of %s){
+for(const [l,href] of Object.entries(%s)){
   for(const k in store)delete store[k];
-  const loc={href:''};
-  const sel={options:[{lang:l,value:'/'+l+'/'}],selectedIndex:0};
+  const loc={href:'',search:'?utm_source=play',hash:'#main'};
+  const sel={options:[{lang:l,value:href}],selectedIndex:0};
   (new Function('localStorage','location','return function(){'+%s+'}'))(ls,loc).call(sel);
   const r=pickRun(%s,'/',['en-US']);
-  out.push([l,store['ipe_lang'],r.to]);
+  out.push([l,store['ipe_lang'],loc.href,r.to]);
 }
 console.log(JSON.stringify(out));
-""" % (json.dumps(list(bs.LISTED)), json.dumps(onchange), json.dumps(pick))
+""" % (json.dumps(options), json.dumps(onchange), json.dumps(pick))
         res = subprocess.run(["node", "-e", prog], capture_output=True, text=True, timeout=30)
         self.assertEqual(res.returncode, 0, res.stderr)
-        for l, saved, to in json.loads(res.stdout):
+        for l, saved, href, to in json.loads(res.stdout):
             self.assertEqual(saved, l)
+            self.assertEqual(href, bs.path_journal(l) + "?utm_source=play#main", l)
             self.assertEqual(to, None if l == "en" else "/%s/" % l, l)
 
 
