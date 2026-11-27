@@ -7,6 +7,7 @@ lang: en
 category: devlog
 keywords: Claimball, Puck Rush, bonus stage, journal
 copy_review: iris 2026-11-27
+published: 2026-11-27T12:45+09:00
 ---
 In Puck Rush, the cells the ball crosses take the color of the side that last hit it. A return can change the board even when it never reaches the goal.
 

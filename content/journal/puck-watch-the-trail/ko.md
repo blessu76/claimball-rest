@@ -7,6 +7,7 @@ lang: ko
 category: devlog
 keywords: Claimball, 퍽 러시, 보너스 스테이지, 저널
 copy_review: iris 2026-11-27
+published: 2026-11-27T12:45+09:00
 ---
 퍽 러시에서는 공이 지나간 칸이 마지막으로 친 쪽의 색으로 바뀌어요. 골에 닿지 않은 리턴도 판을 바꿀 수 있어요.
 

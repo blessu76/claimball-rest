@@ -8,6 +8,7 @@ category: devlog
 keywords: Claimball, Puck Rush, bonus bölüm, günlük
 translation_of: en
 copy_review: iris 2026-11-27
+published: 2026-11-27T12:45+09:00
 ---
 Puck Rush'ta topun geçtiği kareler, ona son vuran tarafın rengini alır. Kaleye ulaşmayan bir vuruş bile tahtayı değiştirebilir.
 

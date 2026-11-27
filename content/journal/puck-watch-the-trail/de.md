@@ -8,6 +8,7 @@ category: devlog
 keywords: Claimball, Puck Rush, Bonusstufe, Journal
 translation_of: en
 copy_review: iris 2026-11-27
+published: 2026-11-27T12:45+09:00
 ---
 In Puck Rush nehmen die Felder auf der Strecke des Balls die Farbe der Seite an, die ihn zuletzt getroffen hat. Ein Rückschlag kann das Spielfeld auch ohne Tor verändern.
 

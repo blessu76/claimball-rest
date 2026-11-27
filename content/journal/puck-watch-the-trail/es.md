@@ -8,6 +8,7 @@ category: devlog
 keywords: Claimball, Puck Rush, fase de bonificación, diario
 translation_of: en
 copy_review: iris 2026-11-27
+published: 2026-11-27T12:45+09:00
 ---
 En Puck Rush, las casillas por las que pasa la pelota toman el color del último lado que la golpeó. Una devolución puede cambiar el tablero incluso si no llega a la portería.
 

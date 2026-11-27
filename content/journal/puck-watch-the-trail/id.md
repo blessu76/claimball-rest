@@ -8,6 +8,7 @@ category: devlog
 keywords: Claimball, Puck Rush, tahap bonus, jurnal
 translation_of: en
 copy_review: iris 2026-11-27
+published: 2026-11-27T12:45+09:00
 ---
 Di Puck Rush, petak yang dilalui bola mengikuti warna pihak yang terakhir memukulnya. Pukulan balik dapat mengubah papan sekalipun tidak mencapai gawang.
 

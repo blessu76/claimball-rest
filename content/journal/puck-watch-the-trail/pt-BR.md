@@ -8,6 +8,7 @@ category: devlog
 keywords: Claimball, Puck Rush, fase bônus, diário
 translation_of: en
 copy_review: iris 2026-11-27
+published: 2026-11-27T12:45+09:00
 ---
 No Puck Rush, as casas por onde a bola passa ficam com a cor do último lado a tocá-la. Uma rebatida pode mudar o tabuleiro mesmo sem chegar ao gol.
 

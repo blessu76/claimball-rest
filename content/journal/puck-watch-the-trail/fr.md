@@ -8,6 +8,7 @@ category: devlog
 keywords: Claimball, Puck Rush, phase bonus, journal
 translation_of: en
 copy_review: iris 2026-11-27
+published: 2026-11-27T12:45+09:00
 ---
 Dans Puck Rush, les cases traversées par la balle prennent la couleur du dernier camp qui l’a frappée. Un renvoi peut changer le plateau même sans atteindre le but.
 

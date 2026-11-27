@@ -8,6 +8,7 @@ category: devlog
 keywords: Claimball, 冰球衝刺, 獎勵關卡, 日誌
 translation_of: en
 copy_review: iris 2026-11-27
+published: 2026-11-27T12:45+09:00
 ---
 在冰球衝刺中，球經過的格子會變成最後擊球一方的顏色。就算沒進球，一次回擊也能改變棋盤。
 

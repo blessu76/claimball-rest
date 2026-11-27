@@ -8,6 +8,7 @@ category: devlog
 keywords: Claimball, Puck Rush, màn thưởng, nhật ký
 translation_of: en
 copy_review: iris 2026-11-27
+published: 2026-11-27T12:45+09:00
 ---
 Trong Puck Rush, những ô bóng đi qua mang màu của bên chạm bóng lần cuối. Một cú đỡ trả vẫn có thể đổi bàn chơi dù bóng không tới khung thành.
 

@@ -8,6 +8,7 @@ category: devlog
 keywords: Claimball, パックラッシュ, ボーナスステージ, ジャーナル
 translation_of: en
 copy_review: iris 2026-11-27
+published: 2026-11-27T12:45+09:00
 ---
 パックラッシュでは、ボールが通ったマスが最後に打った側の色になります。ゴールに届かない一打でも盤面は変わります。
 

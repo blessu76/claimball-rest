@@ -25,6 +25,7 @@ Claimball is a casual player-versus-AI mobile game by ipe() (https://ipe.rest/).
 
 ## Journal posts (English)
 
+- [Follow the ball's trail in Puck Rush](https://claimball.ipe.rest/journal/puck-watch-the-trail/) — 2026-11-27 — Watch the cells behind the ball to see what your return changed.
 - [Claimball can now turn sideways on a phone](https://claimball.ipe.rest/journal/phone-landscape/) — 2026-11-25 — On a phone, Claimball now works in landscape too, and Settings has a screen orientation choice.
 - [Puck Rush gets three difficulty levels](https://claimball.ipe.rest/journal/puck-rush-difficulty/) — 2026-11-24 — Puck Rush, the bonus stage, now lets you pick Easy, Normal or Hard on its start card.
 - [The match loop moves to a game engine](https://claimball.ipe.rest/journal/match-loop-and-pause/) — 2026-11-23 — The match board now runs its animation on a game engine, and a match pauses when you leave the app.
