@@ -8,6 +8,7 @@ category: devlog
 keywords: Claimball, Puck Rush, phòng thủ, nhật ký
 translation_of: en
 copy_review: iris 2026-11-27
+published: 2026-11-28T17:00+09:00
 ---
 Có một cách phòng thủ trong bóng đá dùng được trong Puck Rush: đứng giữa bóng và khung thành của mình trước khi tìm cách giành lại bóng. Bạn có thể giữ khung thành trong khi quan sát hướng bóng đi.
 

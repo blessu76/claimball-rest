@@ -7,6 +7,7 @@ lang: en
 category: devlog
 keywords: Claimball, Puck Rush, defense, journal
 copy_review: iris 2026-11-27
+published: 2026-11-28T17:00+09:00
 ---
 Soccer offers a useful idea for Puck Rush: get between the ball and your goal before you try to win it back. It gives you a place to defend while you see where the ball is heading.
 

@@ -8,6 +8,7 @@ category: devlog
 keywords: Claimball, Puck Rush, savunma, günlük
 translation_of: en
 copy_review: iris 2026-11-27
+published: 2026-11-28T17:00+09:00
 ---
 Futboldan bir fikir Puck Rush'ta da işe yarar: topu geri almaya çalışmadan önce topla kendi kaleniz arasına geçin. Böylece topun yolunu izlerken kaleyi de koruyabilirsiniz.
 

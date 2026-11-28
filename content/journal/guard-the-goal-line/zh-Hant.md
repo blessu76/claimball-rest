@@ -8,6 +8,7 @@ category: devlog
 keywords: Claimball, 冰球衝刺, 防守, 日誌
 translation_of: en
 copy_review: iris 2026-11-27
+published: 2026-11-28T17:00+09:00
 ---
 足球防守有個方法可以用在冰球衝刺：試圖把球搶回來前，先站在球和己方球門之間。這樣可以守住球門，同時觀察球的去向。
 

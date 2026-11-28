@@ -8,6 +8,7 @@ category: devlog
 keywords: Claimball, Puck Rush, défense, journal
 translation_of: en
 copy_review: iris 2026-11-27
+published: 2026-11-28T17:00+09:00
 ---
 Le football donne une idée pour Puck Rush : placez-vous entre la balle et votre but avant de tenter de la récupérer. Vous pouvez ainsi couvrir le but tout en observant la trajectoire.
 

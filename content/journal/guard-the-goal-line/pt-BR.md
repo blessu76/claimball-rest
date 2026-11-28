@@ -8,6 +8,7 @@ category: devlog
 keywords: Claimball, Puck Rush, defesa, diário
 translation_of: en
 copy_review: iris 2026-11-27
+published: 2026-11-28T17:00+09:00
 ---
 O futebol dá uma ideia para o Puck Rush: fique entre a bola e o seu gol antes de tentar recuperá-la. Assim dá para proteger o gol enquanto você vê para onde ela vai.
 

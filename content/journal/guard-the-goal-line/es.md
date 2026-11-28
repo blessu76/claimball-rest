@@ -8,6 +8,7 @@ category: devlog
 keywords: Claimball, Puck Rush, defensa, diario
 translation_of: en
 copy_review: iris 2026-11-27
+published: 2026-11-28T17:00+09:00
 ---
 Una idea del fútbol sirve en Puck Rush: ponte entre la pelota y tu portería antes de intentar recuperarla. Así puedes cubrir la portería mientras ves hacia dónde se dirige.
 

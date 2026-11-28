@@ -7,6 +7,7 @@ lang: ko
 category: devlog
 keywords: Claimball, 퍽 러시, 수비, 저널
 copy_review: iris 2026-11-27
+published: 2026-11-28T17:00+09:00
 ---
 축구에서 공을 빼앗으러 가기 전에 공과 골대 사이를 지키듯, 퍽 러시에서도 공과 내 골대 사이에 먼저 서 볼 수 있어요. 그 자리에서 공이 어디로 향하는지 살펴봐요.
 

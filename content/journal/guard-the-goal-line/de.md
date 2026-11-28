@@ -8,6 +8,7 @@ category: devlog
 keywords: Claimball, Puck Rush, Verteidigung, Journal
 translation_of: en
 copy_review: iris 2026-11-27
+published: 2026-11-28T17:00+09:00
 ---
 Eine Idee aus dem Fußball passt zu Puck Rush: Stell dich zwischen Ball und eigenes Tor, bevor du den Ball zurückholen willst. So behältst du beim Verteidigen seinen Weg im Blick.
 

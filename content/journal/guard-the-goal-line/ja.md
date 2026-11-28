@@ -8,6 +8,7 @@ category: devlog
 keywords: Claimball, パックラッシュ, 守備, ジャーナル
 translation_of: en
 copy_review: iris 2026-11-27
+published: 2026-11-28T17:00+09:00
 ---
 サッカーではボールを奪いに行く前に、ボールと自分のゴールの間に立つことがあります。パックラッシュでもその位置なら、ゴールを守りながらボールの進む方向を見られます。
 
